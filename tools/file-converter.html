@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#020408">
 
   <meta name="description" content="Convert images, documents, media, archives, and data formats with a browser-based universal file converter.">
-  <meta name="tornado-api-base" content="">
+  <meta name="tornado-api-base" content="https://tornado-tools.onrender.com">
 
   <style>
     #toFormat option:disabled,
@@ -455,6 +455,14 @@
           <span class="fc-convert-btn-icon">⚡</span>
           Convert Now
         </button>
+
+        <button class="fc-cancel-btn" id="cancelBtn" type="button" style="display:none; margin-top:12px;">
+          Cancel Processing
+        </button>
+
+        <p class="fc-backend-status" id="backendStatus" aria-live="polite">
+          Preparing processing engine...
+        </p>
 
       </div>
 

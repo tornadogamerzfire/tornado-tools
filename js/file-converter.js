@@ -22,7 +22,7 @@ const API_BASE = (() => {
   if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
     return 'http://localhost:8000';
   }
-  return 'https://api.tornadotools.com';
+  return 'https://tornado-tools.onrender.com';
 })();
 
 const API_ENDPOINT = `${API_BASE}/api/converter/convert`;
@@ -88,6 +88,17 @@ const CATEGORY_ORDER = [
 
 const FRONTEND_TEXT_TARGETS = ['csv', 'json'];
 const EXTRACT_TARGET = 'extract';
+
+const TARGET_CATEGORY_RULES = {
+  image: ['image', 'document', 'presentation'],
+  'text-data': ['text-data', 'image', 'document', 'presentation', 'spreadsheet'],
+  spreadsheet: ['text-data', 'document', 'presentation', 'spreadsheet'],
+  document: ['text-data', 'document', 'presentation', 'spreadsheet', 'image'],
+  presentation: ['text-data', 'document', 'presentation', 'spreadsheet', 'image'],
+  video: ['video', 'audio'],
+  audio: ['video', 'audio'],
+  archive: ['archive']
+};
 
 let SUPPORTED_CONVERSIONS = {};
 let capabilitiesReady = false;
@@ -204,7 +215,7 @@ const FORMAT_DEFINITIONS = {
   xls:  { label: 'XLS',  category: 'spreadsheet', relatedCategories: [], previewKind: 'generic', icon: '📊' },
   xlsx: { label: 'XLSX', category: 'spreadsheet', relatedCategories: [], previewKind: 'generic', icon: '📊' },
   ods:  { label: 'ODS',  category: 'spreadsheet', relatedCategories: [], previewKind: 'generic', icon: '📊' },
-  csv:  { label: 'CSV',  category: 'spreadsheet', relatedCategories: ['text-data'], previewKind: 'generic', icon: '📊' },
+  csv:  { label: 'CSV',  category: 'text-data', relatedCategories: ['spreadsheet'], previewKind: 'generic', icon: '📊' },
 
   // Presentation
   ppt:  { label: 'PPT',  category: 'presentation', relatedCategories: [], previewKind: 'generic', icon: '📽️' },
@@ -226,13 +237,13 @@ const FORMAT_DEFINITIONS = {
 
   // Archive
   zip:  { label: 'ZIP',  category: 'archive',   relatedCategories: [], previewKind: 'generic', icon: '🗜️' },
-  extract: { label: 'Extract All', category: 'archive', relatedCategories: [], previewKind: 'generic', icon: '📂' },
+  extract: { label: 'Extract All', category: 'archive', relatedCategories: [], previewKind: 'generic', icon: '📂', sourceSelectable: false },
   rar:  { label: 'RAR',  category: 'archive',   relatedCategories: [], previewKind: 'generic', icon: '🗜️' },
   '7z': { label: '7Z',   category: 'archive',   relatedCategories: [], previewKind: 'generic', icon: '🗜️' },
 
   // Text/Data
   txt:  { label: 'TXT',  category: 'text-data', relatedCategories: [], previewKind: 'generic', icon: '📝' },
-  json: { label: 'JSON', category: 'spreadsheet', relatedCategories: ['text-data'], previewKind: 'generic', icon: '⚙️' },
+  json: { label: 'JSON', category: 'text-data', relatedCategories: ['spreadsheet'], previewKind: 'generic', icon: '⚙️' },
   xml:  { label: 'XML',  category: 'text-data', relatedCategories: [], previewKind: 'generic', icon: '📝' },
   yaml: { label: 'YAML', category: 'text-data', relatedCategories: [], previewKind: 'generic', icon: '📝' }
 };
@@ -350,13 +361,12 @@ async function warmBackendOnce() {
     await response.json().catch(() => ({}));
     state.backendReady = true;
     setBackendStatus('Processing engine ready.', 'ready');
-    if (state.currentTargets.length && convertBtn && state.file) {
-      setConvertButtonMode(true);
-    }
+    refreshConvertButtonState();
     return true;
   } catch (err) {
     state.backendReady = false;
     setBackendStatus('Processing engine unavailable right now.', 'error');
+    refreshConvertButtonState();
     return false;
   }
 }
@@ -444,7 +454,7 @@ function getRenderableFormatGroups() {
       if (!cat) return null;
 
       const items = Object.entries(FORMAT_DEFINITIONS)
-        .filter(([, meta]) => meta.category === categoryKey)
+        .filter(([, meta]) => meta.category === categoryKey && meta.sourceSelectable !== false)
         .map(([ext, meta]) => ({ ext, meta }));
 
       return items.length ? { categoryKey, label: cat.label, items } : null;
@@ -534,12 +544,7 @@ function unlockUI() {
   if (browseBtn)   { browseBtn.disabled = false; browseBtn.style.opacity = ''; }
   if (dropZone)    { dropZone.style.pointerEvents = ''; dropZone.style.opacity = ''; }
 
-  if (convertBtn) {
-    convertBtn.disabled = false;
-    convertBtn.innerHTML = '<span class="fc-convert-btn-icon">⚡</span>Convert Now';
-    convertBtn.style.opacity = '1';
-    convertBtn.style.cursor = 'pointer';
-  }
+  refreshConvertButtonState();
 
   if (cancelBtn) {
     cancelBtn.style.display = 'none';
@@ -564,6 +569,32 @@ function setSwapButtonEnabled(enabled) {
   swapBtn.disabled = !enabled;
   swapBtn.style.opacity = enabled ? '1' : '0.3';
   swapBtn.style.cursor = enabled ? 'pointer' : 'not-allowed';
+}
+
+function refreshConvertButtonState() {
+  if (!convertBtn) return;
+
+  if (state.converting) {
+    setConvertButtonMode(false, 'Converting...');
+    return;
+  }
+
+  if (!state.file) {
+    setConvertButtonMode(false, state.backendWarmupDone ? 'Convert Now' : 'Preparing processing engine...');
+    return;
+  }
+
+  if (!state.currentTargets.length) {
+    setConvertButtonMode(false, capabilitiesReady ? 'No supported conversions' : 'Conversion engine unavailable');
+    return;
+  }
+
+  if (!state.backendReady) {
+    setConvertButtonMode(false, 'Preparing processing engine...');
+    return;
+  }
+
+  setConvertButtonMode(true, 'Convert Now');
 }
 
 // ============================================================
@@ -641,10 +672,12 @@ function rebuildToOptions(meta) {
     : 'Conversion engine unavailable';
 
   const supportedTargets = getCurrentTargetsForFormat(state.fromFormat);
+  const sourceCategory = state.fileCategory || meta?.category || getFormatMeta(state.fromFormat)?.category || '';
+  const allowedCategories = TARGET_CATEGORY_RULES[sourceCategory] || [];
   state.currentTargets = supportedTargets.slice();
   toSelect.innerHTML = '';
 
-  if (!supportedTargets.length) {
+  if (!supportedTargets.length || !allowedCategories.length) {
     const msgOpt = document.createElement('option');
     msgOpt.value = '';
     msgOpt.disabled = true;
@@ -654,6 +687,8 @@ function rebuildToOptions(meta) {
   }
 
   CATEGORY_ORDER.forEach((categoryKey) => {
+    if (!allowedCategories.includes(categoryKey)) return;
+
     const cat = getCategoryMeta(categoryKey);
     if (!cat) return;
 
@@ -689,7 +724,7 @@ function rebuildToOptions(meta) {
     }
   });
 
-  if (!supportedTargets.length) {
+  if (!supportedTargets.length || !allowedCategories.length) {
     state.toFormat = '';
     toSelect.disabled = false;
     setConvertButtonMode(false, noSupportMessage);
@@ -706,7 +741,7 @@ function rebuildToOptions(meta) {
   toSelect.value = preferred;
   state.toFormat = preferred;
 
-  setConvertButtonMode(true);
+  refreshConvertButtonState();
   updateSwapButtonState();
 }
 
@@ -889,7 +924,7 @@ function cancelConversion() {
 // ============================================================
 // CONVERSION FLOW
 // ============================================================
-function startConversion() {
+async function startConversion() {
   if (!state.file) {
     showToast('Please select a file first', true);
     return;
@@ -911,6 +946,14 @@ function startConversion() {
   }
 
   if (state.converting) return;
+
+  if (!state.backendWarmupDone || !state.backendReady) {
+    await warmBackendOnce();
+    if (!state.backendReady) {
+      showToast('Processing engine unavailable right now.', true);
+      return;
+    }
+  }
 
   state.converting = true;
   state._cancelRequested = false;
@@ -1149,7 +1192,7 @@ function handleFile(file) {
   hideSection(progressSection);
   hideSection(resultSection);
 
-  if (!state.currentTargets.length) {
+  if (!state.currentTargets.length || !TARGET_CATEGORY_RULES[state.fileCategory]) {
     if (capabilitiesReady) {
       showUnsupportedMessage('No supported conversions yet');
     } else {
@@ -1157,7 +1200,7 @@ function handleFile(file) {
       setSwapButtonEnabled(false);
     }
   } else {
-    setConvertButtonMode(true);
+    refreshConvertButtonState();
   }
 
   resetProgress();
@@ -1210,6 +1253,7 @@ function resetTool() {
   unlockUI();
   rebuildFromOptions('png');
   rebuildToOptions(getFormatMeta('png'));
+  refreshConvertButtonState();
 }
 
 // ============================================================
@@ -1365,7 +1409,7 @@ if (convertBtn) {
       return;
     }
 
-    startConversion();
+    void startConversion();
   });
 }
 
@@ -1409,7 +1453,11 @@ if (downloadBtn) {
     }
 
     try {
-      const url  = `${API_BASE}/download/${encodeURIComponent(state.lastBackendResult.outputFileName)}`;
+      let downloadPath = state.lastBackendResult.downloadUrl || `/api/converter/download/${encodeURIComponent(state.lastBackendResult.outputFileName)}`;
+      if (downloadPath.startsWith('/download/')) {
+        downloadPath = `/api/converter${downloadPath}`;
+      }
+      const url = downloadPath.startsWith('http') ? downloadPath : `${API_BASE}${downloadPath}`;
       const name = state.lastBackendResult.downloadName || outName;
       await fetchAndDownload(url, name);
       showToast('Download started!');
@@ -1437,8 +1485,9 @@ if (convertAnotherBtn) {
 // ============================================================
 async function init() {
   initReveal();
-  setConvertButtonMode(false, 'Loading conversion capabilities...');
+  setConvertButtonMode(false, 'Preparing processing engine...');
   await loadCapabilities();
+  await warmBackendOnce();
   rebuildFromOptions('png');
   rebuildToOptions(getFormatMeta('png'));
   setSwapButtonEnabled(false);
@@ -1447,6 +1496,7 @@ async function init() {
   hideSection(progressSection);
   hideSection(resultSection);
   if (cancelBtn) cancelBtn.style.display = 'none';
+  refreshConvertButtonState();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1454,9 +1504,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('pagehide', () => {
-  cleanupBackendSession(true, 0);
+  cleanupBackendSession(false, 300);
 });
 
 window.addEventListener('beforeunload', () => {
-  cleanupBackendSession(true, 0);
+  cleanupBackendSession(false, 300);
 });

@@ -515,6 +515,8 @@
 }
 
 .fc-convert-btn-icon {
+  margin-right: var(--sp-sm);
+}
 
 /* Backend warmup status */
 .fc-backend-status {

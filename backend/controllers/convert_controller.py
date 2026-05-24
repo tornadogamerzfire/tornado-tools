@@ -144,7 +144,7 @@ async def convert(request: Request, file: UploadFile = File(...), targetFormat: 
                 "downloadName": result["download_name"],
                 "outputMimeType": result["output_mime"],
                 "outputBytes": result["output_size"],
-                "downloadUrl": f"/download/{result['output_file_name']}",
+                "downloadUrl": f"/api/converter/download/{result['output_file_name']}",
                 "deleteAfterDownload": True,
                 "cleanupAt": int(time.time()) + 300,
             }
