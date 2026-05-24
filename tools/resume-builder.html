@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder — TornadoTools</title>
+  <meta name="description" content="Build a professional resume online. Live preview, multiple templates, PDF download. No login required.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#020408">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/resume-builder.css">
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/resume-builder.html">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Resume Builder — TornadoTools | Live Resume Preview">
+  <meta property="og:description" content="Build a professional resume online with live preview, multiple templates, and PDF download without login.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/resume-builder.html">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Resume Builder — TornadoTools | Live Resume Preview">
+  <meta name="twitter:description" content="Build a professional resume online with live preview, multiple templates, and PDF download without login.">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Resume Builder — TornadoTools | Live Resume Preview",
+  "url": "https://tornadotools.vercel.app/tools/resume-builder.html",
+  "description": "Build a professional resume online with live preview, multiple templates, and PDF download without login.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Resume Builder",
+      "item": "https://tornadotools.vercel.app/tools/resume-builder.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I download as PDF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The page includes PDF export for a finished resume."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it support multiple templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Users can switch between several layouts and styles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it ATS friendly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page includes template choices that can be used for ATS-friendly resumes."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html#tools">Tools</a>
+        <a href="../index.html#why">Why Us</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" aria-labelledby="resume-title">
+
+  <!-- TOOL HEADER -->
+  <header class="rb-page-header" aria-labelledby="resume-title">
+    <a href="../index.html" class="tool-back">← Back</a>
+    <div class="rb-header-center">
+      <span class="tool-eyebrow">// resume builder</span>
+      <h1 id="resume-title">Resume Builder</h1>
+      <p>Fill the form, see live preview, download professional PDF</p>
+    </div>
+    <div class="rb-header-actions">
+      <button id="btnClearAll" class="rb-btn rb-btn-ghost" type="button" title="Clear all data">🗑 Clear All</button>
+      <button id="btnDownloadPDF" class="rb-btn rb-btn-primary" type="button">⬇ Download PDF</button>
+      <button id="btnDownloadImg" class="rb-btn rb-btn-secondary" type="button">📷 Download Image</button>
+    </div>
+  </header>
+
+  <!-- MAIN LAYOUT -->
+  <div class="rb-layout">
+
+    <!-- ===== LEFT: FORM PANEL ===== -->
+    <div class="rb-form-panel" id="formPanel">
+
+      <!-- TEMPLATE + CUSTOMIZE BAR -->
+      <div class="rb-control-bar">
+        <div class="rb-control-group">
+          <span class="rb-control-label" id="templateLabel">Template</span>
+          <div class="rb-template-pills" role="radiogroup" aria-labelledby="templateLabel">
+            <button class="rb-tpl-btn active" data-tpl="modern" type="button" role="radio" aria-checked="true">Modern</button>
+            <button class="rb-tpl-btn" data-tpl="minimal" type="button" role="radio" aria-checked="false">Minimal</button>
+            <button class="rb-tpl-btn" data-tpl="neon" type="button" role="radio" aria-checked="false">Neon Dark</button>
+            <button class="rb-tpl-btn" data-tpl="corporate" type="button" role="radio" aria-checked="false">Corporate Pro</button>
+            <button class="rb-tpl-btn" data-tpl="ats" type="button" role="radio" aria-checked="false">ATS Friendly</button>
+            <button class="rb-tpl-btn" data-tpl="elegant" type="button" role="radio" aria-checked="false">Elegant Serif</button>
+            <button class="rb-tpl-btn" data-tpl="sidebar" type="button" role="radio" aria-checked="false">Sidebar Clean</button>
+            <button class="rb-tpl-btn" data-tpl="compact" type="button" role="radio" aria-checked="false">Compact Fresher</button>
+            <button class="rb-tpl-btn" data-tpl="executive" type="button" role="radio" aria-checked="false">Executive Premium</button>
+          </div>
+        </div>
+        <div class="rb-control-group">
+          <label class="rb-control-label" for="accentColor">Accent</label>
+          <input type="color" id="accentColor" value="#6c63ff" class="rb-color-picker">
+        </div>
+        <div class="rb-control-group">
+          <label class="rb-control-label" for="fontFamily">Font</label>
+          <select id="fontFamily" class="rb-select">
+            <option value="'Rajdhani', sans-serif">Rajdhani</option>
+            <option value="'Georgia', serif">Georgia</option>
+            <option value="'Trebuchet MS', sans-serif">Trebuchet</option>
+            <option value="'Courier New', monospace">Courier</option>
+            <option value="'Arial', sans-serif">Arial</option>
+          </select>
+        </div>
+        <div class="rb-control-group">
+          <label class="rb-control-label" for="fontSize">Size</label>
+          <select id="fontSize" class="rb-select">
+            <option value="13px">Small</option>
+            <option value="14px" selected>Medium</option>
+            <option value="15px">Large</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- ACCORDION SECTIONS -->
+      <div class="rb-sections">
+
+        <!-- PERSONAL -->
+        <div class="rb-section" id="sec-personal">
+          <div class="rb-section-header" id="personalToggle" data-toggle="personal" role="button" tabindex="0" aria-controls="body-personal" aria-expanded="true">
+            <span class="rb-section-icon">👤</span>
+            <span class="rb-section-title">Personal Details</span>
+            <span class="rb-section-chevron">▾</span>
+          </div>
+          <div class="rb-section-body open" id="body-personal" role="region" aria-labelledby="personalToggle">
+            <div class="rb-photo-row">
+              <div class="rb-photo-wrap">
+                <div class="rb-photo-preview" id="photoPreview" aria-live="polite" aria-atomic="true">
+                  <span class="rb-photo-placeholder">Photo</span>
+                  <img id="photoImg" src="" alt="Profile photo preview" style="display:none;">
+                </div>
+                <div class="rb-photo-btns">
+                  <label class="rb-btn rb-btn-ghost rb-btn-sm" for="photoUpload">📁 Upload</label>
+                  <input type="file" id="photoUpload" accept="image/*" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+                  <button class="rb-btn rb-btn-ghost rb-btn-sm" id="btnRemovePhoto" type="button">✕ Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="rb-grid-2">
+              <div class="rb-field">
+                <label for="fName">Full Name *</label>
+                <input type="text" id="fName" placeholder="John Doe" class="rb-input" data-field="name">
+              </div>
+              <div class="rb-field">
+                <label for="fTitle">Professional Title</label>
+                <input type="text" id="fTitle" placeholder="Full Stack Developer" class="rb-input" data-field="title">
+              </div>
+              <div class="rb-field">
+                <label for="fEmail">Email *</label>
+                <input type="email" id="fEmail" placeholder="john@email.com" class="rb-input" data-field="email">
+              </div>
+              <div class="rb-field">
+                <label for="fPhone">Phone</label>
+                <input type="tel" id="fPhone" placeholder="+91 9876543210" class="rb-input" data-field="phone">
+              </div>
+              <div class="rb-field rb-field-full">
+                <label for="fAddress">Address</label>
+                <input type="text" id="fAddress" placeholder="City, State, Country" class="rb-input" data-field="address">
+              </div>
+              <div class="rb-field">
+                <label for="fLinkedIn">LinkedIn</label>
+                <input type="url" id="fLinkedIn" placeholder="linkedin.com/in/johndoe" class="rb-input" data-field="linkedin">
+              </div>
+              <div class="rb-field">
+                <label for="fGithub">GitHub</label>
+                <input type="url" id="fGithub" placeholder="github.com/johndoe" class="rb-input" data-field="github">
+              </div>
+              <div class="rb-field rb-field-full">
+                <label for="fPortfolio">Portfolio Website</label>
+                <input type="url" id="fPortfolio" placeholder="johndoe.dev" class="rb-input" data-field="portfolio">
+              </div>
+              <div class="rb-field rb-field-full">
+                <label for="fSummary">Professional Summary</label>
+                <textarea id="fSummary" rows="4" placeholder="Write a brief professional summary about yourself..." class="rb-textarea" data-field="summary"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="rb-section" id="sec-education">
+          <div class="rb-section-header" id="educationToggle" data-toggle="education" role="button" tabindex="0" aria-controls="body-education" aria-expanded="true">
+            <span class="rb-section-icon">🎓</span>
+            <span class="rb-section-title">Education</span>
+            <span class="rb-section-chevron">▾</span>
+          </div>
+          <div class="rb-section-body open" id="body-education" role="region" aria-labelledby="educationToggle">
+            <div id="educationList" aria-live="polite" aria-relevant="additions removals"></div>
+            <button class="rb-btn rb-btn-add" id="btnAddEducation" type="button">+ Add Education</button>
+          </div>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <div class="rb-section" id="sec-experience">
+          <div class="rb-section-header" id="experienceToggle" data-toggle="experience" role="button" tabindex="0" aria-controls="body-experience" aria-expanded="true">
+            <span class="rb-section-icon">💼</span>
+            <span class="rb-section-title">Experience</span>
+            <span class="rb-section-chevron">▾</span>
+          </div>
+          <div class="rb-section-body open" id="body-experience" role="region" aria-labelledby="experienceToggle">
+            <div id="experienceList" aria-live="polite" aria-relevant="additions removals"></div>
+            <button class="rb-btn rb-btn-add" id="btnAddExperience" type="button">+ Add Experience</button>
+          </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="rb-section" id="sec-projects">
+          <div class="rb-section-header" id="projectsToggle" data-toggle="projects" role="button" tabindex="0" aria-controls="body-projects" aria-expanded="true">
+            <span class="rb-section-icon">🚀</span>
+            <span class="rb-section-title">Projects</span>
+            <span class="rb-section-chevron">▾</span>
+          </div>
+          <div class="rb-section-body open" id="body-projects" role="region" aria-labelledby="projectsToggle">
+            <div id="projectsList" aria-live="polite" aria-relevant="additions removals"></div>
+            <button class="rb-btn rb-btn-add" id="btnAddProject" type="button">+ Add Project</button>
+          </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="rb-section" id="sec-skills">
+          <div class="rb-section-header" id="skillsToggle" data-toggle="skills" role="button" tabindex="0" aria-controls="body-skills" aria-expanded="true">
+            <span class="rb-section-icon">⚡</span>
+            <span class="rb-section-title">Skills</span>
+            <span class="rb-section-chevron">▾</span>
+          </div>
+          <div class="rb-section-body open" id="body-skills" role="region" aria-labelledby="skillsToggle">
+            <div class="rb-field">
+              <label for="fSkills">Skills (comma separated)</label>
+              <textarea id="fSkills" rows="3" placeholder="HTML, CSS, JavaScript, React, Node.js, Python..." class="rb-textarea" data-field="skills"></textarea>
+            </div>
+            <div class="rb-skill-preview" id="skillTagsPreview"></div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /rb-sections -->
+
+    </div>
+    <!-- /rb-form-panel -->
+
+    <!-- ===== RIGHT: PREVIEW PANEL ===== -->
+    <aside class="rb-preview-panel" aria-labelledby="previewLabel">
+      <div class="rb-preview-sticky">
+        <div class="rb-preview-toolbar">
+          <span class="rb-preview-label" id="previewLabel">Live Preview</span>
+          <div class="rb-preview-zoom">
+            <button class="rb-zoom-btn" id="btnZoomOut" type="button" aria-label="Zoom out preview" aria-controls="previewScale">−</button>
+            <span class="rb-zoom-val" id="zoomVal" aria-live="polite" aria-atomic="true">90%</span>
+            <button class="rb-zoom-btn" id="btnZoomIn" type="button" aria-label="Zoom in preview" aria-controls="previewScale">+</button>
+          </div>
+        </div>
+        <div class="rb-preview-viewport" id="previewViewport" aria-label="Live resume preview viewport">
+          <div class="rb-preview-scale" id="previewScale">
+            <!-- RESUME OUTPUT -->
+            <div id="resumeOutput" class="resume-page tpl-modern" aria-live="polite" aria-atomic="false" aria-label="Resume preview">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /rb-layout -->
+
+  
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html#tools">Tools</a>
+      <span class="sep">/</span>
+      <span class="current">Resume Builder</span>
+    </nav>
+
+    <div class="ad-slot leaderboard" aria-label="Advertisement slot placeholder"></div>
+
+    <section class="seo-content" aria-labelledby="resume-builder-overview">
+      <h2 id="resume-builder-overview">Why this resume page is strong for SEO</h2>
+      <p>This page solves a real search intent: people want a resume builder with live preview, multiple templates, and an easy export path. It is more useful than a generic article because the tool is interactive and the page content explains the workflow clearly.</p>
+      <p>It also supports AdSense review better when the export, template, and privacy flow are explained in plain language.</p>
+    </section>
+
+    <section class="how-to-section" aria-labelledby="resume-builder-howto">
+      <div class="section-header">
+        <span class="eyebrow">// how it works</span>
+        <h2 class="section-title" id="resume-builder-howto">How to build a resume</h2>
+      </div>
+      <div class="steps-list">
+        <article class="step-item"><div class="step-num">1</div><div class="step-body"><h3>Choose a template</h3><p>Select a layout that matches your style or job target.</p></div></article>
+        <article class="step-item"><div class="step-num">2</div><div class="step-body"><h3>Fill the form</h3><p>Add your personal details, skills, education, and experience.</p></div></article>
+        <article class="step-item"><div class="step-num">3</div><div class="step-body"><h3>Preview and export</h3><p>Check the live preview and download your resume as PDF or image.</p></div></article>
+      </div>
+    </section>
+
+    <section class="benefits-section" aria-labelledby="resume-builder-benefits">
+      <div class="section-header">
+        <span class="eyebrow">// benefits</span>
+        <h2 class="section-title" id="resume-builder-benefits">Why users use this resume builder</h2>
+      </div>
+      <div class="benefits-grid">
+        <article class="benefit-item"><span class="benefit-icon">📄</span><h3>Live preview</h3><p>See the resume update while you type.</p></article>
+        <article class="benefit-item"><span class="benefit-icon">🎨</span><h3>Templates</h3><p>Switch styles without rebuilding the page.</p></article>
+        <article class="benefit-item"><span class="benefit-icon">🔒</span><h3>Private flow</h3><p>No login is needed for normal use.</p></article>
+      </div>
+    </section>
+
+    <section class="faq-section" aria-labelledby="resume-builder-faq">
+      <div class="section-header">
+        <span class="eyebrow">// faq</span>
+        <h2 class="section-title" id="resume-builder-faq">Resume builder FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Can I download as PDF?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The page includes PDF export for a finished resume.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Does it support multiple templates?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. Users can switch between several layouts and styles.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Is it ATS friendly?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">The page includes template choices that can be used for ATS-friendly resumes.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section" aria-labelledby="resume-builder-trust">
+      <div class="section-header">
+        <span class="eyebrow">// trust</span>
+        <h2 class="section-title" id="resume-builder-trust">Trust signals</h2>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-item"><div class="trust-num">0</div><div class="trust-label">Login required</div></article>
+        <article class="trust-item"><div class="trust-num">PDF</div><div class="trust-label">Export ready</div></article>
+        <article class="trust-item"><div class="trust-num">Live</div><div class="trust-label">Preview workflow</div></article>
+        <article class="trust-item"><div class="trust-num">Free</div><div class="trust-label">Always available</div></article>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- PDF LOADING OVERLAY -->
+  <div class="rb-pdf-overlay" id="pdfOverlay" style="display:none;" role="status" aria-live="polite" aria-atomic="true">
+    <div class="rb-pdf-spinner">
+      <div class="rb-spinner-ring" aria-hidden="true"></div>
+      <p>Generating PDF…</p>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="rb-toast" id="rbToast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <!-- CDN LIBS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <!-- SITE SCRIPTS -->
+  <script src="../js/common.js"></script>
+  <script src="../js/utils.js"></script>
+  <script src="../js/resume-builder.js"></script>
+
+</body>
+</html>

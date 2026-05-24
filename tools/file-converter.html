@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universal File Converter — TornadoTools | Browser File Conversion</title>
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#020408">
+
+  <meta name="description" content="Convert images, documents, media, archives, and data formats with a browser-based universal file converter.">
+  <meta name="tornado-api-base" content="">
+
+  <style>
+    #toFormat option:disabled,
+    #toFormat option.fc-disabled-option {
+      font-style: italic;
+    }
+  </style>
+
+  <!-- Shared Styles -->  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+
+  <!-- Tool-Specific Styles -->
+  <link rel="stylesheet" href="../css/file-converter.css" />
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/file-converter.html">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Universal File Converter — TornadoTools | Browser File Conversion">
+  <meta property="og:description" content="Convert images, documents, media, archives, and data formats with a browser-based universal file converter.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/file-converter.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Universal File Converter — TornadoTools | Browser File Conversion">
+  <meta name="twitter:description" content="Convert images, documents, media, archives, and data formats with a browser-based universal file converter.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Universal File Converter — TornadoTools | Browser File Conversion",
+        "url": "https://tornadotools.vercel.app/tools/file-converter.html",
+        "description": "Convert images, documents, media, archives, and data formats with a browser-based universal file converter.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Universal File Converter — TornadoTools | Browser File Conversion",
+  "url": "https://tornadotools.vercel.app/tools/file-converter.html",
+  "description": "Convert images, documents, media, archives, and data formats with a browser-based universal file converter.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Universal File Converter",
+      "item": "https://tornadotools.vercel.app/tools/file-converter.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What file types are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page is designed for common images, documents, media, archives, and structured data formats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does conversion start in the browser?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The interface is browser-based, and the backend handles conversion requests where needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel a conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The page includes a cancel flow for active conversions."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Background Layers -->
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-1" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <header class="navbar">
+    <div class="nav-container">
+
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">🌪️</div>
+        <span class="logo-text">TORNADOTOOLS</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../tools/calculator-suite.html">Calculator</a>
+        <a href="../tools/qr-generator.html">QR Gen</a>
+        <a href="../tools/resume-builder.html">Resume</a>
+        <a href="../tools/file-converter.html" class="active">Converter</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="../index.html">Home</a>
+  <span class="sep">/</span>
+  <a href="../index.html#tools">Tools</a>
+  <span class="sep">/</span>
+  <span class="current">Universal File Converter</span>
+</nav>
+<!-- ============================================================
+       TOAST NOTIFICATION
+       ============================================================ -->
+  <div class="fc-toast" id="fcToast" role="status" aria-live="polite" aria-atomic="true">
+    <span class="fc-toast-icon" id="fcToastIcon">✓</span>
+    <span class="fc-toast-msg" id="fcToastMsg">File converted!</span>
+  </div>
+
+  <!-- ============================================================
+       MAIN PAGE
+       ============================================================ -->
+  <main id="main-content" class="tool-page fc-page">
+
+    <!-- ============================================================
+         PAGE HEADER
+         ============================================================ -->
+    <header class="tool-header" aria-labelledby="fc-title">
+      <a href="../index.html" class="tool-back">← Back</a>
+
+      <span class="tool-eyebrow">⚡ TornadoTools</span>
+
+      <h1 id="fc-title">Universal File Converter</h1>
+
+      <p>
+        Convert images, documents, spreadsheets, media, archives and structured data files
+        with a futuristic conversion engine built for frontend + backend expansion.
+      </p>
+    </header>
+
+    <!-- ============================================================
+         SECTION 1 — UPLOAD ZONE
+         ============================================================ -->
+    <section class="reveal">
+
+      <div class="tool-panel fc-upload-panel" id="uploadPanel">
+
+        <div
+          class="fc-drop-zone"
+          id="dropZone"
+          role="button"
+          tabindex="0"
+          aria-label="Upload file by dropping it here or browsing"
+          aria-describedby="dropZoneTitle dropZoneHelp dropZoneFormats"
+        >
+
+          <div class="fc-drop-glow" aria-hidden="true"></div>
+
+          <div class="fc-drop-icon" id="dropIcon" aria-hidden="true">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" aria-hidden="true" focusable="false">
+              <circle
+                cx="26"
+                cy="26"
+                r="25"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-dasharray="4 3"
+                opacity="0.4"
+              />
+              <path
+                d="M26 34V18M26 18L20 24M26 18L32 24"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <rect
+                x="16"
+                y="36"
+                width="20"
+                height="2"
+                rx="1"
+                fill="currentColor"
+                opacity="0.4"
+              />
+            </svg>
+          </div>
+
+          <h3 class="fc-drop-title" id="dropZoneTitle">Drop any supported file</h3>
+
+          <p class="fc-drop-sub" id="dropZoneHelp">
+            Upload images, documents, media, spreadsheets, archives or data files
+          </p>
+
+          <button class="btn btn-outline fc-browse-btn" id="browseBtn" type="button">
+            Browse Files
+          </button>
+
+          <input
+            type="file"
+            id="fileInput"
+            class="fc-file-input"
+            accept="image/*,.pdf,.doc,.docx,.odt,.rtf,.xls,.xlsx,.ods,.csv,.ppt,.pptx,.odp,.mp3,.wav,.ogg,.flac,.mp4,.mov,.avi,.mkv,.webm,.zip,.rar,.7z,.txt,.json,.xml,.yaml,.bmp,.svg,.tif"
+            aria-label="Choose a file to convert"
+            aria-describedby="dropZoneTitle dropZoneHelp dropZoneFormats"
+          />
+
+          <p class="fc-drop-formats" id="dropZoneFormats">
+            PNG · JPG · WEBP · SVG · GIF · PDF · DOCX · XLSX · PPTX · MP3 · MP4 · ZIP · JSON · XML · YAML
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — FILE PREVIEW
+         ============================================================ -->
+    <section
+      class="fc-preview-section reveal"
+      id="previewSection"
+      style="display:none;"
+      aria-labelledby="previewTitle"
+    >
+
+      <div class="tool-panel fc-preview-panel">
+
+        <div class="fc-panel-header">
+          <span class="tool-eyebrow" id="previewTitle" style="margin-bottom:0;">
+            Selected File
+          </span>
+
+          <button
+            class="fc-remove-btn"
+            id="removeFileBtn"
+            type="button"
+            title="Remove file"
+          >
+            ✕ Remove
+          </button>
+        </div>
+
+        <div class="fc-preview-card">
+
+          <div class="fc-preview-thumb" id="previewThumb" aria-hidden="true">
+            <span class="fc-file-icon" id="fileIcon">📄</span>
+          </div>
+
+          <div class="fc-preview-meta">
+            <p class="fc-file-name" id="fileName">filename.ext</p>
+
+            <p class="fc-file-detail">
+              <span id="fileType" class="fc-badge">FORMAT</span>
+              <span id="fileSize" class="fc-file-size">2.4 MB</span>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SECTION 3 — CONVERSION CONTROLS
+         ============================================================ -->
+    <section
+      class="fc-controls-section reveal"
+      id="controlsSection"
+      style="display:none;"
+      aria-labelledby="controlsTitle"
+    >
+
+      <div class="tool-panel">
+
+        <div class="fc-panel-header">
+          <span class="tool-eyebrow" id="controlsTitle" style="margin-bottom:0;">
+            Conversion Settings
+          </span>
+        </div>
+
+        <div class="fc-controls-row">
+
+          <div class="fc-select-wrap">
+            <label class="tool-label" for="fromFormat">Convert From</label>
+
+            <select class="tool-input fc-select" id="fromFormat">
+
+              <optgroup label="Images">
+                <option value="png">PNG</option>
+                <option value="jpg">JPG</option>
+                <option value="jpeg">JPEG</option>
+                <option value="webp">WEBP</option>
+                <option value="gif">GIF</option>
+                <option value="bmp">BMP</option>
+                <option value="svg">SVG</option>
+                <option value="tif">TIF</option>
+              </optgroup>
+
+              <optgroup label="Documents">
+                <option value="pdf">PDF</option>
+                <option value="doc">DOC</option>
+                <option value="docx">DOCX</option>
+                <option value="odt">ODT</option>
+                <option value="rtf">RTF</option>
+              </optgroup>
+
+              <optgroup label="Spreadsheet">
+                <option value="xls">XLS</option>
+                <option value="xlsx">XLSX</option>
+                <option value="ods">ODS</option>
+                <option value="csv">CSV</option>
+              </optgroup>
+
+              <optgroup label="Presentation">
+                <option value="ppt">PPT</option>
+                <option value="pptx">PPTX</option>
+                <option value="odp">ODP</option>
+              </optgroup>
+
+              <optgroup label="Video">
+                <option value="mp4">MP4</option>
+                <option value="mov">MOV</option>
+                <option value="avi">AVI</option>
+                <option value="mkv">MKV</option>
+                <option value="webm">WEBM</option>
+              </optgroup>
+
+              <optgroup label="Audio">
+                <option value="mp3">MP3</option>
+                <option value="wav">WAV</option>
+                <option value="ogg">OGG</option>
+                <option value="flac">FLAC</option>
+              </optgroup>
+
+              <optgroup label="Archive">
+                <option value="zip">ZIP</option>
+                <option value="rar">RAR</option>
+                <option value="7z">7Z</option>
+              </optgroup>
+
+              <optgroup label="Text/Data">
+                <option value="txt">TXT</option>
+                <option value="json">JSON</option>
+                <option value="xml">XML</option>
+                <option value="yaml">YAML</option>
+              </optgroup>
+
+            </select>
+          </div>
+
+          <button
+            class="fc-swap-btn"
+            id="swapBtn"
+            type="button"
+            title="Swap formats"
+            aria-label="Swap source and target formats"
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+              <path
+                d="M4 7h12M13 4l3 3-3 3M16 13H4M7 10l-3 3 3 3"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+
+          <div class="fc-select-wrap">
+
+            <label class="tool-label" for="toFormat">Convert To</label>
+
+            <select class="tool-input fc-select" id="toFormat" aria-label="Select target format"></select>
+
+          </div>
+
+        </div>
+
+        <button class="btn btn-primary fc-convert-btn" id="convertBtn" type="button">
+          <span class="fc-convert-btn-icon">⚡</span>
+          Convert Now
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SECTION 4 — PROGRESS
+         ============================================================ -->
+    <section
+      class="fc-progress-section reveal"
+      id="progressSection"
+      style="display:none;"
+      aria-labelledby="progressTitle"
+    >
+
+      <div class="tool-panel">
+
+        <div class="fc-panel-header">
+          <span class="tool-eyebrow" id="progressTitle" style="margin-bottom:0;">
+            Processing Conversion
+          </span>
+
+          <span class="fc-progress-pct" id="progressPct">0%</span>
+        </div>
+
+        <div class="fc-progress-track">
+          <div class="fc-progress-bar" id="progressBar"></div>
+          <div class="fc-progress-glow" id="progressGlow" aria-hidden="true"></div>
+        </div>
+
+        <p class="fc-progress-status" id="progressStatus" aria-live="polite" aria-atomic="true">
+          Initializing universal conversion engine...
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SECTION 5 — RESULT
+         ============================================================ -->
+    <section
+      class="fc-result-section reveal"
+      id="resultSection"
+      style="display:none;"
+      aria-labelledby="resultTitle"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+
+      <div class="tool-panel fc-result-panel">
+
+        <div class="fc-success-badge">
+          <span class="fc-success-icon">✓</span>
+        </div>
+
+        <h3 class="fc-result-title" id="resultTitle">Conversion Complete!</h3>
+
+        <p class="fc-result-sub">
+          Your converted file is ready for download
+        </p>
+
+        <div class="fc-result-card">
+
+          <span class="fc-file-icon" id="resultIcon" aria-hidden="true">📄</span>
+
+          <div>
+            <p class="fc-file-name" id="resultFileName">
+              converted_file.ext
+            </p>
+
+            <span id="resultBadge" class="fc-badge">FORMAT</span>
+          </div>
+
+        </div>
+
+        <div class="fc-result-actions" aria-live="polite">
+
+          <button class="btn btn-primary fc-download-btn" id="downloadBtn" type="button" aria-label="Download converted file">
+            ↓ Download File
+          </button>
+
+          <button class="btn btn-outline fc-another-btn" id="convertAnotherBtn" type="button">
+            Convert Another
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SECTION 6 — SUPPORTED FORMATS
+         ============================================================ -->
+    <section class="fc-formats-section reveal">
+
+      <div class="fc-section-header">
+        <span class="tool-eyebrow">Universal Support</span>
+        <h2 class="fc-section-title">Formats Across Categories</h2>
+      </div>
+
+      <div class="fc-formats-grid">
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#00f5ff;">🖼️</div>
+          <span class="fc-format-name">PNG</span>
+          <span class="fc-format-type">Images</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#ff9f43;">📕</div>
+          <span class="fc-format-name">PDF</span>
+          <span class="fc-format-type">Documents</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#00ff88;">📊</div>
+          <span class="fc-format-name">XLSX</span>
+          <span class="fc-format-type">Spreadsheet</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#ff006e;">📽️</div>
+          <span class="fc-format-name">PPTX</span>
+          <span class="fc-format-type">Presentation</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#bf00ff;">🎵</div>
+          <span class="fc-format-name">MP3</span>
+          <span class="fc-format-type">Audio</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#6c63ff;">🎬</div>
+          <span class="fc-format-name">MP4</span>
+          <span class="fc-format-type">Video</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#ffd32a;">🗜️</div>
+          <span class="fc-format-name">ZIP</span>
+          <span class="fc-format-type">Archive</span>
+        </div>
+
+        <div class="fc-format-card">
+          <div class="fc-format-icon" style="--fmt-color:#00f5ff;">⚙️</div>
+          <span class="fc-format-name">JSON</span>
+          <span class="fc-format-type">Data</span>
+        </div>
+
+      </div>
+
+      <div class="fc-section-header" style="margin-top:20px;">
+        <p class="fc-drop-sub">
+          Frontend conversion currently supports image and structured text formats.
+          Advanced formats will unlock with backend conversion engines.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SECTION 7 — FEATURES
+         ============================================================ -->
+    <section class="reveal">
+
+      <div class="fc-section-header">
+        <span class="tool-eyebrow">Why Choose Us</span>
+        <h2 class="fc-section-title">Built for Universal Conversion</h2>
+      </div>
+
+      <div class="fc-features-grid">
+
+        <div class="feature-card">
+          <span class="feature-icon">⚡</span>
+          <h3>Hybrid Conversion Engine</h3>
+          <p>
+            Frontend-powered conversion today with scalable backend processing
+            architecture for advanced formats.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">🔒</span>
+          <h3>Privacy First</h3>
+          <p>
+            Frontend conversions run directly in your browser without sending
+            files to external servers.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">🧠</span>
+          <h3>Category-Based System</h3>
+          <p>
+            Built to support images, documents, media, archives and structured
+            data through a scalable conversion architecture.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">🚀</span>
+          <h3>Backend Expansion Ready</h3>
+          <p>
+            More advanced conversions including PDF, Office, audio and video
+            processing are coming soon.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  
+
+<div class="ad-slot" aria-label="Advertisement slot placeholder"></div>
+
+<section class="seo-content" aria-labelledby="universal-file-converter-seo">
+  <h2 id="universal-file-converter-seo">Universal File Converter</h2>
+  <p>The Universal File Converter is the most complete utility page in the set and is built to handle many everyday file conversion tasks in one place.</p>
+  <p>It is especially useful when you want a fast front-end workflow now and a backend-powered conversion layer later.</p>
+</section>
+
+<section class="how-to-section" aria-labelledby="how-to-use-the-file-converter-howto">
+  <div class="section-header">
+    <span class="eyebrow">// how it works</span>
+    <h2 class="section-title" id="how-to-use-the-file-converter-howto">How to use the file converter</h2>
+  </div>
+  <div class="steps-list">
+    <article class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Upload a file</h3>
+        <p>Drop a supported file into the upload zone or browse from your device.</p>
+      </div>
+    </article>
+    <article class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Choose the target format</h3>
+        <p>Pick the input and output formats from the conversion settings.</p>
+      </div>
+    </article>
+    <article class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Convert and download</h3>
+        <p>Run the conversion, then save the result when the process finishes.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="benefits-section" aria-labelledby="why-this-page-is-useful-benefits">
+  <div class="section-header">
+    <span class="eyebrow">// benefits</span>
+    <h2 class="section-title" id="why-this-page-is-useful-benefits">Why this page is useful</h2>
+  </div>
+  <div class="benefits-grid">
+    <article class="benefit-item">
+      <span class="benefit-icon">📦</span>
+      <h3>Wide format coverage</h3>
+      <p>The page covers many common formats across media, documents, and archives.</p>
+    </article>
+    <article class="benefit-item">
+      <span class="benefit-icon">⚡</span>
+      <h3>Clear workflow</h3>
+      <p>The drag-and-drop flow keeps the process easy to understand.</p>
+    </article>
+    <article class="benefit-item">
+      <span class="benefit-icon">🔒</span>
+      <h3>Privacy-first structure</h3>
+      <p>The current experience is browser-first and can be expanded carefully later.</p>
+    </article>
+  </div>
+</section>
+
+<section class="faq-section" aria-labelledby="faq-for-universal-file-converter-faq">
+  <div class="section-header">
+    <span class="eyebrow">// faq</span>
+    <h2 class="section-title" id="faq-for-universal-file-converter-faq">FAQ for Universal File Converter</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>What formats are supported?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">The page is built around many common image, document, media, and data formats.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Will future conversion support use a backend?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">The page already hints at backend expansion, so the architecture can grow without redesign.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Can I remove a selected file?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Yes. The preview section includes a remove action so the user can reset quickly.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Is the layout mobile friendly?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Yes. The page uses a focused single-column conversion flow with compact controls.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-section" aria-labelledby="trust-signals-for-universal-file-converter-trust">
+  <div class="section-header">
+    <span class="eyebrow">// trust</span>
+    <h2 class="section-title" id="trust-signals-for-universal-file-converter-trust">Trust signals for Universal File Converter</h2>
+  </div>
+  <div class="trust-grid">
+    <article class="trust-item">
+      <div class="trust-num">Many</div>
+      <div class="trust-label">Formats covered</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">0</div>
+      <div class="trust-label">Login required</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">Browser</div>
+      <div class="trust-label">First flow</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">Future</div>
+      <div class="trust-label">Backend ready</div>
+    </article>
+  </div>
+</section>
+</main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../js/file-converter.js"></script>
+
+
+<script>
+document.querySelectorAll('.faq-question').forEach(function(button) {
+  button.addEventListener('click', function() {
+    const item = button.closest('.faq-item');
+    const isOpen = item.classList.toggle('open');
+    button.setAttribute('aria-expanded', String(isOpen));
+  });
+});
+</script>
+
+</body>
+</html>

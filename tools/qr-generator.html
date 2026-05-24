@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator — TornadoTools</title>
+  <meta name="description" content="Create custom QR codes with gradients, logos and custom colors. Download as PNG.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#020408">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/qr-generator.html">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="QR Code Generator — TornadoTools">
+  <meta property="og:description" content="Create custom QR codes with gradients, logos and custom colors. Download as PNG.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/qr-generator.html">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="QR Code Generator — TornadoTools">
+  <meta name="twitter:description" content="Create custom QR codes with gradients, logos and custom colors. Download as PNG.">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "QR Code Generator — TornadoTools",
+  "url": "https://tornadotools.vercel.app/tools/qr-generator.html",
+  "description": "Create custom QR codes with gradients, logos and custom colors. Download as PNG.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "QR Code Generator",
+      "item": "https://tornadotools.vercel.app/tools/qr-generator.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I add a logo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The page supports logo overlay options when the image is provided."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it download as PNG?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The QR generator is built to export a PNG file."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my input stored?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No login is required and the workflow is designed for a simple browser-based experience."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html#tools">Tools</a>
+        <a href="../index.html#why">Why Us</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="tool-page">
+
+    <header class="tool-header" aria-labelledby="qr-title">
+      <a href="../index.html" class="tool-back">← Back</a>
+      <span class="tool-eyebrow">// utilities</span>
+      <h1 id="qr-title">QR Code Generator</h1>
+      <p>Create custom QR codes with gradients, custom colors and logo overlay</p>
+    </header>
+
+    <div class="tool-panel">
+
+      <!-- INPUT -->
+      <div class="tool-input-wrap">
+        <label for="qrInput" class="tool-label">Text or URL</label>
+        <textarea
+          id="qrInput"
+          class="tool-input"
+          rows="3"
+          placeholder="Enter text, URL, email, phone number..."
+        ></textarea>
+      </div>
+
+      <!-- CUSTOMIZATION -->
+      <div class="qr-customization">
+
+        <!-- BACKGROUND COLOR -->
+        <div class="qr-section">
+          <span class="tool-label" id="bgColorLabel">Background Color</span>
+          <div style="display:flex;align-items:center;gap:12px;">
+            <input type="color" id="bgColor" value="#ffffff" aria-labelledby="bgColorLabel">
+            <span style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">Background</span>
+          </div>
+        </div>
+
+        <!-- SIZE -->
+        <div class="qr-section">
+          <label for="qrSize" class="tool-label">Size — <span id="qrSizeLabel" style="color:var(--neon-cyan);">280px</span></label>
+          <input type="range" id="qrSize" min="150" max="500" value="280" aria-labelledby="qrSizeLabel">
+        </div>
+
+        <!-- FOREGROUND STYLE -->
+        <div class="qr-section">
+          <span class="tool-label" id="foregroundStyleLabel">Foreground Style</span>
+          <div class="qr-mode-switch" role="radiogroup" aria-labelledby="foregroundStyleLabel">
+            <label>
+              <input type="radio" name="colorMode" value="single" checked>
+              <span>Single Color</span>
+            </label>
+            <label>
+              <input type="radio" name="colorMode" value="gradient">
+              <span>Gradient</span>
+            </label>
+            <label style="cursor:pointer;">
+              <input type="checkbox" id="eyeToggle">
+              <span>Custom Eyes</span>
+            </label>
+          </div>
+
+          <!-- SINGLE -->
+          <div id="singleColorBox" style="margin-top:12px;display:flex;align-items:center;gap:12px;">
+            <input type="color" id="fgColor" value="#000000" aria-labelledby="foregroundStyleLabel">
+            <span style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">Foreground</span>
+          </div>
+
+          <!-- GRADIENT -->
+          <div id="gradientBox" style="display:none;margin-top:12px;align-items:center;gap:12px;flex-wrap:wrap;">
+            <input type="color" id="grad1" value="#6c63ff" aria-label="Gradient start color">
+            <input type="color" id="grad2" value="#00e5ff" aria-label="Gradient end color">
+            <select id="gradientType" class="tool-input" style="width:auto;padding:10px 14px;flex:0 0 auto;">
+              <option value="linear">Linear</option>
+              <option value="radial">Radial</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- EYE COLORS -->
+        <div id="eyeBox" class="qr-section" style="display:none;" aria-labelledby="eyeColorsLabel">
+          <span class="tool-label" id="eyeColorsLabel">Eye Colors</span>
+          <div style="display:flex;gap:20px;flex-wrap:wrap;align-items:center;">
+            <div style="display:flex;align-items:center;gap:8px;">
+              <input type="color" id="eyeOuter" value="#6c63ff" aria-label="Eye outer color">
+              <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);">Outer</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;">
+              <input type="color" id="eyeInner" value="#00e5ff" aria-label="Eye inner color">
+              <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);">Inner</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOGO -->
+        <div class="qr-section">
+          <label for="logoInput" class="tool-label">Logo Overlay (Optional)</label>
+          <input type="file" id="logoInput" accept="image/*" aria-describedby="logoInputHint">
+          <div id="logoInputHint" class="sr-only">Upload an image file for optional QR logo overlay.</div>
+        </div>
+
+        <!-- LOGO SHAPE -->
+        <div class="qr-section">
+          <span class="tool-label" id="logoShapeLabel">Logo Shape</span>
+          <div class="qr-mode-switch" role="radiogroup" aria-labelledby="logoShapeLabel">
+            <label>
+              <input type="radio" name="logoShape" value="square" checked>
+              <span>Square</span>
+            </label>
+            <label>
+              <input type="radio" name="logoShape" value="circle">
+              <span>Circle</span>
+            </label>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ACTIONS -->
+      <div class="tool-actions">
+        <button id="generateQR" class="btn primary" type="button">⚡ Generate QR</button>
+        <button id="clearQR" class="btn secondary" type="button">Clear</button>
+      </div>
+
+      <!-- OUTPUT -->
+      <div class="qr-output">
+        <div id="qrCanvas" role="img" aria-live="polite" aria-label="QR code preview"></div>
+      </div>
+
+      <!-- DOWNLOAD -->
+      <button id="downloadQR" class="load-more-btn" type="button" disabled aria-label="Download QR code as PNG">
+        ⬇ Download PNG
+      </button>
+
+    </div>
+  
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html#tools">Tools</a>
+      <span class="sep">/</span>
+      <span class="current">QR Code Generator</span>
+    </nav>
+
+    <div class="ad-slot leaderboard" aria-label="Advertisement slot placeholder"></div>
+
+    <section class="seo-content" aria-labelledby="qr-generator-overview">
+      <h2 id="qr-generator-overview">Why this QR page is useful</h2>
+      <p>This page helps users turn text, links, phone numbers, and simple data into a downloadable QR code without leaving the browser.</p>
+      <p>It is a focused utility page, which makes it easy for search engines and users to understand the intent quickly.</p>
+    </section>
+
+    <section class="how-to-section" aria-labelledby="qr-generator-howto">
+      <div class="section-header">
+        <span class="eyebrow">// how it works</span>
+        <h2 class="section-title" id="qr-generator-howto">How to use the QR generator</h2>
+      </div>
+      <div class="steps-list">
+        <article class="step-item"><div class="step-num">1</div><div class="step-body"><h3>Add your content</h3><p>Paste a URL, phone number, email, or text.</p></div></article>
+        <article class="step-item"><div class="step-num">2</div><div class="step-body"><h3>Customize the style</h3><p>Pick colors, gradients, and size.</p></div></article>
+        <article class="step-item"><div class="step-num">3</div><div class="step-body"><h3>Generate and download</h3><p>Build the QR code and save it as a PNG image.</p></div></article>
+      </div>
+    </section>
+
+    <section class="benefits-section" aria-labelledby="qr-generator-benefits">
+      <div class="section-header">
+        <span class="eyebrow">// benefits</span>
+        <h2 class="section-title" id="qr-generator-benefits">Why people use this QR page</h2>
+      </div>
+      <div class="benefits-grid">
+        <article class="benefit-item"><span class="benefit-icon">🎨</span><h3>Styled output</h3><p>Gradient and custom color options make the code look modern.</p></article>
+        <article class="benefit-item"><span class="benefit-icon">📱</span><h3>Mobile friendly</h3><p>It is easy to use on small screens and quick to share.</p></article>
+        <article class="benefit-item"><span class="benefit-icon">🔒</span><h3>Simple flow</h3><p>No login or account is required for normal use.</p></article>
+      </div>
+    </section>
+
+    <section class="faq-section" aria-labelledby="qr-generator-faq">
+      <div class="section-header">
+        <span class="eyebrow">// faq</span>
+        <h2 class="section-title" id="qr-generator-faq">QR generator FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Can I add a logo?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The page supports logo overlay options when the image is provided.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Does it download as PNG?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The QR generator is built to export a PNG file.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Is my input stored?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">No login is required and the workflow is designed for a simple browser-based experience.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section" aria-labelledby="qr-generator-trust">
+      <div class="section-header">
+        <span class="eyebrow">// trust</span>
+        <h2 class="section-title" id="qr-generator-trust">Trust signals</h2>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-item"><div class="trust-num">0</div><div class="trust-label">Login required</div></article>
+        <article class="trust-item"><div class="trust-num">PNG</div><div class="trust-label">Download format</div></article>
+        <article class="trust-item"><div class="trust-num">Easy</div><div class="trust-label">Desktop or mobile</div></article>
+        <article class="trust-item"><div class="trust-num">Free</div><div class="trust-label">Always available</div></article>
+      </div>
+    </section>
+
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.6.0/lib/qr-code-styling.js" defer></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/utils.js"></script>
+  <script src="../js/qr-generator.js"></script>
+</body>
+</html>

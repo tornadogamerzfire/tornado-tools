@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Suite — TornadoTools | Free Online Math Calculators</title>
+  <meta name="theme-color" content="#020408">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Use a fast calculator suite for basic math, scientific calculations, EMI, unit conversion, age checks, and tip splitting in one browser-based tool.">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/calculator-suite.css">
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/calculator-suite.html">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Calculator Suite — TornadoTools | Free Online Math Calculators">
+  <meta property="og:description" content="Use a fast calculator suite for basic math, scientific calculations, EMI, unit conversion, age checks, and tip splitting in one browser-based tool.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/calculator-suite.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Calculator Suite — TornadoTools | Free Online Math Calculators">
+  <meta name="twitter:description" content="Use a fast calculator suite for basic math, scientific calculations, EMI, unit conversion, age checks, and tip splitting in one browser-based tool.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Calculator Suite — TornadoTools | Free Online Math Calculators",
+        "url": "https://tornadotools.vercel.app/tools/calculator-suite.html",
+        "description": "Use a fast calculator suite for basic math, scientific calculations, EMI, unit conversion, age checks, and tip splitting in one browser-based tool.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calculator Suite — TornadoTools | Free Online Math Calculators",
+  "url": "https://tornadotools.vercel.app/tools/calculator-suite.html",
+  "description": "Use a fast calculator suite for basic math, scientific calculations, EMI, unit conversion, age checks, and tip splitting in one browser-based tool.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculator Suite",
+      "item": "https://tornadotools.vercel.app/tools/calculator-suite.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What calculators are included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Basic math, scientific, EMI, unit conversion, age, and tip calculators are grouped into one page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it need login?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It works directly in the browser without a login for normal use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use it on mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The layout is responsive and works on phones, tablets, and desktop screens."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- STAR FIELD BG -->
+  <canvas id="bg-canvas" width="1440" height="900"></canvas>
+  <div class="aurora-layer"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html#tools">Tools</a>
+        <a href="../index.html#why">Why Us</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="tool-page">
+
+    <!-- HEADER -->
+    <div class="tool-header">
+      <a href="../index.html" class="tool-back">← Back</a>
+      <span class="tool-eyebrow">// calculator suite</span>
+      <h1>Calculator Suite</h1>
+      <p>Basic, scientific, EMI, unit converter, age and tip — all in one place</p>
+    </div>
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="../index.html">Home</a>
+  <span class="sep">/</span>
+  <a href="../index.html#tools">Tools</a>
+  <span class="sep">/</span>
+  <span class="current">Calculator Suite</span>
+</nav>
+    <div class="tool-panel">
+
+      <!-- TABS -->
+      <div class="calc-tabs" role="tablist" aria-label="Calculator modes">
+        <button id="basicTab" class="tab-btn active" data-tab="basic" type="button" role="tab" aria-selected="true" aria-controls="basic">Basic</button>
+        <button id="scientificTab" class="tab-btn" data-tab="scientific" type="button" role="tab" aria-selected="false" aria-controls="scientific">Scientific</button>
+        <button id="emiTab" class="tab-btn" data-tab="emi" type="button" role="tab" aria-selected="false" aria-controls="emi">EMI</button>
+        <button id="unitTab" class="tab-btn" data-tab="unit" type="button" role="tab" aria-selected="false" aria-controls="unit">Units</button>
+        <button id="ageTab" class="tab-btn" data-tab="age" type="button" role="tab" aria-selected="false" aria-controls="age">Age</button>
+        <button id="tipTab" class="tab-btn" data-tab="tip" type="button" role="tab" aria-selected="false" aria-controls="tip">Tip</button>
+      </div>
+
+      <!-- ==================== BASIC ==================== -->
+      <div class="calc-section active" id="basic" role="tabpanel" aria-labelledby="basicTab">
+
+        <input id="calcDisplay" class="calc-display" placeholder="0" readonly>
+
+        <div class="calc-grid">
+          <button class="calc-btn">(</button>
+          <button class="calc-btn">)</button>
+          <button class="calc-btn">%</button>
+          <button id="backspace" class="calc-btn danger">⌫</button>
+
+          <button class="calc-btn">7</button>
+          <button class="calc-btn">8</button>
+          <button class="calc-btn">9</button>
+          <button class="calc-btn op" data-value="/">÷</button>
+
+          <button class="calc-btn">4</button>
+          <button class="calc-btn">5</button>
+          <button class="calc-btn">6</button>
+          <button class="calc-btn op" data-value="*">×</button>
+
+          <button class="calc-btn">1</button>
+          <button class="calc-btn">2</button>
+          <button class="calc-btn">3</button>
+          <button class="calc-btn op">-</button>
+
+          <button class="calc-btn">0</button>
+          <button class="calc-btn">.</button>
+          <button id="clearCalc" class="calc-btn danger">C</button>
+          <button class="calc-btn op">+</button>
+
+          <button id="equalCalc" class="calc-btn equal">=</button>
+        </div>
+
+        <div class="calc-history">
+          <div class="history-header">
+            <span>History</span>
+            <button id="clearHistory" class="btn secondary" style="padding:6px 14px;font-size:11px;">Clear</button>
+          </div>
+          <div id="historyList"></div>
+        </div>
+
+      </div>
+
+      <!-- ==================== SCIENTIFIC ==================== -->
+      <div class="calc-section" id="scientific" role="tabpanel" aria-labelledby="scientificTab">
+
+        <input id="sciDisplay" class="calc-display" placeholder="0" readonly>
+
+        <div class="calc-grid sci">
+          <button class="sci-btn">sin(</button>
+          <button class="sci-btn">cos(</button>
+          <button class="sci-btn">tan(</button>
+          <button id="sciClear" class="calc-btn danger">C</button>
+
+          <button class="sci-btn">log(</button>
+          <button class="sci-btn">ln(</button>
+          <button class="sci-btn">sqrt(</button>
+          <button id="sciBack" class="calc-btn danger">⌫</button>
+
+          <button class="sci-btn">^</button>
+          <button class="sci-btn">π</button>
+          <button class="sci-btn">e</button>
+          <button class="sci-btn op">/</button>
+
+          <button class="sci-btn">(</button>
+          <button class="sci-btn">)</button>
+          <button class="sci-btn">%</button>
+          <button class="sci-btn op">*</button>
+
+          <button class="sci-btn">7</button>
+          <button class="sci-btn">8</button>
+          <button class="sci-btn">9</button>
+          <button class="sci-btn op">-</button>
+
+          <button class="sci-btn">4</button>
+          <button class="sci-btn">5</button>
+          <button class="sci-btn">6</button>
+          <button class="sci-btn op">+</button>
+
+          <button class="sci-btn">1</button>
+          <button class="sci-btn">2</button>
+          <button class="sci-btn">3</button>
+          <button id="sciEqual" class="calc-btn equal" style="grid-column:span 1">=</button>
+
+          <button class="sci-btn" style="grid-column:span 3">0</button>
+          <button class="sci-btn">.</button>
+        </div>
+
+      </div>
+
+      <!-- ==================== EMI ==================== -->
+      <div class="calc-section" id="emi" role="tabpanel" aria-labelledby="emiTab">
+        <div class="calc-form">
+          <div class="calc-form-row">
+            <label>Loan Amount (₹)</label>
+            <input type="number" id="emiPrincipal" class="tool-input" placeholder="e.g. 500000">
+          </div>
+          <div class="calc-form-row">
+            <label>Annual Interest Rate (%)</label>
+            <input type="number" id="emiRate" class="tool-input" placeholder="e.g. 8.5" step="0.1">
+          </div>
+          <div class="calc-form-row">
+            <label>Loan Tenure (Months)</label>
+            <input type="number" id="emiMonths" class="tool-input" placeholder="e.g. 60">
+          </div>
+          <div class="tool-actions">
+            <button id="calcEMI" class="btn primary">Calculate EMI</button>
+            <button id="clearEMI" class="btn secondary">Clear</button>
+          </div>
+          <div class="emi-result" id="emiResult" style="display:none;">
+            <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:3px;color:var(--text-muted);margin-bottom:8px;">MONTHLY EMI</div>
+            <div class="emi-main" id="emiValue">₹0</div>
+            <div class="emi-breakdown">
+              <div class="emi-breakdown-item" id="emiTotal">₹0 <span>Total Payment</span></div>
+              <div class="emi-breakdown-item" id="emiInterest">₹0 <span>Total Interest</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== UNIT ==================== -->
+      <div class="calc-section" id="unit" role="tabpanel" aria-labelledby="unitTab">
+        <div class="unit-categories">
+          <button class="unit-category-btn active" data-category="length">Length</button>
+          <button class="unit-category-btn" data-category="weight">Weight</button>
+          <button class="unit-category-btn" data-category="temp">Temperature</button>
+          <button class="unit-category-btn" data-category="area">Area</button>
+          <button class="unit-category-btn" data-category="speed">Speed</button>
+        </div>
+        <div class="unit-row">
+          <div>
+            <label class="tool-label">From</label>
+            <select id="unitFrom" class="tool-input"></select>
+          </div>
+          <button class="unit-swap-btn" id="unitSwap">⇄</button>
+          <div>
+            <label class="tool-label">To</label>
+            <select id="unitTo" class="tool-input"></select>
+          </div>
+        </div>
+        <div style="margin-top:16px;">
+          <label class="tool-label">Value</label>
+          <input type="number" id="unitInput" class="tool-input" placeholder="Enter value...">
+        </div>
+        <div class="tool-actions" style="margin-top:16px;">
+          <button id="convertUnit" class="btn primary">Convert</button>
+          <button id="clearUnit" class="btn secondary">Clear</button>
+        </div>
+        <div id="unitResult" style="display:none;" class="result-display">
+          <div class="result-value" id="unitValue">0</div>
+          <div class="result-caption" id="unitCaption">result</div>
+        </div>
+      </div>
+
+      <!-- ==================== AGE ==================== -->
+      <div class="calc-section" id="age" role="tabpanel" aria-labelledby="ageTab">
+        <div class="calc-form">
+          <div class="calc-form-row">
+            <label>Date of Birth</label>
+            <input type="date" id="dob" class="tool-input">
+          </div>
+          <div class="tool-actions">
+            <button id="calcAge" class="btn primary">Calculate Age</button>
+            <button id="clearAge" class="btn secondary">Clear</button>
+          </div>
+          <div class="age-result-grid" id="ageResult" style="display:none;">
+            <div class="age-box">
+              <span class="age-num" id="ageYears">0</span>
+              <div class="age-unit">Years</div>
+            </div>
+            <div class="age-box">
+              <span class="age-num" id="ageMonths">0</span>
+              <div class="age-unit">Months</div>
+            </div>
+            <div class="age-box">
+              <span class="age-num" id="ageDays">0</span>
+              <div class="age-unit">Days</div>
+            </div>
+          </div>
+          <div id="ageBonusInfo" style="display:none;margin-top:12px;" class="info-box"></div>
+        </div>
+      </div>
+
+      <!-- ==================== TIP ==================== -->
+      <div class="calc-section" id="tip" role="tabpanel" aria-labelledby="tipTab">
+        <div class="calc-form">
+          <div class="calc-form-row">
+            <label>Bill Amount (₹)</label>
+            <input type="number" id="tipBill" class="tool-input" placeholder="e.g. 1200">
+          </div>
+          <div class="calc-form-row">
+            <label>Tip Percentage (%)</label>
+            <input type="number" id="tipPercent" class="tool-input" placeholder="e.g. 15" value="15">
+          </div>
+          <div class="calc-form-row">
+            <label>Split Between (people)</label>
+            <input type="number" id="tipPeople" class="tool-input" placeholder="e.g. 4" value="1" min="1">
+          </div>
+          <div class="tool-actions">
+            <button id="calcTip" class="btn primary">Calculate</button>
+            <button id="clearTip" class="btn secondary">Clear</button>
+          </div>
+          <div class="tip-result-grid" id="tipResult" style="display:none;">
+            <div class="tip-box">
+              <span class="tip-num" id="tipAmount">₹0</span>
+              <div class="tip-label">Tip Amount</div>
+            </div>
+            <div class="tip-box">
+              <span class="tip-num" id="tipTotal">₹0</span>
+              <div class="tip-label">Total Bill</div>
+            </div>
+            <div class="tip-box">
+              <span class="tip-num" id="tipPerPerson">₹0</span>
+              <div class="tip-label">Per Person</div>
+            </div>
+            <div class="tip-box">
+              <span class="tip-num" id="tipTipPerPerson">₹0</span>
+              <div class="tip-label">Tip Per Person</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /tool-panel -->
+  
+
+<div class="ad-slot" aria-label="Advertisement slot placeholder"></div>
+
+<section class="seo-content" aria-labelledby="calculator-suite-seo">
+  <h2 id="calculator-suite-seo">Calculator Suite</h2>
+  <p>The Calculator Suite brings common calculator modes together so users can solve math, finance, unit, age, and tip problems from one page.</p>
+  <p>It is the right page for students, professionals, and casual users who want a fast browser-based calculator without extra navigation.</p>
+</section>
+
+<section class="how-to-section" aria-labelledby="how-to-use-the-calculator-suite-howto">
+  <div class="section-header">
+    <span class="eyebrow">// how it works</span>
+    <h2 class="section-title" id="how-to-use-the-calculator-suite-howto">How to use the calculator suite</h2>
+  </div>
+  <div class="steps-list">
+    <article class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Choose a mode</h3>
+        <p>Select the mode that matches the task, such as Basic, Scientific, EMI, Units, Age, or Tip.</p>
+      </div>
+    </article>
+    <article class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Enter the values</h3>
+        <p>Use the calculator keys or form inputs to enter the numbers you want to calculate.</p>
+      </div>
+    </article>
+    <article class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Review the result</h3>
+        <p>Check the calculated output, copy what you need, and move on without leaving the page.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="benefits-section" aria-labelledby="why-this-page-is-useful-benefits">
+  <div class="section-header">
+    <span class="eyebrow">// benefits</span>
+    <h2 class="section-title" id="why-this-page-is-useful-benefits">Why this page is useful</h2>
+  </div>
+  <div class="benefits-grid">
+    <article class="benefit-item">
+      <span class="benefit-icon">∑</span>
+      <h3>All-in-one</h3>
+      <p>Several calculator tasks live together on one searchable landing page.</p>
+    </article>
+    <article class="benefit-item">
+      <span class="benefit-icon">⚡</span>
+      <h3>Fast interaction</h3>
+      <p>The page is built for quick number entry and immediate response.</p>
+    </article>
+    <article class="benefit-item">
+      <span class="benefit-icon">🔓</span>
+      <h3>No login required</h3>
+      <p>People can calculate right away without registering an account.</p>
+    </article>
+  </div>
+</section>
+
+<section class="faq-section" aria-labelledby="faq-for-calculator-suite-faq">
+  <div class="section-header">
+    <span class="eyebrow">// faq</span>
+    <h2 class="section-title" id="faq-for-calculator-suite-faq">FAQ for Calculator Suite</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Is the calculator suite beginner friendly?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Yes. The modes are labeled clearly and each section is separated so users can switch tasks without confusion.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Does EMI calculation use a formula?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Yes. The EMI section is intended to use the standard loan calculation formula in the browser.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Can I use the history feature?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Yes. The history area is part of the page design and can help users track recent calculations.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Why keep multiple modes on one page?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">It helps users avoid duplicate pages and keeps the main calculator search intent concentrated on one URL.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-section" aria-labelledby="trust-signals-for-calculator-suite-trust">
+  <div class="section-header">
+    <span class="eyebrow">// trust</span>
+    <h2 class="section-title" id="trust-signals-for-calculator-suite-trust">Trust signals for Calculator Suite</h2>
+  </div>
+  <div class="trust-grid">
+    <article class="trust-item">
+      <div class="trust-num">6</div>
+      <div class="trust-label">Modes available</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">0</div>
+      <div class="trust-label">Login required</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">100%</div>
+      <div class="trust-label">Browser ready</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">24/7</div>
+      <div class="trust-label">Always on</div>
+    </article>
+  </div>
+</section>
+</main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <!-- MATH.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjs@11.8.0/lib/browser/math.js" defer></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/calculator-suite.js"></script>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(function(button) {
+  button.addEventListener('click', function() {
+    const item = button.closest('.faq-item');
+    const isOpen = item.classList.toggle('open');
+    button.setAttribute('aria-expanded', String(isOpen));
+  });
+});
+</script>
+
+</body>
+</html>

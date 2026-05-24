@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number System Converter — TornadoTools</title>
+  <meta name="description" content="Convert between Binary, Octal, Decimal, Hexadecimal and Text instantly.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#020408">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/number-converter.html">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Number System Converter — TornadoTools">
+  <meta property="og:description" content="Convert between Binary, Octal, Decimal, Hexadecimal and Text instantly.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/number-converter.html">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Number System Converter — TornadoTools">
+  <meta name="twitter:description" content="Convert between Binary, Octal, Decimal, Hexadecimal and Text instantly.">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Number System Converter — TornadoTools",
+  "url": "https://tornadotools.vercel.app/tools/number-converter.html",
+  "description": "Convert between Binary, Octal, Decimal, Hexadecimal and Text instantly.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Number System Converter",
+      "item": "https://tornadotools.vercel.app/tools/number-converter.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I convert text to binary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Text input is converted using standard ASCII values."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it support leading zeros?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The converter keeps leading zeros in binary and octal inputs cleanly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the result copyable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The copy button copies the converted value with one click."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html#tools">Tools</a>
+        <a href="../index.html#why">Why Us</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="tool-page">
+
+    <header class="tool-header" aria-labelledby="nc-title">
+      <a href="../index.html" class="tool-back">← Back</a>
+      <span class="tool-eyebrow">// converters</span>
+      <h1 id="nc-title">Number System Converter</h1>
+      <p>Convert between Binary, Octal, Decimal, Hexadecimal and Text instantly</p>
+    </header>
+
+    <div class="tool-panel">
+
+      <!-- INPUT -->
+      <div class="tool-input-wrap">
+        <label for="numberInput" class="tool-label">Input Value</label>
+        <textarea
+          id="numberInput"
+          class="tool-input"
+          rows="3"
+          placeholder="Enter your number or text here..."
+        ></textarea>
+      </div>
+
+      <!-- BASE SELECTORS + SWAP -->
+      <div class="base-row">
+        <div class="base-box">
+          <label for="fromBase" class="tool-label">From</label>
+          <select id="fromBase" class="tool-input">
+            <option value="2">Binary (Base 2)</option>
+            <option value="8">Octal (Base 8)</option>
+            <option value="10" selected>Decimal (Base 10)</option>
+            <option value="16">Hexadecimal (Base 16)</option>
+            <option value="text">Text (ASCII)</option>
+          </select>
+        </div>
+
+        <div style="display:flex;align-items:flex-end;padding-bottom:4px;">
+          <button id="swapBases" class="unit-swap-btn" type="button" title="Swap bases" aria-label="Swap bases">⇄</button>
+        </div>
+
+        <div class="base-box">
+          <label for="toBase" class="tool-label">To</label>
+          <select id="toBase" class="tool-input">
+            <option value="2">Binary (Base 2)</option>
+            <option value="8">Octal (Base 8)</option>
+            <option value="10">Decimal (Base 10)</option>
+            <option value="16" selected>Hexadecimal (Base 16)</option>
+            <option value="text">Text (ASCII)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- ACTIONS -->
+      <div class="tool-actions">
+        <button id="convertBtn" class="btn primary" type="button">⚡ Convert</button>
+        <button id="clearBtn" class="btn secondary" type="button">Clear</button>
+      </div>
+
+      <!-- OUTPUT -->
+      <div class="tool-input-wrap" style="position:relative;">
+        <label for="resultOutput" class="tool-label">Result</label>
+        <textarea
+          id="resultOutput"
+          class="tool-input"
+          rows="3"
+          placeholder="Result will appear here..."
+          readonly
+          aria-live="polite"
+        ></textarea>
+        <button id="copyOutput" class="copy-btn" type="button" style="position:absolute;right:12px;bottom:12px;" aria-label="Copy result">Copy</button>
+      </div>
+
+      <!-- INFO BOX -->
+      <div id="conversionInfo" class="info-box" style="display:none;" aria-live="polite" aria-atomic="true"></div>
+
+    </div>
+  
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html#tools">Tools</a>
+      <span class="sep">/</span>
+      <span class="current">Number System Converter</span>
+    </nav>
+
+    <div class="ad-slot leaderboard" aria-label="Advertisement slot placeholder"></div>
+
+    <section class="seo-content" aria-labelledby="number-converter-overview">
+      <h2 id="number-converter-overview">Why this converter page matters</h2>
+      <p>This tool converts between binary, octal, decimal, hexadecimal, and text without forcing the user into a new workflow or a complicated app flow. It is a lightweight utility page that search engines can understand clearly.</p>
+      <p>The page is built to answer a specific search intent fast: people want a conversion result, not a long article or a login wall.</p>
+    </section>
+
+    <section class="how-to-section" aria-labelledby="number-converter-howto">
+      <div class="section-header">
+        <span class="eyebrow">// how it works</span>
+        <h2 class="section-title" id="number-converter-howto">How to use the number converter</h2>
+      </div>
+      <div class="steps-list">
+        <article class="step-item"><div class="step-num">1</div><div class="step-body"><h3>Enter a value</h3><p>Paste or type the number or text you want to convert.</p></div></article>
+        <article class="step-item"><div class="step-num">2</div><div class="step-body"><h3>Choose formats</h3><p>Select the source base and the destination base.</p></div></article>
+        <article class="step-item"><div class="step-num">3</div><div class="step-body"><h3>Convert and copy</h3><p>Press convert, review the result, and copy it if needed.</p></div></article>
+      </div>
+    </section>
+
+    <section class="benefits-section" aria-labelledby="number-converter-benefits">
+      <div class="section-header">
+        <span class="eyebrow">// benefits</span>
+        <h2 class="section-title" id="number-converter-benefits">Why users come back to this page</h2>
+      </div>
+      <div class="benefits-grid">
+        <article class="benefit-item"><span class="benefit-icon">⚡</span><h3>Fast conversions</h3><p>The workflow is instant and browser based.</p></article>
+        <article class="benefit-item"><span class="benefit-icon">🔒</span><h3>Private by design</h3><p>Basic conversion stays simple and does not require login.</p></article>
+        <article class="benefit-item"><span class="benefit-icon">🧠</span><h3>Useful for students</h3><p>Great for binary, hex, ASCII, and programming-related conversions.</p></article>
+      </div>
+    </section>
+
+    <section class="faq-section" aria-labelledby="number-converter-faq">
+      <div class="section-header">
+        <span class="eyebrow">// faq</span>
+        <h2 class="section-title" id="number-converter-faq">Number converter FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Can I convert text to binary?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. Text input is converted using standard ASCII values.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Does it support leading zeros?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The converter keeps leading zeros in binary and octal inputs cleanly.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Is the result copyable?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The copy button copies the converted value with one click.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section" aria-labelledby="number-converter-trust">
+      <div class="section-header">
+        <span class="eyebrow">// trust</span>
+        <h2 class="section-title" id="number-converter-trust">Trust signals</h2>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-item"><div class="trust-num">0</div><div class="trust-label">Login required</div></article>
+        <article class="trust-item"><div class="trust-num">Local</div><div class="trust-label">Browser flow</div></article>
+        <article class="trust-item"><div class="trust-num">4</div><div class="trust-label">Base formats</div></article>
+        <article class="trust-item"><div class="trust-num">Free</div><div class="trust-label">Always available</div></article>
+      </div>
+    </section>
+
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/utils.js"></script>
+  <script src="../js/number-converter.js"></script>
+</body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TornadoTools — All-in-One Utility Platform</title>
+  <meta name="description" content="Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#020408">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="css/main.css">
+  <link rel="preload" as="style" href="css/components.css">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <link rel="canonical" href="https://tornadotools.vercel.app/">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TornadoTools — All-in-One Utility Platform">
+  <meta property="og:description" content="Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TornadoTools — All-in-One Utility Platform">
+  <meta name="twitter:description" content="Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "TornadoTools",
+      "url": "https://tornadotools.vercel.app/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://tornadotools.vercel.app/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "name": "TornadoTools — All-in-One Utility Platform",
+      "url": "https://tornadotools.vercel.app/",
+      "description": "Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "TornadoTools",
+        "url": "https://tornadotools.vercel.app/"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ANIMATED BACKGROUND LAYERS -->
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-1" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#tools">Tools</a>
+        <a href="#why">Why Us</a>
+        <a href="#tools" class="nav-cta">Launch App</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <canvas id="hero-3d" width="1280" height="720" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        All Systems Operational
+      </div>
+
+      <h1 id="hero-title">
+        <span class="line-1">All-in-One</span>
+        <span class="gradient-text">Utility Platform</span>
+      </h1>
+
+      <p>
+        Fast, clean, and powerful tools designed to save you time.
+        No login, no backend delays — just instant results in your browser.
+      </p>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <!-- CHANGED: 6 → 7 -->
+          <div class="hero-stat-num" data-count="7">0</div>
+          <div class="hero-stat-label">Tools</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" data-count="100">0</div>
+          <div class="hero-stat-label">% Free</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" data-count="0">0ms</div>
+          <div class="hero-stat-label">Latency</div>
+        </div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#tools" class="btn primary">Explore Tools ↓</a>
+        <a href="#why" class="btn secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <!-- TOOLS SECTION -->
+    <section id="tools" aria-labelledby="tools-title">
+      <div class="section-header reveal">
+        <span class="eyebrow">// featured tools</span>
+        <h2 class="section-title" id="tools-title">Everything You Need</h2>
+        <!-- CHANGED: Six → Seven -->
+        <p class="section-sub">Seven powerful tools. One place. Zero friction.</p>
+      </div>
+
+      <div class="tools-grid">
+
+        <a href="tools/font-generator.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon cyan">T</div>
+            <span class="card-tag">Text</span>
+          </div>
+          <div class="card-content">
+            <h3>Font Style Generator</h3>
+            <p>Convert text into 20+ stylish Unicode font variations instantly. Copy and use anywhere.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+        <a href="tools/qr-generator.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon purple">Q</div>
+            <span class="card-tag">Utility</span>
+          </div>
+          <div class="card-content">
+            <h3>QR Code Generator</h3>
+            <p>Create custom QR codes with gradients, logos, and custom eye colors. Download as PNG.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+        <a href="tools/number-converter.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon pink">#</div>
+            <span class="card-tag">Convert</span>
+          </div>
+          <div class="card-content">
+            <h3>Number Converter</h3>
+            <p>Convert between Binary, Octal, Decimal, Hex and Text instantly with validation.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+        <a href="tools/calculator-suite.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon green">∑</div>
+            <span class="card-tag">Calc</span>
+          </div>
+          <div class="card-content">
+            <h3>Calculator Suite</h3>
+            <p>Basic, scientific, EMI, unit converter, age calculator and tip calculator in one.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+        <a href="tools/cgpa-calculator.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon cyan">C</div>
+            <span class="card-tag">Academic</span>
+          </div>
+          <div class="card-content">
+            <h3>CGPA Calculator</h3>
+            <p>Calculate SGPA semester-by-semester and track your overall CGPA with precision.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+        <a href="tools/resume-builder.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon purple">R</div>
+            <span class="card-tag">Career</span>
+          </div>
+          <div class="card-content">
+            <h3>Resume Builder</h3>
+            <p>Create professional resumes with live preview, multiple templates, PDF export and full customization.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+        <!-- NEW: File Converter card -->
+        <a href="tools/file-converter.html" class="tool-card reveal">
+          <div class="card-top">
+            <div class="card-icon pink">⇄</div>
+            <span class="card-tag">Convert</span>
+          </div>
+          <div class="card-content">
+            <h3>File Converter</h3>
+            <p>Convert PNG, JPG, WEBP, TXT, CSV and JSON files instantly — fully private, runs in your browser.</p>
+          </div>
+          <div class="card-action">
+            <span>Launch</span>
+            <div class="card-action-arrow">→</div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- WHY SECTION -->
+    <section id="why" aria-labelledby="why-title">
+      <div class="section-header reveal">
+        <span class="eyebrow">// why tornadotools</span>
+        <h2 class="section-title" id="why-title">Built Different</h2>
+        <p class="section-sub">Resume builder, calculators, generators and converters — all in one clean platform.</p>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-card reveal">
+          <span class="feature-icon">⚡</span>
+          <h3>Lightning Fast</h3>
+          <p>Everything runs client-side in your browser. No server round-trips, no waiting.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-icon">🔓</span>
+          <h3>No Login Required</h3>
+          <p>Open any tool and start immediately. No accounts, no emails, no passwords.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-icon">🎯</span>
+          <h3>All-in-One</h3>
+          <p>Seven powerful tools under one roof. Stop juggling a dozen bookmarks.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-icon">💸</span>
+          <h3>Completely Free</h3>
+          <p>All tools are free forever. No hidden charges, no premium tier, no upsells.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-icon">🔒</span>
+          <h3>Privacy First</h3>
+          <p>Your data never leaves your device. We store nothing, track nothing.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-icon">✨</span>
+          <h3>Clean & Sharp</h3>
+          <p>No clutter, no dark patterns, no pop-ups. Just tools that work instantly.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="tools/resume-builder.html">Resume Builder</a>
+        <a href="tools/font-generator.html">Font Generator</a>
+        <a href="tools/calculator-suite.html">Calculator Suite</a>
+        <a href="tools/qr-generator.html">QR Code Generator</a>
+        <a href="tools/number-converter.html">Number Converter</a>
+        <a href="tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script>
+  /* ============================================================
+     PARTICLE NETWORK BACKGROUND
+     ============================================================ */
+  (function() {
+    const canvas = document.getElementById('bg-canvas');
+    const ctx = canvas.getContext('2d');
+    let W, H, particles = [], animId;
+    const NUM = 90;
+    const MAX_DIST = 140;
+
+    function resize() {
+      W = canvas.width  = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+
+    function Particle() {
+      this.x = Math.random() * W;
+      this.y = Math.random() * H;
+      this.vx = (Math.random() - 0.5) * 0.5;
+      this.vy = (Math.random() - 0.5) * 0.5;
+      this.r  = Math.random() * 1.8 + 0.5;
+      this.color = Math.random() > 0.5
+        ? 'rgba(0,245,255,'
+        : 'rgba(108,99,255,';
+    }
+
+    Particle.prototype.update = function() {
+      this.x += this.vx;
+      this.y += this.vy;
+      if (this.x < 0 || this.x > W) this.vx *= -1;
+      if (this.y < 0 || this.y > H) this.vy *= -1;
+    };
+
+    function init() {
+      resize();
+      particles = [];
+      for (let i = 0; i < NUM; i++) particles.push(new Particle());
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+
+      for (let i = 0; i < NUM; i++) {
+        particles[i].update();
+        const p = particles[i];
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = p.color + '0.7)';
+        ctx.fill();
+
+        for (let j = i + 1; j < NUM; j++) {
+          const q = particles[j];
+          const dx = p.x - q.x, dy = p.y - q.y;
+          const dist = Math.sqrt(dx*dx + dy*dy);
+          if (dist < MAX_DIST) {
+            const alpha = (1 - dist / MAX_DIST) * 0.3;
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(q.x, q.y);
+            ctx.strokeStyle = `rgba(0,245,255,${alpha})`;
+            ctx.lineWidth = 0.6;
+            ctx.stroke();
+          }
+        }
+      }
+      animId = requestAnimationFrame(draw);
+    }
+
+    window.addEventListener('resize', () => { cancelAnimationFrame(animId); init(); draw(); });
+    init();
+    draw();
+  })();
+
+  /* ============================================================
+     THREE.JS HERO 3D (torus knot)
+     ============================================================ */
+  (function() {
+    const canvas = document.getElementById('hero-3d');
+    const scene = { objs: [], rot: 0 };
+
+    // Fallback if THREE not loaded — simple canvas 3D rings
+    const c = canvas;
+    const ctx = c.getContext('2d');
+
+    function resize() {
+      c.width  = c.parentElement.offsetWidth;
+      c.height = c.parentElement.offsetHeight;
+    }
+
+    let t = 0;
+    function drawHero3D() {
+      resize();
+      ctx.clearRect(0, 0, c.width, c.height);
+
+      const cx = c.width / 2, cy = c.height / 2;
+      const maxR = Math.min(c.width, c.height) * 0.32;
+      t += 0.004;
+
+      // Draw concentric rotating rings
+      for (let i = 0; i < 3; i++) {
+        const r = maxR * (0.5 + i * 0.25);
+        const rot = t * (i % 2 === 0 ? 1 : -1) + (i * Math.PI / 3);
+
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(rot);
+
+        const grad = ctx.createLinearGradient(-r, 0, r, 0);
+        grad.addColorStop(0, `rgba(108,99,255,0)`);
+        grad.addColorStop(0.3, `rgba(108,99,255,${0.18 - i * 0.04})`);
+        grad.addColorStop(0.5, `rgba(0,245,255,${0.25 - i * 0.05})`);
+        grad.addColorStop(0.7, `rgba(191,0,255,${0.18 - i * 0.04})`);
+        grad.addColorStop(1, `rgba(191,0,255,0)`);
+
+        ctx.beginPath();
+        ctx.ellipse(0, 0, r, r * 0.28, 0, 0, Math.PI * 2);
+        ctx.strokeStyle = grad;
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      // Floating dots on orbital path
+      const dotCount = 6;
+      for (let i = 0; i < dotCount; i++) {
+        const angle = (i / dotCount) * Math.PI * 2 + t * 0.8;
+        const r = maxR * 0.72;
+        const x = cx + Math.cos(angle) * r;
+        const y = cy + Math.sin(angle) * r * 0.28;
+        const glow = ctx.createRadialGradient(x, y, 0, x, y, 5);
+        glow.addColorStop(0, 'rgba(0,245,255,0.9)');
+        glow.addColorStop(1, 'rgba(0,245,255,0)');
+        ctx.beginPath();
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fillStyle = glow;
+        ctx.fill();
+      }
+
+      requestAnimationFrame(drawHero3D);
+    }
+
+    drawHero3D();
+  })();
+
+  /* ============================================================
+     SCROLL REVEAL
+     ============================================================ */
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 80);
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => revealObs.observe(el));
+
+  /* ============================================================
+     COUNTER ANIMATION
+     ============================================================ */
+  function animCount(el, target, suffix='') {
+    let cur = 0;
+    const step = Math.ceil(target / 60);
+    const t = setInterval(() => {
+      cur = Math.min(cur + step, target);
+      el.textContent = cur + suffix;
+      if (cur >= target) clearInterval(t);
+    }, 22);
+  }
+
+  const counterObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const el = e.target;
+        const count = parseInt(el.dataset.count);
+        if (el.dataset.count === '0') {
+          el.textContent = '0ms';
+        } else {
+          animCount(el, count, el.dataset.count === '100' ? '%' : '+');
+        }
+        counterObs.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('[data-count]').forEach(el => counterObs.observe(el));
+
+  /* ============================================================
+     MOBILE NAV TOGGLE
+     ============================================================ */
+  document.getElementById('navToggle').addEventListener('click', function() {
+    const links = document.getElementById('navLinks');
+    const isOpen = links.classList.toggle('open');
+    this.setAttribute('aria-expanded', String(isOpen));
+    const spans = this.querySelectorAll('span');
+    if (isOpen) {
+      spans[0].style.transform = 'rotate(45deg) translate(5px,5px)';
+      spans[1].style.opacity = '0';
+      spans[2].style.transform = 'rotate(-45deg) translate(5px,-5px)';
+    } else {
+      spans.forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+    }
+  });
+  </script>
+
+</body>
+</html>

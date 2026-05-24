@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGPA Calculator — TornadoTools | SGPA & CGPA Tools</title>
+  <meta name="description" content="Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#020408" />
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/cgpa-calculator.html" />
+  <meta property="og:site_name" content="TornadoTools" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CGPA Calculator — TornadoTools | SGPA & CGPA Tools" />
+  <meta property="og:description" content="Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator." />
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/cgpa-calculator.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CGPA Calculator — TornadoTools | SGPA & CGPA Tools" />
+  <meta name="twitter:description" content="Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "CGPA Calculator",
+        "url": "https://tornadotools.vercel.app/tools/cgpa-calculator.html",
+        "description": "Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://tornadotools.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Tools",
+            "item": "https://tornadotools.vercel.app/#tools"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "CGPA Calculator",
+            "item": "https://tornadotools.vercel.app/tools/cgpa-calculator.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/calculator-suite.css" />
+  <style>
+    .dual-calc-wrap {
+      display: grid;
+      gap: 20px;
+    }
+    .calc-mode-tabs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .calc-mode-btn {
+      appearance: none;
+      border: 1px solid var(--border-subtle);
+      background: rgba(255,255,255,0.03);
+      color: var(--text-secondary);
+      padding: 10px 14px;
+      border-radius: var(--radius-pill);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .calc-mode-btn.active {
+      color: #fff;
+      background: var(--accent-grad);
+      border-color: transparent;
+      box-shadow: var(--shadow-glow-purple);
+    }
+    .calc-mode-panel {
+      display: none;
+    }
+    .calc-mode-panel.active {
+      display: block;
+    }
+
+    .sgpa-mode-switch {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 0 0 12px;
+    }
+    .sgpa-mode-switch .calc-mode-btn {
+      padding: 9px 14px;
+    }
+    .sgpa-mode-switch .calc-mode-btn.active {
+      color: #fff;
+      background: var(--accent-grad);
+      border-color: transparent;
+      box-shadow: var(--shadow-glow-purple);
+    }
+    .sgpa-help {
+      margin: 0 0 14px;
+    }
+    .sgpa-mode-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .sgpa-mode-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .sgpa-mode-field label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .sgpa-hidden {
+      display: none !important;
+    }
+    .calc-row-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .calc-row {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr auto;
+      gap: 12px;
+      align-items: end;
+      padding: 12px;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      background: rgba(255,255,255,0.02);
+    }
+    .calc-row .tool-input {
+      min-height: 44px;
+    }
+    .calc-row.compact {
+      grid-template-columns: 1.4fr 1fr 1fr auto;
+    }
+    .calc-row .calc-remove {
+      margin-bottom: 2px;
+    }
+    .result-card {
+      margin-top: 16px;
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(0,245,255,0.12);
+      background: rgba(0, 0, 0, 0.28);
+      text-align: center;
+    }
+    .result-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .result-value {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      background: var(--accent-grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.1;
+    }
+    .result-sub {
+      margin-top: 10px;
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+    .tool-help {
+      color: var(--text-secondary);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    @media (max-width: 760px) {
+      .calc-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "CGPA Calculator — TornadoTools | SGPA & CGPA Tools",
+  "url": "https://tornadotools.vercel.app/tools/cgpa-calculator.html",
+  "description": "Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "CGPA Calculator",
+      "item": "https://tornadotools.vercel.app/tools/cgpa-calculator.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is SGPA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SGPA is the semester grade point average calculated from subject scores and credits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is CGPA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CGPA is the cumulative grade point average calculated across semesters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I enter letter grades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The page supports both numeric grade points and optional letter-grade style inputs."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html#tools">Tools</a>
+        <a href="../index.html#why">Why Us</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="tool-page">
+
+    <header class="tool-header" aria-labelledby="calc-title">
+      <a href="../index.html" class="tool-back">← Back</a>
+      <span class="tool-eyebrow">// academic tools</span>
+      <h1 id="calc-title">CGPA Calculator</h1>
+      <p>Use the SGPA calculator for one semester and the CGPA calculator for multiple semesters.</p>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a>
+        <span class="sep">/</span>
+        <a href="../index.html#tools">Tools</a>
+        <span class="sep">/</span>
+        <span class="current">CGPA Calculator</span>
+      </nav>
+    </header>
+
+    <div class="dual-calc-wrap">
+
+      <section class="tool-panel" aria-labelledby="mode-tabs-title">
+        <div class="section-header">
+          <span class="eyebrow">// calculator modes</span>
+          <h2 class="section-title" id="mode-tabs-title">Choose your calculator</h2>
+          <p class="section-sub">Switch between SGPA and CGPA without leaving the page.</p>
+        </div>
+
+        <div class="calc-mode-tabs" role="tablist" aria-label="CGPA calculator modes">
+          <button class="calc-mode-btn active" type="button" role="tab" aria-selected="true" aria-controls="sgpa-panel" id="sgpa-tab" data-target="sgpa-panel">SGPA Calculator</button>
+          <button class="calc-mode-btn" type="button" role="tab" aria-selected="false" aria-controls="cgpa-panel" id="cgpa-tab" data-target="cgpa-panel">CGPA Calculator</button>
+        </div>
+
+        <div class="calc-mode-panel active" id="sgpa-panel" role="tabpanel" aria-labelledby="sgpa-tab">
+          <div class="cgpa-toolbar" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px;">
+            <div>
+              <span class="tool-eyebrow">SGPA from subjects</span>
+              <h2 style="margin-top:6px;font-family:var(--font-display);font-size:20px;">Calculate semester GPA</h2>
+              <div class="tool-help">Add subjects, credit points, and either grade points or letter grades. The calculator gives you SGPA for a single semester.</div>
+            </div>
+            <div class="tool-actions" style="margin:0;">
+              <button class="btn primary" id="addSubject" type="button">+ Add Subject</button>
+              <button class="btn secondary" id="clearSgpa" type="button">Clear</button>
+            </div>
+          </div>
+
+          <div class="sgpa-mode-switch" role="tablist" aria-label="SGPA input mode">
+            <button class="calc-mode-btn active" id="sgpaPointsTab" type="button" role="tab" aria-selected="true" aria-controls="subjectList" data-sgpa-mode="points">Grade Points</button>
+            <button class="calc-mode-btn" id="sgpaGradesTab" type="button" role="tab" aria-selected="false" aria-controls="subjectList" data-sgpa-mode="grades">Letter Grades</button>
+          </div>
+
+          <div class="tool-help sgpa-help">
+            Use grade points if you already know the numeric values. Use letter grades if your college shows A+, A, B+, and similar symbols. Default mapping: O=10, A+=9, A=8, B+=7, B=6, C=5, D=4, F=0.
+          </div>
+
+          <div class="calc-row-list" id="subjectList" aria-live="polite"></div>
+
+          <div class="tool-actions" style="margin-top:16px;">
+            <button class="btn primary" id="calcSgpa" type="button">Calculate SGPA</button>
+            <button class="btn secondary" id="resetSgpa" type="button">Reset Rows</button>
+          </div>
+
+          <div class="result-card" id="sgpaResult" style="display:none;" aria-live="polite" aria-atomic="true">
+            <div class="result-label">Your SGPA</div>
+            <div class="result-value" id="sgpaValue">0.00</div>
+            <div class="result-sub" id="sgpaSummary"></div>
+          </div>
+        </div>
+
+        <div class="calc-mode-panel" id="cgpa-panel" role="tabpanel" aria-labelledby="cgpa-tab">
+          <div class="cgpa-toolbar" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px;">
+            <div>
+              <span class="tool-eyebrow">SGPA to CGPA</span>
+              <h2 style="margin-top:6px;font-family:var(--font-display);font-size:20px;">Calculate cumulative CGPA</h2>
+              <div class="tool-help">Add semester SGPA values and credits. The calculator gives you a weighted CGPA result.</div>
+            </div>
+            <div class="tool-actions" style="margin:0;">
+              <button class="btn primary" id="addSemester" type="button">+ Add Semester</button>
+              <button class="btn secondary" id="clearCgpa" type="button">Clear</button>
+            </div>
+          </div>
+
+          <div class="calc-row-list" id="semesterList" aria-live="polite"></div>
+
+          <div class="tool-actions" style="margin-top:16px;">
+            <button class="btn primary" id="calcCgpa" type="button">Calculate CGPA</button>
+            <button class="btn secondary" id="resetCgpa" type="button">Reset Rows</button>
+          </div>
+
+          <div class="result-card" id="cgpaResult" style="display:none;" aria-live="polite" aria-atomic="true">
+            <div class="result-label">Your CGPA</div>
+            <div class="result-value" id="cgpaValue">0.00</div>
+            <div class="result-sub" id="cgpaSummary"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ad-slot" aria-label="Advertisement slot placeholder"></div>
+
+      <section class="how-to-section" aria-labelledby="how-it-works-title">
+        <div class="section-header">
+          <span class="eyebrow">// how it works</span>
+          <h2 class="section-title" id="how-it-works-title">How to use the calculators</h2>
+        </div>
+        <div class="steps-list">
+          <article class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h3>Select SGPA or CGPA</h3>
+              <p>Pick the calculator mode that matches what you want to calculate.</p>
+            </div>
+          </article>
+          <article class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h3>Enter your data</h3>
+              <p>For SGPA, add subject grade points and credits. For CGPA, add semester SGPA and credits.</p>
+            </div>
+          </article>
+          <article class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h3>Calculate and review</h3>
+              <p>Press calculate to get the result instantly and verify your totals before using them elsewhere.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="benefits-section" aria-labelledby="benefits-title">
+        <div class="section-header">
+          <span class="eyebrow">// benefits</span>
+          <h2 class="section-title" id="benefits-title">Why this page is useful</h2>
+        </div>
+        <div class="benefits-grid">
+          <article class="benefit-item">
+            <span class="benefit-icon">🎓</span>
+            <h3>Student focused</h3>
+            <p>Built for semester grade tracking, CGPA planning, and quick academic checks.</p>
+          </article>
+          <article class="benefit-item">
+            <span class="benefit-icon">⚡</span>
+            <h3>Fast result</h3>
+            <p>Everything runs in the browser, so calculations happen immediately without login.</p>
+          </article>
+          <article class="benefit-item">
+            <span class="benefit-icon">🔒</span>
+            <h3>Private by design</h3>
+            <p>No database is needed for the calculator to work, so your inputs stay local.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq-section" aria-labelledby="faq-title">
+        <div class="section-header">
+          <span class="eyebrow">// faq</span>
+          <h2 class="section-title" id="faq-title">Common questions</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>What is SGPA?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">SGPA is the semester grade point average. It is usually calculated from subject grade points and their credits.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>What is CGPA?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">CGPA is the cumulative grade point average across multiple semesters, usually using weighted semester SGPA values.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I use both calculators on one page?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Yes. This page includes both SGPA and CGPA tools so users do not need to leave the page.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Does this page need login or database?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">No. The calculator works directly in the browser and does not require a backend for normal use.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-section" aria-labelledby="trust-title">
+        <div class="section-header">
+          <span class="eyebrow">// trust</span>
+          <h2 class="section-title" id="trust-title">Trust signals</h2>
+        </div>
+        <div class="trust-grid">
+          <article class="trust-item">
+            <div class="trust-num">0</div>
+            <div class="trust-label">Login required</div>
+          </article>
+          <article class="trust-item">
+            <div class="trust-num">Local</div>
+            <div class="trust-label">Browser processing</div>
+          </article>
+          <article class="trust-item">
+            <div class="trust-num">2</div>
+            <div class="trust-label">Calculator modes</div>
+          </article>
+          <article class="trust-item">
+            <div class="trust-num">100%</div>
+            <div class="trust-label">Free to use</div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script src="../js/common.js"></script>
+  <script>
+    (function () {
+      const tabs = Array.from(document.querySelectorAll('.calc-mode-btn'));
+      const panels = Array.from(document.querySelectorAll('.calc-mode-panel'));
+
+      function switchMode(targetId) {
+        tabs.forEach((btn) => {
+          const active = btn.dataset.target === targetId;
+          btn.classList.toggle('active', active);
+          btn.setAttribute('aria-selected', String(active));
+        });
+        panels.forEach((panel) => {
+          panel.classList.toggle('active', panel.id === targetId);
+        });
+      }
+
+      tabs.forEach((btn) => {
+        btn.addEventListener('click', () => switchMode(btn.dataset.target));
+      });
+
+      const SGPA_GRADE_MAP = {
+        'O': 10,
+        'A+': 9,
+        'A': 8,
+        'B+': 7,
+        'B': 6,
+        'C': 5,
+        'D': 4,
+        'F': 0
+      };
+
+      let currentSgpaMode = 'points';
+
+      function gradeOptions() {
+        return `
+              <option value="">Select grade</option>
+              <option value="O">O</option>
+              <option value="A+">A+</option>
+              <option value="A">A</option>
+              <option value="B+">B+</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="F">F</option>`;
+      }
+
+      function makeRowMarkup(type, index, defaults = {}) {
+        if (type === 'subject') {
+          return `
+            <div class="calc-row">
+              <div class="calc-form-row">
+                <label>Subject ${index}</label>
+                <input type="text" class="tool-input sgpa-subject-name" placeholder="Subject name" value="${defaults.name || ''}" />
+              </div>
+
+              <div class="calc-form-row sgpa-mode-stack">
+                <div class="sgpa-mode-field sgpa-point-wrap">
+                  <label>Grade Point</label>
+                  <input type="number" class="tool-input sgpa-grade-point" min="0" max="10" step="0.01" placeholder="e.g. 9" value="${defaults.gradePoint || defaults.grade || ''}" />
+                </div>
+
+                <div class="sgpa-mode-field sgpa-letter-wrap">
+                  <label>Grade</label>
+                  <select class="tool-input sgpa-grade-letter">
+                    ${gradeOptions()}
+                  </select>
+                </div>
+              </div>
+
+              <div class="calc-form-row">
+                <label>Credits</label>
+                <input type="number" class="tool-input sgpa-credits" min="0" step="0.5" placeholder="e.g. 3" value="${defaults.credits || ''}" />
+              </div>
+              <button type="button" class="btn-icon danger calc-remove" aria-label="Remove subject">✕</button>
+            </div>`;
+        }
+        return `
+          <div class="calc-row">
+            <div class="calc-form-row">
+              <label>Semester ${index} GPA</label>
+              <input type="number" class="tool-input cgpa-sgpa" min="0" max="10" step="0.01" placeholder="e.g. 8.4" value="${defaults.sgpa || ''}" />
+            </div>
+            <div class="calc-form-row">
+              <label>Credits</label>
+              <input type="number" class="tool-input cgpa-credits" min="0" step="0.5" placeholder="e.g. 20" value="${defaults.credits || ''}" />
+            </div>
+            <div class="calc-form-row">
+              <label>Note</label>
+              <input type="text" class="tool-input" value="Weighted semester result" disabled />
+            </div>
+            <button type="button" class="btn-icon danger calc-remove" aria-label="Remove semester">✕</button>
+          </div>`;
+      }
+
+      function renumber(container, selector, labelPrefix) {
+        container.querySelectorAll('.calc-row').forEach((row, idx) => {
+          const label = row.querySelector(selector);
+          if (label) label.textContent = `${labelPrefix} ${idx + 1}`;
+        });
+      }
+
+      function bindRemovers(container, minRows, renumberFn) {
+        container.querySelectorAll('.calc-remove').forEach((btn) => {
+          btn.onclick = () => {
+            if (container.querySelectorAll('.calc-row').length > minRows) {
+              btn.closest('.calc-row').remove();
+              renumberFn();
+            }
+          };
+        });
+      }
+
+      const subjectList = document.getElementById('subjectList');
+      const semesterList = document.getElementById('semesterList');
+      const addSubject = document.getElementById('addSubject');
+      const addSemester = document.getElementById('addSemester');
+      const clearSgpa = document.getElementById('clearSgpa');
+      const clearCgpa = document.getElementById('clearCgpa');
+      const resetSgpa = document.getElementById('resetSgpa');
+      const resetCgpa = document.getElementById('resetCgpa');
+      const calcSgpa = document.getElementById('calcSgpa');
+      const calcCgpa = document.getElementById('calcCgpa');
+      const sgpaPointsTab = document.getElementById('sgpaPointsTab');
+      const sgpaGradesTab = document.getElementById('sgpaGradesTab');
+
+      const sgpaResult = document.getElementById('sgpaResult');
+      const sgpaValue = document.getElementById('sgpaValue');
+      const sgpaSummary = document.getElementById('sgpaSummary');
+
+      const cgpaResult = document.getElementById('cgpaResult');
+      const cgpaValue = document.getElementById('cgpaValue');
+      const cgpaSummary = document.getElementById('cgpaSummary');
+
+      function applySgpaMode() {
+        const usePoints = currentSgpaMode === 'points';
+
+        sgpaPointsTab.classList.toggle('active', usePoints);
+        sgpaGradesTab.classList.toggle('active', !usePoints);
+        sgpaPointsTab.setAttribute('aria-selected', String(usePoints));
+        sgpaGradesTab.setAttribute('aria-selected', String(!usePoints));
+
+        subjectList.querySelectorAll('.sgpa-point-wrap').forEach((el) => {
+          el.classList.toggle('sgpa-hidden', !usePoints);
+        });
+        subjectList.querySelectorAll('.sgpa-letter-wrap').forEach((el) => {
+          el.classList.toggle('sgpa-hidden', usePoints);
+        });
+      }
+
+      function setSgpaMode(mode) {
+        if (mode !== 'points' && mode !== 'grades') return;
+        if (currentSgpaMode === mode) return;
+        currentSgpaMode = mode;
+        applySgpaMode();
+      }
+
+      function renderInitialRows() {
+        subjectList.innerHTML = makeRowMarkup('subject', 1) + makeRowMarkup('subject', 2) + makeRowMarkup('subject', 3);
+        semesterList.innerHTML = makeRowMarkup('semester', 1) + makeRowMarkup('semester', 2);
+        bindRemovers(subjectList, 1, () => renumber(subjectList, 'label', 'Subject'));
+        bindRemovers(semesterList, 1, () => renumber(semesterList, 'label', 'Semester'));
+        applySgpaMode();
+      }
+
+      function getSubjectGradeValue(row) {
+        if (currentSgpaMode === 'grades') {
+          const grade = (row.querySelector('.sgpa-grade-letter')?.value || '').trim().toUpperCase();
+          if (!grade || !(grade in SGPA_GRADE_MAP)) return NaN;
+          return SGPA_GRADE_MAP[grade];
+        }
+        return parseFloat(row.querySelector('.sgpa-grade-point').value);
+      }
+
+      sgpaPointsTab.addEventListener('click', () => setSgpaMode('points'));
+      sgpaGradesTab.addEventListener('click', () => setSgpaMode('grades'));
+
+      addSubject.addEventListener('click', () => {
+        subjectList.insertAdjacentHTML('beforeend', makeRowMarkup('subject', subjectList.querySelectorAll('.calc-row').length + 1));
+        bindRemovers(subjectList, 1, () => renumber(subjectList, 'label', 'Subject'));
+        renumber(subjectList, 'label', 'Subject');
+        applySgpaMode();
+      });
+
+      addSemester.addEventListener('click', () => {
+        semesterList.insertAdjacentHTML('beforeend', makeRowMarkup('semester', semesterList.querySelectorAll('.calc-row').length + 1));
+        bindRemovers(semesterList, 1, () => renumber(semesterList, 'label', 'Semester'));
+        renumber(semesterList, 'label', 'Semester');
+      });
+
+      function calculateSGPA() {
+        const rows = Array.from(subjectList.querySelectorAll('.calc-row'));
+        let totalCredits = 0;
+        let totalPoints = 0;
+        let usedSubjects = 0;
+
+        rows.forEach((row) => {
+          const grade = getSubjectGradeValue(row);
+          const credits = parseFloat(row.querySelector('.sgpa-credits').value);
+          if (!Number.isFinite(grade) || !Number.isFinite(credits) || credits <= 0) return;
+          totalCredits += credits;
+          totalPoints += grade * credits;
+          usedSubjects += 1;
+        });
+
+        if (totalCredits === 0) {
+          sgpaResult.style.display = 'none';
+          alert(currentSgpaMode === 'grades'
+            ? 'Enter at least one valid letter grade and credit value.'
+            : 'Enter at least one valid subject grade point and credit value.');
+          return;
+        }
+
+        const result = totalPoints / totalCredits;
+        sgpaValue.textContent = result.toFixed(2);
+        sgpaSummary.textContent = `${usedSubjects} subject(s) used • ${totalCredits} total credits • ${currentSgpaMode === 'grades' ? 'letter grade mode' : 'grade point mode'}`;
+        sgpaResult.style.display = 'block';
+      }
+
+      function calculateCGPA() {
+        const rows = Array.from(semesterList.querySelectorAll('.calc-row'));
+        let totalCredits = 0;
+        let totalPoints = 0;
+        let usedSemesters = 0;
+
+        rows.forEach((row) => {
+          const sgpa = parseFloat(row.querySelector('.cgpa-sgpa').value);
+          const credits = parseFloat(row.querySelector('.cgpa-credits').value);
+          if (!Number.isFinite(sgpa) || !Number.isFinite(credits) || credits <= 0) return;
+          totalCredits += credits;
+          totalPoints += sgpa * credits;
+          usedSemesters += 1;
+        });
+
+        if (totalCredits === 0) {
+          cgpaResult.style.display = 'none';
+          alert('Enter at least one valid semester SGPA and credit value.');
+          return;
+        }
+
+        const result = totalPoints / totalCredits;
+        cgpaValue.textContent = result.toFixed(2);
+        cgpaSummary.textContent = `${usedSemesters} semester(s) used • ${totalCredits} total credits`;
+        cgpaResult.style.display = 'block';
+      }
+
+      function resetSubjectRows() {
+        subjectList.innerHTML = makeRowMarkup('subject', 1) + makeRowMarkup('subject', 2) + makeRowMarkup('subject', 3);
+        sgpaResult.style.display = 'none';
+        bindRemovers(subjectList, 1, () => renumber(subjectList, 'label', 'Subject'));
+        applySgpaMode();
+      }
+
+      function resetSemesterRows() {
+        semesterList.innerHTML = makeRowMarkup('semester', 1) + makeRowMarkup('semester', 2);
+        cgpaResult.style.display = 'none';
+        bindRemovers(semesterList, 1, () => renumber(semesterList, 'label', 'Semester'));
+      }
+
+      calcSgpa.addEventListener('click', calculateSGPA);
+      calcCgpa.addEventListener('click', calculateCGPA);
+
+      clearSgpa.addEventListener('click', resetSubjectRows);
+      clearCgpa.addEventListener('click', resetSemesterRows);
+      resetSgpa.addEventListener('click', () => { resetSubjectRows(); });
+      resetCgpa.addEventListener('click', () => { resetSemesterRows(); });
+      renderInitialRows();
+
+      document.querySelectorAll('.faq-question').forEach((button) => {
+        button.addEventListener('click', () => {
+          const item = button.closest('.faq-item');
+          const isOpen = item.classList.toggle('open');
+          button.setAttribute('aria-expanded', String(isOpen));
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

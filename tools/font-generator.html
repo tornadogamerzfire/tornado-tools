@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Style Generator — TornadoTools | Unicode Text Styles</title>
+  <meta name="description" content="Convert plain text into stylish Unicode font variations instantly with a clean browser-based font generator.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#020408">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="preload" as="style" href="../css/main.css">
+  <link rel="preload" as="style" href="../css/components.css">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/font-generator.html">
+  <meta property="og:site_name" content="TornadoTools">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Font Style Generator — TornadoTools | Unicode Text Styles">
+  <meta property="og:description" content="Convert plain text into stylish Unicode font variations instantly with a clean browser-based font generator.">
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/font-generator.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Font Style Generator — TornadoTools | Unicode Text Styles">
+  <meta name="twitter:description" content="Convert plain text into stylish Unicode font variations instantly with a clean browser-based font generator.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Font Style Generator — TornadoTools | Unicode Text Styles",
+        "url": "https://tornadotools.vercel.app/tools/font-generator.html",
+        "description": "Convert plain text into stylish Unicode font variations instantly with a clean browser-based font generator.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
+  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Font Style Generator — TornadoTools | Unicode Text Styles",
+  "url": "https://tornadotools.vercel.app/tools/font-generator.html",
+  "description": "Convert plain text into stylish Unicode font variations instantly with a clean browser-based font generator.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "TornadoTools",
+    "url": "https://tornadotools.vercel.app/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tornadotools.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://tornadotools.vercel.app/#tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Font Style Generator",
+      "item": "https://tornadotools.vercel.app/tools/font-generator.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many font styles are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The generator offers a large batch of Unicode font variations for copy-and-use text styling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it support mobile devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The page is responsive and the results layout works on smaller screens."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my text saved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No account is required and the generator is designed for quick browser use."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body class="tool-body">
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <canvas id="bg-canvas" width="1440" height="900" aria-hidden="true"></canvas>
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html#tools">Tools</a>
+        <a href="../index.html#why">Why Us</a>
+        <a href="../index.html#tools" class="nav-cta">All Tools</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="tool-page">
+
+    <header class="tool-header" aria-labelledby="fg-title">
+      <a href="../index.html" class="tool-back">← Back</a>
+      <span class="tool-eyebrow">// text tools</span>
+      <h1 id="fg-title">Font Style Generator</h1>
+      <p>Convert your text into 35+ stylish Unicode fonts instantly — copy and use anywhere</p>
+    </header>
+
+    
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="../index.html">Home</a>
+  <span class="sep">/</span>
+  <a href="../index.html#tools">Tools</a>
+  <span class="sep">/</span>
+  <span class="current">Font Style Generator</span>
+</nav>
+<!-- STICKY INPUT AREA -->
+    <div class="sticky-area">
+      <div class="tool-input-wrap">
+        <label for="textInput" class="tool-label">Your Text</label>
+        <textarea
+          id="textInput"
+          class="tool-input"
+          rows="3"
+          placeholder="Type or paste your text here..."
+          maxlength="200"
+          aria-describedby="textInputHelp"
+        ></textarea>
+        <div id="textInputHelp" class="sr-only">Enter up to 200 characters. Results will appear below.</div>
+      </div>
+
+      <div class="tool-actions">
+        <button id="generateBtn" class="btn primary" type="button">⚡ Generate Fonts</button>
+        <button id="resetBtn" class="btn secondary" type="button">Reset</button>
+      </div>
+
+      <div class="tool-filters">
+        <button class="filter-btn active" type="button" aria-pressed="true" onclick="setCategory('All', this)">All</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Bold', this)">Bold</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Cursive', this)">Cursive</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Cool', this)">Cool</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Fancy', this)">Fancy</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Glitch', this)">Glitch</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Symbol', this)">Symbol</button>
+        <button class="filter-btn" type="button" aria-pressed="false" onclick="setCategory('Small', this)">Small</button>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results" class="tool-results" aria-live="polite" aria-relevant="additions text"></div>
+
+  
+
+<div class="ad-slot" aria-label="Advertisement slot placeholder"></div>
+
+<section class="seo-content" aria-labelledby="font-style-generator-seo">
+  <h2 id="font-style-generator-seo">Font Style Generator</h2>
+  <p>The Font Style Generator turns plain text into Unicode font styles that you can copy and use in chats, bios, social posts, and profile names.</p>
+  <p>Because the styles are Unicode text, users can paste the result into many apps without installing a font file.</p>
+</section>
+
+<section class="how-to-section" aria-labelledby="how-to-use-the-font-generator-howto">
+  <div class="section-header">
+    <span class="eyebrow">// how it works</span>
+    <h2 class="section-title" id="how-to-use-the-font-generator-howto">How to use the font generator</h2>
+  </div>
+  <div class="steps-list">
+    <article class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Type your text</h3>
+        <p>Paste or write the text you want to transform into the input box.</p>
+      </div>
+    </article>
+    <article class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Choose a style group</h3>
+        <p>Filter the style results by bold, cursive, cool, fancy, glitch, symbol, or small variants.</p>
+      </div>
+    </article>
+    <article class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Copy the result</h3>
+        <p>Click a generated style and copy it into your app, profile, or post.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="benefits-section" aria-labelledby="why-this-page-is-useful-benefits">
+  <div class="section-header">
+    <span class="eyebrow">// benefits</span>
+    <h2 class="section-title" id="why-this-page-is-useful-benefits">Why this page is useful</h2>
+  </div>
+  <div class="benefits-grid">
+    <article class="benefit-item">
+      <span class="benefit-icon">✍</span>
+      <h3>Fast text styling</h3>
+      <p>Users can generate many font variations without waiting for external services.</p>
+    </article>
+    <article class="benefit-item">
+      <span class="benefit-icon">📱</span>
+      <h3>Works in many apps</h3>
+      <p>Unicode styles usually paste cleanly into social apps and chat tools.</p>
+    </article>
+    <article class="benefit-item">
+      <span class="benefit-icon">🔓</span>
+      <h3>No login required</h3>
+      <p>The workflow stays simple and private with no sign-up barrier.</p>
+    </article>
+  </div>
+</section>
+
+<section class="faq-section" aria-labelledby="faq-for-font-style-generator-faq">
+  <div class="section-header">
+    <span class="eyebrow">// faq</span>
+    <h2 class="section-title" id="faq-for-font-style-generator-faq">FAQ for Font Style Generator</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Are these real font files?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">No. These are Unicode character styles, not installed font files.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Will every app show them?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Most modern apps do, but some platforms may restrict certain Unicode symbols.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Is there a text limit?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">The page includes a character limit so the tool stays fast and predictable.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" type="button" aria-expanded="false">
+        <span>Can I use it on mobile?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">Yes. The generator is built for copy-and-paste use on phones and desktops.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-section" aria-labelledby="trust-signals-for-font-style-generator-trust">
+  <div class="section-header">
+    <span class="eyebrow">// trust</span>
+    <h2 class="section-title" id="trust-signals-for-font-style-generator-trust">Trust signals for Font Style Generator</h2>
+  </div>
+  <div class="trust-grid">
+    <article class="trust-item">
+      <div class="trust-num">35+</div>
+      <div class="trust-label">Style variants</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">0</div>
+      <div class="trust-label">Login required</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">100%</div>
+      <div class="trust-label">Copy-friendly</div>
+    </article>
+    <article class="trust-item">
+      <div class="trust-num">24/7</div>
+      <div class="trust-label">Browser access</div>
+    </article>
+  </div>
+</section>
+</main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/resume-builder.html">Resume Builder</a>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/utils.js"></script>
+  <script src="../js/font-generator.js"></script>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(function(button) {
+  button.addEventListener('click', function() {
+    const item = button.closest('.faq-item');
+    const isOpen = item.classList.toggle('open');
+    button.setAttribute('aria-expanded', String(isOpen));
+  });
+});
+</script>
+
+</body>
+</html>
