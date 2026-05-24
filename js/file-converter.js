@@ -1401,7 +1401,7 @@ if (downloadBtn) {
     }
 
     try {
-      const url  = `${API_BASE}/download/${encodeURIComponent(state.lastBackendResult.outputFileName)}`;
+      const url = `${API_BASE}/api/converter/download/${encodeURIComponent(state.lastBackendResult.outputFileName)}`;
       const name = state.lastBackendResult.downloadName || outName;
       await fetchAndDownload(url, name);
       showToast('Download started!');
