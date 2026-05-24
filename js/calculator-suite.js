@@ -166,15 +166,38 @@ var sciClear   = document.getElementById('sciClear');
 var sciBack    = document.getElementById('sciBack');
 
 var SCI_MAP = {
-  'sin(':  'sin(',  'cos(':  'cos(',  'tan(':  'tan(',
-  'log(':  'log10(','ln(':   'log(',  'sqrt(': 'sqrt(',
-  '^':'^', 'π':'pi', 'e':'e',
-  '(':'(', ')':')', '%':'%', '/':'/', '*':'*', '-':'-', '+':'+'
+  'sin(':  'sin(',   'cos(':  'cos(',   'tan(':  'tan(',
+  'asin(': 'asin(',  'acos(': 'acos(',  'atan(': 'atan(',
+  'log(':  'log10(', 'ln(':   'log(',    'sqrt(': 'sqrt(',
+  'abs(':  'abs(',   'floor(': 'floor(', 'ceil(': 'ceil(',
+  'round(': 'round(', 'x²': '^2', 'x³': '^3',
+  '^':'^', 'π':'pi', 'e':'e', '°':'°',
+  '[':'[', ']':']', '{':'{', '}':'}', '!':'!',
+  '(':'(', ')':')', '%':'%', '/':'/', '*':'*', '-':'-', '+':'+', ',':','
 };
+
+function normalizeSciExpression(exp) {
+  exp = String(exp || '')
+    .replace(/\s+/g, '')
+    .replace(/[［\[]/g, '(')
+    .replace(/[］\]]/g, ')')
+    .replace(/[｛{]/g, '(')
+    .replace(/[｝}]/g, ')')
+    .replace(/×/g, '*')
+    .replace(/÷/g, '/')
+    .replace(/π/g, 'pi')
+    .replace(/(\d+(?:\.\d+)?)°/g, '($1*pi/180)')
+    .replace(/(\d+(?:\.\d+)?)%/g, '($1/100)');
+
+  if (/[^0-9a-zA-Z+\-*/().%^!,{}\[\],°π]/.test(exp)) {
+    return null;
+  }
+  return exp;
+}
 
 sciButtons.forEach(function(btn) {
   btn.addEventListener('click', function() {
-    var raw    = btn.innerText.trim();
+    var raw    = (btn.dataset && btn.dataset.value) ? btn.dataset.value : btn.innerText.trim();
     var mapped = SCI_MAP.hasOwnProperty(raw) ? SCI_MAP[raw] : raw;
     if (sciDisplay) sciDisplay.value += mapped;
   });
@@ -187,7 +210,8 @@ if (sciEqual) {
   sciEqual.addEventListener('click', function() {
     if (!sciDisplay) return;
     try {
-      var exp    = sciDisplay.value.replace(/(\d+(?:\.\d+)?)%/g, '($1/100)');
+      var exp = normalizeSciExpression(sciDisplay.value);
+      if (!exp) { sciDisplay.value = 'Error'; return; }
       var result = math.evaluate(exp);
       if (!isFinite(result)) { sciDisplay.value = 'Error'; return; }
       sciDisplay.value = +parseFloat(result.toPrecision(12));
@@ -241,17 +265,37 @@ if (clearEMIBtn) {
    ============================================================ */
 var UNIT_DATA = {
   length: {
-    units: ['Meter','Kilometer','Centimeter','Millimeter','Mile','Yard','Foot','Inch'],
-    base:  { 'Meter':1,'Kilometer':1000,'Centimeter':0.01,'Millimeter':0.001,'Mile':1609.344,'Yard':0.9144,'Foot':0.3048,'Inch':0.0254 }
+    units: ['Meter','Kilometer','Centimeter','Millimeter','Micrometer','Nanometer','Mile','Nautical Mile','Yard','Foot','Inch'],
+    base:  { 'Meter':1,'Kilometer':1000,'Centimeter':0.01,'Millimeter':0.001,'Micrometer':0.000001,'Nanometer':1e-9,'Mile':1609.344,'Nautical Mile':1852,'Yard':0.9144,'Foot':0.3048,'Inch':0.0254 }
   },
   weight: {
-    units: ['Kilogram','Gram','Milligram','Pound','Ounce','Ton'],
-    base:  { 'Kilogram':1,'Gram':0.001,'Milligram':0.000001,'Pound':0.453592,'Ounce':0.0283495,'Ton':1000 }
+    units: ['Kilogram','Gram','Milligram','Microgram','Pound','Ounce','Ton'],
+    base:  { 'Kilogram':1,'Gram':0.001,'Milligram':0.000001,'Microgram':1e-9,'Pound':0.453592,'Ounce':0.0283495,'Ton':1000 }
   },
   temp: { units: ['Celsius','Fahrenheit','Kelvin'], base: {} },
   area: {
     units: ['Sq Meter','Sq Kilometer','Sq Foot','Sq Inch','Acre','Hectare'],
     base:  { 'Sq Meter':1,'Sq Kilometer':1e6,'Sq Foot':0.092903,'Sq Inch':0.00064516,'Acre':4046.86,'Hectare':10000 }
+  },
+  volume: {
+    units: ['Liter','Milliliter','Cubic Meter','Cubic Centimeter','Gallon','Pint','Cup'],
+    base:  { 'Liter':1,'Milliliter':0.001,'Cubic Meter':1000,'Cubic Centimeter':0.001,'Gallon':3.78541,'Pint':0.473176,'Cup':0.24 }
+  },
+  time: {
+    units: ['Second','Minute','Hour','Day','Week','Month','Year'],
+    base:  { 'Second':1,'Minute':60,'Hour':3600,'Day':86400,'Week':604800,'Month':2629800,'Year':31557600 }
+  },
+  data: {
+    units: ['Bit','Byte','Kilobyte','Megabyte','Gigabyte','Terabyte'],
+    base:  { 'Bit':0.125,'Byte':1,'Kilobyte':1024,'Megabyte':1024*1024,'Gigabyte':1024*1024*1024,'Terabyte':1024*1024*1024*1024 }
+  },
+  energy: {
+    units: ['Joule','Kilojoule','Calorie','Kilocalorie','Watt Hour','Kilowatt Hour'],
+    base:  { 'Joule':1,'Kilojoule':1000,'Calorie':4.184,'Kilocalorie':4184,'Watt Hour':3600,'Kilowatt Hour':3600000 }
+  },
+  pressure: {
+    units: ['Pascal','Kilopascal','Bar','Atmosphere','PSI'],
+    base:  { 'Pascal':1,'Kilopascal':1000,'Bar':100000,'Atmosphere':101325,'PSI':6894.757 }
   },
   speed: {
     units: ['m/s','km/h','mph','knot','ft/s'],

@@ -226,43 +226,48 @@
         <input id="sciDisplay" class="calc-display" placeholder="0" readonly>
 
         <div class="calc-grid sci">
-          <button class="sci-btn">sin(</button>
-          <button class="sci-btn">cos(</button>
-          <button class="sci-btn">tan(</button>
+          <button class="sci-btn" data-value="sin(">sin(</button>
+          <button class="sci-btn" data-value="cos(">cos(</button>
+          <button class="sci-btn" data-value="tan(">tan(</button>
           <button id="sciClear" class="calc-btn danger">C</button>
 
-          <button class="sci-btn">log(</button>
-          <button class="sci-btn">ln(</button>
-          <button class="sci-btn">sqrt(</button>
+          <button class="sci-btn" data-value="log(">log(</button>
+          <button class="sci-btn" data-value="ln(">ln(</button>
+          <button class="sci-btn" data-value="sqrt(">sqrt(</button>
           <button id="sciBack" class="calc-btn danger">⌫</button>
 
-          <button class="sci-btn">^</button>
-          <button class="sci-btn">π</button>
-          <button class="sci-btn">e</button>
-          <button class="sci-btn op">/</button>
+          <button class="sci-btn" data-value="°">°</button>
+          <button class="sci-btn" data-value="^">^</button>
+          <button class="sci-btn" data-value="π">π</button>
+          <button class="sci-btn" data-value="e">e</button>
 
-          <button class="sci-btn">(</button>
-          <button class="sci-btn">)</button>
-          <button class="sci-btn">%</button>
-          <button class="sci-btn op">*</button>
+          <button class="sci-btn" data-value="[">[</button>
+          <button class="sci-btn" data-value="]">]</button>
+          <button class="sci-btn" data-value="{">{</button>
+          <button class="sci-btn" data-value="}">}</button>
+
+          <button class="sci-btn" data-value="abs(">abs(</button>
+          <button class="sci-btn" data-value="!">!</button>
+          <button class="sci-btn" data-value="%">%</button>
+          <button class="sci-btn op" data-value="/">/</button>
 
           <button class="sci-btn">7</button>
           <button class="sci-btn">8</button>
           <button class="sci-btn">9</button>
-          <button class="sci-btn op">-</button>
+          <button class="sci-btn op" data-value="-">-</button>
 
           <button class="sci-btn">4</button>
           <button class="sci-btn">5</button>
           <button class="sci-btn">6</button>
-          <button class="sci-btn op">+</button>
+          <button class="sci-btn op" data-value="+">+</button>
 
+          <button class="sci-btn" data-value="x²">x²</button>
+          <button class="sci-btn" data-value="x³">x³</button>
           <button class="sci-btn">1</button>
-          <button class="sci-btn">2</button>
-          <button class="sci-btn">3</button>
-          <button id="sciEqual" class="calc-btn equal" style="grid-column:span 1">=</button>
+          <button class="calc-btn equal" id="sciEqual" style="grid-column:span 1">=</button>
 
-          <button class="sci-btn" style="grid-column:span 3">0</button>
-          <button class="sci-btn">.</button>
+          <button class="sci-btn" style="grid-column:span 3" data-value="0">0</button>
+          <button class="sci-btn" data-value=".">.</button>
         </div>
 
       </div>
@@ -304,6 +309,11 @@
           <button class="unit-category-btn" data-category="weight">Weight</button>
           <button class="unit-category-btn" data-category="temp">Temperature</button>
           <button class="unit-category-btn" data-category="area">Area</button>
+          <button class="unit-category-btn" data-category="volume">Volume</button>
+          <button class="unit-category-btn" data-category="time">Time</button>
+          <button class="unit-category-btn" data-category="data">Data</button>
+          <button class="unit-category-btn" data-category="energy">Energy</button>
+          <button class="unit-category-btn" data-category="pressure">Pressure</button>
           <button class="unit-category-btn" data-category="speed">Speed</button>
         </div>
         <div class="unit-row">

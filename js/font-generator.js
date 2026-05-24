@@ -34,7 +34,11 @@ function offsetMap(lowerOffset, upperOffset) {
   };
 }
 
-function transform(text, map) {
+function transform(text, style) {
+  if (style && typeof style.render === 'function') {
+    return style.render(text);
+  }
+  var map = style && typeof style.map === 'function' ? style.map : function (c) { return c; };
   return Array.from(text).map(map).join('');
 }
 
@@ -167,6 +171,90 @@ const styles = [
   },
 ];
 
+const baseStyles = styles.slice();
+
+const AUTO_STYLE_DECORATORS = [
+  { prefix: '✦ ', suffix: ' ✦' },
+  { prefix: '❖ ', suffix: ' ❖' },
+  { prefix: '༒ ', suffix: ' ༒' },
+  { prefix: '⌁ ', suffix: ' ⌁' },
+  { prefix: '『', suffix: '』' },
+  { prefix: '「', suffix: '」' },
+  { prefix: '⟦', suffix: '⟧' },
+  { prefix: '◇ ', suffix: ' ◇' },
+  { prefix: '⋆ ', suffix: ' ⋆' },
+  { prefix: '☾ ', suffix: ' ☽' },
+  { prefix: '⚡ ', suffix: ' ⚡' },
+  { prefix: '✧ ', suffix: ' ✧' }
+];
+
+function mulberry32(seed) {
+  return function () {
+    seed |= 0;
+    seed = (seed + 0x6D2B79F5) | 0;
+    var t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function createFusionStyle(index, pool) {
+  var rng = mulberry32(0x5F3759DF ^ (index + 1) * 0x9E3779B9);
+  var sample = function () {
+    return pool[Math.floor(rng() * pool.length)];
+  };
+
+  var first = sample();
+  var second = sample();
+  var third = sample();
+  var deco = AUTO_STYLE_DECORATORS[index % AUTO_STYLE_DECORATORS.length];
+  var mode = index % 4;
+  var name = `Fusion Mix ${String(index + 1).padStart(2, '0')}`;
+
+  return {
+    name: name,
+    category: 'Auto',
+    render: function (text) {
+      var out = String(text || '');
+      var maps = [first, second, third].filter(Boolean).map(function (style) {
+        return style.map;
+      });
+
+      if (mode === 0) {
+        maps.slice(0, 2).forEach(function (map) {
+          out = Array.from(out).map(map).join('');
+        });
+      } else if (mode === 1) {
+        out = Array.from(out).map(first.map).join('');
+        out = deco.prefix + out + deco.suffix;
+      } else if (mode === 2) {
+        out = Array.from(out).map(first.map).join('');
+        out = Array.from(out).map(second.map).join('');
+        out = deco.prefix + out + deco.suffix;
+      } else {
+        out = Array.from(out).map(function (char, i) {
+          var fn = (i % 2 === 0 ? first : second).map;
+          return fn(char);
+        }).join('');
+        out = deco.prefix + out + deco.suffix;
+      }
+
+      if (index % 3 === 0) {
+        out = out.replace(/\s+/g, '  ');
+      }
+      if (index % 5 === 0) {
+        out = out.split('').join(index % 2 === 0 ? ' ' : '');
+      }
+      return out;
+    }
+  };
+}
+
+const autoStyles = Array.from({ length: 12 }, function (_, i) {
+  return createFusionStyle(i, baseStyles);
+});
+styles.push.apply(styles, autoStyles);
+
 /* ============================================================
    FILTER
    ============================================================ */
@@ -196,7 +284,7 @@ function renderBatch(reset = false) {
   const fragment = document.createDocumentFragment();
 
   slice.forEach(style => {
-    const value = transform(text, style.map);
+    const value = transform(text, style);
 
     const div = document.createElement('div');
     div.className = 'result-item';
