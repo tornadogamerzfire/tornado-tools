@@ -89,17 +89,6 @@ const CATEGORY_ORDER = [
 const FRONTEND_TEXT_TARGETS = ['csv', 'json'];
 const EXTRACT_TARGET = 'extract';
 
-const TARGET_CATEGORY_RULES = {
-  image: ['image', 'document', 'presentation'],
-  'text-data': ['text-data', 'image', 'document', 'presentation', 'spreadsheet'],
-  spreadsheet: ['text-data', 'document', 'presentation', 'spreadsheet'],
-  document: ['text-data', 'document', 'presentation', 'spreadsheet', 'image'],
-  presentation: ['text-data', 'document', 'presentation', 'spreadsheet', 'image'],
-  video: ['video', 'audio'],
-  audio: ['video', 'audio'],
-  archive: ['archive']
-};
-
 let SUPPORTED_CONVERSIONS = {};
 let capabilitiesReady = false;
 
@@ -215,7 +204,7 @@ const FORMAT_DEFINITIONS = {
   xls:  { label: 'XLS',  category: 'spreadsheet', relatedCategories: [], previewKind: 'generic', icon: '📊' },
   xlsx: { label: 'XLSX', category: 'spreadsheet', relatedCategories: [], previewKind: 'generic', icon: '📊' },
   ods:  { label: 'ODS',  category: 'spreadsheet', relatedCategories: [], previewKind: 'generic', icon: '📊' },
-  csv:  { label: 'CSV',  category: 'text-data', relatedCategories: ['spreadsheet'], previewKind: 'generic', icon: '📊' },
+  csv:  { label: 'CSV',  category: 'spreadsheet', relatedCategories: ['text-data'], previewKind: 'generic', icon: '📊' },
 
   // Presentation
   ppt:  { label: 'PPT',  category: 'presentation', relatedCategories: [], previewKind: 'generic', icon: '📽️' },
@@ -237,13 +226,13 @@ const FORMAT_DEFINITIONS = {
 
   // Archive
   zip:  { label: 'ZIP',  category: 'archive',   relatedCategories: [], previewKind: 'generic', icon: '🗜️' },
-  extract: { label: 'Extract All', category: 'archive', relatedCategories: [], previewKind: 'generic', icon: '📂', sourceSelectable: false },
+  extract: { label: 'Extract All', category: 'archive', relatedCategories: [], previewKind: 'generic', icon: '📂' },
   rar:  { label: 'RAR',  category: 'archive',   relatedCategories: [], previewKind: 'generic', icon: '🗜️' },
   '7z': { label: '7Z',   category: 'archive',   relatedCategories: [], previewKind: 'generic', icon: '🗜️' },
 
   // Text/Data
   txt:  { label: 'TXT',  category: 'text-data', relatedCategories: [], previewKind: 'generic', icon: '📝' },
-  json: { label: 'JSON', category: 'text-data', relatedCategories: ['spreadsheet'], previewKind: 'generic', icon: '⚙️' },
+  json: { label: 'JSON', category: 'spreadsheet', relatedCategories: ['text-data'], previewKind: 'generic', icon: '⚙️' },
   xml:  { label: 'XML',  category: 'text-data', relatedCategories: [], previewKind: 'generic', icon: '📝' },
   yaml: { label: 'YAML', category: 'text-data', relatedCategories: [], previewKind: 'generic', icon: '📝' }
 };
@@ -361,12 +350,13 @@ async function warmBackendOnce() {
     await response.json().catch(() => ({}));
     state.backendReady = true;
     setBackendStatus('Processing engine ready.', 'ready');
-    refreshConvertButtonState();
+    if (state.currentTargets.length && convertBtn && state.file) {
+      setConvertButtonMode(true);
+    }
     return true;
   } catch (err) {
     state.backendReady = false;
     setBackendStatus('Processing engine unavailable right now.', 'error');
-    refreshConvertButtonState();
     return false;
   }
 }
@@ -454,7 +444,7 @@ function getRenderableFormatGroups() {
       if (!cat) return null;
 
       const items = Object.entries(FORMAT_DEFINITIONS)
-        .filter(([, meta]) => meta.category === categoryKey && meta.sourceSelectable !== false)
+        .filter(([, meta]) => meta.category === categoryKey)
         .map(([ext, meta]) => ({ ext, meta }));
 
       return items.length ? { categoryKey, label: cat.label, items } : null;
@@ -544,7 +534,12 @@ function unlockUI() {
   if (browseBtn)   { browseBtn.disabled = false; browseBtn.style.opacity = ''; }
   if (dropZone)    { dropZone.style.pointerEvents = ''; dropZone.style.opacity = ''; }
 
-  refreshConvertButtonState();
+  if (convertBtn) {
+    convertBtn.disabled = false;
+    convertBtn.innerHTML = '<span class="fc-convert-btn-icon">⚡</span>Convert Now';
+    convertBtn.style.opacity = '1';
+    convertBtn.style.cursor = 'pointer';
+  }
 
   if (cancelBtn) {
     cancelBtn.style.display = 'none';
@@ -569,32 +564,6 @@ function setSwapButtonEnabled(enabled) {
   swapBtn.disabled = !enabled;
   swapBtn.style.opacity = enabled ? '1' : '0.3';
   swapBtn.style.cursor = enabled ? 'pointer' : 'not-allowed';
-}
-
-function refreshConvertButtonState() {
-  if (!convertBtn) return;
-
-  if (state.converting) {
-    setConvertButtonMode(false, 'Converting...');
-    return;
-  }
-
-  if (!state.file) {
-    setConvertButtonMode(false, state.backendWarmupDone ? 'Convert Now' : 'Preparing processing engine...');
-    return;
-  }
-
-  if (!state.currentTargets.length) {
-    setConvertButtonMode(false, capabilitiesReady ? 'No supported conversions' : 'Conversion engine unavailable');
-    return;
-  }
-
-  if (!state.backendReady) {
-    setConvertButtonMode(false, 'Preparing processing engine...');
-    return;
-  }
-
-  setConvertButtonMode(true, 'Convert Now');
 }
 
 // ============================================================
@@ -672,12 +641,10 @@ function rebuildToOptions(meta) {
     : 'Conversion engine unavailable';
 
   const supportedTargets = getCurrentTargetsForFormat(state.fromFormat);
-  const sourceCategory = state.fileCategory || meta?.category || getFormatMeta(state.fromFormat)?.category || '';
-  const allowedCategories = TARGET_CATEGORY_RULES[sourceCategory] || [];
   state.currentTargets = supportedTargets.slice();
   toSelect.innerHTML = '';
 
-  if (!supportedTargets.length || !allowedCategories.length) {
+  if (!supportedTargets.length) {
     const msgOpt = document.createElement('option');
     msgOpt.value = '';
     msgOpt.disabled = true;
@@ -687,8 +654,6 @@ function rebuildToOptions(meta) {
   }
 
   CATEGORY_ORDER.forEach((categoryKey) => {
-    if (!allowedCategories.includes(categoryKey)) return;
-
     const cat = getCategoryMeta(categoryKey);
     if (!cat) return;
 
@@ -700,21 +665,13 @@ function rebuildToOptions(meta) {
     Object.entries(FORMAT_DEFINITIONS).forEach(([ext, formatMeta]) => {
       if (formatMeta.category !== categoryKey) return;
       if (added.has(ext)) return;
+      if (!supportedTargets.includes(ext)) return;
+
       added.add(ext);
 
-      const isSupported = supportedTargets.includes(ext);
       const opt = document.createElement('option');
       opt.value = ext;
-      opt.textContent = isSupported
-        ? (formatMeta?.label || ext.toUpperCase())
-        : `${formatMeta?.label || ext.toUpperCase()} 🔒 Coming Soon`;
-
-      if (!isSupported) {
-        opt.disabled = true;
-        opt.classList.add('fc-disabled-option');
-        opt.style.opacity = '0.65';
-        opt.style.fontStyle = 'italic';
-      }
+      opt.textContent = formatMeta?.label || ext.toUpperCase();
 
       group.appendChild(opt);
     });
@@ -724,7 +681,7 @@ function rebuildToOptions(meta) {
     }
   });
 
-  if (!supportedTargets.length || !allowedCategories.length) {
+  if (!supportedTargets.length) {
     state.toFormat = '';
     toSelect.disabled = false;
     setConvertButtonMode(false, noSupportMessage);
@@ -741,7 +698,7 @@ function rebuildToOptions(meta) {
   toSelect.value = preferred;
   state.toFormat = preferred;
 
-  refreshConvertButtonState();
+  setConvertButtonMode(true);
   updateSwapButtonState();
 }
 
@@ -924,7 +881,7 @@ function cancelConversion() {
 // ============================================================
 // CONVERSION FLOW
 // ============================================================
-async function startConversion() {
+function startConversion() {
   if (!state.file) {
     showToast('Please select a file first', true);
     return;
@@ -946,14 +903,6 @@ async function startConversion() {
   }
 
   if (state.converting) return;
-
-  if (!state.backendWarmupDone || !state.backendReady) {
-    await warmBackendOnce();
-    if (!state.backendReady) {
-      showToast('Processing engine unavailable right now.', true);
-      return;
-    }
-  }
 
   state.converting = true;
   state._cancelRequested = false;
@@ -1192,7 +1141,7 @@ function handleFile(file) {
   hideSection(progressSection);
   hideSection(resultSection);
 
-  if (!state.currentTargets.length || !TARGET_CATEGORY_RULES[state.fileCategory]) {
+  if (!state.currentTargets.length) {
     if (capabilitiesReady) {
       showUnsupportedMessage('No supported conversions yet');
     } else {
@@ -1200,7 +1149,7 @@ function handleFile(file) {
       setSwapButtonEnabled(false);
     }
   } else {
-    refreshConvertButtonState();
+    setConvertButtonMode(true);
   }
 
   resetProgress();
@@ -1253,7 +1202,6 @@ function resetTool() {
   unlockUI();
   rebuildFromOptions('png');
   rebuildToOptions(getFormatMeta('png'));
-  refreshConvertButtonState();
 }
 
 // ============================================================
@@ -1409,7 +1357,7 @@ if (convertBtn) {
       return;
     }
 
-    void startConversion();
+    startConversion();
   });
 }
 
@@ -1453,11 +1401,7 @@ if (downloadBtn) {
     }
 
     try {
-      let downloadPath = state.lastBackendResult.downloadUrl || `/api/converter/download/${encodeURIComponent(state.lastBackendResult.outputFileName)}`;
-      if (downloadPath.startsWith('/download/')) {
-        downloadPath = `/api/converter${downloadPath}`;
-      }
-      const url = downloadPath.startsWith('http') ? downloadPath : `${API_BASE}${downloadPath}`;
+      const url  = `${API_BASE}/download/${encodeURIComponent(state.lastBackendResult.outputFileName)}`;
       const name = state.lastBackendResult.downloadName || outName;
       await fetchAndDownload(url, name);
       showToast('Download started!');
@@ -1485,9 +1429,8 @@ if (convertAnotherBtn) {
 // ============================================================
 async function init() {
   initReveal();
-  setConvertButtonMode(false, 'Preparing processing engine...');
+  setConvertButtonMode(false, 'Loading conversion capabilities...');
   await loadCapabilities();
-  await warmBackendOnce();
   rebuildFromOptions('png');
   rebuildToOptions(getFormatMeta('png'));
   setSwapButtonEnabled(false);
@@ -1496,7 +1439,6 @@ async function init() {
   hideSection(progressSection);
   hideSection(resultSection);
   if (cancelBtn) cancelBtn.style.display = 'none';
-  refreshConvertButtonState();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1504,9 +1446,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('pagehide', () => {
-  cleanupBackendSession(false, 300);
+  cleanupBackendSession(true, 0);
 });
 
 window.addEventListener('beforeunload', () => {
-  cleanupBackendSession(false, 300);
+  cleanupBackendSession(true, 0);
 });
