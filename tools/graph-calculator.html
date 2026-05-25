@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric</title>
+  <meta name="description" content="Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#020408" />
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/graph-calculator.html" />
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg" />
+  <link rel="apple-touch-icon" href="/Logo.jpg" />
+  <meta property="og:site_name" content="TornadoTools" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric" />
+  <meta property="og:description" content="Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator." />
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/graph-calculator.html" />
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric" />
+  <meta name="twitter:description" content="Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator." />
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" />
+  <link rel="stylesheet" href="..\css\graph-calculator.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric",
+        "url": "https://tornadotools.vercel.app/tools/graph-calculator.html",
+        "description": "Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      }
+    ]
+  }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjs@15.2.0/lib/browser/math.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/function-plot@1.25.4/dist/function-plot.js" defer></script>
+  <script src="../js\graph-calculator.js" defer></script>
+</head>
+<body class="gc-body">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="gc-bg gc-bg-grid" aria-hidden="true"></div>
+  <div class="gc-bg gc-bg-glow gc-glow-1" aria-hidden="true"></div>
+  <div class="gc-bg gc-bg-glow gc-glow-2" aria-hidden="true"></div>
+
+  <header class="gc-header">
+    <div class="gc-header-inner">
+      <a class="gc-brand" href="../index.html">
+        <span class="gc-brand-icon">⚡</span>
+        <span class="gc-brand-text">TornadoTools</span>
+      </a>
+      <nav class="gc-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#tools">All Tools</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/font-generator.html">Font Style</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="gc-shell">
+    <section class="gc-hero">
+      <div>
+        <p class="gc-kicker">Frontend only • Math.js + Function Plot</p>
+        <h1>Graph Calculator</h1>
+        <p class="gc-lead">
+          Plot standard, polar, and parametric equations, inspect roots and intersections,
+          and move around the graph with fast zoom and pan controls.
+        </p>
+      </div>
+      <div class="gc-hero-stats" aria-label="Graph capabilities">
+        <div class="gc-stat"><span>2D</span><small>graphing</small></div>
+        <div class="gc-stat"><span>∞</span><small>functions</small></div>
+        <div class="gc-stat"><span>Live</span><small>analysis</small></div>
+        <div class="gc-stat"><span>Mobile</span><small>ready</small></div>
+      </div>
+    </section>
+
+    <section class="gc-workspace">
+      <div class="gc-stage">
+        <div class="gc-stage-toolbar">
+          <button type="button" class="gc-icon-btn" id="zoomOutBtn" title="Zoom out">−</button>
+          <button type="button" class="gc-icon-btn" id="zoomInBtn" title="Zoom in">+</button>
+          <button type="button" class="gc-icon-btn" id="homeViewBtn" title="Reset view">Home</button>
+          <button type="button" class="gc-icon-btn" id="fitViewBtn" title="Fit graph to screen">Fit</button>
+          <button type="button" class="gc-icon-btn" id="toggleGridBtn" title="Toggle grid">Grid</button>
+          <button type="button" class="gc-icon-btn" id="toggleAxesBtn" title="Toggle axes">Axes</button>
+        </div>
+
+        <div class="gc-graph-wrap">
+          <div id="graphPlot" class="gc-graph" aria-label="Graph canvas" aria-describedby="graphHelp"></div>
+          <div class="gc-graph-overlay" id="graphOverlay">
+            <div class="gc-graph-status" id="graphStatus">Add an equation to start plotting.</div>
+            <p class="gc-graph-help" id="graphHelp">Drag to pan. Use mouse wheel or pinch to zoom.</p>
+          </div>
+        </div>
+
+        <div class="gc-result-strip">
+          <div class="gc-result-card">
+            <span class="gc-result-label">Roots</span>
+            <div class="gc-chip-row" id="rootsList"><span class="gc-chip gc-chip-muted">No roots yet</span></div>
+          </div>
+          <div class="gc-result-card">
+            <span class="gc-result-label">Intersections</span>
+            <div class="gc-chip-row" id="intersectionsList"><span class="gc-chip gc-chip-muted">No intersections yet</span></div>
+          </div>
+          <div class="gc-result-card">
+            <span class="gc-result-label">Asymptotes</span>
+            <div class="gc-chip-row" id="asymptotesList"><span class="gc-chip gc-chip-muted">No asymptotes yet</span></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="gc-sidebar" id="drawerPanel">
+        <div class="gc-panel">
+          <div class="gc-panel-head">
+            <div>
+              <p class="gc-panel-kicker">Equation editor</p>
+              <h2>Add a graph</h2>
+            </div>
+            <button type="button" class="gc-link-btn" id="clearAllBtn">Clear all</button>
+          </div>
+
+          <div class="gc-form-grid">
+            <label class="gc-field">
+              <span>Mode</span>
+              <select id="modeSelect" class="gc-input">
+                <option value="standard">Standard y = f(x)</option>
+                <option value="polar">Polar r = f(θ)</option>
+                <option value="parametric">Parametric x(t), y(t)</option>
+              </select>
+            </label>
+
+            <label class="gc-field">
+              <span>Name</span>
+              <input id="nameInput" class="gc-input" type="text" maxlength="32" placeholder="Parabola" />
+            </label>
+
+            <label class="gc-field gc-span-2" id="exprField">
+              <span>Equation</span>
+              <textarea id="exprInput" class="gc-input gc-textarea" rows="3" placeholder="y = x²"></textarea>
+            </label>
+
+            <label class="gc-field gc-span-2 gc-hidden" id="paramFields">
+              <span>Parametric equations</span>
+              <div class="gc-param-grid">
+                <input id="exprXInput" class="gc-input" type="text" placeholder="x(t) = cos(t)" />
+                <input id="exprYInput" class="gc-input" type="text" placeholder="y(t) = sin(t)" />
+              </div>
+            </label>
+
+            <label class="gc-field">
+              <span>Color</span>
+              <input id="colorInput" class="gc-input gc-color" type="color" value="#00f5ff" />
+            </label>
+
+            <label class="gc-field">
+              <span>Parameter min</span>
+              <input id="tMinInput" class="gc-input" type="text" value="0" />
+            </label>
+
+            <label class="gc-field">
+              <span>Parameter max</span>
+              <input id="tMaxInput" class="gc-input" type="text" value="2*pi" />
+            </label>
+
+            <label class="gc-field">
+              <span>Options</span>
+              <div class="gc-checks">
+                <label><input id="visibleInput" type="checkbox" checked /> Visible</label>
+                <label><input id="derivativeInput" type="checkbox" /> Derivative</label>
+              </div>
+            </label>
+          </div>
+
+          <div class="gc-actions">
+            <button type="button" class="gc-primary-btn" id="addEquationBtn">Add equation</button>
+            <button type="button" class="gc-secondary-btn" id="loadExampleBtn">Load example</button>
+          </div>
+
+          <div class="gc-keypad" aria-label="Scientific keypad">
+            <button type="button" class="gc-key" data-token="x">x</button>
+            <button type="button" class="gc-key" data-token="y">y</button>
+            <button type="button" class="gc-key" data-token="t">t</button>
+            <button type="button" class="gc-key" data-token="θ">θ</button>
+            <button type="button" class="gc-key" data-token="π">π</button>
+            <button type="button" class="gc-key" data-token="√(">√</button>
+            <button type="button" class="gc-key" data-token="²">x²</button>
+            <button type="button" class="gc-key" data-token="³">x³</button>
+            <button type="button" class="gc-key" data-token="^">^</button>
+            <button type="button" class="gc-key" data-token="(">(</button>
+            <button type="button" class="gc-key" data-token=")">)</button>
+            <button type="button" class="gc-key" data-token="[">[</button>
+            <button type="button" class="gc-key" data-token="]">]</button>
+            <button type="button" class="gc-key" data-token="{">{</button>
+            <button type="button" class="gc-key" data-token="}">}</button>
+            <button type="button" class="gc-key" data-token="|">|x|</button>
+            <button type="button" class="gc-key" data-token="sin(">sin</button>
+            <button type="button" class="gc-key" data-token="cos(">cos</button>
+            <button type="button" class="gc-key" data-token="tan(">tan</button>
+            <button type="button" class="gc-key" data-token="log(">log</button>
+            <button type="button" class="gc-key" data-token="ln(">ln</button>
+            <button type="button" class="gc-key" data-token="abs(">abs</button>
+            <button type="button" class="gc-key" data-token="*">×</button>
+            <button type="button" class="gc-key" data-token="/">÷</button>
+          </div>
+
+          <div class="gc-history">
+            <div class="gc-subhead">
+              <h3>Function history</h3>
+              <button type="button" class="gc-link-btn" id="clearHistoryBtn">Clear history</button>
+            </div>
+            <div class="gc-history-list" id="historyList"><span class="gc-chip gc-chip-muted">No history yet</span></div>
+          </div>
+        </div>
+
+        <div class="gc-panel">
+          <div class="gc-panel-head">
+            <div>
+              <p class="gc-panel-kicker">Graph settings</p>
+              <h2>View range</h2>
+            </div>
+          </div>
+
+          <div class="gc-form-grid gc-range-grid">
+            <label class="gc-field"><span>X min</span><input id="xMinInput" class="gc-input" type="text" value="-10" /></label>
+            <label class="gc-field"><span>X max</span><input id="xMaxInput" class="gc-input" type="text" value="10" /></label>
+            <label class="gc-field"><span>Y min</span><input id="yMinInput" class="gc-input" type="text" value="-10" /></label>
+            <label class="gc-field"><span>Y max</span><input id="yMaxInput" class="gc-input" type="text" value="10" /></label>
+          </div>
+
+          <div class="gc-actions">
+            <button type="button" class="gc-secondary-btn" id="applyRangeBtn">Apply range</button>
+            <button type="button" class="gc-secondary-btn" id="fitButtonAlt">Fit graph</button>
+          </div>
+        </div>
+
+        <div class="gc-panel">
+          <div class="gc-panel-head">
+            <div>
+              <p class="gc-panel-kicker">Equations</p>
+              <h2>Active graphs</h2>
+            </div>
+          </div>
+          <div class="gc-equation-list" id="equationList"><div class="gc-empty-state">No graphs added yet.</div></div>
+        </div>
+      </aside>
+    </section>
+
+    <button type="button" class="gc-drawer-toggle" id="drawerToggle">Controls</button>
+
+    <section class="gc-info">
+      <div class="gc-info-card">
+        <h2>Supported input</h2>
+        <p>Unicode math like <strong>x²</strong>, <strong>π</strong>, <strong>√</strong>, and <strong>sin</strong> is converted to clean Math.js expressions before plotting.</p>
+      </div>
+      <div class="gc-info-card">
+        <h2>Graph features</h2>
+        <p>Roots, intersections, derivative curves, and asymptote hints update from the visible equations in real time.</p>
+      </div>
+      <div class="gc-info-card">
+        <h2>Mobile layout</h2>
+        <p>The graph stays large and the controls slide into a bottom drawer on smaller screens.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
