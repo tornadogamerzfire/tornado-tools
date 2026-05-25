@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" />
-  <link rel="stylesheet" href="..\css\graph-calculator.css" />
+  <link rel="stylesheet" href="../css/graph-calculator.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -64,6 +64,7 @@
         <a href="../index.html#tools">All Tools</a>
         <a href="../tools/calculator-suite.html">Calculator Suite</a>
         <a href="../tools/font-generator.html">Font Style</a>
+        <a href="../tools/file-converter.html">File Converter</a>
       </nav>
     </div>
   </header>
@@ -85,6 +86,14 @@
         <div class="gc-stat"><span>Mobile</span><small>ready</small></div>
       </div>
     </section>
+
+    <nav class="breadcrumbs gc-breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html#tools">Tools</a>
+      <span class="sep">/</span>
+      <span class="current">Graph Calculator</span>
+    </nav>
 
     <section class="gc-workspace">
       <div class="gc-stage">
@@ -135,7 +144,7 @@
             <label class="gc-field">
               <span>Mode</span>
               <select id="modeSelect" class="gc-input">
-                <option value="standard">Standard y = f(x)</option>
+                <option value="standard">Standard f(x)</option>
                 <option value="polar">Polar r = f(θ)</option>
                 <option value="parametric">Parametric x(t), y(t)</option>
               </select>
@@ -148,7 +157,8 @@
 
             <label class="gc-field gc-span-2" id="exprField">
               <span>Equation</span>
-              <textarea id="exprInput" class="gc-input gc-textarea" rows="3" placeholder="y = x²"></textarea>
+              <textarea id="exprInput" class="gc-input gc-textarea" rows="3" placeholder="x² + 3x - 4"></textarea>
+              <div class="gc-field-note">Type the expression only. <strong>y =</strong> is optional and will not be forced into the graph list.</div>
             </label>
 
             <label class="gc-field gc-span-2 gc-hidden" id="paramFields">
@@ -273,6 +283,87 @@
         <p>The graph stays large and the controls slide into a bottom drawer on smaller screens.</p>
       </div>
     </section>
+
+    <section class="gc-content-block gc-seo-section" aria-labelledby="graph-why-title">
+      <div class="gc-section-head">
+        <p class="gc-panel-kicker">Why this page is useful</p>
+        <h2 id="graph-why-title">Why this graph calculator page is useful</h2>
+        <p class="gc-section-lead">Students, teachers, engineers, and self-learners can graph equations, inspect behaviour, and verify answers without leaving the browser.</p>
+      </div>
+      <div class="gc-content-grid">
+        <article class="gc-content-card">
+          <h3>Better equation feedback</h3>
+          <p>The editor accepts Unicode input like x², π, √, and θ, then normalizes it into safe Math.js expressions.</p>
+        </article>
+        <article class="gc-content-card">
+          <h3>Advanced graph analysis</h3>
+          <p>Roots, intersections, asymptotes, and derivative curves update from the visible graphs in real time.</p>
+        </article>
+        <article class="gc-content-card">
+          <h3>Fast desktop and mobile flow</h3>
+          <p>The graph stays large while the controls move into a bottom drawer on smaller screens for better focus.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gc-content-block gc-faq-section" aria-labelledby="graph-faq-title">
+      <div class="gc-section-head">
+        <p class="gc-panel-kicker">FAQ</p>
+        <h2 id="graph-faq-title">Graph calculator questions</h2>
+      </div>
+      <div class="gc-faq-list">
+        <details class="gc-faq-item">
+          <summary>Do I need to type y = before every equation?</summary>
+          <p>No. The tool accepts the expression directly. y = is optional and the active graph list now shows the cleaner f(x) format.</p>
+        </details>
+        <details class="gc-faq-item">
+          <summary>Can I graph polar and parametric equations?</summary>
+          <p>Yes. Switch the mode, enter r(θ) or x(t)/y(t), and the engine will plot the curve with the same graph canvas.</p>
+        </details>
+        <details class="gc-faq-item">
+          <summary>Does it support roots and intersections?</summary>
+          <p>Roots, intersections, asymptote hints, and derivative overlays are calculated from the visible equations.</p>
+        </details>
+        <details class="gc-faq-item">
+          <summary>Can I use complex expressions like |x| or x²?</summary>
+          <p>Yes. The parser normalizes brackets, superscripts, square roots, absolute values, degrees, and implicit multiplication.</p>
+        </details>
+      </div>
+    </section>
+
+    <footer class="gc-footer">
+      <div class="gc-footer-grid">
+        <div class="gc-footer-brand">
+          <h3>⚡ TornadoTools</h3>
+          <p>Fast, clean, all-in-one utility platform. Built for speed, clarity, and browser-first tools.</p>
+        </div>
+        <div class="gc-footer-col">
+          <h4>Tools</h4>
+          <a href="../tools/calculator-suite.html">Calculator Suite</a>
+          <a href="../tools/font-generator.html">Font Style Generator</a>
+          <a href="../tools/qr-generator.html">QR Code Generator</a>
+          <a href="../tools/file-converter.html">File Converter</a>
+          <a href="../tools/graph-calculator.html">Graph Calculator</a>
+        </div>
+        <div class="gc-footer-col">
+          <h4>Company</h4>
+          <a href="../index.html">Home</a>
+          <a href="../index.html#tools">All Tools</a>
+          <a href="../contact.html">Contact</a>
+        </div>
+        <div class="gc-footer-col">
+          <h4>Legal</h4>
+          <a href="../privacy-policy.html">Privacy Policy</a>
+          <a href="../terms.html">Terms of Use</a>
+          <a href="../faq.html">FAQ</a>
+        </div>
+      </div>
+      <div class="gc-footer-bottom">
+        <div class="gc-footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+        <div class="gc-footer-status"><span class="gc-status-dot"></span>All systems operational</div>
+      </div>
+    </footer>
+
   </main>
 </body>
 </html>

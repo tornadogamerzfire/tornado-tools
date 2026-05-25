@@ -99,13 +99,16 @@ function replaceImplicitMath(text) {
     .replace(/÷/g, '/')
     .replace(/−/g, '-')
     .replace(/π/g, 'pi')
+    .replace(/θ/g, 'theta')
+    .replace(/τ/g, 'tau')
     .replace(/√\s*\(/g, 'sqrt(')
     .replace(/√\s*([a-zA-Z0-9_.]+)/g, 'sqrt($1)')
     .replace(/(\d+(?:\.\d+)?)°/g, '($1*pi/180)')
     .replace(/(\))(\s*)(\()/g, '$1*$3')
     .replace(/(\d)(\s*)(\()/g, '$1*$3')
-    .replace(/(\))(\s*)(\d|[a-zA-Zπ])/g, '$1*$3')
-    .replace(/(\d)(\s*)([a-zA-Zπ])/g, '$1*$3');
+    .replace(/(^|[^A-Za-z0-9_])([xyzt])\s*\(/g, '$1$2*(')
+    .replace(/(\))(\s*)(\d|[a-zA-Zπθ])/g, '$1*$3')
+    .replace(/(\d)(\s*)([a-zA-Zπθ])/g, '$1*$3');
 }
 
 function stripLabel(expr, mode) {
@@ -117,6 +120,13 @@ function stripLabel(expr, mode) {
     out = out.replace(/^\s*y\s*\(\s*t\s*\)\s*=\s*/i, '');
   }
   return out.trim();
+}
+
+function formatEquationDisplay(eq) {
+  if (!eq) return '';
+  if (eq.mode === 'parametric') return `x(t) = ${eq.expr.x} • y(t) = ${eq.expr.y}`;
+  if (eq.mode === 'polar') return `r = ${eq.expr}`;
+  return `f(x) = ${stripLabel(eq.expr, 'standard')}`;
 }
 
 function normalizeExpression(input) {
@@ -370,8 +380,15 @@ function buildEquationFromEditor() {
     if (!xExpr || !yExpr) throw new Error('Enter both x(t) and y(t).');
     return { id: uniqueId(), name, mode, color, visible, derivative: false, expr: { x: xExpr, y: yExpr }, tMin, tMax };
   }
-  const expr = stripLabel(el.exprInput?.value || '', mode);
+  const rawExpr = String(el.exprInput?.value || '').trim();
+  const expr = stripLabel(rawExpr, mode);
   if (!expr) throw new Error('Enter an equation first.');
+  if (mode === 'standard' && /=/.test(rawExpr) && !/^\s*(y|f\s*\(\s*x\s*\))\s*=\s*/i.test(rawExpr)) {
+    throw new Error('Use a single function expression for standard graphs. Relations like x² + y² = 1 are not supported here.');
+  }
+  if (mode === 'polar' && /=/.test(rawExpr) && !/^\s*r\s*=\s*/i.test(rawExpr)) {
+    throw new Error('Use r = ... for polar graphs. Extra equals signs are not supported here.');
+  }
   return { id: uniqueId(), name, mode, color, visible, derivative, expr, tMin, tMax };
 }
 
@@ -462,7 +479,7 @@ function renderEquationList() {
     title.textContent = eq.name;
     const exp = document.createElement('div');
     exp.className = 'gc-equation-exp';
-    exp.textContent = eq.mode === 'parametric' ? `x(t) = ${eq.expr.x} • y(t) = ${eq.expr.y}` : `${eq.mode === 'polar' ? 'r' : 'y'} = ${eq.expr}`;
+    exp.textContent = formatEquationDisplay(eq);
     const tags = document.createElement('div');
     tags.className = 'gc-tag-row';
     const modeTag = document.createElement('span');
@@ -496,7 +513,7 @@ function renderEquationList() {
       ['Hide', () => toggleEquationVisibility(eq.id)],
       ['Edit', () => { state.activeId = eq.id; setEditorFromEquation(eq); el.drawerPanel?.classList.add('open'); renderEquationList(); }],
       ['Copy expr', async () => {
-        const txt = eq.mode === 'parametric' ? `x = ${eq.expr.x}\ny = ${eq.expr.y}` : eq.expr;
+        const txt = eq.mode === 'parametric' ? `x = ${eq.expr.x}\ny = ${eq.expr.y}` : stripLabel(eq.expr, eq.mode);
         try { await navigator.clipboard.writeText(txt); setStatus('Copied to clipboard.', 'ok'); } catch { setStatus('Copy failed.', 'error'); }
       }],
       ['Duplicate', () => duplicateEquation(eq.id)],
@@ -812,10 +829,14 @@ function clearAll() {
 
 function loadExample() {
   const examples = [
-    { mode: 'standard', name: 'Parabola', expr: 'y = x²', derivative: true, color: '#00f5ff' },
-    { mode: 'standard', name: 'Sine wave', expr: 'sin(x)', derivative: false, color: '#6d8cff' },
-    { mode: 'polar', name: 'Rose', expr: 'r = 2sin(5θ)', color: '#ff5c6f', tMin: '0', tMax: '2*pi' },
-    { mode: 'parametric', name: 'Circle', expr: { x: 'cos(t)', y: 'sin(t)' }, color: '#00ff88', tMin: '0', tMax: '2*pi' }
+    { mode: 'standard', name: 'Parabola', expr: 'x²', derivative: true, color: '#00f5ff' },
+    { mode: 'standard', name: 'Cubic', expr: 'x^3 - 4x', derivative: true, color: '#6d8cff' },
+    { mode: 'standard', name: 'Absolute value', expr: '|x|', derivative: false, color: '#00ff88' },
+    { mode: 'standard', name: 'Reciprocal', expr: '1/(x-2)', derivative: false, color: '#ff5c6f' },
+    { mode: 'polar', name: 'Rose', expr: '2sin(5θ)', color: '#ffb84d', tMin: '0', tMax: '2*pi' },
+    { mode: 'polar', name: 'Cardioid', expr: '1 + cos(θ)', color: '#ff5c6f', tMin: '0', tMax: '2*pi' },
+    { mode: 'parametric', name: 'Circle', expr: { x: 'cos(t)', y: 'sin(t)' }, color: '#00ff88', tMin: '0', tMax: '2*pi' },
+    { mode: 'parametric', name: 'Lissajous', expr: { x: 'sin(3t)', y: 'sin(4t + pi/2)' }, color: '#ffd166', tMin: '0', tMax: '2*pi' }
   ];
   const pick = examples[state.equations.length % examples.length];
   if (el.modeSelect) el.modeSelect.value = pick.mode;
