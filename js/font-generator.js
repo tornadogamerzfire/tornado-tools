@@ -34,6 +34,23 @@ function offsetMap(lowerOffset, upperOffset) {
   };
 }
 
+function smartOffsetMap(lowerOffset, upperOffset, lowerOverrides, upperOverrides) {
+  upperOffset = upperOffset ?? lowerOffset;
+  lowerOverrides = lowerOverrides || {};
+  upperOverrides = upperOverrides || {};
+  return function (char) {
+    try {
+      if (Object.prototype.hasOwnProperty.call(lowerOverrides, char)) return lowerOverrides[char];
+      if (Object.prototype.hasOwnProperty.call(upperOverrides, char)) return upperOverrides[char];
+      if (char >= 'a' && char <= 'z')
+        return String.fromCodePoint(lowerOffset + char.charCodeAt(0) - 97);
+      if (char >= 'A' && char <= 'Z')
+        return String.fromCodePoint(upperOffset + char.charCodeAt(0) - 65);
+      return char;
+    } catch { return char; }
+  };
+}
+
 function transform(text, style) {
   if (style && typeof style.render === 'function') {
     return style.render(text);
@@ -54,8 +71,39 @@ const styles = [
   { name: 'Fraktur Bold',         category: 'Bold',    map: offsetMap(0x1D586, 0x1D56C) },
 
   // CURSIVE / ITALIC
-  { name: 'Italic',               category: 'Cursive', map: offsetMap(0x1D44E, 0x1D434) },
-  { name: 'Script',               category: 'Cursive', map: offsetMap(0x1D4B6, 0x1D49C) },
+  { name: 'Italic',               category: 'Cursive', map: smartOffsetMap(0x1D44E, 0x1D434, { h: 'ℎ' }) },
+  { name: 'Script',               category: 'Cursive', map: smartOffsetMap(0x1D4B6, 0x1D49C, {
+    e: 'ℯ',
+    g: 'ℊ',
+    o: 'ℴ'
+  }, {
+    A: '𝒜',
+    B: 'ℬ',
+    C: '𝒞',
+    D: '𝒟',
+    E: 'ℰ',
+    F: 'ℱ',
+    G: '𝒢',
+    H: 'ℋ',
+    I: 'ℐ',
+    J: '𝒥',
+    K: '𝒦',
+    L: 'ℒ',
+    M: 'ℳ',
+    N: '𝒩',
+    O: '𝒪',
+    P: '𝒫',
+    Q: '𝒬',
+    R: 'ℛ',
+    S: '𝒮',
+    T: '𝒯',
+    U: '𝒰',
+    V: '𝒱',
+    W: '𝒲',
+    X: '𝒳',
+    Y: '𝒴',
+    Z: '𝒵'
+  }) },
   { name: 'Script Bold',          category: 'Cursive', map: offsetMap(0x1D4EA, 0x1D4D0) },
   { name: 'Sans Italic',          category: 'Cursive', map: offsetMap(0x1D622, 0x1D608) },
 
@@ -104,8 +152,22 @@ const styles = [
   },
 
   // FANCY
-  { name: 'Fraktur',              category: 'Fancy',   map: offsetMap(0x1D51E, 0x1D504) },
-  { name: 'Double Struck',        category: 'Fancy',   map: offsetMap(0x1D552, 0x1D538) },
+  { name: 'Fraktur',              category: 'Fancy',   map: smartOffsetMap(0x1D51E, 0x1D504, {}, {
+    C: 'ℭ',
+    H: 'ℌ',
+    I: 'ℑ',
+    R: 'ℜ',
+    Z: 'ℨ'
+  }) },
+  { name: 'Double Struck',        category: 'Fancy',   map: smartOffsetMap(0x1D552, 0x1D538, {}, {
+    C: 'ℂ',
+    H: 'ℍ',
+    N: 'ℕ',
+    P: 'ℙ',
+    Q: 'ℚ',
+    R: 'ℝ',
+    Z: 'ℤ'
+  }) },
   {
     name: 'Full Width',           category: 'Fancy',
     map: c => {
