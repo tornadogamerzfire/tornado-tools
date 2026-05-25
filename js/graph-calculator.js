@@ -126,7 +126,7 @@ function formatEquationDisplay(eq) {
   if (!eq) return '';
   if (eq.mode === 'parametric') return `x(t) = ${eq.expr.x} • y(t) = ${eq.expr.y}`;
   if (eq.mode === 'polar') return `r = ${eq.expr}`;
-  return `f(x) = ${stripLabel(eq.expr, 'standard')}`;
+  return stripLabel(eq.expr, 'standard');
 }
 
 function normalizeExpression(input) {
@@ -163,6 +163,43 @@ function sampleFunction(compiled, min, max, count = 520) {
     if (Number.isFinite(y)) points.push({ x, y }); else points.push(null);
   }
   return points;
+}
+
+function sampleCurveSegments(samplePoint, min, max, count = 960, jumpThreshold = 120) {
+  const segments = [];
+  let current = [];
+  let prev = null;
+  const step = (max - min) / Math.max(1, count - 1);
+
+  const flush = () => {
+    if (current.length >= 2) segments.push(current);
+    current = [];
+  };
+
+  for (let i = 0; i < count; i++) {
+    const x = min + step * i;
+    const point = samplePoint(x, i);
+
+    if (!point || !Number.isFinite(point.x) || !Number.isFinite(point.y)) {
+      flush();
+      prev = null;
+      continue;
+    }
+
+    if (prev) {
+      const dy = Math.abs(point.y - prev.y);
+      const dx = Math.abs(point.x - prev.x);
+      if (!Number.isFinite(dy) || !Number.isFinite(dx) || dy > jumpThreshold || dx > (max - min) / 8) {
+        flush();
+      }
+    }
+
+    current.push([point.x, point.y]);
+    prev = point;
+  }
+
+  flush();
+  return segments;
 }
 
 function sampleParametric(compiledX, compiledY, min, max, count = 520) {
@@ -384,7 +421,7 @@ function buildEquationFromEditor() {
   const expr = stripLabel(rawExpr, mode);
   if (!expr) throw new Error('Enter an equation first.');
   if (mode === 'standard' && /=/.test(rawExpr) && !/^\s*(y|f\s*\(\s*x\s*\))\s*=\s*/i.test(rawExpr)) {
-    throw new Error('Use a single function expression for standard graphs. Relations like x² + y² = 1 are not supported here.');
+    throw new Error('Use one function of x for standard graphs. Implicit relations like x² + y² = 25 belong in parametric mode.');
   }
   if (mode === 'polar' && /=/.test(rawExpr) && !/^\s*r\s*=\s*/i.test(rawExpr)) {
     throw new Error('Use r = ... for polar graphs. Extra equals signs are not supported here.');
@@ -550,14 +587,54 @@ function buildPlotData() {
       const expr = normalizeExpression(eq.expr);
       let compiled;
       try { compiled = math.compile(expr); } catch { return; }
-      data.push({ fn: expr, graphType: 'polyline', color: eq.color, fnType: 'linear', sampler: 'builtIn', attr: { 'stroke-width': 2.5 } });
+
+      const mainSegments = sampleCurveSegments(
+        (x) => {
+          const y = evaluateCompiled(compiled, { x, t: x, theta: x, pi: Math.PI });
+          return Number.isFinite(y) ? { x, y } : null;
+        },
+        xMin,
+        xMax,
+        1200,
+        Math.max(120, (Math.abs(state.view.yMax - state.view.yMin) || 20) * 8)
+      );
+
+      mainSegments.forEach((points) => {
+        data.push({
+          points,
+          fnType: 'points',
+          graphType: 'polyline',
+          color: eq.color,
+          attr: { 'stroke-width': 2.5 }
+        });
+      });
+
       findRoots(compiled, xMin, xMax).forEach((x) => roots.push({ name: eq.name, x, y: 0 }));
       detectVerticalAsymptotes(compiled, xMin, xMax).forEach((x) => asymX.push({ name: eq.name, value: x }));
       detectHorizontalAsymptotes(compiled, xMin, xMax).forEach((y) => asymY.push({ name: eq.name, value: y }));
       if (eq.derivative) {
         try {
           const deriv = math.derivative(expr, 'x').toString();
-          data.push({ fn: normalizeExpression(deriv), graphType: 'polyline', color: '#ffd166', fnType: 'linear', sampler: 'builtIn', attr: { 'stroke-width': 1.8, 'stroke-dasharray': '6 5' } });
+          const derivCompiled = math.compile(normalizeExpression(deriv));
+          const derivativeSegments = sampleCurveSegments(
+            (x) => {
+              const y = evaluateCompiled(derivCompiled, { x, t: x, theta: x, pi: Math.PI });
+              return Number.isFinite(y) ? { x, y } : null;
+            },
+            xMin,
+            xMax,
+            1100,
+            Math.max(120, (Math.abs(state.view.yMax - state.view.yMin) || 20) * 8)
+          );
+          derivativeSegments.forEach((points) => {
+            data.push({
+              points,
+              fnType: 'points',
+              graphType: 'polyline',
+              color: '#ffd166',
+              attr: { 'stroke-width': 1.8, 'stroke-dasharray': '6 5' }
+            });
+          });
         } catch {}
       }
       return;
@@ -667,7 +744,7 @@ function renderGraph() {
     setStatus(state.equations.length ? `Graph updated. ${setVisibleCount()} visible equation(s).` : 'Add an equation to start plotting.', 'ok');
   } catch (err) {
     console.error(err);
-    setStatus('Could not render graph. Check the equation syntax.', 'error');
+    setStatus('Could not render graph. Try a simpler range or switch to parametric mode for relations.', 'error');
   }
 }
 
