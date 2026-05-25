@@ -170,6 +170,10 @@ var sciAnsBtn  = document.getElementById('sciAns');
 var sciLeftBtn = document.getElementById('sciLeft');
 var sciRightBtn = document.getElementById('sciRight');
 var sciMemLabel = document.getElementById('sciMemLabel');
+var sciDock = document.getElementById('sciDock');
+var sciShell = document.getElementById('scientific');
+
+var sciCursor = 0;
 
 var sciState = {
   degMode: true,
@@ -201,47 +205,44 @@ function sciUpdateMemoryLabel() {
   }
 }
 
-function sciFocusEnd() {
+function sciClampCursor(pos) {
+  var len = sciDisplay ? sciDisplay.value.length : 0;
+  return Math.max(0, Math.min(len, pos));
+}
+
+function sciSyncCursorToEnd() {
   if (!sciDisplay) return;
-  sciDisplay.focus();
-  try {
-    var len = sciDisplay.value.length;
-    sciDisplay.setSelectionRange(len, len);
-  } catch (e) {}
+  sciCursor = sciDisplay.value.length;
+}
+
+function sciWriteValue(nextValue, nextCursor) {
+  if (!sciDisplay) return;
+  sciDisplay.value = String(nextValue);
+  sciCursor = typeof nextCursor === 'number' ? sciClampCursor(nextCursor) : sciDisplay.value.length;
 }
 
 function sciInsert(text) {
   if (!sciDisplay) return;
   var value = String(text);
-  var start = typeof sciDisplay.selectionStart === 'number' ? sciDisplay.selectionStart : sciDisplay.value.length;
-  var end   = typeof sciDisplay.selectionEnd === 'number' ? sciDisplay.selectionEnd : start;
-  sciDisplay.value = sciDisplay.value.slice(0, start) + value + sciDisplay.value.slice(end);
-  var pos = start + value.length;
-  sciDisplay.focus();
-  try { sciDisplay.setSelectionRange(pos, pos); } catch (e) {}
+  var current = String(sciDisplay.value || '');
+  var start = sciClampCursor(sciCursor);
+  var nextValue = current.slice(0, start) + value + current.slice(start);
+  sciWriteValue(nextValue, start + value.length);
 }
 
 function sciBackspace() {
   if (!sciDisplay) return;
-  var start = typeof sciDisplay.selectionStart === 'number' ? sciDisplay.selectionStart : sciDisplay.value.length;
-  var end   = typeof sciDisplay.selectionEnd === 'number' ? sciDisplay.selectionEnd : start;
-
-  if (start !== end) {
-    sciDisplay.value = sciDisplay.value.slice(0, start) + sciDisplay.value.slice(end);
-    try { sciDisplay.setSelectionRange(start, start); } catch (e) {}
-  } else if (start > 0) {
-    sciDisplay.value = sciDisplay.value.slice(0, start - 1) + sciDisplay.value.slice(end);
-    try { sciDisplay.setSelectionRange(start - 1, start - 1); } catch (e) {}
+  var current = String(sciDisplay.value || '');
+  if (!current.length) return;
+  var start = sciClampCursor(sciCursor);
+  if (start > 0) {
+    sciWriteValue(current.slice(0, start - 1) + current.slice(start), start - 1);
   }
-  sciDisplay.focus();
 }
 
 function sciMoveCursor(delta) {
   if (!sciDisplay) return;
-  var start = typeof sciDisplay.selectionStart === 'number' ? sciDisplay.selectionStart : sciDisplay.value.length;
-  var next = Math.max(0, Math.min(sciDisplay.value.length, start + delta));
-  sciDisplay.focus();
-  try { sciDisplay.setSelectionRange(next, next); } catch (e) {}
+  sciCursor = sciClampCursor(sciCursor + delta);
 }
 
 function sciToggleMode() {
@@ -385,6 +386,7 @@ function sciUseResult(raw, resultText) {
   sciState.ans = Number(resultText);
   if (!isFinite(sciState.ans)) sciState.ans = 0;
   if (sciDisplay) sciDisplay.value = resultText;
+  sciSyncCursorToEnd();
   saveHistory(raw, resultText);
 }
 
@@ -407,7 +409,7 @@ function sciHandleAction(action, btn) {
 
   if (action === 'clear') {
     if (sciDisplay) sciDisplay.value = '';
-    sciFocusEnd();
+    sciCursor = 0;
     return;
   }
 
@@ -425,6 +427,7 @@ function sciHandleAction(action, btn) {
       return;
     }
     sciUseResult(raw, evaluated.text);
+    sciSyncCursorToEnd();
     _toast('✓ Calculated');
     return;
   }
@@ -482,40 +485,49 @@ function sciHandleAction(action, btn) {
 }
 
 if (sciModeBtn) {
+  sciModeBtn.addEventListener('pointerdown', function(e) { if (e.pointerType === 'touch') e.preventDefault(); });
   sciModeBtn.addEventListener('click', sciToggleMode);
 }
 
 if (sciAnsBtn) {
+  sciAnsBtn.addEventListener('pointerdown', function(e) { if (e.pointerType === 'touch') e.preventDefault(); });
   sciAnsBtn.addEventListener('click', function() {
     sciInsert(sciFormatNumber(sciState.ans));
   });
 }
 
 if (sciClear) {
+  sciClear.addEventListener('pointerdown', function(e) { if (e.pointerType === 'touch') e.preventDefault(); });
   sciClear.addEventListener('click', function() {
     sciHandleAction('clear');
   });
 }
 
 if (sciBack) {
+  sciBack.addEventListener('pointerdown', function(e) { if (e.pointerType === 'touch') e.preventDefault(); });
   sciBack.addEventListener('click', function() {
     sciHandleAction('backspace');
   });
 }
 
 if (sciLeftBtn) {
+  sciLeftBtn.addEventListener('pointerdown', function(e) { if (e.pointerType === 'touch') e.preventDefault(); });
   sciLeftBtn.addEventListener('click', function() {
     sciHandleAction('cursor-left');
   });
 }
 
 if (sciRightBtn) {
+  sciRightBtn.addEventListener('pointerdown', function(e) { if (e.pointerType === 'touch') e.preventDefault(); });
   sciRightBtn.addEventListener('click', function() {
     sciHandleAction('cursor-right');
   });
 }
 
 sciButtons.forEach(function(btn) {
+  btn.addEventListener('pointerdown', function(e) {
+    if (e.pointerType === 'touch') e.preventDefault();
+  });
   btn.addEventListener('click', function() {
     var action = btn.dataset.action || '';
     if (action) {
@@ -540,6 +552,7 @@ if (sciDisplay) {
 
     if (key === 'Escape') {
       sciDisplay.value = '';
+      sciCursor = 0;
       e.preventDefault();
       return;
     }
@@ -609,6 +622,30 @@ document.addEventListener('keydown', function(e) {
 
 sciUpdateModeLabel();
 sciUpdateMemoryLabel();
+sciSyncCursorToEnd();
+
+if (sciDisplay) {
+  sciDisplay.setAttribute('readonly', 'readonly');
+  sciDisplay.setAttribute('inputmode', 'none');
+  sciDisplay.setAttribute('aria-readonly', 'true');
+}
+
+if (sciDisplay) {
+  sciDisplay.addEventListener('focus', function() {
+    if (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) {
+      try { sciDisplay.blur(); } catch (e) {}
+    }
+  });
+}
+
+if (sciDock && sciShell && 'IntersectionObserver' in window) {
+  var sciDockObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      sciDock.classList.toggle('is-docked', entry.isIntersecting);
+    });
+  }, { threshold: 0.01 });
+  sciDockObserver.observe(sciShell);
+}
 
 /* ============================================================
    EMI CALCULATOR

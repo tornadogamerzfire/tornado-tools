@@ -222,9 +222,12 @@
 
 
       <!-- ==================== SCIENTIFIC ==================== -->
-      <div class="calc-section" id="scientific" role="tabpanel" aria-labelledby="scientificTab">
+      <div class="calc-section sci-section" id="scientific" role="tabpanel" aria-labelledby="scientificTab">
+        <div class="sci-section-sentinel" id="sciTopSentinel" aria-hidden="true"></div>
 
-        <input id="sciDisplay" class="calc-display" placeholder="0" autocomplete="off" inputmode="text" spellcheck="false" aria-label="Scientific calculator display">
+        <div class="sci-dock" id="sciDock">
+
+        <input id="sciDisplay" class="calc-display" placeholder="0" autocomplete="off" inputmode="none" readonly tabindex="-1" spellcheck="false" aria-label="Scientific calculator display" aria-readonly="true">
 
         <div class="sci-statusbar" aria-label="Scientific calculator controls">
           <button id="sciMode" class="sci-chip" type="button" aria-label="Toggle angle mode">DEG</button>
@@ -252,6 +255,8 @@
           <button class="sci-btn" data-value="cosh(" type="button">cosh(</button>
           <button class="sci-btn" data-value="tanh(" type="button">tanh(</button>
           <button class="sci-btn" data-value="log2(" type="button">log2(</button>
+        </div>
+
         </div>
 
         <div class="calc-grid sci">
@@ -319,6 +324,7 @@
           <button class="sci-btn sci-action" data-action="evaluate" type="button" style="grid-column:span 2">=</button>
         </div>
 
+        <div class="sci-section-sentinel" id="sciBottomSentinel" aria-hidden="true"></div>
       </div>
 
       <!-- ==================== EMI ==================== -->
