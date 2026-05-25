@@ -246,3 +246,113 @@
     --swap-rotation: 270deg;
   }
 }
+
+/* ============================================================
+   SCIENTIFIC CALCULATOR UPGRADES
+   ============================================================ */
+.sci-statusbar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 14px 0 10px;
+}
+
+.sci-chip {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sci-chip:hover,
+.sci-chip:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(0, 245, 255, 0.25);
+  color: var(--neon-cyan);
+  box-shadow: 0 0 0 3px rgba(0, 245, 255, 0.08);
+  outline: none;
+}
+
+.sci-chip.danger {
+  color: #ff8a8a;
+  border-color: rgba(255, 120, 120, 0.22);
+}
+
+.sci-chip-static {
+  cursor: default;
+  user-select: none;
+}
+
+.sci-chip-static:hover,
+.sci-chip-static:focus-visible {
+  transform: none;
+  box-shadow: none;
+  color: var(--text-secondary);
+  border-color: var(--border-subtle);
+}
+
+.sci-memory-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.calc-grid.sci {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.calc-grid.sci .sci-btn,
+.calc-grid.sci .calc-btn {
+  min-height: 52px;
+  padding: 10px 8px;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+#sciDisplay {
+  caret-color: var(--neon-cyan);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 640px) {
+  .sci-memory-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .calc-grid.sci {
+    gap: 8px;
+  }
+
+  .calc-grid.sci .sci-btn,
+  .calc-grid.sci .calc-btn {
+    min-height: 48px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sci-statusbar {
+    gap: 6px;
+  }
+
+  .sci-chip {
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+
+  .calc-grid.sci .sci-btn,
+  .calc-grid.sci .calc-btn {
+    min-height: 46px;
+    padding: 8px 6px;
+    font-size: 12px;
+  }
+}

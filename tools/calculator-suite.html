@@ -220,54 +220,103 @@
 
       </div>
 
+
       <!-- ==================== SCIENTIFIC ==================== -->
       <div class="calc-section" id="scientific" role="tabpanel" aria-labelledby="scientificTab">
 
-        <input id="sciDisplay" class="calc-display" placeholder="0" readonly>
+        <input id="sciDisplay" class="calc-display" placeholder="0" autocomplete="off" inputmode="text" spellcheck="false" aria-label="Scientific calculator display">
+
+        <div class="sci-statusbar" aria-label="Scientific calculator controls">
+          <button id="sciMode" class="sci-chip" type="button" aria-label="Toggle angle mode">DEG</button>
+          <button id="sciClear" class="sci-chip danger" type="button" aria-label="Clear scientific calculator">AC</button>
+          <button id="sciBack" class="sci-chip danger" type="button" aria-label="Delete last character">⌫</button>
+          <button id="sciLeft" class="sci-chip" type="button" aria-label="Move cursor left">◀</button>
+          <button id="sciRight" class="sci-chip" type="button" aria-label="Move cursor right">▶</button>
+          <button id="sciAns" class="sci-chip" type="button" aria-label="Insert answer">Ans</button>
+          <span id="sciMemLabel" class="sci-chip sci-chip-static" aria-live="polite">M: 0</span>
+        </div>
+
+        <div class="sci-memory-row" aria-label="Memory controls">
+          <button class="sci-btn sci-action" data-action="memory-clear" type="button">MC</button>
+          <button class="sci-btn sci-action" data-action="memory-recall" type="button">MR</button>
+          <button class="sci-btn sci-action" data-action="memory-plus" type="button">M+</button>
+          <button class="sci-btn sci-action" data-action="memory-minus" type="button">M-</button>
+          <button class="sci-btn sci-action" data-action="memory-store" type="button">MS</button>
+          <button class="sci-btn sci-action" data-action="insert" data-value="E" type="button">EXP</button>
+          <button class="sci-btn sci-action" data-action="insert" data-value="random()" type="button">RND</button>
+          <button class="sci-btn sci-action" data-action="insert" data-value="mod(" type="button">mod(</button>
+        </div>
+
+        <div class="sci-memory-row" aria-label="Advanced functions">
+          <button class="sci-btn" data-value="sinh(" type="button">sinh(</button>
+          <button class="sci-btn" data-value="cosh(" type="button">cosh(</button>
+          <button class="sci-btn" data-value="tanh(" type="button">tanh(</button>
+          <button class="sci-btn" data-value="log2(" type="button">log2(</button>
+        </div>
 
         <div class="calc-grid sci">
-          <button class="sci-btn" data-value="sin(">sin(</button>
-          <button class="sci-btn" data-value="cos(">cos(</button>
-          <button class="sci-btn" data-value="tan(">tan(</button>
-          <button id="sciClear" class="calc-btn danger">C</button>
+          <button class="sci-btn" data-value="sin(" type="button">sin(</button>
+          <button class="sci-btn" data-value="cos(" type="button">cos(</button>
+          <button class="sci-btn" data-value="tan(" type="button">tan(</button>
+          <button class="sci-btn" data-value="asin(" type="button">sin⁻¹(</button>
 
-          <button class="sci-btn" data-value="log(">log(</button>
-          <button class="sci-btn" data-value="ln(">ln(</button>
-          <button class="sci-btn" data-value="sqrt(">sqrt(</button>
-          <button id="sciBack" class="calc-btn danger">⌫</button>
+          <button class="sci-btn" data-value="acos(" type="button">cos⁻¹(</button>
+          <button class="sci-btn" data-value="atan(" type="button">tan⁻¹(</button>
+          <button class="sci-btn" data-value="log(" type="button">log(</button>
+          <button class="sci-btn" data-value="ln(" type="button">ln(</button>
 
-          <button class="sci-btn" data-value="°">°</button>
-          <button class="sci-btn" data-value="^">^</button>
-          <button class="sci-btn" data-value="π">π</button>
-          <button class="sci-btn" data-value="e">e</button>
+          <button class="sci-btn" data-value="pow10(" type="button">10ˣ</button>
+          <button class="sci-btn" data-value="exp(" type="button">eˣ</button>
+          <button class="sci-btn" data-value="sqrt(" type="button">√(</button>
+          <button class="sci-btn" data-value="cbrt(" type="button">∛(</button>
 
-          <button class="sci-btn" data-value="[">[</button>
-          <button class="sci-btn" data-value="]">]</button>
-          <button class="sci-btn" data-value="{">{</button>
-          <button class="sci-btn" data-value="}">}</button>
+          <button class="sci-btn" data-value="^" type="button">xʸ</button>
+          <button class="sci-btn" data-value="^2" type="button">x²</button>
+          <button class="sci-btn" data-value="^3" type="button">x³</button>
+          <button class="sci-btn" data-value="1/(" type="button">1/x</button>
 
-          <button class="sci-btn" data-value="abs(">abs(</button>
-          <button class="sci-btn" data-value="!">!</button>
-          <button class="sci-btn" data-value="%">%</button>
-          <button class="sci-btn op" data-value="/">/</button>
+          <button class="sci-btn" data-value="nCr(" type="button">nCr</button>
+          <button class="sci-btn" data-value="nPr(" type="button">nPr</button>
+          <button class="sci-btn" data-value="yroot(" type="button">y√x</button>
+          <button class="sci-btn" data-value="!" type="button">n!</button>
 
-          <button class="sci-btn">7</button>
-          <button class="sci-btn">8</button>
-          <button class="sci-btn">9</button>
-          <button class="sci-btn op" data-value="-">-</button>
+          <button class="sci-btn" data-value="abs(" type="button">abs(</button>
+          <button class="sci-btn" data-value="%" type="button">%</button>
+          <button class="sci-btn" data-value="(" type="button">(</button>
+          <button class="sci-btn" data-value=")" type="button">)</button>
 
-          <button class="sci-btn">4</button>
-          <button class="sci-btn">5</button>
-          <button class="sci-btn">6</button>
-          <button class="sci-btn op" data-value="+">+</button>
+          <button class="sci-btn" data-value="π" type="button">π</button>
+          <button class="sci-btn" data-value="e" type="button">e</button>
+          <button class="sci-btn" data-value="[" type="button">[</button>
+          <button class="sci-btn" data-value="]" type="button">]</button>
 
-          <button class="sci-btn" data-value="x²">x²</button>
-          <button class="sci-btn" data-value="x³">x³</button>
-          <button class="sci-btn">1</button>
-          <button class="calc-btn equal" id="sciEqual" style="grid-column:span 1">=</button>
+          <button class="sci-btn" data-value="{" type="button">{</button>
+          <button class="sci-btn" data-value="}" type="button">}</button>
+          <button class="sci-btn" data-action="cursor-left" type="button">◀</button>
+          <button class="sci-btn" data-action="cursor-right" type="button">▶</button>
 
-          <button class="sci-btn" style="grid-column:span 3" data-value="0">0</button>
-          <button class="sci-btn" data-value=".">.</button>
+          <button class="sci-btn" data-value="7" type="button">7</button>
+          <button class="sci-btn" data-value="8" type="button">8</button>
+          <button class="sci-btn" data-value="9" type="button">9</button>
+          <button class="sci-btn op" data-value="/" type="button">÷</button>
+
+          <button class="sci-btn" data-value="4" type="button">4</button>
+          <button class="sci-btn" data-value="5" type="button">5</button>
+          <button class="sci-btn" data-value="6" type="button">6</button>
+          <button class="sci-btn op" data-value="*" type="button">×</button>
+
+          <button class="sci-btn" data-value="1" type="button">1</button>
+          <button class="sci-btn" data-value="2" type="button">2</button>
+          <button class="sci-btn" data-value="3" type="button">3</button>
+          <button class="sci-btn op" data-value="-" type="button">−</button>
+
+          <button class="sci-btn" data-value="0" type="button" style="grid-column:span 2">0</button>
+          <button class="sci-btn" data-value="." type="button">.</button>
+          <button class="sci-btn op" data-value="+" type="button">+</button>
+
+          <button class="sci-btn sci-action" data-action="clear" type="button">C</button>
+          <button class="sci-btn sci-action" data-action="backspace" type="button">⌫</button>
+          <button class="sci-btn sci-action" data-action="evaluate" type="button" style="grid-column:span 2">=</button>
         </div>
 
       </div>

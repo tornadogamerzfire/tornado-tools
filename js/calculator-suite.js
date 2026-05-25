@@ -156,68 +156,459 @@ document.addEventListener('keydown', function(e) {
 
 renderHistory();
 
+
 /* ============================================================
-   SCIENTIFIC CALCULATOR
+   SCIENTIFIC CALCULATOR — upgraded
    ============================================================ */
 var sciDisplay = document.getElementById('sciDisplay');
 var sciButtons = document.querySelectorAll('.sci-btn');
 var sciEqual   = document.getElementById('sciEqual');
 var sciClear   = document.getElementById('sciClear');
 var sciBack    = document.getElementById('sciBack');
+var sciModeBtn = document.getElementById('sciMode');
+var sciAnsBtn  = document.getElementById('sciAns');
+var sciLeftBtn = document.getElementById('sciLeft');
+var sciRightBtn = document.getElementById('sciRight');
+var sciMemLabel = document.getElementById('sciMemLabel');
 
-var SCI_MAP = {
-  'sin(':  'sin(',   'cos(':  'cos(',   'tan(':  'tan(',
-  'asin(': 'asin(',  'acos(': 'acos(',  'atan(': 'atan(',
-  'log(':  'log10(', 'ln(':   'log(',    'sqrt(': 'sqrt(',
-  'abs(':  'abs(',   'floor(': 'floor(', 'ceil(': 'ceil(',
-  'round(': 'round(', 'x²': '^2', 'x³': '^3',
-  '^':'^', 'π':'pi', 'e':'e', '°':'°',
-  '[':'[', ']':']', '{':'{', '}':'}', '!':'!',
-  '(':'(', ')':')', '%':'%', '/':'/', '*':'*', '-':'-', '+':'+', ',':','
+var sciState = {
+  degMode: true,
+  memory: 0,
+  ans: 0
 };
 
-function normalizeSciExpression(exp) {
-  exp = String(exp || '')
+function sciFormatNumber(n) {
+  n = Number(n);
+  if (!isFinite(n)) return 'Error';
+  if (n === 0) return '0';
+  var abs = Math.abs(n);
+  if (abs >= 1e12 || abs < 1e-9) {
+    return n.toExponential(10).replace(/\.?0+e/, 'e');
+  }
+  return String(Number(n.toPrecision(12)));
+}
+
+function sciUpdateModeLabel() {
+  if (sciModeBtn) {
+    sciModeBtn.textContent = sciState.degMode ? 'DEG' : 'RAD';
+    sciModeBtn.setAttribute('aria-label', 'Angle mode: ' + (sciState.degMode ? 'degrees' : 'radians'));
+  }
+}
+
+function sciUpdateMemoryLabel() {
+  if (sciMemLabel) {
+    sciMemLabel.textContent = 'M: ' + sciFormatNumber(sciState.memory);
+  }
+}
+
+function sciFocusEnd() {
+  if (!sciDisplay) return;
+  sciDisplay.focus();
+  try {
+    var len = sciDisplay.value.length;
+    sciDisplay.setSelectionRange(len, len);
+  } catch (e) {}
+}
+
+function sciInsert(text) {
+  if (!sciDisplay) return;
+  var value = String(text);
+  var start = typeof sciDisplay.selectionStart === 'number' ? sciDisplay.selectionStart : sciDisplay.value.length;
+  var end   = typeof sciDisplay.selectionEnd === 'number' ? sciDisplay.selectionEnd : start;
+  sciDisplay.value = sciDisplay.value.slice(0, start) + value + sciDisplay.value.slice(end);
+  var pos = start + value.length;
+  sciDisplay.focus();
+  try { sciDisplay.setSelectionRange(pos, pos); } catch (e) {}
+}
+
+function sciBackspace() {
+  if (!sciDisplay) return;
+  var start = typeof sciDisplay.selectionStart === 'number' ? sciDisplay.selectionStart : sciDisplay.value.length;
+  var end   = typeof sciDisplay.selectionEnd === 'number' ? sciDisplay.selectionEnd : start;
+
+  if (start !== end) {
+    sciDisplay.value = sciDisplay.value.slice(0, start) + sciDisplay.value.slice(end);
+    try { sciDisplay.setSelectionRange(start, start); } catch (e) {}
+  } else if (start > 0) {
+    sciDisplay.value = sciDisplay.value.slice(0, start - 1) + sciDisplay.value.slice(end);
+    try { sciDisplay.setSelectionRange(start - 1, start - 1); } catch (e) {}
+  }
+  sciDisplay.focus();
+}
+
+function sciMoveCursor(delta) {
+  if (!sciDisplay) return;
+  var start = typeof sciDisplay.selectionStart === 'number' ? sciDisplay.selectionStart : sciDisplay.value.length;
+  var next = Math.max(0, Math.min(sciDisplay.value.length, start + delta));
+  sciDisplay.focus();
+  try { sciDisplay.setSelectionRange(next, next); } catch (e) {}
+}
+
+function sciToggleMode() {
+  sciState.degMode = !sciState.degMode;
+  sciUpdateModeLabel();
+  _toast('Angle mode: ' + (sciState.degMode ? 'DEG' : 'RAD'));
+}
+
+function sciNormalizeExpression(exp) {
+  exp = String(exp || '').trim();
+  if (!exp) return null;
+
+  exp = exp
     .replace(/\s+/g, '')
-    .replace(/[［\[]/g, '(')
-    .replace(/[］\]]/g, ')')
-    .replace(/[｛{]/g, '(')
-    .replace(/[｝}]/g, ')')
-    .replace(/×/g, '*')
-    .replace(/÷/g, '/')
+    .replace(/[×⋅·]/g, '*')
+    .replace(/[÷]/g, '/')
+    .replace(/[−–—]/g, '-')
     .replace(/π/g, 'pi')
-    .replace(/(\d+(?:\.\d+)?)°/g, '($1*pi/180)')
+    .replace(/sin⁻¹\(/g, 'asin(')
+    .replace(/cos⁻¹\(/g, 'acos(')
+    .replace(/tan⁻¹\(/g, 'atan(')
+    .replace(/√\(/g, 'sqrt(')
+    .replace(/∛\(/g, 'cbrt(')
+    .replace(/10ˣ/g, 'pow10(')
+    .replace(/eˣ/g, 'exp(')
+    .replace(/(\d+(?:\.\d+)?)E([+\-]?\d+)/g, '($1*10^($2))')
     .replace(/(\d+(?:\.\d+)?)%/g, '($1/100)');
 
-  if (/[^0-9a-zA-Z+\-*/().%^!,{}\[\],°π]/.test(exp)) {
-    return null;
-  }
   return exp;
+}
+
+function sciFactorial(n) {
+  n = Number(n);
+  if (!isFinite(n) || n < 0 || Math.floor(n) !== n) return NaN;
+  var out = 1;
+  for (var i = 2; i <= n; i++) {
+    out *= i;
+    if (!isFinite(out)) return out;
+  }
+  return out;
+}
+
+function sciNcr(n, r) {
+  n = Number(n);
+  r = Number(r);
+  if (!isFinite(n) || !isFinite(r) || n < 0 || r < 0 || Math.floor(n) !== n || Math.floor(r) !== r || r > n) return NaN;
+  r = Math.min(r, n - r);
+  var out = 1;
+  for (var i = 1; i <= r; i++) {
+    out = out * (n - r + i) / i;
+  }
+  return out;
+}
+
+function sciNpr(n, r) {
+  n = Number(n);
+  r = Number(r);
+  if (!isFinite(n) || !isFinite(r) || n < 0 || r < 0 || Math.floor(n) !== n || Math.floor(r) !== r || r > n) return NaN;
+  var out = 1;
+  for (var i = 0; i < r; i++) {
+    out *= (n - i);
+    if (!isFinite(out)) return out;
+  }
+  return out;
+}
+
+function sciCreateScope() {
+  var pi = Math.PI;
+  function degToRad(x) { return x * pi / 180; }
+  function radToDeg(x) { return x * 180 / pi; }
+  var log10 = Math.log10 ? function(x) { return Math.log10(x); } : function(x) { return Math.log(x) / Math.LN10; };
+  var log2 = Math.log2 ? function(x) { return Math.log2(x); } : function(x) { return Math.log(x) / Math.LN2; };
+  var cbrt = Math.cbrt ? function(x) { return Math.cbrt(x); } : function(x) { return Math.pow(x, 1 / 3); };
+  var sinh = Math.sinh ? function(x) { return Math.sinh(x); } : function(x) { return (Math.exp(x) - Math.exp(-x)) / 2; };
+  var cosh = Math.cosh ? function(x) { return Math.cosh(x); } : function(x) { return (Math.exp(x) + Math.exp(-x)) / 2; };
+  var tanh = Math.tanh ? function(x) { return Math.tanh(x); } : function(x) { return sinh(x) / cosh(x); };
+
+  return {
+    pi: pi,
+    e: Math.E,
+    Ans: sciState.ans,
+    ans: sciState.ans,
+
+    sin: function(x) { return sciState.degMode ? Math.sin(degToRad(x)) : Math.sin(x); },
+    cos: function(x) { return sciState.degMode ? Math.cos(degToRad(x)) : Math.cos(x); },
+    tan: function(x) { return sciState.degMode ? Math.tan(degToRad(x)) : Math.tan(x); },
+
+    asin: function(x) { return sciState.degMode ? radToDeg(Math.asin(x)) : Math.asin(x); },
+    acos: function(x) { return sciState.degMode ? radToDeg(Math.acos(x)) : Math.acos(x); },
+    atan: function(x) { return sciState.degMode ? radToDeg(Math.atan(x)) : Math.atan(x); },
+
+    sinh: sinh,
+    cosh: cosh,
+    tanh: tanh,
+
+    log: log10,
+    log10: log10,
+    log2: log2,
+    ln: function(x) { return Math.log(x); },
+
+    sqrt: function(x) { return Math.sqrt(x); },
+    cbrt: cbrt,
+    pow10: function(x) { return Math.pow(10, x); },
+    exp: function(x) { return Math.exp(x); },
+    abs: function(x) { return Math.abs(x); },
+    floor: function(x) { return Math.floor(x); },
+    ceil: function(x) { return Math.ceil(x); },
+    round: function(x) { return Math.round(x); },
+    mod: function(a, b) { return ((a % b) + b) % b; },
+    yroot: function(x, y) { x = Number(x); y = Number(y); if (!isFinite(x) || !isFinite(y) || y === 0) return NaN; return Math.pow(x, 1 / y); },
+    nCr: sciNcr,
+    nPr: sciNpr,
+    fact: sciFactorial,
+    factorial: sciFactorial,
+    random: Math.random
+  };
+}
+
+function sciEvaluateRaw(raw) {
+  var exp = sciNormalizeExpression(raw);
+  if (!exp) return { ok: false, message: 'Invalid expression' };
+
+  try {
+    var result = math.evaluate(exp, sciCreateScope());
+
+    if (result && typeof result.toNumber === 'function') {
+      result = result.toNumber();
+    }
+
+    if (typeof result !== 'number' || !isFinite(result)) {
+      return { ok: false, message: 'Error' };
+    }
+
+    return { ok: true, value: result, text: sciFormatNumber(result) };
+  } catch (err) {
+    return { ok: false, message: 'Error' };
+  }
+}
+
+function sciUseResult(raw, resultText) {
+  sciState.ans = Number(resultText);
+  if (!isFinite(sciState.ans)) sciState.ans = 0;
+  if (sciDisplay) sciDisplay.value = resultText;
+  saveHistory(raw, resultText);
+}
+
+function sciGetCurrentValue() {
+  if (!sciDisplay) return null;
+  var evaluated = sciEvaluateRaw(sciDisplay.value);
+  return evaluated.ok ? evaluated.value : null;
+}
+
+function sciHandleAction(action, btn) {
+  if (!action) return;
+
+  if (action === 'insert') {
+    var value = btn && btn.dataset ? btn.dataset.value : '';
+    if (value === 'E') value = 'E';
+    if (value === 'RND' || value === 'random()') value = 'random()';
+    sciInsert(value);
+    return;
+  }
+
+  if (action === 'clear') {
+    if (sciDisplay) sciDisplay.value = '';
+    sciFocusEnd();
+    return;
+  }
+
+  if (action === 'backspace') {
+    sciBackspace();
+    return;
+  }
+
+  if (action === 'evaluate') {
+    if (!sciDisplay) return;
+    var raw = sciDisplay.value;
+    var evaluated = sciEvaluateRaw(raw);
+    if (!evaluated.ok) {
+      sciDisplay.value = evaluated.message || 'Error';
+      return;
+    }
+    sciUseResult(raw, evaluated.text);
+    _toast('✓ Calculated');
+    return;
+  }
+
+  if (action === 'cursor-left') {
+    sciMoveCursor(-1);
+    return;
+  }
+
+  if (action === 'cursor-right') {
+    sciMoveCursor(1);
+    return;
+  }
+
+  if (action === 'ans') {
+    sciInsert(sciFormatNumber(sciState.ans));
+    return;
+  }
+
+  if (action === 'memory-clear') {
+    sciState.memory = 0;
+    sciUpdateMemoryLabel();
+    _toast('Memory cleared');
+    return;
+  }
+
+  if (action === 'memory-recall') {
+    sciInsert(sciFormatNumber(sciState.memory));
+    return;
+  }
+
+  if (action === 'memory-store') {
+    var storeVal = sciGetCurrentValue();
+    if (storeVal === null) {
+      _toast('Enter a valid expression first');
+      return;
+    }
+    sciState.memory = storeVal;
+    sciUpdateMemoryLabel();
+    _toast('Memory stored');
+    return;
+  }
+
+  if (action === 'memory-plus' || action === 'memory-minus') {
+    var memVal = sciGetCurrentValue();
+    if (memVal === null) {
+      _toast('Enter a valid expression first');
+      return;
+    }
+    sciState.memory += (action === 'memory-plus' ? memVal : -memVal);
+    sciUpdateMemoryLabel();
+    _toast(action === 'memory-plus' ? 'Memory added' : 'Memory subtracted');
+    return;
+  }
+}
+
+if (sciModeBtn) {
+  sciModeBtn.addEventListener('click', sciToggleMode);
+}
+
+if (sciAnsBtn) {
+  sciAnsBtn.addEventListener('click', function() {
+    sciInsert(sciFormatNumber(sciState.ans));
+  });
+}
+
+if (sciClear) {
+  sciClear.addEventListener('click', function() {
+    sciHandleAction('clear');
+  });
+}
+
+if (sciBack) {
+  sciBack.addEventListener('click', function() {
+    sciHandleAction('backspace');
+  });
+}
+
+if (sciLeftBtn) {
+  sciLeftBtn.addEventListener('click', function() {
+    sciHandleAction('cursor-left');
+  });
+}
+
+if (sciRightBtn) {
+  sciRightBtn.addEventListener('click', function() {
+    sciHandleAction('cursor-right');
+  });
 }
 
 sciButtons.forEach(function(btn) {
   btn.addEventListener('click', function() {
-    var raw    = (btn.dataset && btn.dataset.value) ? btn.dataset.value : btn.innerText.trim();
-    var mapped = SCI_MAP.hasOwnProperty(raw) ? SCI_MAP[raw] : raw;
-    if (sciDisplay) sciDisplay.value += mapped;
+    var action = btn.dataset.action || '';
+    if (action) {
+      sciHandleAction(action, btn);
+      return;
+    }
+
+    var value = btn.dataset.value || btn.innerText.trim();
+    sciInsert(value);
   });
 });
 
-if (sciClear) sciClear.addEventListener('click', function() { if(sciDisplay) sciDisplay.value = ''; });
-if (sciBack)  sciBack.addEventListener('click',  function() { if(sciDisplay) sciDisplay.value = sciDisplay.value.slice(0,-1); });
+if (sciDisplay) {
+  sciDisplay.addEventListener('keydown', function(e) {
+    var key = e.key;
 
-if (sciEqual) {
-  sciEqual.addEventListener('click', function() {
-    if (!sciDisplay) return;
-    try {
-      var exp = normalizeSciExpression(sciDisplay.value);
-      if (!exp) { sciDisplay.value = 'Error'; return; }
-      var result = math.evaluate(exp);
-      if (!isFinite(result)) { sciDisplay.value = 'Error'; return; }
-      sciDisplay.value = +parseFloat(result.toPrecision(12));
-    } catch(e) { sciDisplay.value = 'Error'; }
+    if (key === 'Enter') {
+      if (sciEqual) sciEqual.click();
+      e.preventDefault();
+      return;
+    }
+
+    if (key === 'Escape') {
+      sciDisplay.value = '';
+      e.preventDefault();
+      return;
+    }
+
+    if (key === 'Backspace') {
+      sciBackspace();
+      e.preventDefault();
+      return;
+    }
+
+    if (key === 'ArrowLeft') {
+      sciMoveCursor(-1);
+      e.preventDefault();
+      return;
+    }
+
+    if (key === 'ArrowRight') {
+      sciMoveCursor(1);
+      e.preventDefault();
+      return;
+    }
   });
 }
+
+document.addEventListener('keydown', function(e) {
+  var sec = document.getElementById('scientific');
+  if (!sec || !sec.classList.contains('active')) return;
+
+  var key = e.key;
+  var allowed = '0123456789+-*/.()%^!,';
+  if (allowed.indexOf(key) !== -1) {
+    sciInsert(key);
+    e.preventDefault();
+    return;
+  }
+
+  if (key === 'Enter') {
+    if (sciEqual) sciEqual.click();
+    e.preventDefault();
+    return;
+  }
+
+  if (key === 'Backspace') {
+    sciBackspace();
+    e.preventDefault();
+    return;
+  }
+
+  if (key === 'Escape') {
+    if (sciDisplay) sciDisplay.value = '';
+    e.preventDefault();
+    return;
+  }
+
+  if (key === 'ArrowLeft') {
+    sciMoveCursor(-1);
+    e.preventDefault();
+    return;
+  }
+
+  if (key === 'ArrowRight') {
+    sciMoveCursor(1);
+    e.preventDefault();
+    return;
+  }
+});
+
+sciUpdateModeLabel();
+sciUpdateMemoryLabel();
 
 /* ============================================================
    EMI CALCULATOR
