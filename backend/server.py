@@ -55,6 +55,31 @@ app.include_router(compress_router)
 app.include_router(ai_router)
 
 
+
+
+@app.get("/health")
+async def health():
+    return {
+        "success": True,
+        "service": "tornado-compress",
+        "status": "ok",
+        "docs": "/docs",
+        "routes": {
+            "compress": "/api/compress/health",
+            "warmup": "/api/compress/warmup",
+            "capabilities": "/api/compress/capabilities"
+        }
+    }
+
+@app.get("/api/health")
+async def api_health():
+    return {
+        "success": True,
+        "service": "tornado-compress",
+        "status": "ok",
+    }
+
+
 @app.get("/")
 async def root():
     return {

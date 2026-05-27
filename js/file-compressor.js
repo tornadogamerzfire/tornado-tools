@@ -105,7 +105,8 @@ function unlockUI() {
   [el.browseBtn, el.fileInput, el.targetSizeInput, el.unitInput, el.removeFileBtn].forEach((node) => {
     if (node) node.disabled = false;
   });
-  setCompressButtonEnabled(Boolean(state.file && state.backendReady));
+  const validTarget = Boolean(Number(el.targetSizeInput?.value) > 0);
+  setCompressButtonEnabled(Boolean(state.file && validTarget && !state.processing));
 }
 
 function showToast(message, isError = false) {
@@ -154,13 +155,13 @@ function resetAll(keepFile = false) {
     if (el.previewSection) showSection(el.previewSection, false);
   }
   unlockUI();
-  setProcessingHint(state.backendReady ? 'Ready for compression.' : 'Preparing processing engine...');
+  setProcessingHint('Ready to try compression.');
   updateButtonState();
 }
 
 function updateButtonState() {
   const validTarget = Boolean(Number(el.targetSizeInput?.value) > 0);
-  setCompressButtonEnabled(Boolean(state.file && state.backendReady && validTarget && !state.processing));
+  setCompressButtonEnabled(Boolean(state.file && validTarget && !state.processing));
 }
 
 function currentTargetBytes() {
@@ -198,6 +199,7 @@ async function loadCapabilities() {
     }
     return true;
   } catch (err) {
+    setStatus('Capabilities service unavailable. Using built-in supported file list.', 'warning');
     return false;
   }
 }
@@ -208,18 +210,35 @@ async function warmupOnce() {
   setStatus('Preparing processing engine...', 'loading');
   setProcessingHint('Preparing processing engine...');
   try {
-    const response = await fetch(API_WARMUP, { method: 'GET', cache: 'no-store', headers: { Accept: 'application/json' } });
-    if (!response.ok) throw new Error(`Warmup failed (${response.status})`);
-    await response.json().catch(() => ({}));
-    state.backendReady = true;
-    setStatus('Processing engine ready.', 'ready');
-    setProcessingHint('Ready for compression.');
+    const warmupResponse = await fetch(API_WARMUP, { method: 'GET', cache: 'no-store', headers: { Accept: 'application/json' } });
+    const warmupData = await warmupResponse.json().catch(() => ({}));
+    if (warmupResponse.ok && warmupData && warmupData.success !== false) {
+      state.backendReady = true;
+      setStatus('Processing engine ready.', 'ready');
+      setProcessingHint('Ready for compression.');
+      updateButtonState();
+      return true;
+    }
+
+    const healthResponse = await fetch(API_HEALTH, { method: 'GET', cache: 'no-store', headers: { Accept: 'application/json' } });
+    const healthData = await healthResponse.json().catch(() => ({}));
+    if (healthResponse.ok && healthData && healthData.success !== false) {
+      state.backendReady = true;
+      setStatus('Processing engine ready.', 'ready');
+      setProcessingHint('Ready for compression.');
+      updateButtonState();
+      return true;
+    }
+
+    state.backendReady = false;
+    setStatus('Processing engine is waking up. Compression will still try on first request.', 'warning');
+    setProcessingHint('Compression is ready to try.');
     updateButtonState();
-    return true;
+    return false;
   } catch (err) {
     state.backendReady = false;
-    setStatus('Processing engine unavailable right now.', 'error');
-    setProcessingHint('Processing engine unavailable right now.');
+    setStatus('Processing engine is waking up. Compression will still try on first request.', 'warning');
+    setProcessingHint('Compression is ready to try.');
     updateButtonState();
     return false;
   }

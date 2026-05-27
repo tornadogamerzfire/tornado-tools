@@ -67,6 +67,7 @@ async def health():
         "message": "TornadoTools File Compressor backend is healthy.",
         "data": {
             "ready": True,
+            "service": "compress",
             "cleanup": result,
         }
     })
@@ -78,6 +79,7 @@ async def warmup():
         "message": "Compression engine warmed and cleanup sweep completed.",
         "data": {
             "ready": True,
+            "service": "compress",
             "cleanup": result,
         }
     })
