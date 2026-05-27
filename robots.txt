@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tornadotools.vercel.app/sitemap.xml
+Sitemap: https://tornado-tools.vercel.app/sitemap.xml

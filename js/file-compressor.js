@@ -84,7 +84,8 @@ function setProgress(pct, message) {
 
 function showSection(section, show) {
   if (!section) return;
-  section.style.display = show ? 'block' : 'none';
+  const display = section.dataset.fcDisplay || 'block';
+  section.style.display = show ? display : 'none';
   if (show) section.classList.add('visible');
   else section.classList.remove('visible');
 }
@@ -431,6 +432,12 @@ function bindFaq() {
   });
 }
 
+function initReveals() {
+  const items = [...document.querySelectorAll('.reveal')];
+  if (!items.length) return;
+  items.forEach((item) => item.classList.add('visible'));
+}
+
 function initDragDrop() {
   if (!el.dropZone) return;
 
@@ -551,6 +558,7 @@ function bindEvents() {
 async function init() {
   cache();
   bindFaq();
+  initReveals();
   initDragDrop();
   cleanupPreviousReloadSession();
   bindEvents();
