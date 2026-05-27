@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File Compressor — TornadoTools | Compress Files to a Target Size</title>
+  <meta name="description" content="Compress images and PDF files to a target size in KB or MB with drag and drop upload, quick download, cleanup, and Render-ready backend support." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#020408" />
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/file-compressor.html" />
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg" />
+  <link rel="apple-touch-icon" href="/Logo.jpg" />
+  <meta property="og:site_name" content="TornadoTools" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="File Compressor — TornadoTools | Compress Files to a Target Size" />
+  <meta property="og:description" content="Compress images and PDF files to a target size in KB or MB with drag and drop upload, quick download, cleanup, and Render-ready backend support." />
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/file-compressor.html" />
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="File Compressor — TornadoTools | Compress Files to a Target Size" />
+  <meta name="twitter:description" content="Compress images and PDF files to a target size in KB or MB with drag and drop upload, quick download, cleanup, and Render-ready backend support." />
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta name="tornado-api-base" content="https://tornado-tools.onrender.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/file-compressor.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "File Compressor — TornadoTools | Compress Files to a Target Size",
+        "url": "https://tornadotools.vercel.app/tools/file-compressor.html",
+        "description": "Compress images and PDF files to a target size in KB or MB with drag and drop upload, quick download, cleanup, and Render-ready backend support.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="fc-body tool-body">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-1" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#tools">All Tools</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+        <a href="../tools/file-compressor.html" class="active">File Compressor</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="fc-shell">
+    <section class="fc-hero">
+      <div>
+        <p class="fc-kicker">Backend powered • Cleanup ready • Render friendly</p>
+        <h1>File Compressor</h1>
+        <p class="fc-lead">
+          Compress supported files to a target size in KB or MB. Start with drag and drop, choose the size you want,
+          and download the optimized file in one flow.
+        </p>
+      </div>
+      <div class="fc-hero-stats" aria-label="Compression capabilities">
+        <div class="fc-stat"><span>KB / MB</span><small>Target size</small></div>
+        <div class="fc-stat"><span>Images</span><small>Fastest</small></div>
+        <div class="fc-stat"><span>PDF</span><small>Best effort</small></div>
+        <div class="fc-stat"><span>Auto</span><small>Cleanup</small></div>
+      </div>
+    </section>
+
+    <nav class="breadcrumbs fc-breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html#tools">Tools</a>
+      <span class="sep">/</span>
+      <span class="current">File Compressor</span>
+    </nav>
+
+    <section class="fc-workspace">
+      <div class="fc-card fc-upload-card">
+        <div class="fc-card-head">
+          <div>
+            <p class="fc-card-kicker">Upload</p>
+            <h2>Choose a file</h2>
+          </div>
+          <span class="fc-status-pill" id="backendStatus">Preparing processing engine...</span>
+        </div>
+
+        <div
+          class="fc-dropzone"
+          id="dropZone"
+          role="button"
+          tabindex="0"
+          aria-label="Upload a file by dropping it here or browsing"
+          aria-describedby="dropZoneHelp"
+        >
+          <div class="fc-drop-icon" aria-hidden="true">⇪</div>
+          <h3>Drop your image or PDF here</h3>
+          <p id="dropZoneHelp">Click to browse or drag and drop a supported file.</p>
+          <button type="button" class="btn btn-outline fc-browse-btn" id="browseBtn">Browse Files</button>
+          <input
+            type="file"
+            id="fileInput"
+            class="fc-file-input"
+            accept=".jpg,.jpeg,.png,.webp,.bmp,.tif,.tiff,.pdf,image/*,application/pdf"
+            aria-label="Choose a file to compress"
+          />
+          <div class="fc-accept-row" id="acceptRow">
+            <span class="fc-badge">JPG</span>
+            <span class="fc-badge">JPEG</span>
+            <span class="fc-badge">PNG</span>
+            <span class="fc-badge">WEBP</span>
+            <span class="fc-badge">BMP</span>
+            <span class="fc-badge">TIF</span>
+            <span class="fc-badge">TIFF</span>
+            <span class="fc-badge">PDF</span>
+          </div>
+        </div>
+
+        <div class="fc-preview" id="previewSection" style="display:none;">
+          <div class="fc-preview-thumb" id="previewThumb" aria-hidden="true">📄</div>
+          <div class="fc-preview-meta">
+            <div class="fc-file-name" id="fileName">filename.ext</div>
+            <div class="fc-file-details">
+              <span class="fc-badge" id="fileType">TYPE</span>
+              <span class="fc-size" id="fileSize">0 KB</span>
+            </div>
+          </div>
+          <button type="button" class="fc-mini-btn" id="removeFileBtn">Remove</button>
+        </div>
+      </div>
+
+      <aside class="fc-side">
+        <div class="fc-card">
+          <div class="fc-card-head">
+            <div>
+              <p class="fc-card-kicker">Target</p>
+              <h2>Compression settings</h2>
+            </div>
+          </div>
+
+          <div class="fc-grid">
+            <label class="fc-field">
+              <span>Target size</span>
+              <input type="number" id="targetSizeInput" class="tool-input fc-input" placeholder="75" min="1" step="0.1" />
+            </label>
+            <label class="fc-field">
+              <span>Unit</span>
+              <select id="unitInput" class="tool-input fc-input">
+                <option value="KB" selected>KB</option>
+                <option value="MB">MB</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="fc-help-box">
+            <strong>Supported now:</strong> JPG, JPEG, PNG, WEBP, BMP, TIF, TIFF and PDF.
+            <br />
+            <strong>Not included:</strong> Word, Excel, PowerPoint and video because they are not reliable in this stack.
+          </div>
+
+          <div class="fc-actions">
+            <button type="button" class="btn btn-primary fc-process-btn" id="compressBtn" disabled>Compress File</button>
+            <button type="button" class="btn btn-outline fc-reset-btn" id="resetBtn">Reset</button>
+          </div>
+
+          <p class="fc-preparing" id="processingHint">Preparing processing engine...</p>
+        </div>
+
+        <div class="fc-card" id="progressSection" style="display:none;">
+          <div class="fc-card-head">
+            <div>
+              <p class="fc-card-kicker">Progress</p>
+              <h2>Working on your file</h2>
+            </div>
+            <span class="fc-progress-pct" id="progressPct">0%</span>
+          </div>
+          <div class="fc-progress-track">
+            <div class="fc-progress-bar" id="progressBar"></div>
+          </div>
+          <p class="fc-progress-text" id="progressText">Starting...</p>
+        </div>
+
+        <div class="fc-card" id="resultSection" style="display:none;">
+          <div class="fc-card-head">
+            <div>
+              <p class="fc-card-kicker">Result</p>
+              <h2>Compressed file ready</h2>
+            </div>
+          </div>
+          <div class="fc-result-box">
+            <div class="fc-result-name" id="resultName">compressed-file</div>
+            <div class="fc-result-meta">
+              <span class="fc-badge" id="resultBadge">READY</span>
+              <span class="fc-size" id="resultSize">0 KB</span>
+            </div>
+            <p class="fc-result-note" id="resultNote">Your download will be prepared after compression.</p>
+          </div>
+          <div class="fc-actions">
+            <button type="button" class="btn btn-primary fc-download-btn" id="downloadBtn">Download</button>
+            <button type="button" class="btn btn-outline fc-another-btn" id="compressAnotherBtn">Compress Another</button>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="fc-content-block">
+      <div class="section-header reveal">
+        <span class="eyebrow">// why this tool helps</span>
+        <h2 class="section-title" id="why-title">Why this page is useful</h2>
+        <p class="section-sub">
+          A file compressor helps you reduce upload size for sharing, email, storage, and faster delivery without bouncing between multiple apps.
+        </p>
+      </div>
+
+      <div class="fc-info-grid">
+        <article class="fc-info-card reveal">
+          <h3>Target-based compression</h3>
+          <p>Choose a target size and let the backend do the heavy lifting with a size-aware compression flow.</p>
+        </article>
+        <article class="fc-info-card reveal">
+          <h3>Clean upload flow</h3>
+          <p>Drag and drop or click to upload. The page validates file type and size before the request goes out.</p>
+        </article>
+        <article class="fc-info-card reveal">
+          <h3>Auto cleanup</h3>
+          <p>Temporary uploads and compressed outputs are cleaned automatically after download, reload, or timeout.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="fc-content-block">
+      <div class="section-header reveal">
+        <span class="eyebrow">// how it works</span>
+        <h2 class="section-title">How to use the file compressor</h2>
+      </div>
+      <div class="steps-list">
+        <article class="step-item reveal">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h3>Upload a supported file</h3>
+            <p>Drop an image or PDF into the upload area, or browse your device and select it manually.</p>
+          </div>
+        </article>
+        <article class="step-item reveal">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h3>Choose the target size</h3>
+            <p>Enter a size in KB or MB. The backend compresses the file as close to that size as it can.</p>
+          </div>
+        </article>
+        <article class="step-item reveal">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h3>Download the result</h3>
+            <p>Once the file is ready, download it quickly. Temporary files are cleaned automatically afterward.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="fc-content-block">
+      <div class="section-header reveal">
+        <span class="eyebrow">// faq</span>
+        <h2 class="section-title">FAQ</h2>
+      </div>
+      <div class="faq-list fc-faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Which file types are supported?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">This build supports common image formats and PDF files. Unsupported office and video formats are intentionally left out because they are not reliable in this stack.</div></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Does it work on mobile?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The layout is responsive and the controls stay easy to use on smaller screens.</div></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Will it hit the exact size?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">The system aims to get as close as possible to your target size. Image compression is the most precise; PDF compression is best effort.</div></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Are uploads stored forever?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">No. Uploads and outputs are cleaned automatically after download or after the cleanup timer runs.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fc-content-block">
+      <div class="section-header reveal">
+        <span class="eyebrow">// trust</span>
+        <h2 class="section-title">Trust and safety</h2>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-item reveal"><div class="trust-num">100%</div><div class="trust-label">Private session flow</div></article>
+        <article class="trust-item reveal"><div class="trust-num">5 min</div><div class="trust-label">Auto cleanup window</div></article>
+        <article class="trust-item reveal"><div class="trust-num">0</div><div class="trust-label">Login required</div></article>
+        <article class="trust-item reveal"><div class="trust-num">KB/MB</div><div class="trust-label">Simple target control</div></article>
+      </div>
+    </section>
+
+    <div class="ad-slot" aria-label="Advertisement slot placeholder"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/cgpa-calculator.html">CGPA Calculator</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+        <a href="../tools/file-compressor.html">File Compressor</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script src="../js/file-compressor.js" defer></script>
+</body>
+</html>
