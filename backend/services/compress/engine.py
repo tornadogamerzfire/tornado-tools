@@ -254,8 +254,8 @@ def _rasterize_pdf(input_path: Path, output_dir: Path, target_bytes: int) -> dic
     src = fitz.open(str(input_path))
     try:
         page_rects = [page.rect for page in src]
-        dpi_candidates = [180, 160, 144, 132, 120, 108, 96, 84, 72, 60, 50, 42]
-        quality_candidates = [85, 80, 75, 70, 65, 60, 55, 50]
+        dpi_candidates = [144, 108, 72]
+        quality_candidates = [80, 65, 50]
         best: dict[str, Any] | None = None
 
         for dpi in dpi_candidates:
@@ -292,7 +292,10 @@ def _rasterize_pdf(input_path: Path, output_dir: Path, target_bytes: int) -> dic
                             "dpi": dpi,
                             "quality": quality,
                         }
-                    if size <= target_bytes + TARGET_TOLERANCE_BYTES:
+                    if (
+                         size <= target_bytes
+                         and size >= target_bytes - TARGET_TOLERANCE_BYTES
+                       ):
                         return best
                 except Exception as exc:
                     logger.warning("PDF raster pass failed dpi=%s quality=%s err=%s", dpi, quality, exc)
