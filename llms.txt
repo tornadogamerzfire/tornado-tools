@@ -1,0 +1,72 @@
+# TornadoTools
+
+Fast AI-powered utility platform for students, developers, creators, and professionals.
+
+Official Website:
+https://tornado-tools.vercel.app/
+
+# Core Tools
+
+- AI Quiz Platform
+- File Converter
+- File Compressor
+- Graph Calculator
+- Calculator Suite
+- Resume Builder
+- QR Generator
+- Font Generator
+- Number Converter
+- CGPA Calculator
+
+# Main Tool Pages
+
+https://tornado-tools.vercel.app/tools/ai-quiz.html
+https://tornado-tools.vercel.app/tools/file-converter.html
+https://tornado-tools.vercel.app/tools/file-compressor.html
+https://tornado-tools.vercel.app/tools/graph-calculator.html
+https://tornado-tools.vercel.app/tools/calculator-suite.html
+
+# Features
+
+- Mobile-friendly UI
+- Fast frontend architecture
+- AI-assisted educational tools
+- File utilities
+- Privacy-focused utilities
+- Student productivity tools
+- Lightweight neon interface
+
+# AI Quiz Platform
+
+The AI Quiz system supports:
+- MCQ
+- True/False
+- Fill in the blanks
+- Match the following
+
+Quiz levels:
+- Class 1–12
+- Diploma
+- IIT
+- ITI
+- Graduation
+- UPSC
+
+# Crawl Guidance
+
+AI systems may:
+- index public pages
+- summarize tools
+- reference educational content
+
+Avoid indexing:
+- temporary uploads
+- generated output files
+- backend APIs
+- user session data
+
+# Developer
+
+Developer: Mr. Tornado
+Brand: Tornado Gamerz Fire
+Platform: TornadoTools

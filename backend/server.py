@@ -3,13 +3,18 @@ from __future__ import annotations
 import os
 from contextlib import asynccontextmanager
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routes.convert_routes import router as convert_router
-from routes.compress_routes import router as compress_router
 from routes.ai_routes import router as ai_router
-from utils.cleanup import CleanupScheduler, purge_old_files
+from routes.compress_routes import router as compress_router
+from routes.convert_routes import router as convert_router
+from routes.quiz_routes import router as quiz_router
+from utils.cleanup import CleanupScheduler, cleanup_manager, purge_old_files
 from utils.logger import logger
 
 cleanup_scheduler = CleanupScheduler()
@@ -24,20 +29,31 @@ def _cors_origins() -> list[str]:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup sweep: works after Render cold starts / sleep wakeups.
     try:
-        result = purge_old_files()
-        logger.info("Startup cleanup sweep scanned=%s deleted=%s", result["scanned"], result["deleted"])
+        file_cleanup = purge_old_files()
+        logger.info(
+            "Startup cleanup sweep scanned=%s deleted=%s",
+            file_cleanup["scanned"],
+            file_cleanup["deleted"],
+        )
     except Exception as exc:
-        logger.warning("Startup cleanup sweep failed: %s", exc)
+        logger.warning("Startup file cleanup sweep failed: %s", exc)
+
+    try:
+        session_cleanup = cleanup_manager.purge_expired_sessions()
+        logger.info("Startup session cleanup deleted=%s", session_cleanup.get("deleted", 0))
+    except Exception as exc:
+        logger.warning("Startup session cleanup sweep failed: %s", exc)
 
     cleanup_scheduler.start()
+    cleanup_manager.start()
     yield
     cleanup_scheduler.stop()
+    cleanup_manager.stop()
 
 
 app = FastAPI(
-    title="TornadoTools File Converter Backend",
+    title="TornadoTools Combined Backend",
     version="1.0.0",
     lifespan=lifespan,
 )
@@ -53,39 +69,47 @@ app.add_middleware(
 app.include_router(convert_router)
 app.include_router(compress_router)
 app.include_router(ai_router)
-
-
+app.include_router(quiz_router)
 
 
 @app.get("/health")
 async def health():
+    file_cleanup = purge_old_files()
+    session_cleanup = cleanup_manager.purge_expired_sessions()
     return {
         "success": True,
-        "service": "tornado-compress",
+        "service": "tornadotools-combined",
         "status": "ok",
         "docs": "/docs",
+        "cleanup": {
+            "files": file_cleanup,
+            "sessions": session_cleanup,
+        },
         "routes": {
-            "compress": "/api/compress/health",
-            "warmup": "/api/compress/warmup",
-            "capabilities": "/api/compress/capabilities"
-        }
+            "converter_health": "/api/converter/health",
+            "converter_warmup": "/api/converter/warmup",
+            "compress_health": "/api/compress/health",
+            "compress_warmup": "/api/compress/warmup",
+            "quiz_health": "/api/quiz/health",
+            "quiz_warmup": "/api/quiz/warmup",
+        },
     }
+
 
 @app.get("/api/health")
 async def api_health():
-    return {
-        "success": True,
-        "service": "tornado-compress",
-        "status": "ok",
-    }
+    return await health()
 
 
 @app.get("/")
 async def root():
     return {
         "success": True,
-        "message": "TornadoTools File Converter backend is running.",
+        "message": "TornadoTools combined backend is running.",
         "docs": "/docs",
-        "health": "/api/converter/health",
-        "warmup": "/api/converter/warmup",
+        "services": {
+            "converter": "/api/converter/health",
+            "compress": "/api/compress/health",
+            "quiz": "/api/quiz/health",
+        },
     }

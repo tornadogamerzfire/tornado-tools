@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Quiz Platform — TornadoTools | Smart AI Quiz Generator</title>
+  <meta name="description" content="Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#020408" />
+  <link rel="canonical" href="https://tornadotools.vercel.app/tools/ai-quiz.html" />
+  <link rel="icon" type="image/jpeg" href="/Logo.jpg" />
+  <link rel="apple-touch-icon" href="/Logo.jpg" />
+  <meta property="og:site_name" content="TornadoTools" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Quiz Platform — TornadoTools | Smart AI Quiz Generator" />
+  <meta property="og:description" content="Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring." />
+  <meta property="og:url" content="https://tornadotools.vercel.app/tools/ai-quiz.html" />
+  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Quiz Platform — TornadoTools | Smart AI Quiz Generator" />
+  <meta name="twitter:description" content="Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring." />
+  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta name="tornado-api-base" content="https://tornado-tools.onrender.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/ai-quiz.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "AI Quiz Platform — TornadoTools | Smart AI Quiz Generator",
+        "url": "https://tornadotools.vercel.app/tools/ai-quiz.html",
+        "description": "Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "TornadoTools",
+          "url": "https://tornadotools.vercel.app/"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which question types are supported?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The MVP supports MCQ, True or False, and Fill in the Blanks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the quiz auto submit when time ends?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The quiz auto submits when the timer reaches zero."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is progress saved automatically?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The quiz state is saved in localStorage so users can continue after a reload."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="quiz-body">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="aurora-layer" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-1" aria-hidden="true"></div>
+  <div class="aurora-orb aurora-orb-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span class="logo-text">TornadoTools</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#tools">All Tools</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/file-compressor.html">File Compressor</a>
+        <a href="../tools/ai-quiz.html">AI Quiz</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content" class="quiz-shell">
+    <section class="quiz-hero">
+      <div>
+        <p class="quiz-kicker">AI-assisted • Single-player • Autosave enabled</p>
+        <h1>AI Quiz Platform</h1>
+        <p class="quiz-lead">
+          Build realistic quizzes for class, diploma, IIT/JEE, ITI, graduation, and competitive exams.
+          The platform supports one question at a time, automatic submission on timeout, and local autosave.
+        </p>
+      </div>
+      <div class="quiz-hero-stats" aria-label="Quiz capabilities">
+        <div class="quiz-stat"><span>5–30</span><small>Questions</small></div>
+        <div class="quiz-stat"><span>3</span><small>Types</small></div>
+        <div class="quiz-stat"><span>Auto</span><small>Submit</small></div>
+        <div class="quiz-stat"><span>Save</span><small>Local</small></div>
+      </div>
+    </section>
+
+    <nav class="breadcrumbs quiz-breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html#tools">Tools</a>
+      <span class="sep">/</span>
+      <span class="current">AI Quiz Platform</span>
+    </nav>
+    <section class="quiz-workspace">
+      <div class="quiz-card">
+        <div class="quiz-card-head">
+          <div>
+            <p class="quiz-card-kicker">Setup</p>
+            <h2>Build your quiz</h2>
+          </div>
+          <span class="quiz-status-pill" id="backendStatus">Preparing quiz engine...</span>
+        </div>
+
+        <div class="quiz-grid">
+          <label class="quiz-field quiz-span-2">
+            <span>Topic / Subject</span>
+            <input id="topicInput" class="tool-input quiz-input" type="text" maxlength="120" placeholder="e.g. Trigonometry, Indian Constitution, Java OOPs" />
+          </label>
+
+          <label class="quiz-field">
+            <span>Education level</span>
+            <select id="levelInput" class="tool-input quiz-input">
+              <option value="class-1">Class 1</option>
+              <option value="class-2">Class 2</option>
+              <option value="class-3">Class 3</option>
+              <option value="class-4">Class 4</option>
+              <option value="class-5">Class 5</option>
+              <option value="class-6">Class 6</option>
+              <option value="class-7">Class 7</option>
+              <option value="class-8">Class 8</option>
+              <option value="class-9">Class 9</option>
+              <option value="class-10">Class 10</option>
+              <option value="class-11">Class 11</option>
+              <option value="class-12">Class 12</option>
+              <option value="diploma">Diploma</option>
+              <option value="iti">ITI</option>
+              <option value="iit">IIT / JEE</option>
+              <option value="graduation">Graduation</option>
+              <option value="upsc">UPSC</option>
+              <option value="ssc">SSC</option>
+              <option value="railway">Railway</option>
+              <option value="banking">Banking</option>
+              <option value="nda">NDA</option>
+              <option value="cuet">CUET</option>
+            </select>
+          </label>
+
+          <label class="quiz-field">
+            <span>Difficulty</span>
+            <select id="difficultyInput" class="tool-input quiz-input">
+              <option value="easy">Easy</option>
+              <option value="medium" selected>Medium</option>
+              <option value="hard">Hard</option>
+              <option value="expert">Expert</option>
+              <option value="mixed">Mixed</option>
+            </select>
+          </label>
+
+          <div class="quiz-field quiz-span-2 quiz-hidden" id="branchPanel">
+            <span>Branch / Trade</span>
+            <div class="quiz-inline-grid">
+              <select id="branchInput" class="tool-input quiz-input">
+                <option value="">Select branch / trade</option>
+                <option value="CSE">CSE</option>
+                <option value="Civil">Civil</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Other">Other</option>
+              </select>
+              <input id="semesterInput" class="tool-input quiz-input" type="text" maxlength="16" placeholder="Semester / Year" />
+            </div>
+          </div>
+
+          <div class="quiz-field quiz-span-2">
+            <span>Question types</span>
+            <div class="quiz-type-grid">
+              <label class="quiz-type">
+                <input type="checkbox" name="qtype" value="mcq" checked />
+                <span>MCQ</span>
+              </label>
+              <label class="quiz-type">
+                <input type="checkbox" name="qtype" value="true_false" checked />
+                <span>True / False</span>
+              </label>
+              <label class="quiz-type">
+                <input type="checkbox" name="qtype" value="fill_blank" checked />
+                <span>Fill in the blanks</span>
+              </label>
+            </div>
+          </div>
+
+          <label class="quiz-field">
+            <span>Question count mode</span>
+            <select id="countModeInput" class="tool-input quiz-input">
+              <option value="manual" selected>Manual</option>
+              <option value="random">Random</option>
+            </select>
+          </label>
+
+          <label class="quiz-field" id="manualCountWrap">
+            <span>Question count</span>
+            <input id="questionCountInput" class="tool-input quiz-input" type="number" min="5" max="30" value="10" />
+          </label>
+
+          <div class="quiz-field quiz-hidden" id="randomCountWrap">
+            <span>Random range</span>
+            <div class="quiz-inline-grid">
+              <input id="randomMinInput" class="tool-input quiz-input" type="number" min="5" max="30" value="5" />
+              <input id="randomMaxInput" class="tool-input quiz-input" type="number" min="5" max="30" value="15" />
+            </div>
+          </div>
+
+          <label class="quiz-field">
+            <span>Timer mode</span>
+            <select id="timerModeInput" class="tool-input quiz-input">
+              <option value="no_limit" selected>No limit</option>
+              <option value="manual">Manual timer</option>
+            </select>
+          </label>
+
+          <label class="quiz-field quiz-hidden" id="timerWrap">
+            <span>Time limit</span>
+            <select id="timerMinutesInput" class="tool-input quiz-input">
+              <option value="5">5 min</option>
+              <option value="10" selected>10 min</option>
+              <option value="15">15 min</option>
+              <option value="20">20 min</option>
+              <option value="30">30 min</option>
+              <option value="45">45 min</option>
+              <option value="60">60 min</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="quiz-actions">
+          <button id="generateBtn" type="button" class="btn btn-primary">Generate Quiz</button>
+          <button id="resetBtn" type="button" class="btn btn-outline">Reset</button>
+        </div>
+
+        <p class="quiz-preparing" id="processingHint">Preparing quiz engine...</p>
+      </div>
+
+      <div class="quiz-stack">
+        <div class="quiz-card quiz-stage-card" id="quizCard" style="display:none;">
+          <div class="quiz-card-head">
+            <div>
+              <p class="quiz-card-kicker">Quiz</p>
+              <h2>One question at a time</h2>
+            </div>
+            <div class="quiz-timer" id="timerDisplay">--:--</div>
+          </div>
+
+          <div class="quiz-progress">
+            <div class="quiz-progress-track"><div class="quiz-progress-bar" id="progressBar"></div></div>
+            <div class="quiz-progress-meta">
+              <span id="questionCounter">Question 1/10</span>
+              <span id="answeredCounter">0 answered</span>
+            </div>
+          </div>
+
+          <div class="quiz-question-box">
+            <div class="quiz-question-type" id="questionTypeLabel">MCQ</div>
+            <h3 class="quiz-question-text" id="questionText">Question text</h3>
+            <p class="quiz-question-sub" id="questionSub">Pick the best answer and continue.</p>
+            <div id="answerArea" class="quiz-answer-area"></div>
+          </div>
+
+          <div class="quiz-actions">
+            <button id="prevBtn" type="button" class="btn btn-outline">Previous</button>
+            <button id="nextBtn" type="button" class="btn btn-outline">Next</button>
+            <button id="submitBtn" type="button" class="btn btn-primary">Submit Quiz</button>
+          </div>
+        </div>
+
+        <div class="quiz-card" id="resultCard" style="display:none;">
+          <div class="quiz-card-head">
+            <div>
+              <p class="quiz-card-kicker">Result</p>
+              <h2>Quiz summary</h2>
+            </div>
+          </div>
+          <div class="quiz-result-grid">
+            <div class="quiz-result-item">
+              <span class="quiz-result-num" id="scoreValue">0</span>
+              <span class="quiz-result-label">Score</span>
+            </div>
+            <div class="quiz-result-item">
+              <span class="quiz-result-num" id="percentageValue">0%</span>
+              <span class="quiz-result-label">Percentage</span>
+            </div>
+            <div class="quiz-result-item">
+              <span class="quiz-result-num" id="gradeValue">F</span>
+              <span class="quiz-result-label">Grade</span>
+            </div>
+          </div>
+          <div class="quiz-result-meta">
+            <span class="quiz-badge" id="correctCount">Correct: 0</span>
+            <span class="quiz-badge" id="wrongCount">Wrong: 0</span>
+            <span class="quiz-badge" id="skippedCount">Skipped: 0</span>
+          </div>
+          <p class="quiz-result-note" id="resultNote">Results will appear here after submission.</p>
+          <div class="quiz-actions">
+            <button id="newQuizBtn" type="button" class="btn btn-primary">Create New Quiz</button>
+            <button id="clearSavedBtn" type="button" class="btn btn-outline">Clear Saved Session</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <div class="quiz-card-head">
+            <div>
+              <p class="quiz-card-kicker">Saved state</p>
+              <h2>Local autosave</h2>
+            </div>
+          </div>
+          <p class="quiz-help">
+            Your progress is saved in localStorage so a reload does not wipe out the quiz.
+            Timer, answers, and current question are restored automatically when a valid session exists.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-content-block">
+      <div class="section-header">
+        <span class="eyebrow">// why this page is useful</span>
+        <h2 class="section-title">Why this quiz page is useful</h2>
+        <p class="section-sub">
+          The quiz builder gives students and exam learners a fast way to generate topic-based practice without leaving the page.
+        </p>
+      </div>
+
+      <div class="fc-info-grid quiz-info-grid">
+        <article class="fc-info-card">
+          <h3>Fast generation</h3>
+          <p>Stored data is used first when available, and backend AI fills the gap when a topic set is missing.</p>
+        </article>
+        <article class="fc-info-card">
+          <h3>One-by-one flow</h3>
+          <p>Each question appears separately so mobile users can stay focused and answer cleanly.</p>
+        </article>
+        <article class="fc-info-card">
+          <h3>Simple scoring</h3>
+          <p>Every question carries one mark, there is no negative marking, and submission is automatic when the timer ends.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quiz-content-block">
+      <div class="section-header">
+        <span class="eyebrow">// how it works</span>
+        <h2 class="section-title">How to use the AI quiz platform</h2>
+      </div>
+      <div class="steps-list">
+        <article class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h3>Set the quiz details</h3>
+            <p>Enter your topic, level, difficulty, question types, and question count.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h3>Generate the quiz</h3>
+            <p>The backend first checks stored JSON data and uses AI only when a question bank is missing.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h3>Answer and submit</h3>
+            <p>Solve one question at a time, and the quiz auto submits when the timer reaches zero.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quiz-content-block">
+      <div class="section-header">
+        <span class="eyebrow">// faq</span>
+        <h2 class="section-title">FAQ</h2>
+      </div>
+      <div class="faq-list fc-faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Which question types are available in MVP?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">The MVP supports MCQ, True / False, and Fill in the blanks only.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Does the quiz auto submit?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The quiz auto submits when the timer ends, so there is no need for manual countdown handling.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Is my progress saved?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The quiz is stored in localStorage so refreshing the page does not erase your progress.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false"><span>Can I use it on mobile?</span><span class="faq-icon">+</span></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. The layout is designed to stay readable and easy to tap on phones and tablets.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-content-block">
+      <div class="section-header">
+        <span class="eyebrow">// trust</span>
+        <h2 class="section-title">Trust signals</h2>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-item"><div class="trust-num">1</div><div class="trust-label">Single-player only</div></article>
+        <article class="trust-item"><div class="trust-num">0</div><div class="trust-label">Negative marking</div></article>
+        <article class="trust-item"><div class="trust-num">Auto</div><div class="trust-label">Submit on timeout</div></article>
+        <article class="trust-item"><div class="trust-num">Save</div><div class="trust-label">Local autosave</div></article>
+      </div>
+    </section>
+
+    <div class="ad-slot" aria-label="Advertisement slot placeholder"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>⚡ TornadoTools</h3>
+        <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="../tools/font-generator.html">Font Generator</a>
+        <a href="../tools/calculator-suite.html">Calculator Suite</a>
+        <a href="../tools/qr-generator.html">QR Code Generator</a>
+        <a href="../tools/number-converter.html">Number Converter</a>
+        <a href="../tools/file-converter.html">File Converter</a>
+        <a href="../tools/file-compressor.html">File Compressor</a>
+        <a href="../tools/ai-quiz.html">AI Quiz</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TornadoTools. All rights reserved.</div>
+      <div class="footer-status"><span class="status-dot"></span>All systems operational</div>
+    </div>
+  </footer>
+
+  <script src="../js/ai-quiz.js" defer></script>
+  <script type="module" src="../js/vercel.js"></script>
+</body>
+</html>

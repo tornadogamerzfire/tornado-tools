@@ -1,17 +1,17 @@
 from __future__ import annotations
 
 import os
-import time
-import json
 import threading
+import time
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, Protocol, runtime_checkable
 
 from .logger import logger
 from .temp_files import TEMP_DIR, UPLOADS_DIR, OUTPUTS_DIR, remove_tree
 
-MAX_AGE_SECONDS = 300
+MAX_AGE_SECONDS = int(os.getenv("AUTO_CLEANUP_SECONDS", "300"))
 SCAN_INTERVAL_SECONDS = 60
+
 
 def _iter_files(root: Path):
     if not root.exists():
@@ -20,14 +20,17 @@ def _iter_files(root: Path):
         if path.is_file():
             yield path
 
+
 def purge_old_files(max_age_seconds: int = MAX_AGE_SECONDS, roots: Iterable[Path] | None = None) -> dict[str, int]:
     roots = list(roots or [TEMP_DIR, UPLOADS_DIR, OUTPUTS_DIR])
     now = time.time()
     deleted = 0
     scanned = 0
+
     for root in roots:
         if not root.exists():
             continue
+
         for file in list(_iter_files(root)):
             scanned += 1
             try:
@@ -39,14 +42,16 @@ def purge_old_files(max_age_seconds: int = MAX_AGE_SECONDS, roots: Iterable[Path
                 continue
             except Exception as exc:
                 logger.warning("Cleanup skipped file=%s err=%s", file, exc)
-        # remove empty directories bottom-up
+
         for d in sorted([p for p in root.rglob("*") if p.is_dir()], reverse=True):
             try:
                 if not any(d.iterdir()):
                     d.rmdir()
             except Exception:
                 pass
+
     return {"scanned": scanned, "deleted": deleted}
+
 
 def delete_session_artifacts(session_id: str, immediate: bool = True, delay_seconds: int = 0) -> bool:
     """
@@ -63,17 +68,26 @@ def delete_session_artifacts(session_id: str, immediate: bool = True, delay_seco
         logger.info("Deleted session artifacts: %s", session_id)
 
     if delay_seconds > 0:
-        threading.Timer(delay_seconds, _do_delete).start()
+        timer = threading.Timer(max(0, int(delay_seconds)), _do_delete)
+        timer.daemon = True
+        timer.start()
         return True
 
     if immediate:
         _do_delete()
     return True
 
+
+@runtime_checkable
+class _SessionStoreProtocol(Protocol):
+    def purge_expired(self) -> int: ...
+    def delete(self, session_token: str) -> bool: ...
+
+
 class CleanupScheduler:
     def __init__(self, interval_seconds: int = SCAN_INTERVAL_SECONDS, max_age_seconds: int = MAX_AGE_SECONDS):
-        self.interval_seconds = interval_seconds
-        self.max_age_seconds = max_age_seconds
+        self.interval_seconds = int(interval_seconds)
+        self.max_age_seconds = int(max_age_seconds)
         self._stop = threading.Event()
         self._thread: threading.Thread | None = None
 
@@ -91,7 +105,6 @@ class CleanupScheduler:
             self._thread.join(timeout=2)
 
     def _run(self):
-        # Immediate startup sweep
         try:
             purge_old_files(self.max_age_seconds)
         except Exception as exc:
@@ -103,3 +116,63 @@ class CleanupScheduler:
                 logger.info("Cleanup sweep scanned=%s deleted=%s", result["scanned"], result["deleted"])
             except Exception as exc:
                 logger.exception("Scheduled cleanup failed: %s", exc)
+
+
+class QuizCleanupManager:
+    def __init__(self, cleanup_interval_seconds: int | None = None) -> None:
+        self.cleanup_interval_seconds = int(cleanup_interval_seconds or os.getenv("AUTO_CLEANUP_SECONDS", str(MAX_AGE_SECONDS)))
+        self._stop_event = threading.Event()
+        self._thread: threading.Thread | None = None
+        self._session_stores: list[_SessionStoreProtocol] = []
+
+    def register_session_store(self, store) -> None:
+        if store not in self._session_stores:
+            self._session_stores.append(store)
+
+    def start(self) -> None:
+        if self._thread and self._thread.is_alive():
+            return
+        self._stop_event.clear()
+        self._thread = threading.Thread(target=self._worker, name="quiz-cleanup", daemon=True)
+        self._thread.start()
+        logger.info("Quiz cleanup manager started (interval=%ss).", self.cleanup_interval_seconds)
+
+    def stop(self) -> None:
+        self._stop_event.set()
+        if self._thread and self._thread.is_alive():
+            self._thread.join(timeout=1.0)
+
+    def _worker(self) -> None:
+        while not self._stop_event.is_set():
+            try:
+                self.purge_expired_sessions()
+            except Exception as exc:
+                logger.warning("Quiz cleanup sweep failed: %s", exc)
+            self._stop_event.wait(self.cleanup_interval_seconds)
+
+    def schedule_session_cleanup(self, session_token: str, delay_seconds: int) -> None:
+        timer = threading.Timer(max(0, int(delay_seconds)), self.delete_session, args=(session_token,))
+        timer.daemon = True
+        timer.start()
+
+    def delete_session(self, session_token: str) -> bool:
+        removed = False
+        for store in list(self._session_stores):
+            try:
+                removed = store.delete(session_token) or removed
+            except Exception:
+                continue
+        return removed
+
+    def purge_expired_sessions(self) -> dict[str, int]:
+        deleted = 0
+        for store in list(self._session_stores):
+            try:
+                deleted += int(store.purge_expired())
+            except Exception:
+                continue
+        return {"deleted": deleted, "scanned": 0}
+
+
+cleanup_scheduler = CleanupScheduler()
+cleanup_manager = QuizCleanupManager()

@@ -2,10 +2,7 @@ from __future__ import annotations
 
 import re
 import shutil
-import tempfile
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 TEMP_DIR = BASE_DIR / "temp"
@@ -16,6 +13,7 @@ for d in (TEMP_DIR, UPLOADS_DIR, OUTPUTS_DIR):
     d.mkdir(parents=True, exist_ok=True)
 
 FILENAME_SAFE_RE = re.compile(r"[^a-zA-Z0-9._-]+")
+
 
 def ensure_session_dirs(session_id: str) -> dict[str, Path]:
     session_temp = TEMP_DIR / session_id
@@ -29,6 +27,7 @@ def ensure_session_dirs(session_id: str) -> dict[str, Path]:
         "outputs": session_outputs,
     }
 
+
 def sanitize_filename(name: str, fallback: str = "file") -> str:
     name = (name or "").strip()
     if not name:
@@ -37,11 +36,14 @@ def sanitize_filename(name: str, fallback: str = "file") -> str:
     name = FILENAME_SAFE_RE.sub("_", name).strip("._")
     return name or fallback
 
+
 def stem_of(filename: str, fallback: str = "file") -> str:
     name = sanitize_filename(filename, fallback)
     if "." in name:
-        return ".".join(name.split(".")[:-1]) or fallback
+        stem = ".".join(name.split(".")[:-1])
+        return stem or fallback
     return name or fallback
+
 
 def ext_of(filename: str) -> str:
     name = sanitize_filename(filename)
@@ -49,15 +51,18 @@ def ext_of(filename: str) -> str:
         return ""
     return name.rsplit(".", 1)[-1].lower()
 
+
 def make_output_name(base_stem: str, suffix: str, ext: str) -> str:
     stem = sanitize_filename(base_stem, "file")
     suffix = sanitize_filename(suffix, "converted")
     ext = ext.lower().lstrip(".")
     return f"{stem}_{suffix}.{ext}"
 
+
 def remove_tree(path: Path) -> None:
     if path.exists():
         shutil.rmtree(path, ignore_errors=True)
+
 
 def unique_path(folder: Path, filename: str) -> Path:
     folder.mkdir(parents=True, exist_ok=True)

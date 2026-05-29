@@ -1,0 +1,44 @@
+/* TEAM */
+Developer: Mr. Tornado
+Organization: Tornado Gamerz Fire
+Website: https://tornado-tools.vercel.app/
+Role: Founder, Developer, Designer
+
+/* PLATFORM */
+Name: TornadoTools
+Type: AI-powered Utility Platform
+
+/* TECHNOLOGIES */
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Python
+- FastAPI
+
+Hosting:
+- Vercel
+- Render
+
+Libraries & Systems:
+- Math.js
+- Function Plot
+- PDF Processing
+- AI Quiz Engine
+- File Conversion Engine
+- File Compression Engine
+
+/* FEATURES */
+- AI Quiz Platform
+- Graph Calculator
+- File Converter
+- File Compressor
+- Resume Builder
+- QR Generator
+- Calculator Suite
+- Font Generator
+
+/* THANKS */
+Built with passion for students, developers, and creators.

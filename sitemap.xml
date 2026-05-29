@@ -1,81 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- MAIN WEBSITE -->
   <url>
     <loc>https://tornado-tools.vercel.app/</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- CORE PAGES -->
   <url>
-    <loc>https://tornadotools.vercel.app/about.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://tornado-tools.vercel.app/about.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/contact.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/faq.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/privacy-policy.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/terms.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- MAIN TOOLS -->
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/ai-quiz.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/file-converter.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/file-compressor.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/graph-calculator.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/calculator-suite.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SECONDARY TOOLS -->
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/cgpa-calculator.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://tornadotools.vercel.app/contact.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://tornado-tools.vercel.app/tools/font-generator.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://tornadotools.vercel.app/privacy-policy.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://tornado-tools.vercel.app/tools/number-converter.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://tornado-tools.vercel.app/tools/qr-generator.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://tornadotools.vercel.app/terms.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://tornado-tools.vercel.app/tools/resume-builder.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/faq.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/calculator-suite.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/cgpa-calculator.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/file-converter.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/font-generator.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/number-converter.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/qr-generator.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tornadotools.vercel.app/tools/resume-builder.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
 </urlset>

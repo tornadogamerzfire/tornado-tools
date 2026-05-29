@@ -1,4 +1,40 @@
 User-agent: *
 Allow: /
 
+# BLOCK INTERNAL / BACKEND PATHS
+Disallow: /api/
+Disallow: /backend/
+Disallow: /uploads/
+Disallow: /outputs/
+Disallow: /temp/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+
+# IMPORTANT FILES
 Sitemap: https://tornado-tools.vercel.app/sitemap.xml
+
+# AI CRAWLERS / GEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# PERFORMANCE
+Crawl-delay: 1
