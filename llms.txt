@@ -42,14 +42,14 @@ The AI Quiz system supports:
 - MCQ
 - True/False
 - Fill in the blanks
-- Match the following
 
 Quiz levels:
 - Class 1–12
 - Diploma
-- IIT
 - ITI
+- IIT
 - Graduation
+- Competitive exams
 - UPSC
 
 # Crawl Guidance
