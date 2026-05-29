@@ -22,28 +22,54 @@ class NimQuizClient:
 
     def _build_prompt(self, payload: Dict[str, Any], count: int, question_types: List[str]) -> str:
         types_text = ", ".join(question_types)
+        level = str(payload.get('level') or '').strip()
+        subject = str(payload.get('subject') or payload.get('topic') or '').strip()
+        topic = str(payload.get('topic') or subject or '').strip()
+        branch = str(payload.get('branch') or '').strip()
+        semester = str(payload.get('semester') or '').strip()
+        difficulty = str(payload.get('difficulty') or 'medium').strip()
         return f"""
-Generate EXACTLY {count} quiz questions as valid JSON only.
+You are an expert exam setter and question writer.
+Create a premium-quality quiz with EXACTLY {count} questions.
 
-Rules:
-- Single-player educational quiz
-- No markdown
-- No explanations outside JSON
-- No duplicate questions
-- One mark per question
-- Supported types: {types_text}
-- Education level: {payload.get('level')}
-- Topic: {payload.get('topic')}
-- Subject: {payload.get('subject') or payload.get('topic')}
-- Difficulty: {payload.get('difficulty')}
-- Branch: {payload.get('branch') or ''}
-- Semester: {payload.get('semester') or ''}
-- Return an object with a questions array.
-- Each question must include: id, type, question, options, answer, explanation.
-- MCQ must have 4 believable options.
-- True/False must have 2 options: True and False.
-- Fill blanks must have options as an empty array.
-- Questions must be realistic, non-obvious, and level-accurate.
+Absolute output rules:
+- Return JSON only.
+- No markdown, no bullets, no commentary, no code fences.
+- Do not wrap the JSON in any extra text.
+- Every question must be original, realistic, and syllabus-appropriate.
+- Avoid vague, generic, childish, or obviously fake questions.
+- Do not repeat stems, options, or patterns.
+- Do not generate trick questions.
+- Do not generate factual questions with uncertain or controversial answers.
+- Prefer conceptual understanding over memorization unless the level clearly requires recall.
+- Keep language natural and clean.
+- Make every distractor believable.
+- Keep the difficulty tightly aligned to the selected level and difficulty.
+- One mark per question.
+- Do not include negative marking.
+- Supported question types for this request: {types_text}
+
+Quiz context:
+- Education level: {level}
+- Subject: {subject}
+- Topic: {topic}
+- Branch / Trade: {branch}
+- Semester: {semester}
+- Difficulty: {difficulty}
+
+Content rules:
+- If a subject is narrow, stay inside that subject.
+- If a subject is broad, choose the most relevant syllabus-safe subtopic.
+- If branch or semester is provided, use it to tune the question difficulty and wording.
+- Spread the questions across the topic instead of asking the same idea in different words.
+- Aim for a balanced mix of difficulty within the requested band.
+- If question types include True/False, keep them non-trivial and not guessable.
+- If question types include Fill in the Blanks, the missing term must be the key concept, not a random word.
+- If question types include MCQ, provide 4 options and make only one clearly correct.
+- For True/False, options must be exactly ["True", "False"].
+- For Fill in the Blanks, options must be [].
+- Use stable, commonly accepted answers only.
+- Do not produce answer keys that depend on formatting quirks.
 
 JSON schema:
 {{
@@ -136,11 +162,17 @@ JSON schema:
         request_body = {
             "model": self.model,
             "messages": [
-                {"role": "system", "content": "You are a strict quiz generator that returns valid JSON only."},
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a strict senior exam-content writer. "
+                        "Return valid JSON only and prioritize accuracy, clarity, and syllabus fit."
+                    ),
+                },
                 {"role": "user", "content": prompt},
             ],
-            "temperature": 0.45,
-            "top_p": 0.9,
+            "temperature": 0.2,
+            "top_p": 0.85,
         }
 
         try:

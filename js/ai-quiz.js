@@ -489,6 +489,7 @@ const state = {
   timerSeconds: 0,
   timerHandle: null,
   sessionToken: '',
+  persistSession: false,
   catalog: DEFAULT_CATALOG,
 };
 
@@ -738,7 +739,7 @@ function validateConfig(config) {
 }
 
 function saveSession() {
-  if (!state.quiz) return;
+  if (!state.persistSession || !state.quiz) return;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({
       sessionToken: state.sessionToken,
@@ -754,6 +755,7 @@ function saveSession() {
 function clearSavedSession() {
   try { localStorage.removeItem(STORAGE_KEY); } catch (_) {}
   state.sessionToken = '';
+  state.persistSession = false;
 }
 
 function restoreSession() {
@@ -764,6 +766,7 @@ function restoreSession() {
     const data = JSON.parse(raw);
     if (!data?.quiz?.questions?.length) return false;
     state.sessionToken = data.sessionToken || '';
+    state.persistSession = true;
     state.quiz = data.quiz;
     state.currentIndex = clamp(Number(data.currentIndex || 0), 0, data.quiz.questions.length - 1);
     state.answers = data.answers || {};
@@ -776,6 +779,16 @@ function restoreSession() {
   } catch {
     return false;
   }
+}
+
+function resetToSetup(message = 'Preparing quiz engine...') {
+  if (state.sessionToken) cleanupBackendSession(state.sessionToken, 0);
+  clearSavedSession();
+  resetQuizOnly();
+  if (el.quizCard) el.quizCard.style.display = 'none';
+  if (el.resultCard) el.resultCard.style.display = 'none';
+  setStatus(message, 'loading');
+  setHint(message);
 }
 
 function cleanupBackendSession(sessionToken, delaySeconds = 300) {
@@ -991,6 +1004,7 @@ function resetQuizOnly() {
   state.timerSeconds = 0;
   state.generating = false;
   state.submitting = false;
+  state.persistSession = false;
   if (state.timerHandle) {
     clearInterval(state.timerHandle);
     state.timerHandle = null;
@@ -1168,6 +1182,7 @@ async function generateQuiz() {
     state.currentIndex = 0;
     state.answers = {};
     state.sessionToken = json.data.sessionToken || '';
+    state.persistSession = true;
     state.timerSeconds = Number(json.data.quiz?.timeLimitSeconds || 0);
     saveSession();
 
@@ -1326,13 +1341,7 @@ function bindEvents() {
   el.generateBtn?.addEventListener('click', () => { void generateQuiz(); });
 
   el.resetBtn?.addEventListener('click', () => {
-    if (state.sessionToken) cleanupBackendSession(state.sessionToken, 0);
-    clearSavedSession();
-    resetQuizOnly();
-    if (el.quizCard) el.quizCard.style.display = 'none';
-    if (el.resultCard) el.resultCard.style.display = 'none';
-    setStatus('Preparing quiz engine...', 'loading');
-    setHint('Preparing quiz engine...');
+    resetToSetup('Preparing quiz engine...');
   });
 
   el.prevBtn?.addEventListener('click', () => gotoQuestion(state.currentIndex - 1));
@@ -1340,16 +1349,11 @@ function bindEvents() {
   el.submitBtn?.addEventListener('click', () => { void submitQuiz(false); });
 
   el.newQuizBtn?.addEventListener('click', () => {
-    if (state.sessionToken) cleanupBackendSession(state.sessionToken, 0);
-    clearSavedSession();
-    resetQuizOnly();
-    if (el.quizCard) el.quizCard.style.display = 'none';
-    if (el.resultCard) el.resultCard.style.display = 'none';
+    resetToSetup('Preparing quiz engine...');
   });
 
   el.clearSavedBtn?.addEventListener('click', () => {
-    if (state.sessionToken) cleanupBackendSession(state.sessionToken, 0);
-    clearSavedSession();
+    resetToSetup('Saved quiz session cleared.');
     toast('Saved quiz session cleared.');
   });
 
@@ -1392,6 +1396,7 @@ async function init() {
   updateGenerateButton();
   setStatus('Preparing quiz engine...', 'loading');
   setHint('Preparing quiz engine...');
+  state.persistSession = false;
 
   const restored = restoreSession();
   if (!restored) {
