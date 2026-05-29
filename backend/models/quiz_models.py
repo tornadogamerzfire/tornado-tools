@@ -15,7 +15,7 @@ class QuizBuildRequest(BaseModel):
     semester: Optional[str] = Field(default="")
     difficulty: str = Field(default="medium")
     question_types: List[str] = Field(default_factory=lambda: ["mcq"], alias="questionTypes")
-    count_mode: Literal["manual", "random"] = Field(default="manual", alias="countMode")
+    count_mode: Literal["manual", "auto", "random"] = Field(default="manual", alias="countMode")
     question_count: int = Field(default=10, alias="questionCount", ge=5, le=30)
     random_min: Optional[int] = Field(default=None, alias="randomMin", ge=5, le=30)
     random_max: Optional[int] = Field(default=None, alias="randomMax", ge=5, le=30)

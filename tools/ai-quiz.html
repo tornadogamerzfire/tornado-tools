@@ -7,19 +7,19 @@
   <meta name="description" content="Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring." />
   <meta name="robots" content="index,follow" />
   <meta name="theme-color" content="#020408" />
-  <link rel="canonical" href="https://tornadotools.vercel.app/tools/ai-quiz.html" />
+  <link rel="canonical" href="https://tornado-tools.vercel.app/tools/ai-quiz.html" />
   <link rel="icon" type="image/jpeg" href="/Logo.jpg" />
   <link rel="apple-touch-icon" href="/Logo.jpg" />
   <meta property="og:site_name" content="TornadoTools" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="AI Quiz Platform — TornadoTools | Smart AI Quiz Generator" />
   <meta property="og:description" content="Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring." />
-  <meta property="og:url" content="https://tornadotools.vercel.app/tools/ai-quiz.html" />
-  <meta property="og:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta property="og:url" content="https://tornado-tools.vercel.app/tools/ai-quiz.html" />
+  <meta property="og:image" content="https://tornado-tools.vercel.app/Logo.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="AI Quiz Platform — TornadoTools | Smart AI Quiz Generator" />
   <meta name="twitter:description" content="Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring." />
-  <meta name="twitter:image" content="https://tornadotools.vercel.app/Logo.jpg" />
+  <meta name="twitter:image" content="https://tornado-tools.vercel.app/Logo.jpg" />
   <meta name="tornado-api-base" content="https://tornado-tools.onrender.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,12 +34,12 @@
       {
         "@type": "WebPage",
         "name": "AI Quiz Platform — TornadoTools | Smart AI Quiz Generator",
-        "url": "https://tornadotools.vercel.app/tools/ai-quiz.html",
+        "url": "https://tornado-tools.vercel.app/tools/ai-quiz.html",
         "description": "Generate single-player quizzes for school, diploma, ITI, IIT/JEE, graduation, and competitive exams with AI-assisted questions, autosave, timer, and instant scoring.",
         "isPartOf": {
           "@type": "WebSite",
           "name": "TornadoTools",
-          "url": "https://tornadotools.vercel.app/"
+          "url": "https://tornado-tools.vercel.app/"
         }
       },
       {
@@ -137,13 +137,9 @@
           <span class="quiz-status-pill" id="backendStatus">Preparing quiz engine...</span>
         </div>
 
+        
         <div class="quiz-grid">
           <label class="quiz-field quiz-span-2">
-            <span>Topic / Subject</span>
-            <input id="topicInput" class="tool-input quiz-input" type="text" maxlength="120" placeholder="e.g. Trigonometry, Indian Constitution, Java OOPs" />
-          </label>
-
-          <label class="quiz-field">
             <span>Education level</span>
             <select id="levelInput" class="tool-input quiz-input">
               <option value="class-1">Class 1</option>
@@ -160,16 +156,47 @@
               <option value="class-12">Class 12</option>
               <option value="diploma">Diploma</option>
               <option value="iti">ITI</option>
-              <option value="iit">IIT / JEE</option>
               <option value="graduation">Graduation</option>
-              <option value="upsc">UPSC</option>
-              <option value="ssc">SSC</option>
-              <option value="railway">Railway</option>
-              <option value="banking">Banking</option>
-              <option value="nda">NDA</option>
-              <option value="cuet">CUET</option>
+              <option value="iit">IIT / JEE</option>
+              <option value="competitive">Competitive Exams</option>
+              <option value="other">Other</option>
             </select>
           </label>
+
+          <label class="quiz-field quiz-span-2 quiz-hidden" id="customLevelWrap">
+            <span>Custom education level</span>
+            <input id="customLevelInput" class="tool-input quiz-input" type="text" maxlength="48" placeholder="Type education level exactly as you need it" />
+          </label>
+
+          <div class="quiz-field quiz-span-2 quiz-hidden" id="branchPanel">
+            <span id="branchLabel">Branch / Trade</span>
+            <div class="quiz-stack-field">
+              <select id="branchInput" class="tool-input quiz-input">
+                <option value="">Select branch / trade</option>
+              </select>
+              <input id="customBranchInput" class="tool-input quiz-input quiz-hidden" type="text" maxlength="64" placeholder="Type branch / trade exactly as you need it" />
+            </div>
+          </div>
+
+          <div class="quiz-field quiz-span-2 quiz-hidden" id="semesterPanel">
+            <span id="semesterLabel">Semester</span>
+            <div class="quiz-stack-field">
+              <select id="semesterInput" class="tool-input quiz-input">
+                <option value="">Select semester</option>
+              </select>
+              <input id="customSemesterInput" class="tool-input quiz-input quiz-hidden" type="text" maxlength="32" placeholder="Type semester exactly as you need it" />
+            </div>
+          </div>
+
+          <div class="quiz-field quiz-span-2" id="subjectPanel">
+            <span id="subjectLabel">Topic / Subject</span>
+            <div class="quiz-stack-field">
+              <select id="subjectInput" class="tool-input quiz-input">
+                <option value="">Select topic / subject</option>
+              </select>
+              <input id="customSubjectInput" class="tool-input quiz-input quiz-hidden" type="text" maxlength="120" placeholder="Type topic / subject exactly as you need it" />
+            </div>
+          </div>
 
           <label class="quiz-field">
             <span>Difficulty</span>
@@ -177,26 +204,8 @@
               <option value="easy">Easy</option>
               <option value="medium" selected>Medium</option>
               <option value="hard">Hard</option>
-              <option value="expert">Expert</option>
-              <option value="mixed">Mixed</option>
             </select>
           </label>
-
-          <div class="quiz-field quiz-span-2 quiz-hidden" id="branchPanel">
-            <span>Branch / Trade</span>
-            <div class="quiz-inline-grid">
-              <select id="branchInput" class="tool-input quiz-input">
-                <option value="">Select branch / trade</option>
-                <option value="CSE">CSE</option>
-                <option value="Civil">Civil</option>
-                <option value="Mechanical">Mechanical</option>
-                <option value="Electrical">Electrical</option>
-                <option value="Electronics">Electronics</option>
-                <option value="Other">Other</option>
-              </select>
-              <input id="semesterInput" class="tool-input quiz-input" type="text" maxlength="16" placeholder="Semester / Year" />
-            </div>
-          </div>
 
           <div class="quiz-field quiz-span-2">
             <span>Question types</span>
@@ -220,7 +229,7 @@
             <span>Question count mode</span>
             <select id="countModeInput" class="tool-input quiz-input">
               <option value="manual" selected>Manual</option>
-              <option value="random">Random</option>
+              <option value="auto">Auto</option>
             </select>
           </label>
 
@@ -228,14 +237,6 @@
             <span>Question count</span>
             <input id="questionCountInput" class="tool-input quiz-input" type="number" min="5" max="30" value="10" />
           </label>
-
-          <div class="quiz-field quiz-hidden" id="randomCountWrap">
-            <span>Random range</span>
-            <div class="quiz-inline-grid">
-              <input id="randomMinInput" class="tool-input quiz-input" type="number" min="5" max="30" value="5" />
-              <input id="randomMaxInput" class="tool-input quiz-input" type="number" min="5" max="30" value="15" />
-            </div>
-          </div>
 
           <label class="quiz-field">
             <span>Timer mode</span>

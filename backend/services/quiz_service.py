@@ -6,19 +6,15 @@ from typing import Any, Dict, List
 
 from models.quiz_models import QuizBuildRequest
 from services.nim_client import NimQuizClient
-from services.question_bank import load_from_bank, question_bank_root
+from services.question_bank import get_question_bank_catalog, load_from_bank, question_bank_root
 from services.session_store import QuizSessionStore
 from utils.text import normalize_answer, slugify
 
 
 SUPPORTED_TYPES = ["mcq", "true_false", "fill_blank"]
-SUPPORTED_LEVELS = [
-    "class-1", "class-2", "class-3", "class-4", "class-5", "class-6",
-    "class-7", "class-8", "class-9", "class-10", "class-11", "class-12",
-    "diploma", "iti", "iit", "graduation", "upsc", "ssc", "railway",
-    "banking", "nda", "cuet",
-]
-SUPPORTED_DIFFICULTIES = ["easy", "medium", "hard", "expert", "mixed"]
+SUPPORTED_LEVELS = ["class-1", "class-2", "class-3", "class-4", "class-5", "class-6", "class-7", "class-8", "class-9", "class-10", "class-11", "class-12", "diploma", "iti", "graduation", "iit", "competitive", "other"]
+SUPPORTED_DIFFICULTIES = ["easy", "medium", "hard"]
+SUPPORTED_TIMER_MINUTES = [5, 10, 15, 20, 30, 45, 60]
 SESSION_TTL_SECONDS = int(os.getenv("SESSION_TTL_SECONDS", "7200"))
 
 
@@ -36,7 +32,7 @@ class QuizService:
             "supportedLevels": SUPPORTED_LEVELS,
             "supportedQuestionTypes": SUPPORTED_TYPES,
             "supportedDifficulties": SUPPORTED_DIFFICULTIES,
-            "supportedTimerMinutes": [5, 10, 15, 20, 30, 45, 60],
+            "supportedTimerMinutes": SUPPORTED_TIMER_MINUTES,
             "limits": {
                 "minQuestions": 5,
                 "maxQuestions": 30,
@@ -45,12 +41,13 @@ class QuizService:
                 "simultaneousRequestsPerIp": 2,
             },
             "questionBankRoot": str(question_bank_root()),
+            "bankCatalog": get_question_bank_catalog(),
             "aiFallback": True,
-            "note": "Question bank is checked first. AI is used only when a requested bank is missing.",
+            "note": "Question bank is checked first. AI is used only when the requested bank path cannot be found.",
         }
 
     def _question_count(self, payload: QuizBuildRequest) -> int:
-        if payload.count_mode == "random":
+        if payload.count_mode in {"auto", "random"}:
             low = int(payload.random_min or 5)
             high = int(payload.random_max or payload.question_count or 10)
             low = max(5, min(low, 30))
@@ -66,7 +63,10 @@ class QuizService:
         return int(payload.timer_minutes or 10) * 60
 
     def _public_level_payload(self, payload: QuizBuildRequest) -> Dict[str, Any]:
-        return payload.model_dump(by_alias=False)
+        data = payload.model_dump(by_alias=False)
+        if data.get("count_mode") == "random":
+            data["count_mode"] = "auto"
+        return data
 
     def _normalize_question(self, question: Dict[str, Any], index: int) -> Dict[str, Any]:
         qtype = str(question.get("type") or "mcq").strip()

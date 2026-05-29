@@ -1,5 +1,464 @@
 'use strict';
 
+const DEFAULT_CATALOG = {
+  root: '/backend/data/question-bank',
+  questionTypes: ['mcq', 'true_false', 'fill_blank'],
+  difficulties: ['easy', 'medium', 'hard'],
+  levels: [
+    {
+      value: 'class-1',
+      label: 'Class 1',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-2',
+      label: 'Class 2',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-3',
+      label: 'Class 3',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-4',
+      label: 'Class 4',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-5',
+      label: 'Class 5',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-6',
+      label: 'Class 6',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-7',
+      label: 'Class 7',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-8',
+      label: 'Class 8',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-9',
+      label: 'Class 9',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-10',
+      label: 'Class 10',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-11',
+      label: 'Class 11',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'class-12',
+      label: 'Class 12',
+      kind: 'school',
+      subjects: [
+        { value: 'english', label: 'English' },
+        { value: 'math', label: 'Math' },
+        { value: 'science', label: 'Science' },
+      ],
+      branches: [],
+      semesters: [],
+      subjectsByBranch: {},
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'diploma',
+      label: 'Diploma',
+      kind: 'branch-semester',
+      branches: [
+        { value: 'Civil', label: 'Civil' },
+        { value: 'CSE', label: 'CSE' },
+        { value: 'Electrical', label: 'Electrical' },
+        { value: 'Electronics', label: 'Electronics' },
+        { value: 'Mechanical', label: 'Mechanical' },
+      ],
+      semesters: [
+        { value: 'semester-1', label: 'Semester 1' },
+        { value: 'semester-2', label: 'Semester 2' },
+        { value: 'semester-3', label: 'Semester 3' },
+      ],
+      subjectsByBranch: {
+        Civil: [{ value: 'civil-engineering-basics', label: 'Civil Engineering Basics' }],
+        CSE: [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+        Electrical: [{ value: 'electrical-basics', label: 'Electrical Basics' }],
+        Electronics: [{ value: 'electronics-basics', label: 'Electronics Basics' }],
+        Mechanical: [{ value: 'mechanical-basics', label: 'Mechanical Basics' }],
+      },
+      semestersByBranch: {
+        Civil: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        CSE: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        Electrical: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        Electronics: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        Mechanical: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+      },
+      subjectsByBranchSemester: {
+        Civil: {
+          'semester-1': [{ value: 'civil-engineering-basics', label: 'Civil Engineering Basics' }],
+          'semester-2': [{ value: 'civil-engineering-basics', label: 'Civil Engineering Basics' }],
+          'semester-3': [{ value: 'civil-engineering-basics', label: 'Civil Engineering Basics' }],
+        },
+        CSE: {
+          'semester-1': [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+          'semester-2': [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+          'semester-3': [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+        },
+        Electrical: {
+          'semester-1': [{ value: 'electrical-basics', label: 'Electrical Basics' }],
+          'semester-2': [{ value: 'electrical-basics', label: 'Electrical Basics' }],
+          'semester-3': [{ value: 'electrical-basics', label: 'Electrical Basics' }],
+        },
+        Electronics: {
+          'semester-1': [{ value: 'electronics-basics', label: 'Electronics Basics' }],
+          'semester-2': [{ value: 'electronics-basics', label: 'Electronics Basics' }],
+          'semester-3': [{ value: 'electronics-basics', label: 'Electronics Basics' }],
+        },
+        Mechanical: {
+          'semester-1': [{ value: 'mechanical-basics', label: 'Mechanical Basics' }],
+          'semester-2': [{ value: 'mechanical-basics', label: 'Mechanical Basics' }],
+          'semester-3': [{ value: 'mechanical-basics', label: 'Mechanical Basics' }],
+        },
+      },
+    },
+    {
+      value: 'iti',
+      label: 'ITI',
+      kind: 'branch-semester',
+      branches: [
+        { value: 'computer-operator', label: 'Computer Operator' },
+        { value: 'electrician', label: 'Electrician' },
+        { value: 'fitter', label: 'Fitter' },
+        { value: 'mechanic', label: 'Mechanic' },
+        { value: 'welder', label: 'Welder' },
+      ],
+      semesters: [
+        { value: 'semester-1', label: 'Semester 1' },
+        { value: 'semester-2', label: 'Semester 2' },
+        { value: 'semester-3', label: 'Semester 3' },
+      ],
+      subjectsByBranch: {
+        'computer-operator': [{ value: 'trade-basics', label: 'Trade Basics' }],
+        electrician: [{ value: 'trade-basics', label: 'Trade Basics' }],
+        fitter: [{ value: 'trade-basics', label: 'Trade Basics' }],
+        mechanic: [{ value: 'trade-basics', label: 'Trade Basics' }],
+        welder: [{ value: 'trade-basics', label: 'Trade Basics' }],
+      },
+      semestersByBranch: {
+        'computer-operator': [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        electrician: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        fitter: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        mechanic: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+        welder: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+          { value: 'semester-3', label: 'Semester 3' },
+        ],
+      },
+      subjectsByBranchSemester: {
+        'computer-operator': {
+          'semester-1': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-2': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-3': [{ value: 'trade-basics', label: 'Trade Basics' }],
+        },
+        electrician: {
+          'semester-1': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-2': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-3': [{ value: 'trade-basics', label: 'Trade Basics' }],
+        },
+        fitter: {
+          'semester-1': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-2': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-3': [{ value: 'trade-basics', label: 'Trade Basics' }],
+        },
+        mechanic: {
+          'semester-1': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-2': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-3': [{ value: 'trade-basics', label: 'Trade Basics' }],
+        },
+        welder: {
+          'semester-1': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-2': [{ value: 'trade-basics', label: 'Trade Basics' }],
+          'semester-3': [{ value: 'trade-basics', label: 'Trade Basics' }],
+        },
+      },
+    },
+    {
+      value: 'graduation',
+      label: 'Graduation',
+      kind: 'branch-semester',
+      branches: [
+        { value: 'BA', label: 'BA' },
+        { value: 'BCA', label: 'BCA' },
+        { value: 'BCom', label: 'BCom' },
+        { value: 'BSc', label: 'BSc' },
+        { value: 'BTech', label: 'BTech' },
+      ],
+      semesters: [
+        { value: 'semester-1', label: 'Semester 1' },
+        { value: 'semester-2', label: 'Semester 2' },
+      ],
+      subjectsByBranch: {
+        BA: [{ value: 'humanities-foundation', label: 'Humanities Foundation' }],
+        BCA: [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+        BCom: [{ value: 'commerce-basics', label: 'Commerce Basics' }],
+        BSc: [{ value: 'science', label: 'Science' }],
+        BTech: [{ value: 'engineering-fundamentals', label: 'Engineering Fundamentals' }],
+      },
+      semestersByBranch: {
+        BA: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+        ],
+        BCA: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+        ],
+        BCom: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+        ],
+        BSc: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+        ],
+        BTech: [
+          { value: 'semester-1', label: 'Semester 1' },
+          { value: 'semester-2', label: 'Semester 2' },
+        ],
+      },
+      subjectsByBranchSemester: {
+        BA: {
+          'semester-1': [{ value: 'humanities-foundation', label: 'Humanities Foundation' }],
+          'semester-2': [{ value: 'humanities-foundation', label: 'Humanities Foundation' }],
+        },
+        BCA: {
+          'semester-1': [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+          'semester-2': [{ value: 'programming-fundamentals', label: 'Programming Fundamentals' }],
+        },
+        BCom: {
+          'semester-1': [{ value: 'commerce-basics', label: 'Commerce Basics' }],
+          'semester-2': [{ value: 'commerce-basics', label: 'Commerce Basics' }],
+        },
+        BSc: {
+          'semester-1': [{ value: 'science', label: 'Science' }],
+          'semester-2': [{ value: 'science', label: 'Science' }],
+        },
+        BTech: {
+          'semester-1': [{ value: 'engineering-fundamentals', label: 'Engineering Fundamentals' }],
+          'semester-2': [{ value: 'engineering-fundamentals', label: 'Engineering Fundamentals' }],
+        },
+      },
+    },
+    {
+      value: 'iit',
+      label: 'IIT / JEE',
+      kind: 'branch-subject',
+      branches: [
+        { value: 'jee-main', label: 'JEE Main' },
+        { value: 'jee-advanced', label: 'JEE Advanced' },
+      ],
+      semesters: [],
+      subjectsByBranch: {
+        'jee-main': [
+          { value: 'physics', label: 'Physics' },
+          { value: 'math', label: 'Math' },
+          { value: 'chemistry', label: 'Chemistry' },
+        ],
+        'jee-advanced': [
+          { value: 'physics', label: 'Physics' },
+          { value: 'math', label: 'Math' },
+          { value: 'chemistry', label: 'Chemistry' },
+        ],
+      },
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+    {
+      value: 'competitive',
+      label: 'Competitive Exams',
+      kind: 'branch-subject',
+      branches: [
+        { value: 'banking', label: 'Banking' },
+        { value: 'cuet', label: 'CUET' },
+        { value: 'nda', label: 'NDA' },
+        { value: 'railway', label: 'Railway' },
+        { value: 'ssc', label: 'SSC' },
+        { value: 'upsc', label: 'UPSC' },
+      ],
+      semesters: [],
+      subjectsByBranch: {
+        banking: [{ value: 'aptitude', label: 'Aptitude' }],
+        cuet: [{ value: 'humanities-foundation', label: 'Humanities Foundation' }],
+        nda: [{ value: 'general-studies', label: 'General Studies' }],
+        railway: [{ value: 'general-studies', label: 'General Studies' }],
+        ssc: [{ value: 'aptitude', label: 'Aptitude' }],
+        upsc: [{ value: 'general-studies', label: 'General Studies' }],
+      },
+      semestersByBranch: {},
+      subjectsByBranchSemester: {},
+    },
+  ],
+};
+
 const API_BASE = (() => {
   const metaBase = document.querySelector('meta[name="tornado-api-base"]')?.content?.trim();
   if (metaBase) return metaBase.replace(/\/$/, '');
@@ -30,6 +489,7 @@ const state = {
   timerSeconds: 0,
   timerHandle: null,
   sessionToken: '',
+  catalog: DEFAULT_CATALOG,
 };
 
 const el = {};
@@ -38,8 +498,11 @@ const byId = (id) => document.getElementById(id);
 function cache() {
   [
     'backendStatus', 'processingHint', 'navToggle', 'navLinks',
-    'topicInput', 'levelInput', 'difficultyInput', 'branchPanel', 'branchInput', 'semesterInput',
-    'countModeInput', 'manualCountWrap', 'questionCountInput', 'randomCountWrap', 'randomMinInput', 'randomMaxInput',
+    'levelInput', 'customLevelWrap', 'customLevelInput',
+    'branchPanel', 'branchLabel', 'branchInput', 'customBranchInput',
+    'semesterPanel', 'semesterLabel', 'semesterInput', 'customSemesterInput',
+    'subjectPanel', 'subjectLabel', 'subjectInput', 'customSubjectInput',
+    'difficultyInput', 'countModeInput', 'manualCountWrap', 'questionCountInput',
     'timerModeInput', 'timerWrap', 'timerMinutesInput',
     'generateBtn', 'resetBtn', 'quizCard', 'timerDisplay', 'progressBar', 'questionCounter', 'answeredCounter',
     'questionTypeLabel', 'questionText', 'questionSub', 'answerArea', 'prevBtn', 'nextBtn', 'submitBtn',
@@ -88,72 +551,185 @@ function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
 
-function getSelectedQuestionTypes() {
+function setHidden(node, hidden) {
+  if (!node) return;
+  node.classList.toggle('quiz-hidden', hidden);
+}
+
+function populateSelect(select, items, placeholder, includeOther = true) {
+  if (!select) return;
+  const current = select.value;
+  select.innerHTML = '';
+  const placeholderOption = document.createElement('option');
+  placeholderOption.value = '';
+  placeholderOption.textContent = placeholder;
+  select.appendChild(placeholderOption);
+  (items || []).forEach((item) => {
+    const option = document.createElement('option');
+    option.value = String(item.value ?? '');
+    option.textContent = String(item.label ?? item.value ?? '');
+    select.appendChild(option);
+  });
+  if (includeOther) {
+    const other = document.createElement('option');
+    other.value = 'other';
+    other.textContent = 'Other';
+    select.appendChild(other);
+  }
+  if (Array.from(select.options).some((opt) => opt.value === current)) {
+    select.value = current;
+  }
+}
+
+function levelEntries() {
+  return Array.isArray(state.catalog?.levels) ? state.catalog.levels : [];
+}
+
+function getLevelEntry(levelValue) {
+  return levelEntries().find((entry) => String(entry.value) === String(levelValue)) || null;
+}
+
+const LEVEL_DISPLAY_ORDER = [
+  'class-1', 'class-2', 'class-3', 'class-4', 'class-5', 'class-6',
+  'class-7', 'class-8', 'class-9', 'class-10', 'class-11', 'class-12',
+  'diploma', 'iti', 'graduation', 'iit', 'competitive'
+];
+
+function normalizeCatalog(catalog) {
+  if (!catalog || typeof catalog !== 'object') return DEFAULT_CATALOG;
+  const next = { ...DEFAULT_CATALOG, ...catalog };
+  if (!Array.isArray(next.levels) || !next.levels.length) return DEFAULT_CATALOG;
+  return next;
+}
+
+function staticLevelItems() {
+  const order = new Map(LEVEL_DISPLAY_ORDER.map((value, index) => [value, index]));
+  return [...levelEntries()]
+    .sort((a, b) => (order.get(String(a.value)) ?? 999) - (order.get(String(b.value)) ?? 999))
+    .map((entry) => ({
+      value: entry.value,
+      label: entry.label,
+    }));
+}
+
+function subjectItemsForLevel(levelEntry, branchValue, semesterValue) {
+  if (!levelEntry) return [];
+  if (levelEntry.kind === 'school') {
+    return Array.isArray(levelEntry.subjects) ? levelEntry.subjects : [];
+  }
+  if (levelEntry.kind === 'branch-semester') {
+    if (branchValue && semesterValue) {
+      return levelEntry.subjectsByBranchSemester?.[branchValue]?.[semesterValue] || [];
+    }
+    if (branchValue) {
+      return levelEntry.subjectsByBranch?.[branchValue] || [];
+    }
+    return [];
+  }
+  if (levelEntry.kind === 'branch-subject') {
+    if (branchValue) {
+      return levelEntry.subjectsByBranch?.[branchValue] || [];
+    }
+    return [];
+  }
+  return [];
+}
+
+function semesterItemsForLevel(levelEntry, branchValue) {
+  if (!levelEntry || levelEntry.kind !== 'branch-semester') return [];
+  if (branchValue && levelEntry.semestersByBranch?.[branchValue]) {
+    return levelEntry.semestersByBranch[branchValue];
+  }
+  return Array.isArray(levelEntry.semesters) ? levelEntry.semesters : [];
+}
+
+function branchItemsForLevel(levelEntry) {
+  if (!levelEntry) return [];
+  return Array.isArray(levelEntry.branches) ? levelEntry.branches : [];
+}
+
+function syncBranchCustomInput() {
+  const levelValue = String(el.levelInput?.value || '');
+  if (levelValue === 'other') return;
+  setHidden(el.customBranchInput, String(el.branchInput?.value || '') !== 'other');
+}
+
+function syncSemesterCustomInput() {
+  const levelValue = String(el.levelInput?.value || '');
+  if (levelValue === 'other') return;
+  setHidden(el.customSemesterInput, String(el.semesterInput?.value || '') !== 'other');
+}
+
+function syncSubjectCustomInput() {
+  const levelValue = String(el.levelInput?.value || '');
+  if (levelValue === 'other') return;
+  const showCustom = String(el.subjectInput?.value || '') === 'other' || el.subjectInput?.classList.contains('quiz-hidden');
+  setHidden(el.customSubjectInput, !showCustom);
+}
+
+function currentCustomValue(selectNode, customNode) {
+  const raw = String(selectNode?.value || '');
+  const customVisible = customNode && !customNode.classList.contains('quiz-hidden');
+  const selectHidden = selectNode && selectNode.classList.contains('quiz-hidden');
+  if (raw === 'other' || selectHidden || (raw === '' && customVisible)) {
+    return String(customNode?.value || '').trim().replace(/\s+/g, ' ');
+  }
+  return raw.trim();
+}
+
+function currentQuestionTypeValues() {
   return Array.from(document.querySelectorAll('input[name="qtype"]:checked')).map((node) => node.value);
 }
 
-function currentCount() {
-  const mode = String(el.countModeInput?.value || 'manual');
-  if (mode === 'random') {
-    const min = clamp(Number(el.randomMinInput?.value || 5), 5, 30);
-    const max = clamp(Number(el.randomMaxInput?.value || 10), 5, 30);
-    const safeMin = Math.min(min, max);
-    const safeMax = Math.max(min, max);
-    return Math.floor(Math.random() * (safeMax - safeMin + 1)) + safeMin;
-  }
-  return clamp(Number(el.questionCountInput?.value || 10), 5, 30);
-}
-
-function currentTimerSeconds() {
-  const mode = String(el.timerModeInput?.value || 'no_limit');
-  if (mode === 'no_limit') return 0;
-  return clamp(Number(el.timerMinutesInput?.value || 10), 5, 60) * 60;
-}
-
-function updateLevelFields() {
-  const level = String(el.levelInput?.value || '');
-  const showBranch = ['diploma', 'iti', 'iit'].includes(level);
-  el.branchPanel?.classList.toggle('quiz-hidden', !showBranch);
-}
-
-function updateCountFields() {
-  const mode = String(el.countModeInput?.value || 'manual');
-  el.manualCountWrap?.classList.toggle('quiz-hidden', mode !== 'manual');
-  el.randomCountWrap?.classList.toggle('quiz-hidden', mode !== 'random');
-}
-
-function updateTimerFields() {
-  const mode = String(el.timerModeInput?.value || 'no_limit');
-  el.timerWrap?.classList.toggle('quiz-hidden', mode !== 'manual');
-}
-
 function currentConfig() {
+  const levelRaw = String(el.levelInput?.value || 'class-10');
+  const levelEntry = getLevelEntry(levelRaw);
+  const customLevel = currentCustomValue(el.levelInput, el.customLevelInput);
+  const selectedLevel = levelRaw === 'other' ? customLevel : levelRaw;
+
+  const branchVisible = !['school'].includes(levelEntry?.kind) || levelRaw === 'other';
+  const semesterVisible = levelEntry?.kind === 'branch-semester' || levelRaw === 'other';
+
+  const branch = branchVisible
+    ? currentCustomValue(el.branchInput, el.customBranchInput)
+    : '';
+
+  const semester = semesterVisible
+    ? currentCustomValue(el.semesterInput, el.customSemesterInput)
+    : '';
+
+  const subject = currentCustomValue(el.subjectInput, el.customSubjectInput);
+
   return {
-    topic: String(el.topicInput?.value || '').trim(),
-    level: String(el.levelInput?.value || 'class-10'),
-    subject: String(el.topicInput?.value || '').trim(),
-    branch: String(el.branchInput?.value || '').trim(),
-    semester: String(el.semesterInput?.value || '').trim(),
+    topic: subject || selectedLevel,
+    level: selectedLevel,
+    subject,
+    branch,
+    semester,
     difficulty: String(el.difficultyInput?.value || 'medium'),
-    questionTypes: getSelectedQuestionTypes(),
+    questionTypes: currentQuestionTypeValues(),
     countMode: String(el.countModeInput?.value || 'manual'),
     questionCount: Number(el.questionCountInput?.value || 10),
-    randomMin: Number(el.randomMinInput?.value || 5),
-    randomMax: Number(el.randomMaxInput?.value || 15),
+    randomMin: 5,
+    randomMax: 30,
     timerMode: String(el.timerModeInput?.value || 'no_limit'),
     timerMinutes: Number(el.timerMinutesInput?.value || 10),
   };
 }
 
 function validateConfig(config) {
-  if (!config.topic || config.topic.length < 2) return 'Enter a valid topic or subject.';
+  const levelEntry = getLevelEntry(String(config.level || ''));
+  const isCustomLevel = !levelEntry || String(config.level || '') === 'other';
+  const branchVisible = isCustomLevel || levelEntry.kind !== 'school';
+  const semesterVisible = isCustomLevel || levelEntry.kind === 'branch-semester';
+
+  if (!config.level || config.level.length < 2) return 'Choose a valid education level.';
+  if (branchVisible && (!config.branch || config.branch.length < 2)) return 'Choose or type a valid branch / trade.';
+  if (semesterVisible && (!config.semester || config.semester.length < 2)) return 'Choose or type a valid semester.';
+  if (!config.subject || config.subject.length < 2) return 'Choose or type a valid topic / subject.';
   if (!config.questionTypes.length) return 'Choose at least one question type.';
-  const count = config.countMode === 'random'
-    ? Math.max(config.randomMin, config.randomMax)
-    : config.questionCount;
-  if (!Number.isFinite(count) || count < 5 || count > 30) return 'Question count must be between 5 and 30.';
-  if (config.countMode === 'random' && (config.randomMin < 5 || config.randomMax > 30 || config.randomMin > config.randomMax)) {
-    return 'Random range must stay between 5 and 30 and min must be less than max.';
+  if (config.countMode === 'manual' && (!Number.isFinite(config.questionCount) || config.questionCount < 5 || config.questionCount > 30)) {
+    return 'Question count must be between 5 and 30.';
   }
   if (config.timerMode === 'manual' && (!Number.isFinite(config.timerMinutes) || config.timerMinutes < 5 || config.timerMinutes > 60)) {
     return 'Timer must be between 5 and 60 minutes.';
@@ -219,12 +795,136 @@ function cleanupBackendSession(sessionToken, delaySeconds = 300) {
   }).catch(() => {});
 }
 
+function updateLevelUI() {
+  const levelValue = String(el.levelInput?.value || 'class-10');
+  const levelEntry = getLevelEntry(levelValue);
+
+  const isOther = levelValue === 'other';
+  const isSchool = levelEntry?.kind === 'school';
+  const isBranchSemester = levelEntry?.kind === 'branch-semester';
+  const isBranchSubject = levelEntry?.kind === 'branch-subject';
+
+  setHidden(el.customLevelWrap, !isOther);
+  setHidden(el.branchPanel, isSchool && !isOther);
+  setHidden(el.semesterPanel, !(isBranchSemester || isOther));
+  setHidden(el.subjectPanel, false);
+
+  if (el.branchLabel) {
+    el.branchLabel.textContent = isBranchSubject ? 'Exam / Track' : 'Branch / Trade';
+  }
+  if (el.semesterLabel) {
+    el.semesterLabel.textContent = 'Semester';
+  }
+  if (el.subjectLabel) {
+    el.subjectLabel.textContent = 'Topic / Subject';
+  }
+
+  if (isOther) {
+    setHidden(el.branchInput, true);
+    setHidden(el.semesterInput, true);
+    setHidden(el.subjectInput, true);
+    setHidden(el.customBranchInput, false);
+    setHidden(el.customSemesterInput, false);
+    setHidden(el.customSubjectInput, false);
+    if (el.customLevelInput && !el.customLevelInput.value) {
+      el.customLevelInput.placeholder = 'Type education level exactly as you need it';
+    }
+  } else if (isSchool) {
+    setHidden(el.branchInput, true);
+    setHidden(el.customBranchInput, true);
+    setHidden(el.semesterInput, true);
+    setHidden(el.customSemesterInput, true);
+    setHidden(el.subjectInput, false);
+    setHidden(el.customSubjectInput, true);
+    populateSelect(el.subjectInput, subjectItemsForLevel(levelEntry), 'Select topic / subject');
+  } else if (isBranchSemester) {
+    setHidden(el.branchInput, false);
+    setHidden(el.customBranchInput, true);
+    setHidden(el.semesterInput, false);
+    setHidden(el.customSemesterInput, true);
+    setHidden(el.subjectInput, false);
+    setHidden(el.customSubjectInput, true);
+    populateSelect(el.branchInput, branchItemsForLevel(levelEntry), 'Select branch / trade');
+    populateSelect(el.semesterInput, semesterItemsForLevel(levelEntry, String(el.branchInput?.value || '')), 'Select semester');
+    populateSelect(el.subjectInput, subjectItemsForLevel(levelEntry, String(el.branchInput?.value || ''), String(el.semesterInput?.value || '')), 'Select topic / subject');
+  } else if (isBranchSubject) {
+    setHidden(el.branchInput, false);
+    setHidden(el.customBranchInput, true);
+    setHidden(el.semesterInput, true);
+    setHidden(el.customSemesterInput, true);
+    setHidden(el.subjectInput, false);
+    setHidden(el.customSubjectInput, true);
+    populateSelect(el.branchInput, branchItemsForLevel(levelEntry), isBranchSubject ? 'Select exam / track' : 'Select branch / trade');
+    populateSelect(el.subjectInput, subjectItemsForLevel(levelEntry, String(el.branchInput?.value || '')), 'Select topic / subject');
+  }
+
+  syncBranchCustomInput();
+  syncSemesterCustomInput();
+  syncSubjectCustomInput();
+  updateSubjectPanel();
+  updateGenerateButton();
+}
+
+function updateSubjectPanel() {
+  const levelValue = String(el.levelInput?.value || 'class-10');
+  const levelEntry = getLevelEntry(levelValue);
+  const isOther = levelValue === 'other';
+
+  if (isOther) {
+    setHidden(el.subjectInput, true);
+    setHidden(el.customSubjectInput, false);
+    return;
+  }
+
+  const branchValue = currentCustomValue(el.branchInput, el.customBranchInput);
+  const semesterValue = currentCustomValue(el.semesterInput, el.customSemesterInput);
+  const subjects = subjectItemsForLevel(levelEntry, branchValue, semesterValue);
+
+  if (subjects.length) {
+    setHidden(el.subjectInput, false);
+    populateSelect(el.subjectInput, subjects, 'Select topic / subject');
+  } else {
+    setHidden(el.subjectInput, true);
+  }
+
+  syncSubjectCustomInput();
+}
+
+function updateBranchUI() {
+  const levelValue = String(el.levelInput?.value || 'class-10');
+  const levelEntry = getLevelEntry(levelValue);
+  if (!levelEntry) return;
+
+  if (levelEntry.kind === 'branch-semester' || levelEntry.kind === 'branch-subject') {
+    populateSelect(el.branchInput, branchItemsForLevel(levelEntry), levelEntry.kind === 'branch-subject' ? 'Select exam / track' : 'Select branch / trade');
+    const branchValue = String(el.branchInput?.value || '');
+    if (levelEntry.kind === 'branch-semester') {
+      populateSelect(el.semesterInput, semesterItemsForLevel(levelEntry, branchValue), 'Select semester');
+    }
+    syncBranchCustomInput();
+    updateSubjectPanel();
+  }
+}
+
+function updateSemesterUI() {
+  const levelValue = String(el.levelInput?.value || 'class-10');
+  const levelEntry = getLevelEntry(levelValue);
+  if (levelEntry?.kind !== 'branch-semester') return;
+  const branchValue = String(el.branchInput?.value || '');
+  populateSelect(el.semesterInput, semesterItemsForLevel(levelEntry, branchValue), 'Select semester');
+  syncSemesterCustomInput();
+  updateSubjectPanel();
+}
+
 async function loadCapabilities() {
   try {
     const res = await fetch(API_CAPABILITIES, { method: 'GET', cache: 'no-store', headers: { Accept: 'application/json' } });
     if (!res.ok) throw new Error('capabilities');
     const json = await res.json();
-    if (json?.success) {
+    if (json?.success && json?.data?.bankCatalog) {
+      state.catalog = normalizeCatalog(json.data.bankCatalog);
+      renderLevelOptions();
+      updateLevelUI();
       setStatus('Quiz engine ready.', 'ready');
       setHint('Ready to generate quizzes.');
       state.backendReady = true;
@@ -233,6 +933,9 @@ async function loadCapabilities() {
     }
     throw new Error('bad response');
   } catch (_) {
+    state.catalog = normalizeCatalog(DEFAULT_CATALOG);
+    renderLevelOptions();
+    updateLevelUI();
     setStatus('Quiz engine warming up. You can still try generation.', 'warning');
     setHint('Quiz engine warming up. You can still try generation.', 'warning');
     state.backendReady = false;
@@ -433,20 +1136,21 @@ async function generateQuiz() {
   setHint('Generating quiz...');
   if (el.generateBtn) el.generateBtn.textContent = 'Generating...';
 
+  const manualMode = String(el.countModeInput?.value || 'manual') === 'manual';
   const payload = {
-    topic: config.topic,
+    topic: config.subject,
     level: config.level,
-    subject: config.topic,
+    subject: config.subject,
     branch: config.branch || '',
     semester: config.semester || '',
     difficulty: config.difficulty,
     questionTypes: config.questionTypes,
-    countMode: config.countMode,
-    questionCount: currentCount(),
-    randomMin: config.randomMin,
-    randomMax: config.randomMax,
-    timerMode: config.timerMode,
-    timerMinutes: config.timerMinutes,
+    countMode: manualMode ? 'manual' : 'auto',
+    questionCount: manualMode ? clamp(Number(el.questionCountInput?.value || 10), 5, 30) : 10,
+    randomMin: manualMode ? 5 : 5,
+    randomMax: manualMode ? 30 : 30,
+    timerMode: String(el.timerModeInput?.value || 'no_limit'),
+    timerMinutes: String(el.timerModeInput?.value || 'no_limit') === 'manual' ? clamp(Number(el.timerMinutesInput?.value || 10), 5, 60) : 10,
   };
 
   try {
@@ -557,6 +1261,10 @@ function gotoQuestion(nextIndex) {
   saveSession();
 }
 
+function renderLevelOptions() {
+  populateSelect(el.levelInput, staticLevelItems(), 'Choose education level');
+}
+
 function bindEvents() {
   el.navToggle?.addEventListener('click', () => {
     el.navLinks?.classList.toggle('open');
@@ -564,19 +1272,53 @@ function bindEvents() {
   });
 
   el.levelInput?.addEventListener('change', () => {
-    updateLevelFields();
-    updateGenerateButton();
-  });
-  el.countModeInput?.addEventListener('change', () => {
-    updateCountFields();
-    updateGenerateButton();
-  });
-  el.timerModeInput?.addEventListener('change', () => {
-    updateTimerFields();
+    updateLevelUI();
+    updateBranchUI();
+    updateSemesterUI();
     updateGenerateButton();
   });
 
-  [el.topicInput, el.difficultyInput, el.questionCountInput, el.randomMinInput, el.randomMaxInput, el.timerMinutesInput, el.branchInput, el.semesterInput]
+  el.customLevelInput?.addEventListener('input', updateGenerateButton);
+
+  el.branchInput?.addEventListener('change', () => {
+    const levelEntry = getLevelEntry(String(el.levelInput?.value || ''));
+    if (levelEntry?.kind === 'branch-semester') {
+      updateSemesterUI();
+    }
+    syncBranchCustomInput();
+    updateSubjectPanel();
+    updateGenerateButton();
+  });
+  el.customBranchInput?.addEventListener('input', updateGenerateButton);
+
+  el.semesterInput?.addEventListener('change', () => {
+    syncSemesterCustomInput();
+    updateSubjectPanel();
+    updateGenerateButton();
+  });
+  el.customSemesterInput?.addEventListener('input', updateGenerateButton);
+
+  el.subjectInput?.addEventListener('change', () => {
+    syncSubjectCustomInput();
+    updateGenerateButton();
+  });
+  el.customSubjectInput?.addEventListener('input', updateGenerateButton);
+
+  el.difficultyInput?.addEventListener('change', updateGenerateButton);
+
+  el.countModeInput?.addEventListener('change', () => {
+    const manual = String(el.countModeInput?.value || 'manual') === 'manual';
+    setHidden(el.manualCountWrap, !manual);
+    updateGenerateButton();
+  });
+
+  el.timerModeInput?.addEventListener('change', () => {
+    const manual = String(el.timerModeInput?.value || 'no_limit') === 'manual';
+    setHidden(el.timerWrap, !manual);
+    updateGenerateButton();
+  });
+
+  [el.questionCountInput, el.timerMinutesInput]
     .forEach((node) => node?.addEventListener('input', updateGenerateButton));
 
   document.querySelectorAll('input[name="qtype"]').forEach((node) => node.addEventListener('change', updateGenerateButton));
@@ -640,9 +1382,13 @@ async function init() {
   cache();
   initFaq();
   bindEvents();
-  updateLevelFields();
-  updateCountFields();
-  updateTimerFields();
+  renderLevelOptions();
+  setHidden(el.manualCountWrap, String(el.countModeInput?.value || 'manual') !== 'manual');
+  setHidden(el.timerWrap, String(el.timerModeInput?.value || 'no_limit') !== 'manual');
+  updateLevelUI();
+  updateBranchUI();
+  updateSemesterUI();
+  updateSubjectPanel();
   updateGenerateButton();
   setStatus('Preparing quiz engine...', 'loading');
   setHint('Preparing quiz engine...');
