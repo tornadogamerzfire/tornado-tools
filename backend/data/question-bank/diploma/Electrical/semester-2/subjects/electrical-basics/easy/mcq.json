@@ -1,0 +1,802 @@
+[
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-001",
+    "question": "Which term best matches this description: the flow of electric charge?",
+    "options": [
+      "voltage",
+      "power",
+      "resistance",
+      "current"
+    ],
+    "answer": "current",
+    "explanation": "Current means the flow of electric charge.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-002",
+    "question": "Choose the correct term for: the potential difference that drives current.",
+    "options": [
+      "frequency",
+      "voltage",
+      "energy",
+      "current"
+    ],
+    "answer": "voltage",
+    "explanation": "Voltage means the potential difference that drives current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-003",
+    "question": "What is the best answer for: the opposition to current flow?",
+    "options": [
+      "charge",
+      "power",
+      "resistance",
+      "capacitance"
+    ],
+    "answer": "resistance",
+    "explanation": "Resistance means the opposition to current flow.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-004",
+    "question": "Which term best matches this description: the relation V = IR?",
+    "options": [
+      "P = VI",
+      "Q = IT",
+      "V = I/R",
+      "Ohm's law"
+    ],
+    "answer": "Ohm's law",
+    "explanation": "Ohm's law means the relation V = IR.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-005",
+    "question": "Choose the correct term for: a safety device that breaks a circuit when current is too high.",
+    "options": [
+      "transformer",
+      "fuse",
+      "relay",
+      "motor"
+    ],
+    "answer": "fuse",
+    "explanation": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-006",
+    "question": "What is the best answer for: a device that changes AC voltage levels?",
+    "options": [
+      "lamp",
+      "switch",
+      "battery",
+      "transformer"
+    ],
+    "answer": "transformer",
+    "explanation": "Transformer means a device that changes AC voltage levels.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-007",
+    "question": "Which term best matches this description: a device that converts electrical energy into mechanical energy?",
+    "options": [
+      "resistor",
+      "motor",
+      "capacitor",
+      "diode"
+    ],
+    "answer": "motor",
+    "explanation": "Motor means a device that converts electrical energy into mechanical energy.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-008",
+    "question": "Choose the correct term for: a device that converts mechanical energy into electrical energy.",
+    "options": [
+      "switch",
+      "fuse",
+      "generator",
+      "battery"
+    ],
+    "answer": "generator",
+    "explanation": "Generator means a device that converts mechanical energy into electrical energy.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-009",
+    "question": "What is the best answer for: alternating current?",
+    "options": [
+      "AC",
+      "direct current",
+      "static charge",
+      "earth fault"
+    ],
+    "answer": "AC",
+    "explanation": "Ac means alternating current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-010",
+    "question": "Which term best matches this description: direct current?",
+    "options": [
+      "alternating current",
+      "magnetic field",
+      "load",
+      "DC"
+    ],
+    "answer": "DC",
+    "explanation": "Dc means direct current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-011",
+    "question": "Choose the correct term for: a closed path through which current flows.",
+    "options": [
+      "wire",
+      "circuit",
+      "lamp",
+      "switch"
+    ],
+    "answer": "circuit",
+    "explanation": "Circuit means a closed path through which current flows.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-012",
+    "question": "What is the best answer for: a material that allows electricity to pass easily?",
+    "options": [
+      "conductor",
+      "emitter",
+      "insulator",
+      "filter"
+    ],
+    "answer": "conductor",
+    "explanation": "Conductor means a material that allows electricity to pass easily.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-013",
+    "question": "Which term best matches this description: a material that resists the flow of electricity?",
+    "options": [
+      "motor",
+      "relay",
+      "conductor",
+      "insulator"
+    ],
+    "answer": "insulator",
+    "explanation": "Insulator means a material that resists the flow of electricity.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-014",
+    "question": "Choose the correct term for: an instrument used to measure voltage.",
+    "options": [
+      "wattmeter",
+      "ohmmeter",
+      "ammeter",
+      "voltmeter"
+    ],
+    "answer": "voltmeter",
+    "explanation": "Voltmeter means an instrument used to measure voltage.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-015",
+    "question": "What is the best answer for: an instrument used to measure current?",
+    "options": [
+      "thermometer",
+      "ammeter",
+      "barometer",
+      "voltmeter"
+    ],
+    "answer": "ammeter",
+    "explanation": "Ammeter means an instrument used to measure current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-016",
+    "question": "Which term best matches this description: the unit of power?",
+    "options": [
+      "ampere",
+      "watt",
+      "volt",
+      "ohm"
+    ],
+    "answer": "watt",
+    "explanation": "Watt means the unit of power.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-017",
+    "question": "Choose the correct term for: the SI unit of electric current.",
+    "options": [
+      "volt",
+      "tesla",
+      "ampere",
+      "watt"
+    ],
+    "answer": "ampere",
+    "explanation": "Ampere means the SI unit of electric current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-018",
+    "question": "What is the best answer for: an unintended low-resistance path?",
+    "options": [
+      "short circuit",
+      "series circuit",
+      "parallel circuit",
+      "open circuit"
+    ],
+    "answer": "short circuit",
+    "explanation": "Short circuit means an unintended low-resistance path.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-019",
+    "question": "Which term best matches this description: a circuit with a single path for current?",
+    "options": [
+      "closed circuit",
+      "series circuit",
+      "open circuit",
+      "parallel circuit"
+    ],
+    "answer": "series circuit",
+    "explanation": "Series circuit means a circuit with a single path for current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-020",
+    "question": "Choose the correct term for: a circuit with more than one path for current.",
+    "options": [
+      "parallel circuit",
+      "short circuit",
+      "series circuit",
+      "open circuit"
+    ],
+    "answer": "parallel circuit",
+    "explanation": "Parallel circuit means a circuit with more than one path for current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-021",
+    "question": "What is the best answer for: the flow of electric charge?",
+    "options": [
+      "current",
+      "voltage",
+      "resistance",
+      "power"
+    ],
+    "answer": "current",
+    "explanation": "Current means the flow of electric charge.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-022",
+    "question": "Which term best matches this description: the potential difference that drives current?",
+    "options": [
+      "voltage",
+      "frequency",
+      "energy",
+      "current"
+    ],
+    "answer": "voltage",
+    "explanation": "Voltage means the potential difference that drives current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-023",
+    "question": "Choose the correct term for: the opposition to current flow.",
+    "options": [
+      "charge",
+      "resistance",
+      "power",
+      "capacitance"
+    ],
+    "answer": "resistance",
+    "explanation": "Resistance means the opposition to current flow.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-024",
+    "question": "What is the best answer for: the relation V = IR?",
+    "options": [
+      "Q = IT",
+      "Ohm's law",
+      "P = VI",
+      "V = I/R"
+    ],
+    "answer": "Ohm's law",
+    "explanation": "Ohm's law means the relation V = IR.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-025",
+    "question": "Which term best matches this description: a safety device that breaks a circuit when current is too high?",
+    "options": [
+      "relay",
+      "motor",
+      "transformer",
+      "fuse"
+    ],
+    "answer": "fuse",
+    "explanation": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-026",
+    "question": "Choose the correct term for: a device that changes AC voltage levels.",
+    "options": [
+      "switch",
+      "battery",
+      "transformer",
+      "lamp"
+    ],
+    "answer": "transformer",
+    "explanation": "Transformer means a device that changes AC voltage levels.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-027",
+    "question": "What is the best answer for: a device that converts electrical energy into mechanical energy?",
+    "options": [
+      "capacitor",
+      "motor",
+      "resistor",
+      "diode"
+    ],
+    "answer": "motor",
+    "explanation": "Motor means a device that converts electrical energy into mechanical energy.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-028",
+    "question": "Which term best matches this description: a device that converts mechanical energy into electrical energy?",
+    "options": [
+      "generator",
+      "switch",
+      "fuse",
+      "battery"
+    ],
+    "answer": "generator",
+    "explanation": "Generator means a device that converts mechanical energy into electrical energy.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-029",
+    "question": "Choose the correct term for: alternating current.",
+    "options": [
+      "direct current",
+      "static charge",
+      "earth fault",
+      "AC"
+    ],
+    "answer": "AC",
+    "explanation": "Ac means alternating current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-030",
+    "question": "What is the best answer for: direct current?",
+    "options": [
+      "magnetic field",
+      "alternating current",
+      "load",
+      "DC"
+    ],
+    "answer": "DC",
+    "explanation": "Dc means direct current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-031",
+    "question": "Which term best matches this description: a closed path through which current flows?",
+    "options": [
+      "lamp",
+      "wire",
+      "switch",
+      "circuit"
+    ],
+    "answer": "circuit",
+    "explanation": "Circuit means a closed path through which current flows.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-032",
+    "question": "Choose the correct term for: a material that allows electricity to pass easily.",
+    "options": [
+      "emitter",
+      "filter",
+      "conductor",
+      "insulator"
+    ],
+    "answer": "conductor",
+    "explanation": "Conductor means a material that allows electricity to pass easily.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-033",
+    "question": "What is the best answer for: a material that resists the flow of electricity?",
+    "options": [
+      "insulator",
+      "conductor",
+      "motor",
+      "relay"
+    ],
+    "answer": "insulator",
+    "explanation": "Insulator means a material that resists the flow of electricity.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-034",
+    "question": "Which term best matches this description: an instrument used to measure voltage?",
+    "options": [
+      "wattmeter",
+      "ohmmeter",
+      "voltmeter",
+      "ammeter"
+    ],
+    "answer": "voltmeter",
+    "explanation": "Voltmeter means an instrument used to measure voltage.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-035",
+    "question": "Choose the correct term for: an instrument used to measure current.",
+    "options": [
+      "thermometer",
+      "ammeter",
+      "barometer",
+      "voltmeter"
+    ],
+    "answer": "ammeter",
+    "explanation": "Ammeter means an instrument used to measure current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-036",
+    "question": "What is the best answer for: the unit of power?",
+    "options": [
+      "watt",
+      "ampere",
+      "ohm",
+      "volt"
+    ],
+    "answer": "watt",
+    "explanation": "Watt means the unit of power.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-037",
+    "question": "Which term best matches this description: the SI unit of electric current?",
+    "options": [
+      "ampere",
+      "tesla",
+      "watt",
+      "volt"
+    ],
+    "answer": "ampere",
+    "explanation": "Ampere means the SI unit of electric current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-038",
+    "question": "Choose the correct term for: an unintended low-resistance path.",
+    "options": [
+      "short circuit",
+      "parallel circuit",
+      "series circuit",
+      "open circuit"
+    ],
+    "answer": "short circuit",
+    "explanation": "Short circuit means an unintended low-resistance path.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-039",
+    "question": "What is the best answer for: a circuit with a single path for current?",
+    "options": [
+      "open circuit",
+      "closed circuit",
+      "parallel circuit",
+      "series circuit"
+    ],
+    "answer": "series circuit",
+    "explanation": "Series circuit means a circuit with a single path for current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-040",
+    "question": "Which term best matches this description: a circuit with more than one path for current?",
+    "options": [
+      "short circuit",
+      "series circuit",
+      "open circuit",
+      "parallel circuit"
+    ],
+    "answer": "parallel circuit",
+    "explanation": "Parallel circuit means a circuit with more than one path for current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-041",
+    "question": "Choose the correct term for: the flow of electric charge.",
+    "options": [
+      "resistance",
+      "current",
+      "voltage",
+      "power"
+    ],
+    "answer": "current",
+    "explanation": "Current means the flow of electric charge.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-042",
+    "question": "What is the best answer for: the potential difference that drives current?",
+    "options": [
+      "voltage",
+      "energy",
+      "frequency",
+      "current"
+    ],
+    "answer": "voltage",
+    "explanation": "Voltage means the potential difference that drives current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-043",
+    "question": "Which term best matches this description: the opposition to current flow?",
+    "options": [
+      "capacitance",
+      "power",
+      "charge",
+      "resistance"
+    ],
+    "answer": "resistance",
+    "explanation": "Resistance means the opposition to current flow.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-044",
+    "question": "Choose the correct term for: the relation V = IR.",
+    "options": [
+      "Ohm's law",
+      "V = I/R",
+      "Q = IT",
+      "P = VI"
+    ],
+    "answer": "Ohm's law",
+    "explanation": "Ohm's law means the relation V = IR.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-045",
+    "question": "What is the best answer for: a safety device that breaks a circuit when current is too high?",
+    "options": [
+      "motor",
+      "transformer",
+      "fuse",
+      "relay"
+    ],
+    "answer": "fuse",
+    "explanation": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-046",
+    "question": "Which term best matches this description: a device that changes AC voltage levels?",
+    "options": [
+      "switch",
+      "battery",
+      "lamp",
+      "transformer"
+    ],
+    "answer": "transformer",
+    "explanation": "Transformer means a device that changes AC voltage levels.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-047",
+    "question": "Choose the correct term for: a device that converts electrical energy into mechanical energy.",
+    "options": [
+      "motor",
+      "diode",
+      "capacitor",
+      "resistor"
+    ],
+    "answer": "motor",
+    "explanation": "Motor means a device that converts electrical energy into mechanical energy.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-048",
+    "question": "What is the best answer for: a device that converts mechanical energy into electrical energy?",
+    "options": [
+      "battery",
+      "fuse",
+      "switch",
+      "generator"
+    ],
+    "answer": "generator",
+    "explanation": "Generator means a device that converts mechanical energy into electrical energy.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-049",
+    "question": "Which term best matches this description: alternating current?",
+    "options": [
+      "AC",
+      "earth fault",
+      "static charge",
+      "direct current"
+    ],
+    "answer": "AC",
+    "explanation": "Ac means alternating current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electrical-semester-2-electrical-basics-easy-mcq-050",
+    "question": "Choose the correct term for: direct current.",
+    "options": [
+      "DC",
+      "load",
+      "magnetic field",
+      "alternating current"
+    ],
+    "answer": "DC",
+    "explanation": "Dc means direct current.",
+    "level": "diploma-Electrical-semester-2",
+    "subject": "electrical-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

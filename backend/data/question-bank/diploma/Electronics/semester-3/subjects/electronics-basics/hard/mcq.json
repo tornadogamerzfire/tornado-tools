@@ -1,0 +1,802 @@
+[
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-001",
+    "question": "Which term best matches this description: a component that allows current to flow mainly one way?",
+    "options": [
+      "resistor",
+      "transistor",
+      "inductor",
+      "diode"
+    ],
+    "answer": "diode",
+    "explanation": "Diode means a component that allows current to flow mainly one way.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-002",
+    "question": "Choose the correct term for: a semiconductor device used for switching and amplification.",
+    "options": [
+      "antenna",
+      "capacitor",
+      "transistor",
+      "relay"
+    ],
+    "answer": "transistor",
+    "explanation": "Transistor means a semiconductor device used for switching and amplification.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-003",
+    "question": "What is the best answer for: a component that limits current?",
+    "options": [
+      "resistor",
+      "diode",
+      "battery",
+      "motor"
+    ],
+    "answer": "resistor",
+    "explanation": "Resistor means a component that limits current.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-004",
+    "question": "Which term best matches this description: a component that stores electrical energy temporarily?",
+    "options": [
+      "fuse",
+      "switch",
+      "lamp",
+      "capacitor"
+    ],
+    "answer": "capacitor",
+    "explanation": "Capacitor means a component that stores electrical energy temporarily.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-005",
+    "question": "Choose the correct term for: a component that stores energy in a magnetic field.",
+    "options": [
+      "battery",
+      "inductor",
+      "transistor",
+      "resistor"
+    ],
+    "answer": "inductor",
+    "explanation": "Inductor means a component that stores energy in a magnetic field.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-006",
+    "question": "What is the best answer for: an electronic building block for digital circuits?",
+    "options": [
+      "speaker",
+      "antenna",
+      "logic gate",
+      "sensor"
+    ],
+    "answer": "logic gate",
+    "explanation": "Logic gate means an electronic building block for digital circuits.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-007",
+    "question": "Which term best matches this description: outputs 1 only when all inputs are 1?",
+    "options": [
+      "OR gate",
+      "AND gate",
+      "NOT gate",
+      "XOR gate"
+    ],
+    "answer": "AND gate",
+    "explanation": "And gate means outputs 1 only when all inputs are 1.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-008",
+    "question": "Choose the correct term for: outputs 1 when any input is 1.",
+    "options": [
+      "NOR gate",
+      "NAND gate",
+      "OR gate",
+      "AND gate"
+    ],
+    "answer": "OR gate",
+    "explanation": "Or gate means outputs 1 when any input is 1.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-009",
+    "question": "What is the best answer for: inverts the input?",
+    "options": [
+      "XOR gate",
+      "OR gate",
+      "AND gate",
+      "NOT gate"
+    ],
+    "answer": "NOT gate",
+    "explanation": "Not gate means inverts the input.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-010",
+    "question": "Which term best matches this description: a small computer on a single chip?",
+    "options": [
+      "relay",
+      "microcontroller",
+      "motor",
+      "transformer"
+    ],
+    "answer": "microcontroller",
+    "explanation": "Microcontroller means a small computer on a single chip.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-011",
+    "question": "Choose the correct term for: a circuit that generates periodic signals.",
+    "options": [
+      "sensor",
+      "switch",
+      "oscillator",
+      "fuse"
+    ],
+    "answer": "oscillator",
+    "explanation": "Oscillator means a circuit that generates periodic signals.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-012",
+    "question": "What is the best answer for: a circuit that increases signal strength?",
+    "options": [
+      "amplifier",
+      "battery",
+      "filter",
+      "antenna"
+    ],
+    "answer": "amplifier",
+    "explanation": "Amplifier means a circuit that increases signal strength.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-013",
+    "question": "Which term best matches this description: the process of varying a carrier signal?",
+    "options": [
+      "rectification",
+      "modulation",
+      "sampling",
+      "soldering"
+    ],
+    "answer": "modulation",
+    "explanation": "Modulation means the process of varying a carrier signal.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-014",
+    "question": "Choose the correct term for: the process of extracting the original signal.",
+    "options": [
+      "rectification",
+      "oscillation",
+      "demodulation",
+      "amplification"
+    ],
+    "answer": "demodulation",
+    "explanation": "Demodulation means the process of extracting the original signal.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-015",
+    "question": "What is the best answer for: a circuit that converts AC to DC?",
+    "options": [
+      "oscillator",
+      "rectifier",
+      "sensor",
+      "amplifier"
+    ],
+    "answer": "rectifier",
+    "explanation": "Rectifier means a circuit that converts AC to DC.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-016",
+    "question": "Which term best matches this description: a device that detects physical changes?",
+    "options": [
+      "sensor",
+      "battery",
+      "speaker",
+      "switch"
+    ],
+    "answer": "sensor",
+    "explanation": "Sensor means a device that detects physical changes.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-017",
+    "question": "Choose the correct term for: a board used to prototype electronic circuits.",
+    "options": [
+      "pin",
+      "soldering iron",
+      "breadboard",
+      "multimeter"
+    ],
+    "answer": "breadboard",
+    "explanation": "Breadboard means a board used to prototype electronic circuits.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-018",
+    "question": "What is the best answer for: printed circuit board?",
+    "options": [
+      "plug",
+      "cable",
+      "PCB",
+      "relay"
+    ],
+    "answer": "PCB",
+    "explanation": "Pcb means printed circuit board.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-019",
+    "question": "Which term best matches this description: the number of cycles per second?",
+    "options": [
+      "current",
+      "voltage",
+      "power",
+      "frequency"
+    ],
+    "answer": "frequency",
+    "explanation": "Frequency means the number of cycles per second.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-020",
+    "question": "Choose the correct term for: an electrical representation of information.",
+    "options": [
+      "coil",
+      "circuit",
+      "signal",
+      "load"
+    ],
+    "answer": "signal",
+    "explanation": "Signal means an electrical representation of information.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-021",
+    "question": "What is the best answer for: a component that allows current to flow mainly one way?",
+    "options": [
+      "diode",
+      "transistor",
+      "inductor",
+      "resistor"
+    ],
+    "answer": "diode",
+    "explanation": "Diode means a component that allows current to flow mainly one way.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-022",
+    "question": "Which term best matches this description: a semiconductor device used for switching and amplification?",
+    "options": [
+      "capacitor",
+      "antenna",
+      "relay",
+      "transistor"
+    ],
+    "answer": "transistor",
+    "explanation": "Transistor means a semiconductor device used for switching and amplification.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-023",
+    "question": "Choose the correct term for: a component that limits current.",
+    "options": [
+      "battery",
+      "diode",
+      "resistor",
+      "motor"
+    ],
+    "answer": "resistor",
+    "explanation": "Resistor means a component that limits current.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-024",
+    "question": "What is the best answer for: a component that stores electrical energy temporarily?",
+    "options": [
+      "capacitor",
+      "switch",
+      "lamp",
+      "fuse"
+    ],
+    "answer": "capacitor",
+    "explanation": "Capacitor means a component that stores electrical energy temporarily.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-025",
+    "question": "Which term best matches this description: a component that stores energy in a magnetic field?",
+    "options": [
+      "resistor",
+      "inductor",
+      "battery",
+      "transistor"
+    ],
+    "answer": "inductor",
+    "explanation": "Inductor means a component that stores energy in a magnetic field.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-026",
+    "question": "Choose the correct term for: an electronic building block for digital circuits.",
+    "options": [
+      "sensor",
+      "logic gate",
+      "speaker",
+      "antenna"
+    ],
+    "answer": "logic gate",
+    "explanation": "Logic gate means an electronic building block for digital circuits.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-027",
+    "question": "What is the best answer for: outputs 1 only when all inputs are 1?",
+    "options": [
+      "NOT gate",
+      "XOR gate",
+      "AND gate",
+      "OR gate"
+    ],
+    "answer": "AND gate",
+    "explanation": "And gate means outputs 1 only when all inputs are 1.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-028",
+    "question": "Which term best matches this description: outputs 1 when any input is 1?",
+    "options": [
+      "AND gate",
+      "NOR gate",
+      "NAND gate",
+      "OR gate"
+    ],
+    "answer": "OR gate",
+    "explanation": "Or gate means outputs 1 when any input is 1.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-029",
+    "question": "Choose the correct term for: inverts the input.",
+    "options": [
+      "OR gate",
+      "XOR gate",
+      "AND gate",
+      "NOT gate"
+    ],
+    "answer": "NOT gate",
+    "explanation": "Not gate means inverts the input.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-030",
+    "question": "What is the best answer for: a small computer on a single chip?",
+    "options": [
+      "microcontroller",
+      "relay",
+      "transformer",
+      "motor"
+    ],
+    "answer": "microcontroller",
+    "explanation": "Microcontroller means a small computer on a single chip.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-031",
+    "question": "Which term best matches this description: a circuit that generates periodic signals?",
+    "options": [
+      "sensor",
+      "oscillator",
+      "fuse",
+      "switch"
+    ],
+    "answer": "oscillator",
+    "explanation": "Oscillator means a circuit that generates periodic signals.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-032",
+    "question": "Choose the correct term for: a circuit that increases signal strength.",
+    "options": [
+      "battery",
+      "amplifier",
+      "filter",
+      "antenna"
+    ],
+    "answer": "amplifier",
+    "explanation": "Amplifier means a circuit that increases signal strength.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-033",
+    "question": "What is the best answer for: the process of varying a carrier signal?",
+    "options": [
+      "rectification",
+      "soldering",
+      "modulation",
+      "sampling"
+    ],
+    "answer": "modulation",
+    "explanation": "Modulation means the process of varying a carrier signal.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-034",
+    "question": "Which term best matches this description: the process of extracting the original signal?",
+    "options": [
+      "oscillation",
+      "rectification",
+      "amplification",
+      "demodulation"
+    ],
+    "answer": "demodulation",
+    "explanation": "Demodulation means the process of extracting the original signal.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-035",
+    "question": "Choose the correct term for: a circuit that converts AC to DC.",
+    "options": [
+      "rectifier",
+      "sensor",
+      "amplifier",
+      "oscillator"
+    ],
+    "answer": "rectifier",
+    "explanation": "Rectifier means a circuit that converts AC to DC.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-036",
+    "question": "What is the best answer for: a device that detects physical changes?",
+    "options": [
+      "speaker",
+      "sensor",
+      "switch",
+      "battery"
+    ],
+    "answer": "sensor",
+    "explanation": "Sensor means a device that detects physical changes.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-037",
+    "question": "Which term best matches this description: a board used to prototype electronic circuits?",
+    "options": [
+      "breadboard",
+      "multimeter",
+      "pin",
+      "soldering iron"
+    ],
+    "answer": "breadboard",
+    "explanation": "Breadboard means a board used to prototype electronic circuits.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-038",
+    "question": "Choose the correct term for: printed circuit board.",
+    "options": [
+      "PCB",
+      "relay",
+      "plug",
+      "cable"
+    ],
+    "answer": "PCB",
+    "explanation": "Pcb means printed circuit board.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-039",
+    "question": "What is the best answer for: the number of cycles per second?",
+    "options": [
+      "frequency",
+      "voltage",
+      "power",
+      "current"
+    ],
+    "answer": "frequency",
+    "explanation": "Frequency means the number of cycles per second.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-040",
+    "question": "Which term best matches this description: an electrical representation of information?",
+    "options": [
+      "signal",
+      "coil",
+      "load",
+      "circuit"
+    ],
+    "answer": "signal",
+    "explanation": "Signal means an electrical representation of information.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-041",
+    "question": "Choose the correct term for: a component that allows current to flow mainly one way.",
+    "options": [
+      "inductor",
+      "transistor",
+      "diode",
+      "resistor"
+    ],
+    "answer": "diode",
+    "explanation": "Diode means a component that allows current to flow mainly one way.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-042",
+    "question": "What is the best answer for: a semiconductor device used for switching and amplification?",
+    "options": [
+      "antenna",
+      "relay",
+      "capacitor",
+      "transistor"
+    ],
+    "answer": "transistor",
+    "explanation": "Transistor means a semiconductor device used for switching and amplification.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-043",
+    "question": "Which term best matches this description: a component that limits current?",
+    "options": [
+      "diode",
+      "motor",
+      "battery",
+      "resistor"
+    ],
+    "answer": "resistor",
+    "explanation": "Resistor means a component that limits current.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-044",
+    "question": "Choose the correct term for: a component that stores electrical energy temporarily.",
+    "options": [
+      "fuse",
+      "lamp",
+      "capacitor",
+      "switch"
+    ],
+    "answer": "capacitor",
+    "explanation": "Capacitor means a component that stores electrical energy temporarily.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-045",
+    "question": "What is the best answer for: a component that stores energy in a magnetic field?",
+    "options": [
+      "resistor",
+      "inductor",
+      "transistor",
+      "battery"
+    ],
+    "answer": "inductor",
+    "explanation": "Inductor means a component that stores energy in a magnetic field.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-046",
+    "question": "Which term best matches this description: an electronic building block for digital circuits?",
+    "options": [
+      "logic gate",
+      "sensor",
+      "speaker",
+      "antenna"
+    ],
+    "answer": "logic gate",
+    "explanation": "Logic gate means an electronic building block for digital circuits.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-047",
+    "question": "Choose the correct term for: outputs 1 only when all inputs are 1.",
+    "options": [
+      "OR gate",
+      "AND gate",
+      "NOT gate",
+      "XOR gate"
+    ],
+    "answer": "AND gate",
+    "explanation": "And gate means outputs 1 only when all inputs are 1.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-048",
+    "question": "What is the best answer for: outputs 1 when any input is 1?",
+    "options": [
+      "OR gate",
+      "AND gate",
+      "NAND gate",
+      "NOR gate"
+    ],
+    "answer": "OR gate",
+    "explanation": "Or gate means outputs 1 when any input is 1.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-049",
+    "question": "Which term best matches this description: inverts the input?",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "XOR gate",
+      "NOT gate"
+    ],
+    "answer": "NOT gate",
+    "explanation": "Not gate means inverts the input.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-electronics-semester-3-electronics-basics-hard-mcq-050",
+    "question": "Choose the correct term for: a small computer on a single chip.",
+    "options": [
+      "motor",
+      "microcontroller",
+      "relay",
+      "transformer"
+    ],
+    "answer": "microcontroller",
+    "explanation": "Microcontroller means a small computer on a single chip.",
+    "level": "diploma-Electronics-semester-3",
+    "subject": "electronics-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

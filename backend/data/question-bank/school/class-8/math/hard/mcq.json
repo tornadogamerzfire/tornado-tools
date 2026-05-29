@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-8-hard-mcq-001",
+    "question": "What is 90 ÷ 10?",
+    "options": [
+      "9",
+      "10",
+      "13",
+      "6"
+    ],
+    "answer": "9",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-002",
+    "question": "What is 38 × 6?",
+    "options": [
+      "232",
+      "229",
+      "225",
+      "228"
+    ],
+    "answer": "228",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-003",
+    "question": "What is 67 - 56?",
+    "options": [
+      "8",
+      "12",
+      "15",
+      "11"
+    ],
+    "answer": "11",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-004",
+    "question": "What is 83 + 7?",
+    "options": [
+      "90",
+      "91",
+      "87",
+      "94"
+    ],
+    "answer": "90",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-005",
+    "question": "What is 80 ÷ 10?",
+    "options": [
+      "8",
+      "5",
+      "9",
+      "12"
+    ],
+    "answer": "8",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-006",
+    "question": "What is 45 × 2?",
+    "options": [
+      "87",
+      "91",
+      "94",
+      "90"
+    ],
+    "answer": "90",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-007",
+    "question": "What is 79 - 67?",
+    "options": [
+      "9",
+      "12",
+      "13",
+      "16"
+    ],
+    "answer": "12",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-008",
+    "question": "What is 62 + 2?",
+    "options": [
+      "64",
+      "65",
+      "61",
+      "68"
+    ],
+    "answer": "64",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-009",
+    "question": "What is 90 ÷ 10?",
+    "options": [
+      "13",
+      "9",
+      "10",
+      "6"
+    ],
+    "answer": "9",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-010",
+    "question": "What is 33 × 7?",
+    "options": [
+      "231",
+      "235",
+      "232",
+      "228"
+    ],
+    "answer": "231",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-011",
+    "question": "What is 80 - 55?",
+    "options": [
+      "29",
+      "25",
+      "22",
+      "26"
+    ],
+    "answer": "25",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-012",
+    "question": "What is 47 + 8?",
+    "options": [
+      "55",
+      "56",
+      "59",
+      "52"
+    ],
+    "answer": "55",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-013",
+    "question": "What is 60 ÷ 10?",
+    "options": [
+      "7",
+      "6",
+      "10",
+      "3"
+    ],
+    "answer": "6",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-014",
+    "question": "What is 50 × 4?",
+    "options": [
+      "201",
+      "200",
+      "197",
+      "204"
+    ],
+    "answer": "200",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-015",
+    "question": "What is 45 - 14?",
+    "options": [
+      "31",
+      "35",
+      "28",
+      "32"
+    ],
+    "answer": "31",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-016",
+    "question": "What is 79 + 2?",
+    "options": [
+      "82",
+      "85",
+      "78",
+      "81"
+    ],
+    "answer": "81",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-017",
+    "question": "What is 70 ÷ 10?",
+    "options": [
+      "8",
+      "11",
+      "4",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-018",
+    "question": "What is 43 × 3?",
+    "options": [
+      "133",
+      "126",
+      "129",
+      "130"
+    ],
+    "answer": "129",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-019",
+    "question": "What is 67 - 46?",
+    "options": [
+      "22",
+      "21",
+      "25",
+      "18"
+    ],
+    "answer": "21",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-020",
+    "question": "What is 22 + 5?",
+    "options": [
+      "31",
+      "24",
+      "28",
+      "27"
+    ],
+    "answer": "27",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-021",
+    "question": "What is 40 ÷ 10?",
+    "options": [
+      "8",
+      "5",
+      "1",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-022",
+    "question": "What is 46 × 9?",
+    "options": [
+      "414",
+      "418",
+      "415",
+      "411"
+    ],
+    "answer": "414",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-023",
+    "question": "What is 40 - 33?",
+    "options": [
+      "4",
+      "11",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-024",
+    "question": "What is 44 + 8?",
+    "options": [
+      "52",
+      "53",
+      "56",
+      "49"
+    ],
+    "answer": "52",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-025",
+    "question": "What is 90 ÷ 10?",
+    "options": [
+      "10",
+      "9",
+      "13",
+      "6"
+    ],
+    "answer": "9",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-026",
+    "question": "What is 38 × 2?",
+    "options": [
+      "73",
+      "76",
+      "77",
+      "80"
+    ],
+    "answer": "76",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-027",
+    "question": "What is 82 - 75?",
+    "options": [
+      "8",
+      "4",
+      "7",
+      "11"
+    ],
+    "answer": "7",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-028",
+    "question": "What is 55 + 9?",
+    "options": [
+      "61",
+      "64",
+      "65",
+      "68"
+    ],
+    "answer": "64",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-029",
+    "question": "What is 60 ÷ 10?",
+    "options": [
+      "7",
+      "3",
+      "6",
+      "10"
+    ],
+    "answer": "6",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-030",
+    "question": "What is 47 × 8?",
+    "options": [
+      "373",
+      "377",
+      "376",
+      "380"
+    ],
+    "answer": "376",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-031",
+    "question": "What is 26 - 15?",
+    "options": [
+      "15",
+      "11",
+      "12",
+      "8"
+    ],
+    "answer": "11",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-032",
+    "question": "What is 46 + 4?",
+    "options": [
+      "51",
+      "50",
+      "54",
+      "47"
+    ],
+    "answer": "50",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-033",
+    "question": "What is 90 ÷ 10?",
+    "options": [
+      "13",
+      "6",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-034",
+    "question": "What is 84 × 7?",
+    "options": [
+      "592",
+      "588",
+      "589",
+      "585"
+    ],
+    "answer": "588",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-035",
+    "question": "What is 34 - 22?",
+    "options": [
+      "16",
+      "12",
+      "13",
+      "9"
+    ],
+    "answer": "12",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-036",
+    "question": "What is 78 + 8?",
+    "options": [
+      "87",
+      "83",
+      "86",
+      "90"
+    ],
+    "answer": "86",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-037",
+    "question": "What is 40 ÷ 10?",
+    "options": [
+      "8",
+      "5",
+      "4",
+      "1"
+    ],
+    "answer": "4",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-038",
+    "question": "What is 20 × 4?",
+    "options": [
+      "77",
+      "80",
+      "84",
+      "81"
+    ],
+    "answer": "80",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-039",
+    "question": "What is 72 - 22?",
+    "options": [
+      "54",
+      "50",
+      "51",
+      "47"
+    ],
+    "answer": "50",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-040",
+    "question": "What is 67 + 5?",
+    "options": [
+      "76",
+      "73",
+      "69",
+      "72"
+    ],
+    "answer": "72",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-041",
+    "question": "What is 30 ÷ 10?",
+    "options": [
+      "3",
+      "0",
+      "7",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-042",
+    "question": "What is 66 × 7?",
+    "options": [
+      "463",
+      "459",
+      "466",
+      "462"
+    ],
+    "answer": "462",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-043",
+    "question": "What is 89 - 72?",
+    "options": [
+      "18",
+      "21",
+      "14",
+      "17"
+    ],
+    "answer": "17",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-044",
+    "question": "What is 94 + 10?",
+    "options": [
+      "104",
+      "108",
+      "105",
+      "101"
+    ],
+    "answer": "104",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-045",
+    "question": "What is 10 ÷ 10?",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "-2"
+    ],
+    "answer": "1",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-046",
+    "question": "What is 20 × 8?",
+    "options": [
+      "164",
+      "160",
+      "161",
+      "157"
+    ],
+    "answer": "160",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-047",
+    "question": "What is 55 - 49?",
+    "options": [
+      "6",
+      "3",
+      "7",
+      "10"
+    ],
+    "answer": "6",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-048",
+    "question": "What is 26 + 6?",
+    "options": [
+      "32",
+      "36",
+      "29",
+      "33"
+    ],
+    "answer": "32",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-049",
+    "question": "What is 20 ÷ 10?",
+    "options": [
+      "3",
+      "-1",
+      "2",
+      "6"
+    ],
+    "answer": "2",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-hard-mcq-050",
+    "question": "What is 66 × 2?",
+    "options": [
+      "136",
+      "129",
+      "133",
+      "132"
+    ],
+    "answer": "132",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

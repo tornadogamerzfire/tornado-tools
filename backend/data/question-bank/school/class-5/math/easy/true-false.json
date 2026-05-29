@@ -1,0 +1,702 @@
+[
+  {
+    "id": "class-5-easy-true_false-001",
+    "question": "The answer to What is 7 × 12 is 84.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-002",
+    "question": "The answer to What is 54 ÷ 9 is 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-003",
+    "question": "The answer to What is 3 + 13 is 16.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-004",
+    "question": "The answer to What is 4 × 9 is 38.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-005",
+    "question": "The answer to What is 40 ÷ 10 is 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-006",
+    "question": "The answer to What is 10 + 13 is 25.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-007",
+    "question": "The answer to What is 7 × 5 is 35.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-008",
+    "question": "The answer to What is 60 ÷ 6 is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-009",
+    "question": "The answer to What is 7 + 3 is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-010",
+    "question": "The answer to What is 12 × 4 is 50.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-011",
+    "question": "The answer to What is 36 ÷ 6 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-012",
+    "question": "The answer to What is 11 + 17 is 30.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-013",
+    "question": "The answer to What is 7 × 4 is 28.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-014",
+    "question": "The answer to What is 84 ÷ 7 is 14.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-015",
+    "question": "The answer to What is 16 + 7 is 23.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-016",
+    "question": "The answer to What is 12 × 8 is 98.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-017",
+    "question": "The answer to What is 108 ÷ 9 is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-018",
+    "question": "The answer to What is 8 + 20 is 30.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-019",
+    "question": "The answer to What is 8 × 8 is 64.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-020",
+    "question": "The answer to What is 28 ÷ 7 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-021",
+    "question": "The answer to What is 20 + 18 is 38.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-022",
+    "question": "The answer to What is 9 × 12 is 110.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-023",
+    "question": "The answer to What is 60 ÷ 12 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-024",
+    "question": "The answer to What is 20 + 11 is 33.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-025",
+    "question": "The answer to What is 2 × 12 is 24.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-026",
+    "question": "The answer to What is 84 ÷ 12 is 9.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-027",
+    "question": "The answer to What is 5 + 9 is 14.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-028",
+    "question": "The answer to What is 4 × 10 is 42.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-029",
+    "question": "The answer to What is 96 ÷ 8 is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-030",
+    "question": "The answer to What is 10 + 13 is 25.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-031",
+    "question": "The answer to What is 10 × 7 is 70.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-032",
+    "question": "The answer to What is 16 ÷ 4 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-033",
+    "question": "The answer to What is 4 + 8 is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-034",
+    "question": "The answer to What is 7 × 10 is 72.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-035",
+    "question": "The answer to What is 56 ÷ 8 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-036",
+    "question": "The answer to What is 15 + 5 is 22.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-037",
+    "question": "The answer to What is 8 × 10 is 80.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-038",
+    "question": "The answer to What is 64 ÷ 8 is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-039",
+    "question": "The answer to What is 4 + 7 is 11.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-040",
+    "question": "The answer to What is 9 × 8 is 74.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-041",
+    "question": "The answer to What is 40 ÷ 8 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-042",
+    "question": "The answer to What is 15 + 14 is 31.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-043",
+    "question": "The answer to What is 11 × 6 is 66.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-044",
+    "question": "The answer to What is 100 ÷ 10 is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-045",
+    "question": "The answer to What is 15 + 8 is 23.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-046",
+    "question": "The answer to What is 2 × 8 is 18.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-047",
+    "question": "The answer to What is 55 ÷ 11 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-048",
+    "question": "The answer to What is 16 + 11 is 29.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add the values.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-049",
+    "question": "The answer to What is 10 × 9 is 90.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Multiply the numbers.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-5-easy-true_false-050",
+    "question": "The answer to What is 40 ÷ 5 is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-5",
+    "subject": "class-5",
+    "difficulty": "easy",
+    "type": "true_false"
+  }
+]

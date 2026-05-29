@@ -1,0 +1,802 @@
+[
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-001",
+    "question": "Which term best matches this description: the moral principles guiding engineers?",
+    "options": [
+      "poetry",
+      "engineering ethics",
+      "marketing",
+      "gaming"
+    ],
+    "answer": "engineering ethics",
+    "explanation": "Engineering ethics means the moral principles guiding engineers.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-002",
+    "question": "Choose the correct term for: a step-by-step approach to create a solution.",
+    "options": [
+      "dance",
+      "singing",
+      "design process",
+      "cooking"
+    ],
+    "answer": "design process",
+    "explanation": "Design process means a step-by-step approach to create a solution.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-003",
+    "question": "What is the best answer for: the ability of a material to resist load?",
+    "options": [
+      "colour",
+      "speed",
+      "noise",
+      "material strength"
+    ],
+    "answer": "material strength",
+    "explanation": "Material strength means the ability of a material to resist load.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-004",
+    "question": "Which term best matches this description: computer-aided design?",
+    "options": [
+      "computer audio data",
+      "CAD",
+      "central analysis device",
+      "cable attached device"
+    ],
+    "answer": "CAD",
+    "explanation": "Cad means computer-aided design.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-005",
+    "question": "Choose the correct term for: planning and controlling a project.",
+    "options": [
+      "reporting weather",
+      "painting art",
+      "listening music",
+      "project management"
+    ],
+    "answer": "project management",
+    "explanation": "Project management means planning and controlling a project.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-006",
+    "question": "What is the best answer for: a preliminary model of a product?",
+    "options": [
+      "newspaper",
+      "final invoice",
+      "road map",
+      "prototype"
+    ],
+    "answer": "prototype",
+    "explanation": "Prototype means a preliminary model of a product.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-007",
+    "question": "Which term best matches this description: checking whether a solution works as expected?",
+    "options": [
+      "testing",
+      "printing",
+      "driving",
+      "writing"
+    ],
+    "answer": "testing",
+    "explanation": "Testing means checking whether a solution works as expected.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-008",
+    "question": "Choose the correct term for: making sure standards are met.",
+    "options": [
+      "quality assurance",
+      "file naming",
+      "data entry",
+      "random guessing"
+    ],
+    "answer": "quality assurance",
+    "explanation": "Quality assurance means making sure standards are met.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-009",
+    "question": "What is the best answer for: the branch of physics dealing with motion and forces?",
+    "options": [
+      "art history",
+      "language study",
+      "music theory",
+      "mechanics"
+    ],
+    "answer": "mechanics",
+    "explanation": "Mechanics means the branch of physics dealing with motion and forces.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-010",
+    "question": "Which term best matches this description: a field studying heat and fluid behaviour?",
+    "options": [
+      "economics",
+      "literature",
+      "photo editing",
+      "thermofluids"
+    ],
+    "answer": "thermofluids",
+    "explanation": "Thermofluids means a field studying heat and fluid behaviour.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-011",
+    "question": "Choose the correct term for: the study of electronic circuits and devices.",
+    "options": [
+      "gardening",
+      "cooking",
+      "cartography",
+      "electronics"
+    ],
+    "answer": "electronics",
+    "explanation": "Electronics means the study of electronic circuits and devices.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-012",
+    "question": "What is the best answer for: designing and maintaining infrastructure?",
+    "options": [
+      "astronomy",
+      "civil engineering",
+      "ornithology",
+      "botany"
+    ],
+    "answer": "civil engineering",
+    "explanation": "Civil engineering means designing and maintaining infrastructure.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-013",
+    "question": "Which term best matches this description: the study of electrical systems and power?",
+    "options": [
+      "electrical engineering",
+      "archaeology",
+      "music",
+      "geometry"
+    ],
+    "answer": "electrical engineering",
+    "explanation": "Electrical engineering means the study of electrical systems and power.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-014",
+    "question": "Choose the correct term for: connecting computers to share data.",
+    "options": [
+      "sketching",
+      "stone carving",
+      "farming",
+      "computer networking"
+    ],
+    "answer": "computer networking",
+    "explanation": "Computer networking means connecting computers to share data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-015",
+    "question": "What is the best answer for: step-by-step procedures for solving problems?",
+    "options": [
+      "weather change",
+      "color mixing",
+      "soil erosion",
+      "algorithms"
+    ],
+    "answer": "algorithms",
+    "explanation": "Algorithms means step-by-step procedures for solving problems.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-016",
+    "question": "Which term best matches this description: finding solutions to challenges?",
+    "options": [
+      "listening",
+      "shopping",
+      "sleeping",
+      "problem solving"
+    ],
+    "answer": "problem solving",
+    "explanation": "Problem solving means finding solutions to challenges.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-017",
+    "question": "Choose the correct term for: determining the size or quantity of something.",
+    "options": [
+      "typing",
+      "jumping",
+      "singing",
+      "measurement"
+    ],
+    "answer": "measurement",
+    "explanation": "Measurement means determining the size or quantity of something.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-018",
+    "question": "What is the best answer for: a set of rules to avoid accidents?",
+    "options": [
+      "lazy coding",
+      "random art",
+      "safety protocol",
+      "fast music"
+    ],
+    "answer": "safety protocol",
+    "explanation": "Safety protocol means a set of rules to avoid accidents.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-019",
+    "question": "Which term best matches this description: written information describing a system?",
+    "options": [
+      "cloud cover",
+      "broken wire",
+      "documentation",
+      "deep sleep"
+    ],
+    "answer": "documentation",
+    "explanation": "Documentation means written information describing a system.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-020",
+    "question": "Choose the correct term for: careful examination of parts or data.",
+    "options": [
+      "silent music",
+      "analysis",
+      "fast driving",
+      "dry paint"
+    ],
+    "answer": "analysis",
+    "explanation": "Analysis means careful examination of parts or data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-021",
+    "question": "What is the best answer for: the moral principles guiding engineers?",
+    "options": [
+      "engineering ethics",
+      "gaming",
+      "poetry",
+      "marketing"
+    ],
+    "answer": "engineering ethics",
+    "explanation": "Engineering ethics means the moral principles guiding engineers.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-022",
+    "question": "Which term best matches this description: a step-by-step approach to create a solution?",
+    "options": [
+      "cooking",
+      "dance",
+      "singing",
+      "design process"
+    ],
+    "answer": "design process",
+    "explanation": "Design process means a step-by-step approach to create a solution.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-023",
+    "question": "Choose the correct term for: the ability of a material to resist load.",
+    "options": [
+      "colour",
+      "material strength",
+      "noise",
+      "speed"
+    ],
+    "answer": "material strength",
+    "explanation": "Material strength means the ability of a material to resist load.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-024",
+    "question": "What is the best answer for: computer-aided design?",
+    "options": [
+      "CAD",
+      "central analysis device",
+      "cable attached device",
+      "computer audio data"
+    ],
+    "answer": "CAD",
+    "explanation": "Cad means computer-aided design.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-025",
+    "question": "Which term best matches this description: planning and controlling a project?",
+    "options": [
+      "project management",
+      "reporting weather",
+      "listening music",
+      "painting art"
+    ],
+    "answer": "project management",
+    "explanation": "Project management means planning and controlling a project.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-026",
+    "question": "Choose the correct term for: a preliminary model of a product.",
+    "options": [
+      "prototype",
+      "road map",
+      "final invoice",
+      "newspaper"
+    ],
+    "answer": "prototype",
+    "explanation": "Prototype means a preliminary model of a product.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-027",
+    "question": "What is the best answer for: checking whether a solution works as expected?",
+    "options": [
+      "printing",
+      "testing",
+      "writing",
+      "driving"
+    ],
+    "answer": "testing",
+    "explanation": "Testing means checking whether a solution works as expected.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-028",
+    "question": "Which term best matches this description: making sure standards are met?",
+    "options": [
+      "quality assurance",
+      "random guessing",
+      "file naming",
+      "data entry"
+    ],
+    "answer": "quality assurance",
+    "explanation": "Quality assurance means making sure standards are met.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-029",
+    "question": "Choose the correct term for: the branch of physics dealing with motion and forces.",
+    "options": [
+      "mechanics",
+      "art history",
+      "music theory",
+      "language study"
+    ],
+    "answer": "mechanics",
+    "explanation": "Mechanics means the branch of physics dealing with motion and forces.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-030",
+    "question": "What is the best answer for: a field studying heat and fluid behaviour?",
+    "options": [
+      "literature",
+      "photo editing",
+      "economics",
+      "thermofluids"
+    ],
+    "answer": "thermofluids",
+    "explanation": "Thermofluids means a field studying heat and fluid behaviour.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-031",
+    "question": "Which term best matches this description: the study of electronic circuits and devices?",
+    "options": [
+      "cartography",
+      "cooking",
+      "electronics",
+      "gardening"
+    ],
+    "answer": "electronics",
+    "explanation": "Electronics means the study of electronic circuits and devices.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-032",
+    "question": "Choose the correct term for: designing and maintaining infrastructure.",
+    "options": [
+      "botany",
+      "civil engineering",
+      "ornithology",
+      "astronomy"
+    ],
+    "answer": "civil engineering",
+    "explanation": "Civil engineering means designing and maintaining infrastructure.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-033",
+    "question": "What is the best answer for: the study of electrical systems and power?",
+    "options": [
+      "archaeology",
+      "music",
+      "geometry",
+      "electrical engineering"
+    ],
+    "answer": "electrical engineering",
+    "explanation": "Electrical engineering means the study of electrical systems and power.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-034",
+    "question": "Which term best matches this description: connecting computers to share data?",
+    "options": [
+      "computer networking",
+      "stone carving",
+      "farming",
+      "sketching"
+    ],
+    "answer": "computer networking",
+    "explanation": "Computer networking means connecting computers to share data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-035",
+    "question": "Choose the correct term for: step-by-step procedures for solving problems.",
+    "options": [
+      "weather change",
+      "soil erosion",
+      "algorithms",
+      "color mixing"
+    ],
+    "answer": "algorithms",
+    "explanation": "Algorithms means step-by-step procedures for solving problems.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-036",
+    "question": "What is the best answer for: finding solutions to challenges?",
+    "options": [
+      "sleeping",
+      "shopping",
+      "listening",
+      "problem solving"
+    ],
+    "answer": "problem solving",
+    "explanation": "Problem solving means finding solutions to challenges.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-037",
+    "question": "Which term best matches this description: determining the size or quantity of something?",
+    "options": [
+      "jumping",
+      "singing",
+      "measurement",
+      "typing"
+    ],
+    "answer": "measurement",
+    "explanation": "Measurement means determining the size or quantity of something.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-038",
+    "question": "Choose the correct term for: a set of rules to avoid accidents.",
+    "options": [
+      "safety protocol",
+      "lazy coding",
+      "fast music",
+      "random art"
+    ],
+    "answer": "safety protocol",
+    "explanation": "Safety protocol means a set of rules to avoid accidents.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-039",
+    "question": "What is the best answer for: written information describing a system?",
+    "options": [
+      "cloud cover",
+      "documentation",
+      "deep sleep",
+      "broken wire"
+    ],
+    "answer": "documentation",
+    "explanation": "Documentation means written information describing a system.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-040",
+    "question": "Which term best matches this description: careful examination of parts or data?",
+    "options": [
+      "silent music",
+      "analysis",
+      "dry paint",
+      "fast driving"
+    ],
+    "answer": "analysis",
+    "explanation": "Analysis means careful examination of parts or data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-041",
+    "question": "Choose the correct term for: the moral principles guiding engineers.",
+    "options": [
+      "marketing",
+      "poetry",
+      "engineering ethics",
+      "gaming"
+    ],
+    "answer": "engineering ethics",
+    "explanation": "Engineering ethics means the moral principles guiding engineers.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-042",
+    "question": "What is the best answer for: a step-by-step approach to create a solution?",
+    "options": [
+      "design process",
+      "dance",
+      "singing",
+      "cooking"
+    ],
+    "answer": "design process",
+    "explanation": "Design process means a step-by-step approach to create a solution.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-043",
+    "question": "Which term best matches this description: the ability of a material to resist load?",
+    "options": [
+      "material strength",
+      "colour",
+      "speed",
+      "noise"
+    ],
+    "answer": "material strength",
+    "explanation": "Material strength means the ability of a material to resist load.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-044",
+    "question": "Choose the correct term for: computer-aided design.",
+    "options": [
+      "cable attached device",
+      "computer audio data",
+      "central analysis device",
+      "CAD"
+    ],
+    "answer": "CAD",
+    "explanation": "Cad means computer-aided design.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-045",
+    "question": "What is the best answer for: planning and controlling a project?",
+    "options": [
+      "listening music",
+      "reporting weather",
+      "painting art",
+      "project management"
+    ],
+    "answer": "project management",
+    "explanation": "Project management means planning and controlling a project.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-046",
+    "question": "Which term best matches this description: a preliminary model of a product?",
+    "options": [
+      "final invoice",
+      "road map",
+      "prototype",
+      "newspaper"
+    ],
+    "answer": "prototype",
+    "explanation": "Prototype means a preliminary model of a product.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-047",
+    "question": "Choose the correct term for: checking whether a solution works as expected.",
+    "options": [
+      "printing",
+      "driving",
+      "testing",
+      "writing"
+    ],
+    "answer": "testing",
+    "explanation": "Testing means checking whether a solution works as expected.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-048",
+    "question": "What is the best answer for: making sure standards are met?",
+    "options": [
+      "quality assurance",
+      "file naming",
+      "data entry",
+      "random guessing"
+    ],
+    "answer": "quality assurance",
+    "explanation": "Quality assurance means making sure standards are met.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-049",
+    "question": "Which term best matches this description: the branch of physics dealing with motion and forces?",
+    "options": [
+      "art history",
+      "mechanics",
+      "music theory",
+      "language study"
+    ],
+    "answer": "mechanics",
+    "explanation": "Mechanics means the branch of physics dealing with motion and forces.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-mcq-050",
+    "question": "Choose the correct term for: a field studying heat and fluid behaviour.",
+    "options": [
+      "literature",
+      "photo editing",
+      "economics",
+      "thermofluids"
+    ],
+    "answer": "thermofluids",
+    "explanation": "Thermofluids means a field studying heat and fluid behaviour.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

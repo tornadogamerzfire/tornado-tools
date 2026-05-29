@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-8-english-hard-mcq-001",
+    "question": "Which term best matches this description: joyful?",
+    "options": [
+      "sad",
+      "angry",
+      "tiny",
+      "happy"
+    ],
+    "answer": "happy",
+    "explanation": "Happy means joyful.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-002",
+    "question": "Choose the correct term for: start.",
+    "options": [
+      "sleep",
+      "end",
+      "forget",
+      "begin"
+    ],
+    "answer": "begin",
+    "explanation": "Begin means start.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-003",
+    "question": "What is the best answer for: fast?",
+    "options": [
+      "rapid",
+      "late",
+      "slow",
+      "weak"
+    ],
+    "answer": "rapid",
+    "explanation": "Rapid means fast.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-004",
+    "question": "Which term best matches this description: small?",
+    "options": [
+      "bright",
+      "heavy",
+      "huge",
+      "tiny"
+    ],
+    "answer": "tiny",
+    "explanation": "Tiny means small.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-005",
+    "question": "Choose the correct term for: courageous.",
+    "options": [
+      "cowardly",
+      "lazy",
+      "brave",
+      "shy"
+    ],
+    "answer": "brave",
+    "explanation": "Brave means courageous.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-006",
+    "question": "What is the best answer for: truthful?",
+    "options": [
+      "honest",
+      "careless",
+      "greedy",
+      "false"
+    ],
+    "answer": "honest",
+    "explanation": "Honest means truthful.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-007",
+    "question": "Which term best matches this description: luminous?",
+    "options": [
+      "bright",
+      "dark",
+      "dull",
+      "silent"
+    ],
+    "answer": "bright",
+    "explanation": "Bright means luminous.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-008",
+    "question": "Choose the correct term for: construct.",
+    "options": [
+      "break",
+      "hide",
+      "destroy",
+      "build"
+    ],
+    "answer": "build",
+    "explanation": "Build means construct.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-009",
+    "question": "What is the best answer for: hard?",
+    "options": [
+      "simple",
+      "easy",
+      "soft",
+      "difficult"
+    ],
+    "answer": "difficult",
+    "explanation": "Difficult means hard.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-010",
+    "question": "Which term best matches this description: peaceful?",
+    "options": [
+      "rough",
+      "calm",
+      "wild",
+      "noisy"
+    ],
+    "answer": "calm",
+    "explanation": "Calm means peaceful.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-011",
+    "question": "Choose the correct term for: companion.",
+    "options": [
+      "tool",
+      "friend",
+      "river",
+      "enemy"
+    ],
+    "answer": "friend",
+    "explanation": "Friend means companion.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-012",
+    "question": "What is the best answer for: wealthy?",
+    "options": [
+      "narrow",
+      "empty",
+      "poor",
+      "rich"
+    ],
+    "answer": "rich",
+    "explanation": "Rich means wealthy.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-013",
+    "question": "Which term best matches this description: swift?",
+    "options": [
+      "slow",
+      "quick",
+      "weak",
+      "late"
+    ],
+    "answer": "quick",
+    "explanation": "Quick means swift.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-014",
+    "question": "Choose the correct term for: ancient.",
+    "options": [
+      "old",
+      "new",
+      "fresh",
+      "young"
+    ],
+    "answer": "old",
+    "explanation": "Old means ancient.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-015",
+    "question": "What is the best answer for: commence?",
+    "options": [
+      "end",
+      "start",
+      "stop",
+      "close"
+    ],
+    "answer": "start",
+    "explanation": "Start means commence.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-016",
+    "question": "Which term best matches this description: complete?",
+    "options": [
+      "start",
+      "delay",
+      "finish",
+      "open"
+    ],
+    "answer": "finish",
+    "explanation": "Finish means complete.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-017",
+    "question": "Choose the correct term for: big.",
+    "options": [
+      "large",
+      "small",
+      "light",
+      "tiny"
+    ],
+    "answer": "large",
+    "explanation": "Large means big.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-018",
+    "question": "What is the best answer for: tidy?",
+    "options": [
+      "messy",
+      "rough",
+      "clean",
+      "dirty"
+    ],
+    "answer": "clean",
+    "explanation": "Clean means tidy.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-019",
+    "question": "Which term best matches this description: clever?",
+    "options": [
+      "slow",
+      "smart",
+      "stupid",
+      "empty"
+    ],
+    "answer": "smart",
+    "explanation": "Smart means clever.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-020",
+    "question": "Choose the correct term for: secure.",
+    "options": [
+      "sharp",
+      "dangerous",
+      "safe",
+      "fragile"
+    ],
+    "answer": "safe",
+    "explanation": "Safe means secure.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-021",
+    "question": "What is the best answer for: names a person, place, thing, or idea?",
+    "options": [
+      "noun",
+      "punctuation",
+      "safe",
+      "happy"
+    ],
+    "answer": "noun",
+    "explanation": "Noun means names a person, place, thing, or idea.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-022",
+    "question": "Which term best matches this description: shows an action or state?",
+    "options": [
+      "large",
+      "clause",
+      "happy",
+      "verb"
+    ],
+    "answer": "verb",
+    "explanation": "Verb means shows an action or state.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-023",
+    "question": "Choose the correct term for: describes a noun.",
+    "options": [
+      "pronoun",
+      "singular",
+      "preposition",
+      "adjective"
+    ],
+    "answer": "adjective",
+    "explanation": "Adjective means describes a noun.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-024",
+    "question": "What is the best answer for: describes a verb, adjective, or another adverb?",
+    "options": [
+      "singular",
+      "pronoun",
+      "adverb",
+      "clean"
+    ],
+    "answer": "adverb",
+    "explanation": "Adverb means describes a verb, adjective, or another adverb.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-025",
+    "question": "Which term best matches this description: is used instead of a noun?",
+    "options": [
+      "bright",
+      "pronoun",
+      "old",
+      "brave"
+    ],
+    "answer": "pronoun",
+    "explanation": "Pronoun means is used instead of a noun.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-026",
+    "question": "Choose the correct term for: includes words like a, an, and the.",
+    "options": [
+      "consonant",
+      "pronoun",
+      "difficult",
+      "article"
+    ],
+    "answer": "article",
+    "explanation": "Article means includes words like a, an, and the.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-027",
+    "question": "What is the best answer for: joins words or groups of words?",
+    "options": [
+      "start",
+      "large",
+      "calm",
+      "conjunction"
+    ],
+    "answer": "conjunction",
+    "explanation": "Conjunction means joins words or groups of words.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-028",
+    "question": "Which term best matches this description: shows place, time, or direction?",
+    "options": [
+      "noun",
+      "preposition",
+      "tiny",
+      "conjunction"
+    ],
+    "answer": "preposition",
+    "explanation": "Preposition means shows place, time, or direction.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-029",
+    "question": "Choose the correct term for: shows more than one.",
+    "options": [
+      "bright",
+      "sentence",
+      "plural",
+      "verb"
+    ],
+    "answer": "plural",
+    "explanation": "Plural means shows more than one.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-030",
+    "question": "What is the best answer for: shows one person or thing?",
+    "options": [
+      "singular",
+      "rapid",
+      "clean",
+      "verb"
+    ],
+    "answer": "singular",
+    "explanation": "Singular means shows one person or thing.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-031",
+    "question": "Which term best matches this description: shows the time of an action?",
+    "options": [
+      "friend",
+      "tense",
+      "rich",
+      "begin"
+    ],
+    "answer": "tense",
+    "explanation": "Tense means shows the time of an action.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-032",
+    "question": "Choose the correct term for: makes complete sense.",
+    "options": [
+      "begin",
+      "sentence",
+      "antonym",
+      "article"
+    ],
+    "answer": "sentence",
+    "explanation": "Sentence means makes complete sense.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-033",
+    "question": "What is the best answer for: is a group of words without complete sense?",
+    "options": [
+      "start",
+      "phrase",
+      "pronoun",
+      "begin"
+    ],
+    "answer": "phrase",
+    "explanation": "Phrase means is a group of words without complete sense.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-034",
+    "question": "Which term best matches this description: contains a subject and a verb?",
+    "options": [
+      "adverb",
+      "capital letter",
+      "clause",
+      "tense"
+    ],
+    "answer": "clause",
+    "explanation": "Clause means contains a subject and a verb.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-035",
+    "question": "Choose the correct term for: includes commas and full stops.",
+    "options": [
+      "old",
+      "punctuation",
+      "safe",
+      "article"
+    ],
+    "answer": "punctuation",
+    "explanation": "Punctuation means includes commas and full stops.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-036",
+    "question": "What is the best answer for: is used at the start of a sentence?",
+    "options": [
+      "capital letter",
+      "preposition",
+      "tiny",
+      "bright"
+    ],
+    "answer": "capital letter",
+    "explanation": "Capital letter means is used at the start of a sentence.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-037",
+    "question": "Which term best matches this description: is one of a, e, i, o, u?",
+    "options": [
+      "vowel",
+      "clause",
+      "synonym",
+      "honest"
+    ],
+    "answer": "vowel",
+    "explanation": "Vowel means is one of a, e, i, o, u.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-038",
+    "question": "Choose the correct term for: is a letter that is not a vowel.",
+    "options": [
+      "noun",
+      "old",
+      "plural",
+      "consonant"
+    ],
+    "answer": "consonant",
+    "explanation": "Consonant means is a letter that is not a vowel.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-039",
+    "question": "What is the best answer for: means a similar word?",
+    "options": [
+      "capital letter",
+      "synonym",
+      "article",
+      "preposition"
+    ],
+    "answer": "synonym",
+    "explanation": "Synonym means means a similar word.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-040",
+    "question": "Which term best matches this description: means an opposite word?",
+    "options": [
+      "capital letter",
+      "antonym",
+      "honest",
+      "rich"
+    ],
+    "answer": "antonym",
+    "explanation": "Antonym means means an opposite word.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-041",
+    "question": "Choose the correct term for: joyful.",
+    "options": [
+      "tiny",
+      "happy",
+      "sad",
+      "angry"
+    ],
+    "answer": "happy",
+    "explanation": "Happy means joyful.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-042",
+    "question": "What is the best answer for: start?",
+    "options": [
+      "forget",
+      "end",
+      "begin",
+      "sleep"
+    ],
+    "answer": "begin",
+    "explanation": "Begin means start.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-043",
+    "question": "Which term best matches this description: fast?",
+    "options": [
+      "rapid",
+      "slow",
+      "late",
+      "weak"
+    ],
+    "answer": "rapid",
+    "explanation": "Rapid means fast.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-044",
+    "question": "Choose the correct term for: small.",
+    "options": [
+      "heavy",
+      "huge",
+      "bright",
+      "tiny"
+    ],
+    "answer": "tiny",
+    "explanation": "Tiny means small.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-045",
+    "question": "What is the best answer for: courageous?",
+    "options": [
+      "shy",
+      "lazy",
+      "brave",
+      "cowardly"
+    ],
+    "answer": "brave",
+    "explanation": "Brave means courageous.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-046",
+    "question": "Which term best matches this description: truthful?",
+    "options": [
+      "careless",
+      "greedy",
+      "honest",
+      "false"
+    ],
+    "answer": "honest",
+    "explanation": "Honest means truthful.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-047",
+    "question": "Choose the correct term for: luminous.",
+    "options": [
+      "dark",
+      "dull",
+      "bright",
+      "silent"
+    ],
+    "answer": "bright",
+    "explanation": "Bright means luminous.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-048",
+    "question": "What is the best answer for: construct?",
+    "options": [
+      "break",
+      "build",
+      "destroy",
+      "hide"
+    ],
+    "answer": "build",
+    "explanation": "Build means construct.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-049",
+    "question": "Which term best matches this description: hard?",
+    "options": [
+      "simple",
+      "soft",
+      "easy",
+      "difficult"
+    ],
+    "answer": "difficult",
+    "explanation": "Difficult means hard.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "class-8-english-hard-mcq-050",
+    "question": "Choose the correct term for: peaceful.",
+    "options": [
+      "calm",
+      "wild",
+      "noisy",
+      "rough"
+    ],
+    "answer": "calm",
+    "explanation": "Calm means peaceful.",
+    "level": "class-8",
+    "subject": "english",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-001",
+    "question": "Which term best matches this description: the smallest unit of an element that retains its properties?",
+    "options": [
+      "atom",
+      "molecule",
+      "cell",
+      "ion"
+    ],
+    "answer": "atom",
+    "explanation": "Atom means the smallest unit of an element that retains its properties.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-002",
+    "question": "Choose the correct term for: two or more atoms chemically bonded.",
+    "options": [
+      "cell",
+      "mixture",
+      "molecule",
+      "ion"
+    ],
+    "answer": "molecule",
+    "explanation": "Molecule means two or more atoms chemically bonded.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-003",
+    "question": "What is the best answer for: a pure substance made of one kind of atom?",
+    "options": [
+      "compound",
+      "alloy",
+      "solution",
+      "element"
+    ],
+    "answer": "element",
+    "explanation": "Element means a pure substance made of one kind of atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-004",
+    "question": "Which term best matches this description: a substance formed when two or more elements chemically combine?",
+    "options": [
+      "compound",
+      "element",
+      "colloid",
+      "mixture"
+    ],
+    "answer": "compound",
+    "explanation": "Compound means a substance formed when two or more elements chemically combine.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-005",
+    "question": "Choose the correct term for: a physical combination of substances.",
+    "options": [
+      "ion",
+      "atom",
+      "mixture",
+      "compound"
+    ],
+    "answer": "mixture",
+    "explanation": "Mixture means a physical combination of substances.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-006",
+    "question": "What is the best answer for: a substance that can donate hydrogen ions?",
+    "options": [
+      "metal",
+      "salt",
+      "acid",
+      "base"
+    ],
+    "answer": "acid",
+    "explanation": "Acid means a substance that can donate hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-007",
+    "question": "Which term best matches this description: a substance that can accept hydrogen ions?",
+    "options": [
+      "base",
+      "acid",
+      "oxide",
+      "gas"
+    ],
+    "answer": "base",
+    "explanation": "Base means a substance that can accept hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-008",
+    "question": "Choose the correct term for: a compound formed when an acid reacts with a base.",
+    "options": [
+      "salt",
+      "alkali",
+      "acid",
+      "base"
+    ],
+    "answer": "salt",
+    "explanation": "Salt means a compound formed when an acid reacts with a base.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-009",
+    "question": "What is the best answer for: a measure of acidity or alkalinity?",
+    "options": [
+      "volume",
+      "pH",
+      "mass",
+      "pressure"
+    ],
+    "answer": "pH",
+    "explanation": "Ph means a measure of acidity or alkalinity.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-010",
+    "question": "Which term best matches this description: a process involving loss of electrons?",
+    "options": [
+      "oxidation",
+      "reduction",
+      "evaporation",
+      "melting"
+    ],
+    "answer": "oxidation",
+    "explanation": "Oxidation means a process involving loss of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-011",
+    "question": "Choose the correct term for: a process involving gain of electrons.",
+    "options": [
+      "boiling",
+      "condensation",
+      "reduction",
+      "oxidation"
+    ],
+    "answer": "reduction",
+    "explanation": "Reduction means a process involving gain of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-012",
+    "question": "What is the best answer for: a substance that speeds up a chemical reaction?",
+    "options": [
+      "catalyst",
+      "ion",
+      "solvent",
+      "solute"
+    ],
+    "answer": "catalyst",
+    "explanation": "Catalyst means a substance that speeds up a chemical reaction.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-013",
+    "question": "Which term best matches this description: the substance dissolved in a solution?",
+    "options": [
+      "precipitate",
+      "gas",
+      "solvent",
+      "solute"
+    ],
+    "answer": "solute",
+    "explanation": "Solute means the substance dissolved in a solution.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-014",
+    "question": "Choose the correct term for: the substance that dissolves the solute.",
+    "options": [
+      "solvent",
+      "atom",
+      "solute",
+      "salt"
+    ],
+    "answer": "solvent",
+    "explanation": "Solvent means the substance that dissolves the solute.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-015",
+    "question": "What is the best answer for: the combining capacity of an atom?",
+    "options": [
+      "mass",
+      "valency",
+      "density",
+      "volume"
+    ],
+    "answer": "valency",
+    "explanation": "Valency means the combining capacity of an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-016",
+    "question": "Which term best matches this description: the arrangement of elements in order of atomic number?",
+    "options": [
+      "mixture",
+      "reaction rate",
+      "periodic table",
+      "chemical bond"
+    ],
+    "answer": "periodic table",
+    "explanation": "Periodic table means the arrangement of elements in order of atomic number.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-017",
+    "question": "Choose the correct term for: the number of protons in an atom.",
+    "options": [
+      "valency",
+      "isotope",
+      "atomic number",
+      "mass number"
+    ],
+    "answer": "atomic number",
+    "explanation": "Atomic number means the number of protons in an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-018",
+    "question": "What is the best answer for: the total number of protons and neutrons?",
+    "options": [
+      "mole",
+      "mass number",
+      "atomic number",
+      "pH"
+    ],
+    "answer": "mass number",
+    "explanation": "Mass number means the total number of protons and neutrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-019",
+    "question": "Which term best matches this description: atoms of the same element with different mass numbers?",
+    "options": [
+      "compound",
+      "ion",
+      "isotope",
+      "solution"
+    ],
+    "answer": "isotope",
+    "explanation": "Isotope means atoms of the same element with different mass numbers.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-020",
+    "question": "Choose the correct term for: an atom or group of atoms with a charge.",
+    "options": [
+      "ion",
+      "molecule",
+      "mixture",
+      "element"
+    ],
+    "answer": "ion",
+    "explanation": "Ion means an atom or group of atoms with a charge.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-021",
+    "question": "What is the best answer for: the smallest unit of an element that retains its properties?",
+    "options": [
+      "ion",
+      "cell",
+      "atom",
+      "molecule"
+    ],
+    "answer": "atom",
+    "explanation": "Atom means the smallest unit of an element that retains its properties.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-022",
+    "question": "Which term best matches this description: two or more atoms chemically bonded?",
+    "options": [
+      "ion",
+      "mixture",
+      "molecule",
+      "cell"
+    ],
+    "answer": "molecule",
+    "explanation": "Molecule means two or more atoms chemically bonded.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-023",
+    "question": "Choose the correct term for: a pure substance made of one kind of atom.",
+    "options": [
+      "alloy",
+      "element",
+      "solution",
+      "compound"
+    ],
+    "answer": "element",
+    "explanation": "Element means a pure substance made of one kind of atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-024",
+    "question": "What is the best answer for: a substance formed when two or more elements chemically combine?",
+    "options": [
+      "compound",
+      "mixture",
+      "element",
+      "colloid"
+    ],
+    "answer": "compound",
+    "explanation": "Compound means a substance formed when two or more elements chemically combine.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-025",
+    "question": "Which term best matches this description: a physical combination of substances?",
+    "options": [
+      "mixture",
+      "ion",
+      "compound",
+      "atom"
+    ],
+    "answer": "mixture",
+    "explanation": "Mixture means a physical combination of substances.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-026",
+    "question": "Choose the correct term for: a substance that can donate hydrogen ions.",
+    "options": [
+      "salt",
+      "metal",
+      "base",
+      "acid"
+    ],
+    "answer": "acid",
+    "explanation": "Acid means a substance that can donate hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-027",
+    "question": "What is the best answer for: a substance that can accept hydrogen ions?",
+    "options": [
+      "base",
+      "acid",
+      "oxide",
+      "gas"
+    ],
+    "answer": "base",
+    "explanation": "Base means a substance that can accept hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-028",
+    "question": "Which term best matches this description: a compound formed when an acid reacts with a base?",
+    "options": [
+      "acid",
+      "alkali",
+      "salt",
+      "base"
+    ],
+    "answer": "salt",
+    "explanation": "Salt means a compound formed when an acid reacts with a base.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-029",
+    "question": "Choose the correct term for: a measure of acidity or alkalinity.",
+    "options": [
+      "mass",
+      "volume",
+      "pH",
+      "pressure"
+    ],
+    "answer": "pH",
+    "explanation": "Ph means a measure of acidity or alkalinity.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-030",
+    "question": "What is the best answer for: a process involving loss of electrons?",
+    "options": [
+      "evaporation",
+      "reduction",
+      "melting",
+      "oxidation"
+    ],
+    "answer": "oxidation",
+    "explanation": "Oxidation means a process involving loss of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-031",
+    "question": "Which term best matches this description: a process involving gain of electrons?",
+    "options": [
+      "condensation",
+      "oxidation",
+      "boiling",
+      "reduction"
+    ],
+    "answer": "reduction",
+    "explanation": "Reduction means a process involving gain of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-032",
+    "question": "Choose the correct term for: a substance that speeds up a chemical reaction.",
+    "options": [
+      "catalyst",
+      "solvent",
+      "solute",
+      "ion"
+    ],
+    "answer": "catalyst",
+    "explanation": "Catalyst means a substance that speeds up a chemical reaction.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-033",
+    "question": "What is the best answer for: the substance dissolved in a solution?",
+    "options": [
+      "solute",
+      "solvent",
+      "gas",
+      "precipitate"
+    ],
+    "answer": "solute",
+    "explanation": "Solute means the substance dissolved in a solution.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-034",
+    "question": "Which term best matches this description: the substance that dissolves the solute?",
+    "options": [
+      "solvent",
+      "salt",
+      "solute",
+      "atom"
+    ],
+    "answer": "solvent",
+    "explanation": "Solvent means the substance that dissolves the solute.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-035",
+    "question": "Choose the correct term for: the combining capacity of an atom.",
+    "options": [
+      "valency",
+      "mass",
+      "density",
+      "volume"
+    ],
+    "answer": "valency",
+    "explanation": "Valency means the combining capacity of an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-036",
+    "question": "What is the best answer for: the arrangement of elements in order of atomic number?",
+    "options": [
+      "chemical bond",
+      "reaction rate",
+      "periodic table",
+      "mixture"
+    ],
+    "answer": "periodic table",
+    "explanation": "Periodic table means the arrangement of elements in order of atomic number.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-037",
+    "question": "Which term best matches this description: the number of protons in an atom?",
+    "options": [
+      "mass number",
+      "atomic number",
+      "isotope",
+      "valency"
+    ],
+    "answer": "atomic number",
+    "explanation": "Atomic number means the number of protons in an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-038",
+    "question": "Choose the correct term for: the total number of protons and neutrons.",
+    "options": [
+      "pH",
+      "mass number",
+      "atomic number",
+      "mole"
+    ],
+    "answer": "mass number",
+    "explanation": "Mass number means the total number of protons and neutrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-039",
+    "question": "What is the best answer for: atoms of the same element with different mass numbers?",
+    "options": [
+      "solution",
+      "compound",
+      "ion",
+      "isotope"
+    ],
+    "answer": "isotope",
+    "explanation": "Isotope means atoms of the same element with different mass numbers.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-040",
+    "question": "Which term best matches this description: an atom or group of atoms with a charge?",
+    "options": [
+      "molecule",
+      "element",
+      "mixture",
+      "ion"
+    ],
+    "answer": "ion",
+    "explanation": "Ion means an atom or group of atoms with a charge.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-041",
+    "question": "Choose the correct term for: the smallest unit of an element that retains its properties.",
+    "options": [
+      "atom",
+      "cell",
+      "molecule",
+      "ion"
+    ],
+    "answer": "atom",
+    "explanation": "Atom means the smallest unit of an element that retains its properties.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-042",
+    "question": "What is the best answer for: two or more atoms chemically bonded?",
+    "options": [
+      "cell",
+      "ion",
+      "mixture",
+      "molecule"
+    ],
+    "answer": "molecule",
+    "explanation": "Molecule means two or more atoms chemically bonded.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-043",
+    "question": "Which term best matches this description: a pure substance made of one kind of atom?",
+    "options": [
+      "compound",
+      "element",
+      "alloy",
+      "solution"
+    ],
+    "answer": "element",
+    "explanation": "Element means a pure substance made of one kind of atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-044",
+    "question": "Choose the correct term for: a substance formed when two or more elements chemically combine.",
+    "options": [
+      "compound",
+      "element",
+      "mixture",
+      "colloid"
+    ],
+    "answer": "compound",
+    "explanation": "Compound means a substance formed when two or more elements chemically combine.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-045",
+    "question": "What is the best answer for: a physical combination of substances?",
+    "options": [
+      "mixture",
+      "ion",
+      "atom",
+      "compound"
+    ],
+    "answer": "mixture",
+    "explanation": "Mixture means a physical combination of substances.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-046",
+    "question": "Which term best matches this description: a substance that can donate hydrogen ions?",
+    "options": [
+      "base",
+      "metal",
+      "acid",
+      "salt"
+    ],
+    "answer": "acid",
+    "explanation": "Acid means a substance that can donate hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-047",
+    "question": "Choose the correct term for: a substance that can accept hydrogen ions.",
+    "options": [
+      "gas",
+      "acid",
+      "base",
+      "oxide"
+    ],
+    "answer": "base",
+    "explanation": "Base means a substance that can accept hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-048",
+    "question": "What is the best answer for: a compound formed when an acid reacts with a base?",
+    "options": [
+      "acid",
+      "salt",
+      "base",
+      "alkali"
+    ],
+    "answer": "salt",
+    "explanation": "Salt means a compound formed when an acid reacts with a base.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-049",
+    "question": "Which term best matches this description: a measure of acidity or alkalinity?",
+    "options": [
+      "pH",
+      "mass",
+      "pressure",
+      "volume"
+    ],
+    "answer": "pH",
+    "explanation": "Ph means a measure of acidity or alkalinity.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-mcq-050",
+    "question": "Choose the correct term for: a process involving loss of electrons.",
+    "options": [
+      "oxidation",
+      "evaporation",
+      "reduction",
+      "melting"
+    ],
+    "answer": "oxidation",
+    "explanation": "Oxidation means a process involving loss of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

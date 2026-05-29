@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-6-medium-mcq-001",
+    "question": "What is 3 × 6?",
+    "options": [
+      "21",
+      "17",
+      "23",
+      "18"
+    ],
+    "answer": "18",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-002",
+    "question": "What is 4 ÷ 2?",
+    "options": [
+      "2",
+      "7",
+      "5",
+      "1"
+    ],
+    "answer": "2",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-003",
+    "question": "What is 19 + 19?",
+    "options": [
+      "38",
+      "43",
+      "41",
+      "37"
+    ],
+    "answer": "38",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-004",
+    "question": "What is 4 × 12?",
+    "options": [
+      "47",
+      "48",
+      "51",
+      "53"
+    ],
+    "answer": "48",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-005",
+    "question": "What is 77 ÷ 11?",
+    "options": [
+      "7",
+      "12",
+      "10",
+      "6"
+    ],
+    "answer": "7",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-006",
+    "question": "What is 20 + 19?",
+    "options": [
+      "39",
+      "38",
+      "42",
+      "44"
+    ],
+    "answer": "39",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-007",
+    "question": "What is 3 × 9?",
+    "options": [
+      "30",
+      "26",
+      "32",
+      "27"
+    ],
+    "answer": "27",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-008",
+    "question": "What is 60 ÷ 10?",
+    "options": [
+      "11",
+      "9",
+      "5",
+      "6"
+    ],
+    "answer": "6",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-009",
+    "question": "What is 5 + 16?",
+    "options": [
+      "24",
+      "21",
+      "26",
+      "20"
+    ],
+    "answer": "21",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-010",
+    "question": "What is 7 × 7?",
+    "options": [
+      "54",
+      "48",
+      "49",
+      "52"
+    ],
+    "answer": "49",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-011",
+    "question": "What is 9 ÷ 3?",
+    "options": [
+      "6",
+      "8",
+      "3",
+      "2"
+    ],
+    "answer": "3",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-012",
+    "question": "What is 11 + 9?",
+    "options": [
+      "25",
+      "19",
+      "20",
+      "23"
+    ],
+    "answer": "20",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-013",
+    "question": "What is 4 × 12?",
+    "options": [
+      "47",
+      "48",
+      "51",
+      "53"
+    ],
+    "answer": "48",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-014",
+    "question": "What is 90 ÷ 9?",
+    "options": [
+      "13",
+      "10",
+      "15",
+      "9"
+    ],
+    "answer": "10",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-015",
+    "question": "What is 20 + 5?",
+    "options": [
+      "25",
+      "28",
+      "30",
+      "24"
+    ],
+    "answer": "25",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-016",
+    "question": "What is 3 × 5?",
+    "options": [
+      "15",
+      "18",
+      "14",
+      "20"
+    ],
+    "answer": "15",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-017",
+    "question": "What is 72 ÷ 6?",
+    "options": [
+      "15",
+      "17",
+      "11",
+      "12"
+    ],
+    "answer": "12",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-018",
+    "question": "What is 3 + 10?",
+    "options": [
+      "12",
+      "13",
+      "18",
+      "16"
+    ],
+    "answer": "13",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-019",
+    "question": "What is 11 × 4?",
+    "options": [
+      "49",
+      "44",
+      "47",
+      "43"
+    ],
+    "answer": "44",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-020",
+    "question": "What is 24 ÷ 6?",
+    "options": [
+      "7",
+      "4",
+      "9",
+      "3"
+    ],
+    "answer": "4",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-021",
+    "question": "What is 4 + 4?",
+    "options": [
+      "11",
+      "7",
+      "8",
+      "13"
+    ],
+    "answer": "8",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-022",
+    "question": "What is 4 × 8?",
+    "options": [
+      "32",
+      "31",
+      "35",
+      "37"
+    ],
+    "answer": "32",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-023",
+    "question": "What is 4 ÷ 2?",
+    "options": [
+      "1",
+      "5",
+      "2",
+      "7"
+    ],
+    "answer": "2",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-024",
+    "question": "What is 5 + 9?",
+    "options": [
+      "19",
+      "14",
+      "17",
+      "13"
+    ],
+    "answer": "14",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-025",
+    "question": "What is 2 × 7?",
+    "options": [
+      "19",
+      "17",
+      "13",
+      "14"
+    ],
+    "answer": "14",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-026",
+    "question": "What is 56 ÷ 8?",
+    "options": [
+      "7",
+      "6",
+      "10",
+      "12"
+    ],
+    "answer": "7",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-027",
+    "question": "What is 14 + 15?",
+    "options": [
+      "28",
+      "32",
+      "34",
+      "29"
+    ],
+    "answer": "29",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-028",
+    "question": "What is 6 × 9?",
+    "options": [
+      "57",
+      "53",
+      "54",
+      "59"
+    ],
+    "answer": "54",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-029",
+    "question": "What is 40 ÷ 4?",
+    "options": [
+      "15",
+      "9",
+      "13",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-030",
+    "question": "What is 4 + 6?",
+    "options": [
+      "9",
+      "15",
+      "10",
+      "13"
+    ],
+    "answer": "10",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-031",
+    "question": "What is 5 × 11?",
+    "options": [
+      "55",
+      "54",
+      "60",
+      "58"
+    ],
+    "answer": "55",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-032",
+    "question": "What is 28 ÷ 7?",
+    "options": [
+      "3",
+      "9",
+      "7",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-033",
+    "question": "What is 11 + 3?",
+    "options": [
+      "17",
+      "14",
+      "13",
+      "19"
+    ],
+    "answer": "14",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-034",
+    "question": "What is 12 × 12?",
+    "options": [
+      "143",
+      "149",
+      "147",
+      "144"
+    ],
+    "answer": "144",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-035",
+    "question": "What is 50 ÷ 10?",
+    "options": [
+      "10",
+      "8",
+      "5",
+      "4"
+    ],
+    "answer": "5",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-036",
+    "question": "What is 8 + 3?",
+    "options": [
+      "11",
+      "14",
+      "16",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-037",
+    "question": "What is 5 × 12?",
+    "options": [
+      "60",
+      "65",
+      "63",
+      "59"
+    ],
+    "answer": "60",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-038",
+    "question": "What is 110 ÷ 11?",
+    "options": [
+      "9",
+      "15",
+      "13",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-039",
+    "question": "What is 16 + 15?",
+    "options": [
+      "34",
+      "36",
+      "31",
+      "30"
+    ],
+    "answer": "31",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-040",
+    "question": "What is 4 × 12?",
+    "options": [
+      "51",
+      "53",
+      "48",
+      "47"
+    ],
+    "answer": "48",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-041",
+    "question": "What is 32 ÷ 4?",
+    "options": [
+      "7",
+      "13",
+      "11",
+      "8"
+    ],
+    "answer": "8",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-042",
+    "question": "What is 12 + 14?",
+    "options": [
+      "26",
+      "29",
+      "31",
+      "25"
+    ],
+    "answer": "26",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-043",
+    "question": "What is 5 × 9?",
+    "options": [
+      "44",
+      "50",
+      "45",
+      "48"
+    ],
+    "answer": "45",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-044",
+    "question": "What is 32 ÷ 4?",
+    "options": [
+      "7",
+      "13",
+      "8",
+      "11"
+    ],
+    "answer": "8",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-045",
+    "question": "What is 19 + 15?",
+    "options": [
+      "37",
+      "39",
+      "33",
+      "34"
+    ],
+    "answer": "34",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-046",
+    "question": "What is 7 × 6?",
+    "options": [
+      "41",
+      "47",
+      "42",
+      "45"
+    ],
+    "answer": "42",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-047",
+    "question": "What is 77 ÷ 11?",
+    "options": [
+      "12",
+      "10",
+      "7",
+      "6"
+    ],
+    "answer": "7",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-048",
+    "question": "What is 12 + 3?",
+    "options": [
+      "18",
+      "15",
+      "20",
+      "14"
+    ],
+    "answer": "15",
+    "explanation": "Add the values.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-049",
+    "question": "What is 8 × 11?",
+    "options": [
+      "88",
+      "87",
+      "91",
+      "93"
+    ],
+    "answer": "88",
+    "explanation": "Multiply the numbers.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-6-medium-mcq-050",
+    "question": "What is 60 ÷ 6?",
+    "options": [
+      "13",
+      "15",
+      "10",
+      "9"
+    ],
+    "answer": "10",
+    "explanation": "Divide to find the quotient.",
+    "level": "class-6",
+    "subject": "class-6",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

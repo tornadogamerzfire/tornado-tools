@@ -1,0 +1,702 @@
+[
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-001",
+    "question": "Capital means the money invested in a business.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Capital means the money invested in a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-002",
+    "question": "Liability means income earned from business activities.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Revenue means income earned from business activities.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-003",
+    "question": "Profit and loss account means a statement showing profit or loss.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Profit and loss account means a statement showing profit or loss.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-004",
+    "question": "Invoice means a statement showing assets, liabilities, and capital.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Balance sheet means a statement showing assets, liabilities, and capital.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-005",
+    "question": "Asset means something of value owned by a business.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Asset means something of value owned by a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-006",
+    "question": "Asset means a financial obligation or debt.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Liability means a financial obligation or debt.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-007",
+    "question": "Ledger means a book of final accounts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ledger means a book of final accounts.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-008",
+    "question": "Balance sheet means the book of original entry.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Journal means the book of original entry.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-009",
+    "question": "Discount means reduction in price.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Discount means reduction in price.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-010",
+    "question": "Receipt means a bill issued for goods or services.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Invoice means a bill issued for goods or services.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-011",
+    "question": "Receipt means proof of payment.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Receipt means proof of payment.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-012",
+    "question": "Income tax means goods and services tax.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gst means goods and services tax.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-013",
+    "question": "Depreciation means reduction in the value of an asset over time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Depreciation means reduction in the value of an asset over time.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-014",
+    "question": "Cash means goods available for sale.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stock means goods available for sale.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-015",
+    "question": "Credit means an entry showing value received.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Credit means an entry showing value received.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-016",
+    "question": "Credit means an entry showing value given.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Debit means an entry showing value given.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-017",
+    "question": "Cash book means a book that records cash transactions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cash book means a book that records cash transactions.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-018",
+    "question": "Balance sheet means a statement that checks arithmetical accuracy of books.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Trial balance means a statement that checks arithmetical accuracy of books.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-019",
+    "question": "Interest means the cost of borrowing money or return on savings.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Interest means the cost of borrowing money or return on savings.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-020",
+    "question": "Auditing means comparing bank records with business records.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bank reconciliation means comparing bank records with business records.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-021",
+    "question": "Capital means the money invested in a business.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Capital means the money invested in a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-022",
+    "question": "Liability means income earned from business activities.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Revenue means income earned from business activities.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-023",
+    "question": "Profit and loss account means a statement showing profit or loss.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Profit and loss account means a statement showing profit or loss.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-024",
+    "question": "Invoice means a statement showing assets, liabilities, and capital.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Balance sheet means a statement showing assets, liabilities, and capital.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-025",
+    "question": "Asset means something of value owned by a business.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Asset means something of value owned by a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-026",
+    "question": "Asset means a financial obligation or debt.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Liability means a financial obligation or debt.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-027",
+    "question": "Ledger means a book of final accounts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ledger means a book of final accounts.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-028",
+    "question": "Balance sheet means the book of original entry.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Journal means the book of original entry.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-029",
+    "question": "Discount means reduction in price.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Discount means reduction in price.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-030",
+    "question": "Receipt means a bill issued for goods or services.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Invoice means a bill issued for goods or services.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-031",
+    "question": "Receipt means proof of payment.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Receipt means proof of payment.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-032",
+    "question": "Income tax means goods and services tax.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gst means goods and services tax.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-033",
+    "question": "Depreciation means reduction in the value of an asset over time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Depreciation means reduction in the value of an asset over time.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-034",
+    "question": "Cash means goods available for sale.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stock means goods available for sale.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-035",
+    "question": "Credit means an entry showing value received.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Credit means an entry showing value received.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-036",
+    "question": "Credit means an entry showing value given.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Debit means an entry showing value given.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-037",
+    "question": "Cash book means a book that records cash transactions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cash book means a book that records cash transactions.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-038",
+    "question": "Balance sheet means a statement that checks arithmetical accuracy of books.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Trial balance means a statement that checks arithmetical accuracy of books.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-039",
+    "question": "Interest means the cost of borrowing money or return on savings.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Interest means the cost of borrowing money or return on savings.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-040",
+    "question": "Auditing means comparing bank records with business records.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bank reconciliation means comparing bank records with business records.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-041",
+    "question": "Capital means the money invested in a business.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Capital means the money invested in a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-042",
+    "question": "Liability means income earned from business activities.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Revenue means income earned from business activities.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-043",
+    "question": "Profit and loss account means a statement showing profit or loss.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Profit and loss account means a statement showing profit or loss.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-044",
+    "question": "Invoice means a statement showing assets, liabilities, and capital.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Balance sheet means a statement showing assets, liabilities, and capital.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-045",
+    "question": "Asset means something of value owned by a business.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Asset means something of value owned by a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-046",
+    "question": "Asset means a financial obligation or debt.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Liability means a financial obligation or debt.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-047",
+    "question": "Ledger means a book of final accounts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ledger means a book of final accounts.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-048",
+    "question": "Balance sheet means the book of original entry.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Journal means the book of original entry.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-049",
+    "question": "Discount means reduction in price.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Discount means reduction in price.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-medium-true_false-050",
+    "question": "Receipt means a bill issued for goods or services.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Invoice means a bill issued for goods or services.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  }
+]

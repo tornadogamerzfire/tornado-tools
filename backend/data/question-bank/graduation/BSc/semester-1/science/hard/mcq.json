@@ -1,0 +1,802 @@
+[
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-001",
+    "question": "Which term best matches this description: the process by which plants make food using sunlight?",
+    "options": [
+      "respiration",
+      "photosynthesis",
+      "evaporation",
+      "digestion"
+    ],
+    "answer": "photosynthesis",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-002",
+    "question": "Choose the correct term for: the change of liquid into vapour.",
+    "options": [
+      "evaporation",
+      "condensation",
+      "freezing",
+      "melting"
+    ],
+    "answer": "evaporation",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-003",
+    "question": "What is the best answer for: the change of vapour into liquid?",
+    "options": [
+      "evaporation",
+      "condensation",
+      "boiling",
+      "burning"
+    ],
+    "answer": "condensation",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-004",
+    "question": "Which term best matches this description: the force that pulls objects toward the Earth?",
+    "options": [
+      "friction",
+      "magnetism",
+      "pressure",
+      "gravity"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-005",
+    "question": "Choose the correct term for: the organ that pumps blood.",
+    "options": [
+      "kidney",
+      "stomach",
+      "heart",
+      "lungs"
+    ],
+    "answer": "heart",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-006",
+    "question": "What is the best answer for: the organs used for breathing?",
+    "options": [
+      "bones",
+      "lungs",
+      "teeth",
+      "brain"
+    ],
+    "answer": "lungs",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-007",
+    "question": "Which term best matches this description: the plant part that absorbs water from soil?",
+    "options": [
+      "leaves",
+      "roots",
+      "flowers",
+      "fruits"
+    ],
+    "answer": "roots",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-008",
+    "question": "Choose the correct term for: the part that carries water in a plant.",
+    "options": [
+      "roots",
+      "seed",
+      "stem",
+      "petals"
+    ],
+    "answer": "stem",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-009",
+    "question": "What is the best answer for: the green pigment in plants?",
+    "options": [
+      "haemoglobin",
+      "starch",
+      "protein",
+      "chlorophyll"
+    ],
+    "answer": "chlorophyll",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-010",
+    "question": "Which term best matches this description: a gas needed for breathing?",
+    "options": [
+      "nitrogen",
+      "carbon dioxide",
+      "helium",
+      "oxygen"
+    ],
+    "answer": "oxygen",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-011",
+    "question": "Choose the correct term for: a gas released during breathing and burning.",
+    "options": [
+      "carbon dioxide",
+      "argon",
+      "hydrogen",
+      "oxygen"
+    ],
+    "answer": "carbon dioxide",
+    "explanation": "Carbon dioxide means a gas released during breathing and burning.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-012",
+    "question": "What is the best answer for: the bouncing back of light?",
+    "options": [
+      "refraction",
+      "diffusion",
+      "reflection",
+      "focusing"
+    ],
+    "answer": "reflection",
+    "explanation": "Reflection means the bouncing back of light.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-013",
+    "question": "Which term best matches this description: the bending of light when it enters another medium?",
+    "options": [
+      "absorption",
+      "reflection",
+      "refraction",
+      "rotation"
+    ],
+    "answer": "refraction",
+    "explanation": "Refraction means the bending of light when it enters another medium.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-014",
+    "question": "Choose the correct term for: an object that attracts iron.",
+    "options": [
+      "acid",
+      "salt",
+      "magnet",
+      "glass"
+    ],
+    "answer": "magnet",
+    "explanation": "Magnet means an object that attracts iron.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-015",
+    "question": "What is the best answer for: a push or pull on an object?",
+    "options": [
+      "force",
+      "heat",
+      "mass",
+      "colour"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull on an object.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-016",
+    "question": "Which term best matches this description: the ability to do work?",
+    "options": [
+      "energy",
+      "speed",
+      "shape",
+      "temperature"
+    ],
+    "answer": "energy",
+    "explanation": "Energy means the ability to do work.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-017",
+    "question": "Choose the correct term for: a form of energy that travels in waves.",
+    "options": [
+      "mass",
+      "metal",
+      "sound",
+      "volume"
+    ],
+    "answer": "sound",
+    "explanation": "Sound means a form of energy that travels in waves.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-018",
+    "question": "What is the best answer for: the continuous movement of water on Earth?",
+    "options": [
+      "food chain",
+      "nitrogen cycle",
+      "water cycle",
+      "rock cycle"
+    ],
+    "answer": "water cycle",
+    "explanation": "Water cycle means the continuous movement of water on Earth.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-019",
+    "question": "Which term best matches this description: the change of liquid to gas on heating?",
+    "options": [
+      "freezing",
+      "melting",
+      "boiling",
+      "condensing"
+    ],
+    "answer": "boiling",
+    "explanation": "Boiling means the change of liquid to gas on heating.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-020",
+    "question": "Choose the correct term for: a long thin strand of material.",
+    "options": [
+      "fibre",
+      "liquid",
+      "gas",
+      "metal"
+    ],
+    "answer": "fibre",
+    "explanation": "Fibre means a long thin strand of material.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-021",
+    "question": "What is the best answer for: the process by which plants make food using sunlight?",
+    "options": [
+      "photosynthesis",
+      "digestion",
+      "evaporation",
+      "respiration"
+    ],
+    "answer": "photosynthesis",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-022",
+    "question": "Which term best matches this description: the change of liquid into vapour?",
+    "options": [
+      "condensation",
+      "freezing",
+      "evaporation",
+      "melting"
+    ],
+    "answer": "evaporation",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-023",
+    "question": "Choose the correct term for: the change of vapour into liquid.",
+    "options": [
+      "boiling",
+      "condensation",
+      "burning",
+      "evaporation"
+    ],
+    "answer": "condensation",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-024",
+    "question": "What is the best answer for: the force that pulls objects toward the Earth?",
+    "options": [
+      "magnetism",
+      "pressure",
+      "friction",
+      "gravity"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-025",
+    "question": "Which term best matches this description: the organ that pumps blood?",
+    "options": [
+      "lungs",
+      "stomach",
+      "heart",
+      "kidney"
+    ],
+    "answer": "heart",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-026",
+    "question": "Choose the correct term for: the organs used for breathing.",
+    "options": [
+      "lungs",
+      "brain",
+      "bones",
+      "teeth"
+    ],
+    "answer": "lungs",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-027",
+    "question": "What is the best answer for: the plant part that absorbs water from soil?",
+    "options": [
+      "roots",
+      "fruits",
+      "flowers",
+      "leaves"
+    ],
+    "answer": "roots",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-028",
+    "question": "Which term best matches this description: the part that carries water in a plant?",
+    "options": [
+      "petals",
+      "roots",
+      "seed",
+      "stem"
+    ],
+    "answer": "stem",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-029",
+    "question": "Choose the correct term for: the green pigment in plants.",
+    "options": [
+      "chlorophyll",
+      "protein",
+      "haemoglobin",
+      "starch"
+    ],
+    "answer": "chlorophyll",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-030",
+    "question": "What is the best answer for: a gas needed for breathing?",
+    "options": [
+      "carbon dioxide",
+      "oxygen",
+      "nitrogen",
+      "helium"
+    ],
+    "answer": "oxygen",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-031",
+    "question": "Which term best matches this description: a gas released during breathing and burning?",
+    "options": [
+      "argon",
+      "carbon dioxide",
+      "oxygen",
+      "hydrogen"
+    ],
+    "answer": "carbon dioxide",
+    "explanation": "Carbon dioxide means a gas released during breathing and burning.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-032",
+    "question": "Choose the correct term for: the bouncing back of light.",
+    "options": [
+      "reflection",
+      "diffusion",
+      "refraction",
+      "focusing"
+    ],
+    "answer": "reflection",
+    "explanation": "Reflection means the bouncing back of light.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-033",
+    "question": "What is the best answer for: the bending of light when it enters another medium?",
+    "options": [
+      "refraction",
+      "absorption",
+      "rotation",
+      "reflection"
+    ],
+    "answer": "refraction",
+    "explanation": "Refraction means the bending of light when it enters another medium.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-034",
+    "question": "Which term best matches this description: an object that attracts iron?",
+    "options": [
+      "salt",
+      "acid",
+      "magnet",
+      "glass"
+    ],
+    "answer": "magnet",
+    "explanation": "Magnet means an object that attracts iron.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-035",
+    "question": "Choose the correct term for: a push or pull on an object.",
+    "options": [
+      "force",
+      "colour",
+      "heat",
+      "mass"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull on an object.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-036",
+    "question": "What is the best answer for: the ability to do work?",
+    "options": [
+      "temperature",
+      "shape",
+      "speed",
+      "energy"
+    ],
+    "answer": "energy",
+    "explanation": "Energy means the ability to do work.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-037",
+    "question": "Which term best matches this description: a form of energy that travels in waves?",
+    "options": [
+      "metal",
+      "sound",
+      "mass",
+      "volume"
+    ],
+    "answer": "sound",
+    "explanation": "Sound means a form of energy that travels in waves.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-038",
+    "question": "Choose the correct term for: the continuous movement of water on Earth.",
+    "options": [
+      "rock cycle",
+      "water cycle",
+      "nitrogen cycle",
+      "food chain"
+    ],
+    "answer": "water cycle",
+    "explanation": "Water cycle means the continuous movement of water on Earth.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-039",
+    "question": "What is the best answer for: the change of liquid to gas on heating?",
+    "options": [
+      "freezing",
+      "condensing",
+      "boiling",
+      "melting"
+    ],
+    "answer": "boiling",
+    "explanation": "Boiling means the change of liquid to gas on heating.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-040",
+    "question": "Which term best matches this description: a long thin strand of material?",
+    "options": [
+      "metal",
+      "fibre",
+      "gas",
+      "liquid"
+    ],
+    "answer": "fibre",
+    "explanation": "Fibre means a long thin strand of material.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-041",
+    "question": "Choose the correct term for: the process by which plants make food using sunlight.",
+    "options": [
+      "digestion",
+      "photosynthesis",
+      "evaporation",
+      "respiration"
+    ],
+    "answer": "photosynthesis",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-042",
+    "question": "What is the best answer for: the change of liquid into vapour?",
+    "options": [
+      "melting",
+      "condensation",
+      "freezing",
+      "evaporation"
+    ],
+    "answer": "evaporation",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-043",
+    "question": "Which term best matches this description: the change of vapour into liquid?",
+    "options": [
+      "burning",
+      "condensation",
+      "boiling",
+      "evaporation"
+    ],
+    "answer": "condensation",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-044",
+    "question": "Choose the correct term for: the force that pulls objects toward the Earth.",
+    "options": [
+      "friction",
+      "magnetism",
+      "pressure",
+      "gravity"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-045",
+    "question": "What is the best answer for: the organ that pumps blood?",
+    "options": [
+      "stomach",
+      "heart",
+      "lungs",
+      "kidney"
+    ],
+    "answer": "heart",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-046",
+    "question": "Which term best matches this description: the organs used for breathing?",
+    "options": [
+      "bones",
+      "brain",
+      "lungs",
+      "teeth"
+    ],
+    "answer": "lungs",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-047",
+    "question": "Choose the correct term for: the plant part that absorbs water from soil.",
+    "options": [
+      "roots",
+      "flowers",
+      "fruits",
+      "leaves"
+    ],
+    "answer": "roots",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-048",
+    "question": "What is the best answer for: the part that carries water in a plant?",
+    "options": [
+      "stem",
+      "seed",
+      "petals",
+      "roots"
+    ],
+    "answer": "stem",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-049",
+    "question": "Which term best matches this description: the green pigment in plants?",
+    "options": [
+      "chlorophyll",
+      "protein",
+      "haemoglobin",
+      "starch"
+    ],
+    "answer": "chlorophyll",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bsc-semester-1-science-hard-mcq-050",
+    "question": "Choose the correct term for: a gas needed for breathing.",
+    "options": [
+      "nitrogen",
+      "helium",
+      "oxygen",
+      "carbon dioxide"
+    ],
+    "answer": "oxygen",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "graduation-BSc-semester-1",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

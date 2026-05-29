@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-7-english-medium-mcq-001",
+    "question": "Which term best matches this description: joyful?",
+    "options": [
+      "sad",
+      "tiny",
+      "happy",
+      "angry"
+    ],
+    "answer": "happy",
+    "explanation": "Happy means joyful.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-002",
+    "question": "Choose the correct term for: start.",
+    "options": [
+      "begin",
+      "sleep",
+      "end",
+      "forget"
+    ],
+    "answer": "begin",
+    "explanation": "Begin means start.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-003",
+    "question": "What is the best answer for: fast?",
+    "options": [
+      "weak",
+      "slow",
+      "rapid",
+      "late"
+    ],
+    "answer": "rapid",
+    "explanation": "Rapid means fast.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-004",
+    "question": "Which term best matches this description: small?",
+    "options": [
+      "bright",
+      "tiny",
+      "huge",
+      "heavy"
+    ],
+    "answer": "tiny",
+    "explanation": "Tiny means small.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-005",
+    "question": "Choose the correct term for: courageous.",
+    "options": [
+      "shy",
+      "brave",
+      "cowardly",
+      "lazy"
+    ],
+    "answer": "brave",
+    "explanation": "Brave means courageous.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-006",
+    "question": "What is the best answer for: truthful?",
+    "options": [
+      "false",
+      "greedy",
+      "honest",
+      "careless"
+    ],
+    "answer": "honest",
+    "explanation": "Honest means truthful.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-007",
+    "question": "Which term best matches this description: luminous?",
+    "options": [
+      "bright",
+      "dark",
+      "silent",
+      "dull"
+    ],
+    "answer": "bright",
+    "explanation": "Bright means luminous.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-008",
+    "question": "Choose the correct term for: construct.",
+    "options": [
+      "hide",
+      "break",
+      "destroy",
+      "build"
+    ],
+    "answer": "build",
+    "explanation": "Build means construct.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-009",
+    "question": "What is the best answer for: hard?",
+    "options": [
+      "soft",
+      "easy",
+      "simple",
+      "difficult"
+    ],
+    "answer": "difficult",
+    "explanation": "Difficult means hard.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-010",
+    "question": "Which term best matches this description: peaceful?",
+    "options": [
+      "calm",
+      "rough",
+      "noisy",
+      "wild"
+    ],
+    "answer": "calm",
+    "explanation": "Calm means peaceful.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-011",
+    "question": "Choose the correct term for: companion.",
+    "options": [
+      "river",
+      "friend",
+      "enemy",
+      "tool"
+    ],
+    "answer": "friend",
+    "explanation": "Friend means companion.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-012",
+    "question": "What is the best answer for: wealthy?",
+    "options": [
+      "rich",
+      "poor",
+      "empty",
+      "narrow"
+    ],
+    "answer": "rich",
+    "explanation": "Rich means wealthy.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-013",
+    "question": "Which term best matches this description: swift?",
+    "options": [
+      "late",
+      "quick",
+      "weak",
+      "slow"
+    ],
+    "answer": "quick",
+    "explanation": "Quick means swift.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-014",
+    "question": "Choose the correct term for: ancient.",
+    "options": [
+      "young",
+      "old",
+      "fresh",
+      "new"
+    ],
+    "answer": "old",
+    "explanation": "Old means ancient.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-015",
+    "question": "What is the best answer for: commence?",
+    "options": [
+      "stop",
+      "close",
+      "end",
+      "start"
+    ],
+    "answer": "start",
+    "explanation": "Start means commence.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-016",
+    "question": "Which term best matches this description: complete?",
+    "options": [
+      "start",
+      "delay",
+      "finish",
+      "open"
+    ],
+    "answer": "finish",
+    "explanation": "Finish means complete.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-017",
+    "question": "Choose the correct term for: big.",
+    "options": [
+      "light",
+      "tiny",
+      "small",
+      "large"
+    ],
+    "answer": "large",
+    "explanation": "Large means big.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-018",
+    "question": "What is the best answer for: tidy?",
+    "options": [
+      "clean",
+      "rough",
+      "messy",
+      "dirty"
+    ],
+    "answer": "clean",
+    "explanation": "Clean means tidy.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-019",
+    "question": "Which term best matches this description: clever?",
+    "options": [
+      "smart",
+      "slow",
+      "empty",
+      "stupid"
+    ],
+    "answer": "smart",
+    "explanation": "Smart means clever.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-020",
+    "question": "Choose the correct term for: secure.",
+    "options": [
+      "safe",
+      "dangerous",
+      "sharp",
+      "fragile"
+    ],
+    "answer": "safe",
+    "explanation": "Safe means secure.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-021",
+    "question": "What is the best answer for: names a person, place, thing, or idea?",
+    "options": [
+      "rapid",
+      "begin",
+      "old",
+      "noun"
+    ],
+    "answer": "noun",
+    "explanation": "Noun means names a person, place, thing, or idea.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-022",
+    "question": "Which term best matches this description: shows an action or state?",
+    "options": [
+      "rich",
+      "verb",
+      "old",
+      "conjunction"
+    ],
+    "answer": "verb",
+    "explanation": "Verb means shows an action or state.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-023",
+    "question": "Choose the correct term for: describes a noun.",
+    "options": [
+      "adjective",
+      "adverb",
+      "rich",
+      "begin"
+    ],
+    "answer": "adjective",
+    "explanation": "Adjective means describes a noun.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-024",
+    "question": "What is the best answer for: describes a verb, adjective, or another adverb?",
+    "options": [
+      "article",
+      "pronoun",
+      "adverb",
+      "synonym"
+    ],
+    "answer": "adverb",
+    "explanation": "Adverb means describes a verb, adjective, or another adverb.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-025",
+    "question": "Which term best matches this description: is used instead of a noun?",
+    "options": [
+      "safe",
+      "conjunction",
+      "pronoun",
+      "quick"
+    ],
+    "answer": "pronoun",
+    "explanation": "Pronoun means is used instead of a noun.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-026",
+    "question": "Choose the correct term for: includes words like a, an, and the.",
+    "options": [
+      "begin",
+      "article",
+      "honest",
+      "pronoun"
+    ],
+    "answer": "article",
+    "explanation": "Article means includes words like a, an, and the.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-027",
+    "question": "What is the best answer for: joins words or groups of words?",
+    "options": [
+      "noun",
+      "rapid",
+      "conjunction",
+      "old"
+    ],
+    "answer": "conjunction",
+    "explanation": "Conjunction means joins words or groups of words.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-028",
+    "question": "Which term best matches this description: shows place, time, or direction?",
+    "options": [
+      "adverb",
+      "rich",
+      "preposition",
+      "large"
+    ],
+    "answer": "preposition",
+    "explanation": "Preposition means shows place, time, or direction.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-029",
+    "question": "Choose the correct term for: shows more than one.",
+    "options": [
+      "pronoun",
+      "smart",
+      "plural",
+      "finish"
+    ],
+    "answer": "plural",
+    "explanation": "Plural means shows more than one.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-030",
+    "question": "What is the best answer for: shows one person or thing?",
+    "options": [
+      "honest",
+      "vowel",
+      "brave",
+      "singular"
+    ],
+    "answer": "singular",
+    "explanation": "Singular means shows one person or thing.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-031",
+    "question": "Which term best matches this description: shows the time of an action?",
+    "options": [
+      "smart",
+      "happy",
+      "begin",
+      "tense"
+    ],
+    "answer": "tense",
+    "explanation": "Tense means shows the time of an action.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-032",
+    "question": "Choose the correct term for: makes complete sense.",
+    "options": [
+      "finish",
+      "article",
+      "sentence",
+      "safe"
+    ],
+    "answer": "sentence",
+    "explanation": "Sentence means makes complete sense.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-033",
+    "question": "What is the best answer for: is a group of words without complete sense?",
+    "options": [
+      "sentence",
+      "phrase",
+      "conjunction",
+      "pronoun"
+    ],
+    "answer": "phrase",
+    "explanation": "Phrase means is a group of words without complete sense.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-034",
+    "question": "Which term best matches this description: contains a subject and a verb?",
+    "options": [
+      "rapid",
+      "smart",
+      "clause",
+      "article"
+    ],
+    "answer": "clause",
+    "explanation": "Clause means contains a subject and a verb.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-035",
+    "question": "Choose the correct term for: includes commas and full stops.",
+    "options": [
+      "punctuation",
+      "finish",
+      "honest",
+      "rapid"
+    ],
+    "answer": "punctuation",
+    "explanation": "Punctuation means includes commas and full stops.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-036",
+    "question": "What is the best answer for: is used at the start of a sentence?",
+    "options": [
+      "clause",
+      "happy",
+      "capital letter",
+      "rich"
+    ],
+    "answer": "capital letter",
+    "explanation": "Capital letter means is used at the start of a sentence.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-037",
+    "question": "Which term best matches this description: is one of a, e, i, o, u?",
+    "options": [
+      "vowel",
+      "pronoun",
+      "consonant",
+      "capital letter"
+    ],
+    "answer": "vowel",
+    "explanation": "Vowel means is one of a, e, i, o, u.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-038",
+    "question": "Choose the correct term for: is a letter that is not a vowel.",
+    "options": [
+      "antonym",
+      "consonant",
+      "old",
+      "honest"
+    ],
+    "answer": "consonant",
+    "explanation": "Consonant means is a letter that is not a vowel.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-039",
+    "question": "What is the best answer for: means a similar word?",
+    "options": [
+      "consonant",
+      "synonym",
+      "conjunction",
+      "brave"
+    ],
+    "answer": "synonym",
+    "explanation": "Synonym means means a similar word.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-040",
+    "question": "Which term best matches this description: means an opposite word?",
+    "options": [
+      "difficult",
+      "build",
+      "antonym",
+      "plural"
+    ],
+    "answer": "antonym",
+    "explanation": "Antonym means means an opposite word.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-041",
+    "question": "Choose the correct term for: joyful.",
+    "options": [
+      "happy",
+      "sad",
+      "tiny",
+      "angry"
+    ],
+    "answer": "happy",
+    "explanation": "Happy means joyful.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-042",
+    "question": "What is the best answer for: start?",
+    "options": [
+      "forget",
+      "sleep",
+      "end",
+      "begin"
+    ],
+    "answer": "begin",
+    "explanation": "Begin means start.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-043",
+    "question": "Which term best matches this description: fast?",
+    "options": [
+      "rapid",
+      "slow",
+      "late",
+      "weak"
+    ],
+    "answer": "rapid",
+    "explanation": "Rapid means fast.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-044",
+    "question": "Choose the correct term for: small.",
+    "options": [
+      "huge",
+      "bright",
+      "heavy",
+      "tiny"
+    ],
+    "answer": "tiny",
+    "explanation": "Tiny means small.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-045",
+    "question": "What is the best answer for: courageous?",
+    "options": [
+      "shy",
+      "brave",
+      "cowardly",
+      "lazy"
+    ],
+    "answer": "brave",
+    "explanation": "Brave means courageous.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-046",
+    "question": "Which term best matches this description: truthful?",
+    "options": [
+      "greedy",
+      "careless",
+      "honest",
+      "false"
+    ],
+    "answer": "honest",
+    "explanation": "Honest means truthful.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-047",
+    "question": "Choose the correct term for: luminous.",
+    "options": [
+      "dark",
+      "dull",
+      "bright",
+      "silent"
+    ],
+    "answer": "bright",
+    "explanation": "Bright means luminous.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-048",
+    "question": "What is the best answer for: construct?",
+    "options": [
+      "break",
+      "build",
+      "destroy",
+      "hide"
+    ],
+    "answer": "build",
+    "explanation": "Build means construct.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-049",
+    "question": "Which term best matches this description: hard?",
+    "options": [
+      "soft",
+      "simple",
+      "easy",
+      "difficult"
+    ],
+    "answer": "difficult",
+    "explanation": "Difficult means hard.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-7-english-medium-mcq-050",
+    "question": "Choose the correct term for: peaceful.",
+    "options": [
+      "noisy",
+      "rough",
+      "calm",
+      "wild"
+    ],
+    "answer": "calm",
+    "explanation": "Calm means peaceful.",
+    "level": "class-7",
+    "subject": "english",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

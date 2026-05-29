@@ -1,0 +1,702 @@
+[
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-001",
+    "question": "Variable means a named storage location for data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Variable means a named storage location for data.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-002",
+    "question": "Function means a value that does not change during execution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Constant means a value that does not change during execution.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-003",
+    "question": "Loop means a construct used to repeat instructions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loop means a construct used to repeat instructions.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-004",
+    "question": "Queue means a collection of elements stored in order.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Array means a collection of elements stored in order.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-005",
+    "question": "Function means a reusable block of code that performs a task.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Function means a reusable block of code that performs a task.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-006",
+    "question": "Loop means a blueprint for creating objects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Class means a blueprint for creating objects.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-007",
+    "question": "Object means an instance of a class.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Object means an instance of a class.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-008",
+    "question": "Sorting means a feature where one class acquires properties of another.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Inheritance means a feature where one class acquires properties of another.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-009",
+    "question": "Encapsulation means bundling data and methods together.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Encapsulation means bundling data and methods together.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-010",
+    "question": "Compression means the ability to take many forms.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Polymorphism means the ability to take many forms.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-011",
+    "question": "Algorithm means a step-by-step method to solve a problem.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Algorithm means a step-by-step method to solve a problem.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-012",
+    "question": "Operator means a category that tells what kind of value a variable holds.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Data type means a category that tells what kind of value a variable holds.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-013",
+    "question": "Compiler means software that converts source code to machine code.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Compiler means software that converts source code to machine code.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-014",
+    "question": "Browser means software that executes code line by line.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Interpreter means software that executes code line by line.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-015",
+    "question": "Debugging means the process of finding and fixing errors.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Debugging means the process of finding and fixing errors.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-016",
+    "question": "Style means the rules for writing code correctly.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Syntax means the rules for writing code correctly.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-017",
+    "question": "Database means an organized collection of data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Database means an organized collection of data.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-018",
+    "question": "Decimal means a numbering system that uses 0 and 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Binary means a numbering system that uses 0 and 1.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-019",
+    "question": "Stack means LIFO data structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Stack means LIFO data structure.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-020",
+    "question": "Stack means FIFO data structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Queue means FIFO data structure.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-021",
+    "question": "Variable means a named storage location for data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Variable means a named storage location for data.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-022",
+    "question": "Function means a value that does not change during execution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Constant means a value that does not change during execution.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-023",
+    "question": "Loop means a construct used to repeat instructions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loop means a construct used to repeat instructions.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-024",
+    "question": "Queue means a collection of elements stored in order.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Array means a collection of elements stored in order.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-025",
+    "question": "Function means a reusable block of code that performs a task.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Function means a reusable block of code that performs a task.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-026",
+    "question": "Loop means a blueprint for creating objects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Class means a blueprint for creating objects.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-027",
+    "question": "Object means an instance of a class.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Object means an instance of a class.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-028",
+    "question": "Sorting means a feature where one class acquires properties of another.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Inheritance means a feature where one class acquires properties of another.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-029",
+    "question": "Encapsulation means bundling data and methods together.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Encapsulation means bundling data and methods together.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-030",
+    "question": "Compression means the ability to take many forms.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Polymorphism means the ability to take many forms.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-031",
+    "question": "Algorithm means a step-by-step method to solve a problem.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Algorithm means a step-by-step method to solve a problem.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-032",
+    "question": "Operator means a category that tells what kind of value a variable holds.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Data type means a category that tells what kind of value a variable holds.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-033",
+    "question": "Compiler means software that converts source code to machine code.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Compiler means software that converts source code to machine code.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-034",
+    "question": "Browser means software that executes code line by line.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Interpreter means software that executes code line by line.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-035",
+    "question": "Debugging means the process of finding and fixing errors.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Debugging means the process of finding and fixing errors.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-036",
+    "question": "Style means the rules for writing code correctly.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Syntax means the rules for writing code correctly.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-037",
+    "question": "Database means an organized collection of data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Database means an organized collection of data.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-038",
+    "question": "Decimal means a numbering system that uses 0 and 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Binary means a numbering system that uses 0 and 1.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-039",
+    "question": "Stack means LIFO data structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Stack means LIFO data structure.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-040",
+    "question": "Stack means FIFO data structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Queue means FIFO data structure.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-041",
+    "question": "Variable means a named storage location for data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Variable means a named storage location for data.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-042",
+    "question": "Function means a value that does not change during execution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Constant means a value that does not change during execution.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-043",
+    "question": "Loop means a construct used to repeat instructions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loop means a construct used to repeat instructions.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-044",
+    "question": "Queue means a collection of elements stored in order.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Array means a collection of elements stored in order.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-045",
+    "question": "Function means a reusable block of code that performs a task.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Function means a reusable block of code that performs a task.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-046",
+    "question": "Loop means a blueprint for creating objects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Class means a blueprint for creating objects.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-047",
+    "question": "Object means an instance of a class.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Object means an instance of a class.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-048",
+    "question": "Sorting means a feature where one class acquires properties of another.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Inheritance means a feature where one class acquires properties of another.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-049",
+    "question": "Encapsulation means bundling data and methods together.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Encapsulation means bundling data and methods together.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-bca-semester-2-programming-fundamentals-hard-true_false-050",
+    "question": "Compression means the ability to take many forms.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Polymorphism means the ability to take many forms.",
+    "level": "graduation-BCA-semester-2",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "true_false"
+  }
+]

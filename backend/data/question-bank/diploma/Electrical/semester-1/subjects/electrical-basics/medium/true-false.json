@@ -1,0 +1,702 @@
+[
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-001",
+    "question": "Current means the flow of electric charge.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Current means the flow of electric charge.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-002",
+    "question": "Current means the potential difference that drives current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Voltage means the potential difference that drives current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-003",
+    "question": "Resistance means the opposition to current flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Resistance means the opposition to current flow.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-004",
+    "question": "V = i/r means the relation V = IR.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ohm's law means the relation V = IR.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-005",
+    "question": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-006",
+    "question": "Battery means a device that changes AC voltage levels.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Transformer means a device that changes AC voltage levels.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-007",
+    "question": "Motor means a device that converts electrical energy into mechanical energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Motor means a device that converts electrical energy into mechanical energy.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-008",
+    "question": "Switch means a device that converts mechanical energy into electrical energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Generator means a device that converts mechanical energy into electrical energy.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-009",
+    "question": "Ac means alternating current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ac means alternating current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-010",
+    "question": "Alternating current means direct current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Dc means direct current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-011",
+    "question": "Circuit means a closed path through which current flows.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Circuit means a closed path through which current flows.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-012",
+    "question": "Insulator means a material that allows electricity to pass easily.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Conductor means a material that allows electricity to pass easily.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-013",
+    "question": "Insulator means a material that resists the flow of electricity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Insulator means a material that resists the flow of electricity.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-014",
+    "question": "Ammeter means an instrument used to measure voltage.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Voltmeter means an instrument used to measure voltage.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-015",
+    "question": "Ammeter means an instrument used to measure current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ammeter means an instrument used to measure current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-016",
+    "question": "Volt means the unit of power.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Watt means the unit of power.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-017",
+    "question": "Ampere means the SI unit of electric current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ampere means the SI unit of electric current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-018",
+    "question": "Open circuit means an unintended low-resistance path.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Short circuit means an unintended low-resistance path.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-019",
+    "question": "Series circuit means a circuit with a single path for current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Series circuit means a circuit with a single path for current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-020",
+    "question": "Series circuit means a circuit with more than one path for current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Parallel circuit means a circuit with more than one path for current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-021",
+    "question": "Current means the flow of electric charge.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Current means the flow of electric charge.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-022",
+    "question": "Current means the potential difference that drives current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Voltage means the potential difference that drives current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-023",
+    "question": "Resistance means the opposition to current flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Resistance means the opposition to current flow.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-024",
+    "question": "V = i/r means the relation V = IR.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ohm's law means the relation V = IR.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-025",
+    "question": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-026",
+    "question": "Battery means a device that changes AC voltage levels.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Transformer means a device that changes AC voltage levels.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-027",
+    "question": "Motor means a device that converts electrical energy into mechanical energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Motor means a device that converts electrical energy into mechanical energy.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-028",
+    "question": "Switch means a device that converts mechanical energy into electrical energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Generator means a device that converts mechanical energy into electrical energy.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-029",
+    "question": "Ac means alternating current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ac means alternating current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-030",
+    "question": "Alternating current means direct current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Dc means direct current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-031",
+    "question": "Circuit means a closed path through which current flows.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Circuit means a closed path through which current flows.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-032",
+    "question": "Insulator means a material that allows electricity to pass easily.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Conductor means a material that allows electricity to pass easily.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-033",
+    "question": "Insulator means a material that resists the flow of electricity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Insulator means a material that resists the flow of electricity.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-034",
+    "question": "Ammeter means an instrument used to measure voltage.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Voltmeter means an instrument used to measure voltage.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-035",
+    "question": "Ammeter means an instrument used to measure current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ammeter means an instrument used to measure current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-036",
+    "question": "Volt means the unit of power.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Watt means the unit of power.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-037",
+    "question": "Ampere means the SI unit of electric current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ampere means the SI unit of electric current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-038",
+    "question": "Open circuit means an unintended low-resistance path.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Short circuit means an unintended low-resistance path.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-039",
+    "question": "Series circuit means a circuit with a single path for current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Series circuit means a circuit with a single path for current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-040",
+    "question": "Series circuit means a circuit with more than one path for current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Parallel circuit means a circuit with more than one path for current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-041",
+    "question": "Current means the flow of electric charge.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Current means the flow of electric charge.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-042",
+    "question": "Current means the potential difference that drives current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Voltage means the potential difference that drives current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-043",
+    "question": "Resistance means the opposition to current flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Resistance means the opposition to current flow.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-044",
+    "question": "V = i/r means the relation V = IR.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ohm's law means the relation V = IR.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-045",
+    "question": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Fuse means a safety device that breaks a circuit when current is too high.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-046",
+    "question": "Battery means a device that changes AC voltage levels.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Transformer means a device that changes AC voltage levels.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-047",
+    "question": "Motor means a device that converts electrical energy into mechanical energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Motor means a device that converts electrical energy into mechanical energy.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-048",
+    "question": "Switch means a device that converts mechanical energy into electrical energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Generator means a device that converts mechanical energy into electrical energy.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-049",
+    "question": "Ac means alternating current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ac means alternating current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electrical-semester-1-electrical-basics-medium-true_false-050",
+    "question": "Alternating current means direct current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Dc means direct current.",
+    "level": "diploma-Electrical-semester-1",
+    "subject": "electrical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  }
+]

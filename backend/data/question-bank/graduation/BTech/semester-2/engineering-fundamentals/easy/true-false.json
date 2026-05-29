@@ -1,0 +1,702 @@
+[
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-001",
+    "question": "Engineering ethics means the moral principles guiding engineers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engineering ethics means the moral principles guiding engineers.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-002",
+    "question": "Dance means a step-by-step approach to create a solution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Design process means a step-by-step approach to create a solution.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-003",
+    "question": "Material strength means the ability of a material to resist load.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Material strength means the ability of a material to resist load.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-004",
+    "question": "Computer audio data means computer-aided design.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cad means computer-aided design.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-005",
+    "question": "Project management means planning and controlling a project.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Project management means planning and controlling a project.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-006",
+    "question": "Final invoice means a preliminary model of a product.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Prototype means a preliminary model of a product.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-007",
+    "question": "Testing means checking whether a solution works as expected.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Testing means checking whether a solution works as expected.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-008",
+    "question": "Random guessing means making sure standards are met.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Quality assurance means making sure standards are met.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-009",
+    "question": "Mechanics means the branch of physics dealing with motion and forces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mechanics means the branch of physics dealing with motion and forces.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-010",
+    "question": "Photo editing means a field studying heat and fluid behaviour.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Thermofluids means a field studying heat and fluid behaviour.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-011",
+    "question": "Electronics means the study of electronic circuits and devices.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Electronics means the study of electronic circuits and devices.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-012",
+    "question": "Astronomy means designing and maintaining infrastructure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Civil engineering means designing and maintaining infrastructure.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-013",
+    "question": "Electrical engineering means the study of electrical systems and power.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Electrical engineering means the study of electrical systems and power.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-014",
+    "question": "Stone carving means connecting computers to share data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Computer networking means connecting computers to share data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-015",
+    "question": "Algorithms means step-by-step procedures for solving problems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Algorithms means step-by-step procedures for solving problems.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-016",
+    "question": "Listening means finding solutions to challenges.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Problem solving means finding solutions to challenges.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-017",
+    "question": "Measurement means determining the size or quantity of something.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Measurement means determining the size or quantity of something.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-018",
+    "question": "Random art means a set of rules to avoid accidents.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Safety protocol means a set of rules to avoid accidents.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-019",
+    "question": "Documentation means written information describing a system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Documentation means written information describing a system.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-020",
+    "question": "Fast driving means careful examination of parts or data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Analysis means careful examination of parts or data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-021",
+    "question": "Engineering ethics means the moral principles guiding engineers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engineering ethics means the moral principles guiding engineers.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-022",
+    "question": "Dance means a step-by-step approach to create a solution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Design process means a step-by-step approach to create a solution.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-023",
+    "question": "Material strength means the ability of a material to resist load.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Material strength means the ability of a material to resist load.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-024",
+    "question": "Computer audio data means computer-aided design.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cad means computer-aided design.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-025",
+    "question": "Project management means planning and controlling a project.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Project management means planning and controlling a project.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-026",
+    "question": "Final invoice means a preliminary model of a product.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Prototype means a preliminary model of a product.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-027",
+    "question": "Testing means checking whether a solution works as expected.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Testing means checking whether a solution works as expected.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-028",
+    "question": "Random guessing means making sure standards are met.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Quality assurance means making sure standards are met.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-029",
+    "question": "Mechanics means the branch of physics dealing with motion and forces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mechanics means the branch of physics dealing with motion and forces.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-030",
+    "question": "Photo editing means a field studying heat and fluid behaviour.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Thermofluids means a field studying heat and fluid behaviour.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-031",
+    "question": "Electronics means the study of electronic circuits and devices.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Electronics means the study of electronic circuits and devices.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-032",
+    "question": "Astronomy means designing and maintaining infrastructure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Civil engineering means designing and maintaining infrastructure.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-033",
+    "question": "Electrical engineering means the study of electrical systems and power.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Electrical engineering means the study of electrical systems and power.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-034",
+    "question": "Stone carving means connecting computers to share data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Computer networking means connecting computers to share data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-035",
+    "question": "Algorithms means step-by-step procedures for solving problems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Algorithms means step-by-step procedures for solving problems.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-036",
+    "question": "Listening means finding solutions to challenges.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Problem solving means finding solutions to challenges.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-037",
+    "question": "Measurement means determining the size or quantity of something.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Measurement means determining the size or quantity of something.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-038",
+    "question": "Random art means a set of rules to avoid accidents.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Safety protocol means a set of rules to avoid accidents.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-039",
+    "question": "Documentation means written information describing a system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Documentation means written information describing a system.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-040",
+    "question": "Fast driving means careful examination of parts or data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Analysis means careful examination of parts or data.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-041",
+    "question": "Engineering ethics means the moral principles guiding engineers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engineering ethics means the moral principles guiding engineers.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-042",
+    "question": "Dance means a step-by-step approach to create a solution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Design process means a step-by-step approach to create a solution.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-043",
+    "question": "Material strength means the ability of a material to resist load.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Material strength means the ability of a material to resist load.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-044",
+    "question": "Computer audio data means computer-aided design.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cad means computer-aided design.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-045",
+    "question": "Project management means planning and controlling a project.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Project management means planning and controlling a project.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-046",
+    "question": "Final invoice means a preliminary model of a product.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Prototype means a preliminary model of a product.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-047",
+    "question": "Testing means checking whether a solution works as expected.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Testing means checking whether a solution works as expected.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-048",
+    "question": "Random guessing means making sure standards are met.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Quality assurance means making sure standards are met.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-049",
+    "question": "Mechanics means the branch of physics dealing with motion and forces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mechanics means the branch of physics dealing with motion and forces.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "graduation-btech-semester-2-engineering-fundamentals-easy-true_false-050",
+    "question": "Photo editing means a field studying heat and fluid behaviour.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Thermofluids means a field studying heat and fluid behaviour.",
+    "level": "graduation-BTech-semester-2",
+    "subject": "engineering-fundamentals",
+    "difficulty": "easy",
+    "type": "true_false"
+  }
+]

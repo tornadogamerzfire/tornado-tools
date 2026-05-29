@@ -1,0 +1,702 @@
+[
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-001",
+    "question": "Diode means a component that allows current to flow mainly one way.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Diode means a component that allows current to flow mainly one way.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-002",
+    "question": "Capacitor means a semiconductor device used for switching and amplification.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Transistor means a semiconductor device used for switching and amplification.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-003",
+    "question": "Resistor means a component that limits current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Resistor means a component that limits current.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-004",
+    "question": "Fuse means a component that stores electrical energy temporarily.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Capacitor means a component that stores electrical energy temporarily.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-005",
+    "question": "Inductor means a component that stores energy in a magnetic field.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Inductor means a component that stores energy in a magnetic field.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-006",
+    "question": "Sensor means an electronic building block for digital circuits.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Logic gate means an electronic building block for digital circuits.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-007",
+    "question": "And gate means outputs 1 only when all inputs are 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "And gate means outputs 1 only when all inputs are 1.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-008",
+    "question": "And gate means outputs 1 when any input is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Or gate means outputs 1 when any input is 1.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-009",
+    "question": "Not gate means inverts the input.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Not gate means inverts the input.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-010",
+    "question": "Transformer means a small computer on a single chip.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Microcontroller means a small computer on a single chip.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-011",
+    "question": "Oscillator means a circuit that generates periodic signals.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Oscillator means a circuit that generates periodic signals.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-012",
+    "question": "Filter means a circuit that increases signal strength.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Amplifier means a circuit that increases signal strength.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-013",
+    "question": "Modulation means the process of varying a carrier signal.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Modulation means the process of varying a carrier signal.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-014",
+    "question": "Amplification means the process of extracting the original signal.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Demodulation means the process of extracting the original signal.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-015",
+    "question": "Rectifier means a circuit that converts AC to DC.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rectifier means a circuit that converts AC to DC.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-016",
+    "question": "Speaker means a device that detects physical changes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sensor means a device that detects physical changes.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-017",
+    "question": "Breadboard means a board used to prototype electronic circuits.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Breadboard means a board used to prototype electronic circuits.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-018",
+    "question": "Cable means printed circuit board.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pcb means printed circuit board.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-019",
+    "question": "Frequency means the number of cycles per second.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Frequency means the number of cycles per second.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-020",
+    "question": "Load means an electrical representation of information.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Signal means an electrical representation of information.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-021",
+    "question": "Diode means a component that allows current to flow mainly one way.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Diode means a component that allows current to flow mainly one way.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-022",
+    "question": "Capacitor means a semiconductor device used for switching and amplification.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Transistor means a semiconductor device used for switching and amplification.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-023",
+    "question": "Resistor means a component that limits current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Resistor means a component that limits current.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-024",
+    "question": "Fuse means a component that stores electrical energy temporarily.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Capacitor means a component that stores electrical energy temporarily.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-025",
+    "question": "Inductor means a component that stores energy in a magnetic field.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Inductor means a component that stores energy in a magnetic field.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-026",
+    "question": "Sensor means an electronic building block for digital circuits.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Logic gate means an electronic building block for digital circuits.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-027",
+    "question": "And gate means outputs 1 only when all inputs are 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "And gate means outputs 1 only when all inputs are 1.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-028",
+    "question": "And gate means outputs 1 when any input is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Or gate means outputs 1 when any input is 1.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-029",
+    "question": "Not gate means inverts the input.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Not gate means inverts the input.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-030",
+    "question": "Transformer means a small computer on a single chip.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Microcontroller means a small computer on a single chip.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-031",
+    "question": "Oscillator means a circuit that generates periodic signals.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Oscillator means a circuit that generates periodic signals.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-032",
+    "question": "Filter means a circuit that increases signal strength.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Amplifier means a circuit that increases signal strength.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-033",
+    "question": "Modulation means the process of varying a carrier signal.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Modulation means the process of varying a carrier signal.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-034",
+    "question": "Amplification means the process of extracting the original signal.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Demodulation means the process of extracting the original signal.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-035",
+    "question": "Rectifier means a circuit that converts AC to DC.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rectifier means a circuit that converts AC to DC.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-036",
+    "question": "Speaker means a device that detects physical changes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sensor means a device that detects physical changes.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-037",
+    "question": "Breadboard means a board used to prototype electronic circuits.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Breadboard means a board used to prototype electronic circuits.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-038",
+    "question": "Cable means printed circuit board.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pcb means printed circuit board.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-039",
+    "question": "Frequency means the number of cycles per second.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Frequency means the number of cycles per second.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-040",
+    "question": "Load means an electrical representation of information.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Signal means an electrical representation of information.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-041",
+    "question": "Diode means a component that allows current to flow mainly one way.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Diode means a component that allows current to flow mainly one way.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-042",
+    "question": "Capacitor means a semiconductor device used for switching and amplification.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Transistor means a semiconductor device used for switching and amplification.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-043",
+    "question": "Resistor means a component that limits current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Resistor means a component that limits current.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-044",
+    "question": "Fuse means a component that stores electrical energy temporarily.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Capacitor means a component that stores electrical energy temporarily.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-045",
+    "question": "Inductor means a component that stores energy in a magnetic field.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Inductor means a component that stores energy in a magnetic field.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-046",
+    "question": "Sensor means an electronic building block for digital circuits.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Logic gate means an electronic building block for digital circuits.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-047",
+    "question": "And gate means outputs 1 only when all inputs are 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "And gate means outputs 1 only when all inputs are 1.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-048",
+    "question": "And gate means outputs 1 when any input is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Or gate means outputs 1 when any input is 1.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-049",
+    "question": "Not gate means inverts the input.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Not gate means inverts the input.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-electronics-semester-1-electronics-basics-easy-true_false-050",
+    "question": "Transformer means a small computer on a single chip.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Microcontroller means a small computer on a single chip.",
+    "level": "diploma-Electronics-semester-1",
+    "subject": "electronics-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  }
+]

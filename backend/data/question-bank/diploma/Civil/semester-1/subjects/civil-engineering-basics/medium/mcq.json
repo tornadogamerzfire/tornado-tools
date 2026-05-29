@@ -1,0 +1,802 @@
+[
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-001",
+    "question": "Which term best matches this description: a binding material used in construction?",
+    "options": [
+      "wood",
+      "cement",
+      "plastic",
+      "glass"
+    ],
+    "answer": "cement",
+    "explanation": "Cement means a binding material used in construction.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-002",
+    "question": "Choose the correct term for: a mixture of cement, sand, aggregate, and water.",
+    "options": [
+      "oil",
+      "concrete",
+      "paint",
+      "soil"
+    ],
+    "answer": "concrete",
+    "explanation": "Concrete means a mixture of cement, sand, aggregate, and water.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-003",
+    "question": "What is the best answer for: measuring and mapping land?",
+    "options": [
+      "surveying",
+      "painting",
+      "welding",
+      "typing"
+    ],
+    "answer": "surveying",
+    "explanation": "Surveying means measuring and mapping land.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-004",
+    "question": "Which term best matches this description: the part that transfers load to the ground?",
+    "options": [
+      "foundation",
+      "window",
+      "door",
+      "roof"
+    ],
+    "answer": "foundation",
+    "explanation": "Foundation means the part that transfers load to the ground.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-005",
+    "question": "Choose the correct term for: a structural member that carries loads across a span.",
+    "options": [
+      "pipe",
+      "tile",
+      "beam",
+      "sheet"
+    ],
+    "answer": "beam",
+    "explanation": "Beam means a structural member that carries loads across a span.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-006",
+    "question": "What is the best answer for: a vertical structural member?",
+    "options": [
+      "cable",
+      "column",
+      "beam",
+      "slab"
+    ],
+    "answer": "column",
+    "explanation": "Column means a vertical structural member.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-007",
+    "question": "Which term best matches this description: sand, gravel, or crushed stone used in concrete?",
+    "options": [
+      "glass",
+      "wood",
+      "aggregate",
+      "brick"
+    ],
+    "answer": "aggregate",
+    "explanation": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-008",
+    "question": "Choose the correct term for: a mixture used to bind bricks or stones.",
+    "options": [
+      "grease",
+      "oil",
+      "paint",
+      "mortar"
+    ],
+    "answer": "mortar",
+    "explanation": "Mortar means a mixture used to bind bricks or stones.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-009",
+    "question": "What is the best answer for: a force carried by a structure?",
+    "options": [
+      "shape",
+      "size",
+      "load",
+      "colour"
+    ],
+    "answer": "load",
+    "explanation": "Load means a force carried by a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-010",
+    "question": "Which term best matches this description: force per unit area inside a material?",
+    "options": [
+      "mass",
+      "stress",
+      "length",
+      "volume"
+    ],
+    "answer": "stress",
+    "explanation": "Stress means force per unit area inside a material.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-011",
+    "question": "Choose the correct term for: deformation caused by stress.",
+    "options": [
+      "strain",
+      "speed",
+      "temperature",
+      "density"
+    ],
+    "answer": "strain",
+    "explanation": "Strain means deformation caused by stress.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-012",
+    "question": "What is the best answer for: steel used to strengthen concrete?",
+    "options": [
+      "plaster",
+      "soil",
+      "tile",
+      "reinforcement"
+    ],
+    "answer": "reinforcement",
+    "explanation": "Reinforcement means steel used to strengthen concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-013",
+    "question": "Which term best matches this description: the part between ground level and floor level?",
+    "options": [
+      "wall",
+      "beam",
+      "plinth",
+      "roof"
+    ],
+    "answer": "plinth",
+    "explanation": "Plinth means the part between ground level and floor level.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-014",
+    "question": "Choose the correct term for: a finishing material applied to walls and ceilings.",
+    "options": [
+      "brick",
+      "cement",
+      "plaster",
+      "aggregate"
+    ],
+    "answer": "plaster",
+    "explanation": "Plaster means a finishing material applied to walls and ceilings.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-015",
+    "question": "What is the best answer for: temporary support for a structure?",
+    "options": [
+      "grinding",
+      "painting",
+      "shoring",
+      "drilling"
+    ],
+    "answer": "shoring",
+    "explanation": "Shoring means temporary support for a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-016",
+    "question": "Which term best matches this description: finding height differences?",
+    "options": [
+      "casting",
+      "mixing",
+      "hammering",
+      "leveling"
+    ],
+    "answer": "leveling",
+    "explanation": "Leveling means finding height differences.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-017",
+    "question": "Choose the correct term for: a structure built to cross an obstacle.",
+    "options": [
+      "bridge",
+      "tank",
+      "stair",
+      "pipe"
+    ],
+    "answer": "bridge",
+    "explanation": "Bridge means a structure built to cross an obstacle.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-018",
+    "question": "What is the best answer for: supplying water to land for cultivation?",
+    "options": [
+      "welding",
+      "painting",
+      "surveying",
+      "irrigation"
+    ],
+    "answer": "irrigation",
+    "explanation": "Irrigation means supplying water to land for cultivation.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-019",
+    "question": "Which term best matches this description: removal of excess water from an area?",
+    "options": [
+      "drainage",
+      "aggregate",
+      "cement",
+      "concrete"
+    ],
+    "answer": "drainage",
+    "explanation": "Drainage means removal of excess water from an area.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-020",
+    "question": "Choose the correct term for: the surface layer of a road.",
+    "options": [
+      "road pavement",
+      "bridge",
+      "column",
+      "plinth"
+    ],
+    "answer": "road pavement",
+    "explanation": "Road pavement means the surface layer of a road.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-021",
+    "question": "What is the best answer for: a binding material used in construction?",
+    "options": [
+      "glass",
+      "wood",
+      "plastic",
+      "cement"
+    ],
+    "answer": "cement",
+    "explanation": "Cement means a binding material used in construction.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-022",
+    "question": "Which term best matches this description: a mixture of cement, sand, aggregate, and water?",
+    "options": [
+      "oil",
+      "paint",
+      "soil",
+      "concrete"
+    ],
+    "answer": "concrete",
+    "explanation": "Concrete means a mixture of cement, sand, aggregate, and water.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-023",
+    "question": "Choose the correct term for: measuring and mapping land.",
+    "options": [
+      "painting",
+      "welding",
+      "typing",
+      "surveying"
+    ],
+    "answer": "surveying",
+    "explanation": "Surveying means measuring and mapping land.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-024",
+    "question": "What is the best answer for: the part that transfers load to the ground?",
+    "options": [
+      "foundation",
+      "roof",
+      "window",
+      "door"
+    ],
+    "answer": "foundation",
+    "explanation": "Foundation means the part that transfers load to the ground.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-025",
+    "question": "Which term best matches this description: a structural member that carries loads across a span?",
+    "options": [
+      "pipe",
+      "tile",
+      "sheet",
+      "beam"
+    ],
+    "answer": "beam",
+    "explanation": "Beam means a structural member that carries loads across a span.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-026",
+    "question": "Choose the correct term for: a vertical structural member.",
+    "options": [
+      "slab",
+      "beam",
+      "column",
+      "cable"
+    ],
+    "answer": "column",
+    "explanation": "Column means a vertical structural member.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-027",
+    "question": "What is the best answer for: sand, gravel, or crushed stone used in concrete?",
+    "options": [
+      "wood",
+      "aggregate",
+      "glass",
+      "brick"
+    ],
+    "answer": "aggregate",
+    "explanation": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-028",
+    "question": "Which term best matches this description: a mixture used to bind bricks or stones?",
+    "options": [
+      "grease",
+      "mortar",
+      "oil",
+      "paint"
+    ],
+    "answer": "mortar",
+    "explanation": "Mortar means a mixture used to bind bricks or stones.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-029",
+    "question": "Choose the correct term for: a force carried by a structure.",
+    "options": [
+      "shape",
+      "size",
+      "colour",
+      "load"
+    ],
+    "answer": "load",
+    "explanation": "Load means a force carried by a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-030",
+    "question": "What is the best answer for: force per unit area inside a material?",
+    "options": [
+      "stress",
+      "mass",
+      "volume",
+      "length"
+    ],
+    "answer": "stress",
+    "explanation": "Stress means force per unit area inside a material.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-031",
+    "question": "Which term best matches this description: deformation caused by stress?",
+    "options": [
+      "strain",
+      "speed",
+      "density",
+      "temperature"
+    ],
+    "answer": "strain",
+    "explanation": "Strain means deformation caused by stress.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-032",
+    "question": "Choose the correct term for: steel used to strengthen concrete.",
+    "options": [
+      "plaster",
+      "reinforcement",
+      "soil",
+      "tile"
+    ],
+    "answer": "reinforcement",
+    "explanation": "Reinforcement means steel used to strengthen concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-033",
+    "question": "What is the best answer for: the part between ground level and floor level?",
+    "options": [
+      "beam",
+      "roof",
+      "wall",
+      "plinth"
+    ],
+    "answer": "plinth",
+    "explanation": "Plinth means the part between ground level and floor level.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-034",
+    "question": "Which term best matches this description: a finishing material applied to walls and ceilings?",
+    "options": [
+      "aggregate",
+      "plaster",
+      "brick",
+      "cement"
+    ],
+    "answer": "plaster",
+    "explanation": "Plaster means a finishing material applied to walls and ceilings.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-035",
+    "question": "Choose the correct term for: temporary support for a structure.",
+    "options": [
+      "drilling",
+      "shoring",
+      "grinding",
+      "painting"
+    ],
+    "answer": "shoring",
+    "explanation": "Shoring means temporary support for a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-036",
+    "question": "What is the best answer for: finding height differences?",
+    "options": [
+      "leveling",
+      "mixing",
+      "hammering",
+      "casting"
+    ],
+    "answer": "leveling",
+    "explanation": "Leveling means finding height differences.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-037",
+    "question": "Which term best matches this description: a structure built to cross an obstacle?",
+    "options": [
+      "stair",
+      "pipe",
+      "bridge",
+      "tank"
+    ],
+    "answer": "bridge",
+    "explanation": "Bridge means a structure built to cross an obstacle.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-038",
+    "question": "Choose the correct term for: supplying water to land for cultivation.",
+    "options": [
+      "surveying",
+      "welding",
+      "irrigation",
+      "painting"
+    ],
+    "answer": "irrigation",
+    "explanation": "Irrigation means supplying water to land for cultivation.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-039",
+    "question": "What is the best answer for: removal of excess water from an area?",
+    "options": [
+      "concrete",
+      "aggregate",
+      "cement",
+      "drainage"
+    ],
+    "answer": "drainage",
+    "explanation": "Drainage means removal of excess water from an area.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-040",
+    "question": "Which term best matches this description: the surface layer of a road?",
+    "options": [
+      "road pavement",
+      "plinth",
+      "column",
+      "bridge"
+    ],
+    "answer": "road pavement",
+    "explanation": "Road pavement means the surface layer of a road.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-041",
+    "question": "Choose the correct term for: a binding material used in construction.",
+    "options": [
+      "wood",
+      "plastic",
+      "cement",
+      "glass"
+    ],
+    "answer": "cement",
+    "explanation": "Cement means a binding material used in construction.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-042",
+    "question": "What is the best answer for: a mixture of cement, sand, aggregate, and water?",
+    "options": [
+      "paint",
+      "soil",
+      "concrete",
+      "oil"
+    ],
+    "answer": "concrete",
+    "explanation": "Concrete means a mixture of cement, sand, aggregate, and water.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-043",
+    "question": "Which term best matches this description: measuring and mapping land?",
+    "options": [
+      "surveying",
+      "painting",
+      "welding",
+      "typing"
+    ],
+    "answer": "surveying",
+    "explanation": "Surveying means measuring and mapping land.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-044",
+    "question": "Choose the correct term for: the part that transfers load to the ground.",
+    "options": [
+      "window",
+      "door",
+      "roof",
+      "foundation"
+    ],
+    "answer": "foundation",
+    "explanation": "Foundation means the part that transfers load to the ground.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-045",
+    "question": "What is the best answer for: a structural member that carries loads across a span?",
+    "options": [
+      "beam",
+      "tile",
+      "pipe",
+      "sheet"
+    ],
+    "answer": "beam",
+    "explanation": "Beam means a structural member that carries loads across a span.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-046",
+    "question": "Which term best matches this description: a vertical structural member?",
+    "options": [
+      "cable",
+      "column",
+      "slab",
+      "beam"
+    ],
+    "answer": "column",
+    "explanation": "Column means a vertical structural member.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-047",
+    "question": "Choose the correct term for: sand, gravel, or crushed stone used in concrete.",
+    "options": [
+      "brick",
+      "aggregate",
+      "wood",
+      "glass"
+    ],
+    "answer": "aggregate",
+    "explanation": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-048",
+    "question": "What is the best answer for: a mixture used to bind bricks or stones?",
+    "options": [
+      "mortar",
+      "paint",
+      "oil",
+      "grease"
+    ],
+    "answer": "mortar",
+    "explanation": "Mortar means a mixture used to bind bricks or stones.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-049",
+    "question": "Which term best matches this description: a force carried by a structure?",
+    "options": [
+      "shape",
+      "size",
+      "load",
+      "colour"
+    ],
+    "answer": "load",
+    "explanation": "Load means a force carried by a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-medium-mcq-050",
+    "question": "Choose the correct term for: force per unit area inside a material.",
+    "options": [
+      "stress",
+      "mass",
+      "length",
+      "volume"
+    ],
+    "answer": "stress",
+    "explanation": "Stress means force per unit area inside a material.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

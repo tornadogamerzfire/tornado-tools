@@ -1,0 +1,702 @@
+[
+  {
+    "id": "class-8-medium-true_false-001",
+    "question": "The answer to What is 80 ÷ 10 is 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-002",
+    "question": "The answer to What is 77 × 6 is 465.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-003",
+    "question": "The answer to What is 58 - 24 is 34.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-004",
+    "question": "The answer to What is 68 + 10 is 81.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-005",
+    "question": "The answer to What is 60 ÷ 10 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-006",
+    "question": "The answer to What is 23 × 2 is 49.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-007",
+    "question": "The answer to What is 20 - 10 is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-008",
+    "question": "The answer to What is 59 + 2 is 64.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-009",
+    "question": "The answer to What is 70 ÷ 10 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-010",
+    "question": "The answer to What is 10 × 9 is 93.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-011",
+    "question": "The answer to What is 55 - 14 is 41.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-012",
+    "question": "The answer to What is 50 + 10 is 63.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-013",
+    "question": "The answer to What is 60 ÷ 10 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-014",
+    "question": "The answer to What is 92 × 3 is 279.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-015",
+    "question": "The answer to What is 46 - 22 is 24.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-016",
+    "question": "The answer to What is 64 + 8 is 75.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-017",
+    "question": "The answer to What is 80 ÷ 10 is 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-018",
+    "question": "The answer to What is 32 × 3 is 99.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-019",
+    "question": "The answer to What is 42 - 25 is 17.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-020",
+    "question": "The answer to What is 32 + 4 is 39.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-021",
+    "question": "The answer to What is 20 ÷ 10 is 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-022",
+    "question": "The answer to What is 47 × 2 is 97.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-023",
+    "question": "The answer to What is 89 - 50 is 39.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-024",
+    "question": "The answer to What is 88 + 8 is 99.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-025",
+    "question": "The answer to What is 60 ÷ 10 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-026",
+    "question": "The answer to What is 54 × 6 is 327.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-027",
+    "question": "The answer to What is 33 - 31 is 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-028",
+    "question": "The answer to What is 66 + 8 is 77.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-029",
+    "question": "The answer to What is 70 ÷ 10 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-030",
+    "question": "The answer to What is 39 × 6 is 237.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-031",
+    "question": "The answer to What is 37 - 22 is 15.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-032",
+    "question": "The answer to What is 56 + 4 is 63.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-033",
+    "question": "The answer to What is 50 ÷ 10 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-034",
+    "question": "The answer to What is 95 × 4 is 383.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-035",
+    "question": "The answer to What is 83 - 29 is 54.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-036",
+    "question": "The answer to What is 13 + 5 is 21.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-037",
+    "question": "The answer to What is 10 ÷ 10 is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-038",
+    "question": "The answer to What is 75 × 7 is 528.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-039",
+    "question": "The answer to What is 36 - 25 is 11.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-040",
+    "question": "The answer to What is 55 + 9 is 67.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-041",
+    "question": "The answer to What is 50 ÷ 10 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-042",
+    "question": "The answer to What is 10 × 4 is 43.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-043",
+    "question": "The answer to What is 59 - 21 is 38.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-044",
+    "question": "The answer to What is 95 + 9 is 107.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-045",
+    "question": "The answer to What is 80 ÷ 10 is 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-046",
+    "question": "The answer to What is 40 × 3 is 123.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-047",
+    "question": "The answer to What is 33 - 31 is 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-048",
+    "question": "The answer to What is 25 + 5 is 33.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-049",
+    "question": "The answer to What is 50 ÷ 10 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "class-8-medium-true_false-050",
+    "question": "The answer to What is 75 × 4 is 303.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-8",
+    "subject": "class-8",
+    "difficulty": "medium",
+    "type": "true_false"
+  }
+]

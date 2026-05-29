@@ -1,0 +1,702 @@
+[
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-001",
+    "question": "Cement means a binding material used in construction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cement means a binding material used in construction.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-002",
+    "question": "Soil means a mixture of cement, sand, aggregate, and water.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Concrete means a mixture of cement, sand, aggregate, and water.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-003",
+    "question": "Surveying means measuring and mapping land.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Surveying means measuring and mapping land.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-004",
+    "question": "Roof means the part that transfers load to the ground.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Foundation means the part that transfers load to the ground.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-005",
+    "question": "Beam means a structural member that carries loads across a span.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beam means a structural member that carries loads across a span.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-006",
+    "question": "Slab means a vertical structural member.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Column means a vertical structural member.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-007",
+    "question": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-008",
+    "question": "Paint means a mixture used to bind bricks or stones.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mortar means a mixture used to bind bricks or stones.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-009",
+    "question": "Load means a force carried by a structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Load means a force carried by a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-010",
+    "question": "Length means force per unit area inside a material.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stress means force per unit area inside a material.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-011",
+    "question": "Strain means deformation caused by stress.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Strain means deformation caused by stress.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-012",
+    "question": "Plaster means steel used to strengthen concrete.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reinforcement means steel used to strengthen concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-013",
+    "question": "Plinth means the part between ground level and floor level.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Plinth means the part between ground level and floor level.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-014",
+    "question": "Cement means a finishing material applied to walls and ceilings.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Plaster means a finishing material applied to walls and ceilings.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-015",
+    "question": "Shoring means temporary support for a structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Shoring means temporary support for a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-016",
+    "question": "Mixing means finding height differences.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Leveling means finding height differences.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-017",
+    "question": "Bridge means a structure built to cross an obstacle.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Bridge means a structure built to cross an obstacle.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-018",
+    "question": "Welding means supplying water to land for cultivation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Irrigation means supplying water to land for cultivation.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-019",
+    "question": "Drainage means removal of excess water from an area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drainage means removal of excess water from an area.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-020",
+    "question": "Column means the surface layer of a road.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Road pavement means the surface layer of a road.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-021",
+    "question": "Cement means a binding material used in construction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cement means a binding material used in construction.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-022",
+    "question": "Soil means a mixture of cement, sand, aggregate, and water.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Concrete means a mixture of cement, sand, aggregate, and water.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-023",
+    "question": "Surveying means measuring and mapping land.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Surveying means measuring and mapping land.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-024",
+    "question": "Roof means the part that transfers load to the ground.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Foundation means the part that transfers load to the ground.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-025",
+    "question": "Beam means a structural member that carries loads across a span.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beam means a structural member that carries loads across a span.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-026",
+    "question": "Slab means a vertical structural member.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Column means a vertical structural member.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-027",
+    "question": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-028",
+    "question": "Paint means a mixture used to bind bricks or stones.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mortar means a mixture used to bind bricks or stones.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-029",
+    "question": "Load means a force carried by a structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Load means a force carried by a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-030",
+    "question": "Length means force per unit area inside a material.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stress means force per unit area inside a material.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-031",
+    "question": "Strain means deformation caused by stress.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Strain means deformation caused by stress.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-032",
+    "question": "Plaster means steel used to strengthen concrete.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reinforcement means steel used to strengthen concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-033",
+    "question": "Plinth means the part between ground level and floor level.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Plinth means the part between ground level and floor level.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-034",
+    "question": "Cement means a finishing material applied to walls and ceilings.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Plaster means a finishing material applied to walls and ceilings.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-035",
+    "question": "Shoring means temporary support for a structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Shoring means temporary support for a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-036",
+    "question": "Mixing means finding height differences.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Leveling means finding height differences.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-037",
+    "question": "Bridge means a structure built to cross an obstacle.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Bridge means a structure built to cross an obstacle.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-038",
+    "question": "Welding means supplying water to land for cultivation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Irrigation means supplying water to land for cultivation.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-039",
+    "question": "Drainage means removal of excess water from an area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drainage means removal of excess water from an area.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-040",
+    "question": "Column means the surface layer of a road.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Road pavement means the surface layer of a road.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-041",
+    "question": "Cement means a binding material used in construction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cement means a binding material used in construction.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-042",
+    "question": "Soil means a mixture of cement, sand, aggregate, and water.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Concrete means a mixture of cement, sand, aggregate, and water.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-043",
+    "question": "Surveying means measuring and mapping land.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Surveying means measuring and mapping land.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-044",
+    "question": "Roof means the part that transfers load to the ground.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Foundation means the part that transfers load to the ground.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-045",
+    "question": "Beam means a structural member that carries loads across a span.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beam means a structural member that carries loads across a span.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-046",
+    "question": "Slab means a vertical structural member.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Column means a vertical structural member.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-047",
+    "question": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aggregate means sand, gravel, or crushed stone used in concrete.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-048",
+    "question": "Paint means a mixture used to bind bricks or stones.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mortar means a mixture used to bind bricks or stones.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-049",
+    "question": "Load means a force carried by a structure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Load means a force carried by a structure.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-civil-semester-1-civil-engineering-basics-easy-true_false-050",
+    "question": "Length means force per unit area inside a material.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stress means force per unit area inside a material.",
+    "level": "diploma-Civil-semester-1",
+    "subject": "civil-engineering-basics",
+    "difficulty": "easy",
+    "type": "true_false"
+  }
+]

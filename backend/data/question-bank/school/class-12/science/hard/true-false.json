@@ -1,0 +1,702 @@
+[
+  {
+    "id": "class-12-science-hard-true_false-001",
+    "question": "Photosynthesis means the process by which plants make food using sunlight.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-002",
+    "question": "Condensation means the change of liquid into vapour.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-003",
+    "question": "Condensation means the change of vapour into liquid.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-004",
+    "question": "Friction means the force that pulls objects toward the Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-005",
+    "question": "Heart means the organ that pumps blood.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-006",
+    "question": "Brain means the organs used for breathing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-007",
+    "question": "Roots means the plant part that absorbs water from soil.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-008",
+    "question": "Roots means the part that carries water in a plant.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-009",
+    "question": "Chlorophyll means the green pigment in plants.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-010",
+    "question": "Carbon dioxide means a gas needed for breathing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-011",
+    "question": "Carbon dioxide means a gas released during breathing and burning.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Carbon dioxide means a gas released during breathing and burning.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-012",
+    "question": "Refraction means the bouncing back of light.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reflection means the bouncing back of light.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-013",
+    "question": "Refraction means the bending of light when it enters another medium.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Refraction means the bending of light when it enters another medium.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-014",
+    "question": "Acid means an object that attracts iron.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Magnet means an object that attracts iron.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-015",
+    "question": "Force means a push or pull on an object.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Force means a push or pull on an object.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-016",
+    "question": "Speed means the ability to do work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Energy means the ability to do work.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-017",
+    "question": "Sound means a form of energy that travels in waves.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sound means a form of energy that travels in waves.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-018",
+    "question": "Food chain means the continuous movement of water on Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Water cycle means the continuous movement of water on Earth.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-019",
+    "question": "Boiling means the change of liquid to gas on heating.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Boiling means the change of liquid to gas on heating.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-020",
+    "question": "Liquid means a long thin strand of material.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Fibre means a long thin strand of material.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-021",
+    "question": "Photosynthesis means the process by which plants make food using sunlight.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-022",
+    "question": "Condensation means the change of liquid into vapour.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-023",
+    "question": "Condensation means the change of vapour into liquid.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-024",
+    "question": "Friction means the force that pulls objects toward the Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-025",
+    "question": "Heart means the organ that pumps blood.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-026",
+    "question": "Brain means the organs used for breathing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-027",
+    "question": "Roots means the plant part that absorbs water from soil.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-028",
+    "question": "Roots means the part that carries water in a plant.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-029",
+    "question": "Chlorophyll means the green pigment in plants.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-030",
+    "question": "Carbon dioxide means a gas needed for breathing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-031",
+    "question": "Carbon dioxide means a gas released during breathing and burning.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Carbon dioxide means a gas released during breathing and burning.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-032",
+    "question": "Refraction means the bouncing back of light.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reflection means the bouncing back of light.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-033",
+    "question": "Refraction means the bending of light when it enters another medium.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Refraction means the bending of light when it enters another medium.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-034",
+    "question": "Acid means an object that attracts iron.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Magnet means an object that attracts iron.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-035",
+    "question": "Force means a push or pull on an object.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Force means a push or pull on an object.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-036",
+    "question": "Speed means the ability to do work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Energy means the ability to do work.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-037",
+    "question": "Sound means a form of energy that travels in waves.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sound means a form of energy that travels in waves.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-038",
+    "question": "Food chain means the continuous movement of water on Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Water cycle means the continuous movement of water on Earth.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-039",
+    "question": "Boiling means the change of liquid to gas on heating.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Boiling means the change of liquid to gas on heating.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-040",
+    "question": "Liquid means a long thin strand of material.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Fibre means a long thin strand of material.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-041",
+    "question": "Photosynthesis means the process by which plants make food using sunlight.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-042",
+    "question": "Condensation means the change of liquid into vapour.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-043",
+    "question": "Condensation means the change of vapour into liquid.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-044",
+    "question": "Friction means the force that pulls objects toward the Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-045",
+    "question": "Heart means the organ that pumps blood.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-046",
+    "question": "Brain means the organs used for breathing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-047",
+    "question": "Roots means the plant part that absorbs water from soil.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-048",
+    "question": "Roots means the part that carries water in a plant.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-049",
+    "question": "Chlorophyll means the green pigment in plants.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-12-science-hard-true_false-050",
+    "question": "Carbon dioxide means a gas needed for breathing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "class-12",
+    "subject": "science",
+    "difficulty": "hard",
+    "type": "true_false"
+  }
+]

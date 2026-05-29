@@ -1,0 +1,802 @@
+[
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-001",
+    "question": "Which term best matches this description: the practice of using tools carefully to avoid injury?",
+    "options": [
+      "tool painting",
+      "tool storage",
+      "tool safety",
+      "tool lending"
+    ],
+    "answer": "tool safety",
+    "explanation": "Tool safety means the practice of using tools carefully to avoid injury.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-002",
+    "question": "Choose the correct term for: finding the size or quantity of something.",
+    "options": [
+      "measurement",
+      "painting",
+      "welding",
+      "polishing"
+    ],
+    "answer": "measurement",
+    "explanation": "Measurement means finding the size or quantity of something.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-003",
+    "question": "What is the best answer for: keeping equipment in good working condition?",
+    "options": [
+      "maintenance",
+      "grading",
+      "cutting",
+      "printing"
+    ],
+    "answer": "maintenance",
+    "explanation": "Maintenance means keeping equipment in good working condition.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-004",
+    "question": "Which term best matches this description: checking equipment for defects or issues?",
+    "options": [
+      "mixing",
+      "inspection",
+      "drawing",
+      "typing"
+    ],
+    "answer": "inspection",
+    "explanation": "Inspection means checking equipment for defects or issues.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-005",
+    "question": "Choose the correct term for: arranging parts in the correct position.",
+    "options": [
+      "labeling",
+      "alignment",
+      "charging",
+      "soldering"
+    ],
+    "answer": "alignment",
+    "explanation": "Alignment means arranging parts in the correct position.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-006",
+    "question": "What is the best answer for: tools used by hand rather than by machine?",
+    "options": [
+      "servers",
+      "chargers",
+      "hand tools",
+      "routers"
+    ],
+    "answer": "hand tools",
+    "explanation": "Hand tools means tools used by hand rather than by machine.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-007",
+    "question": "Which term best matches this description: tools powered by electricity or batteries?",
+    "options": [
+      "spoons",
+      "charts",
+      "files",
+      "power tools"
+    ],
+    "answer": "power tools",
+    "explanation": "Power tools means tools powered by electricity or batteries.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-008",
+    "question": "Choose the correct term for: reducing friction with oil or grease.",
+    "options": [
+      "painting",
+      "drilling",
+      "etching",
+      "lubrication"
+    ],
+    "answer": "lubrication",
+    "explanation": "Lubrication means reducing friction with oil or grease.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-009",
+    "question": "What is the best answer for: adjusting an instrument to be accurate?",
+    "options": [
+      "scanning",
+      "framing",
+      "charging",
+      "calibration"
+    ],
+    "answer": "calibration",
+    "explanation": "Calibration means adjusting an instrument to be accurate.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-010",
+    "question": "Which term best matches this description: checking whether work meets standards?",
+    "options": [
+      "loading",
+      "quality control",
+      "marketing",
+      "tuning"
+    ],
+    "answer": "quality control",
+    "explanation": "Quality control means checking whether work meets standards.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-011",
+    "question": "Choose the correct term for: a technical plan or drawing.",
+    "options": [
+      "blueprint",
+      "diary",
+      "invoice",
+      "poster"
+    ],
+    "answer": "blueprint",
+    "explanation": "Blueprint means a technical plan or drawing.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-012",
+    "question": "What is the best answer for: putting parts together to make a whole?",
+    "options": [
+      "disposal",
+      "assembly",
+      "printing",
+      "sorting"
+    ],
+    "answer": "assembly",
+    "explanation": "Assembly means putting parts together to make a whole.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-013",
+    "question": "Which term best matches this description: joining metal parts using molten filler metal?",
+    "options": [
+      "gluing",
+      "casting",
+      "mixing",
+      "soldering"
+    ],
+    "answer": "soldering",
+    "explanation": "Soldering means joining metal parts using molten filler metal.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-014",
+    "question": "Choose the correct term for: replacing or rerouting electrical connections.",
+    "options": [
+      "painting",
+      "rewiring",
+      "drilling",
+      "hammering"
+    ],
+    "answer": "rewiring",
+    "explanation": "Rewiring means replacing or rerouting electrical connections.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-015",
+    "question": "What is the best answer for: removing dirt or residue from tools/equipment?",
+    "options": [
+      "converting",
+      "compressing",
+      "cleaning",
+      "plotting"
+    ],
+    "answer": "cleaning",
+    "explanation": "Cleaning means removing dirt or residue from tools/equipment.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-016",
+    "question": "Which term best matches this description: protective equipment used in practical work?",
+    "options": [
+      "labels",
+      "safety gear",
+      "decor",
+      "plates"
+    ],
+    "answer": "safety gear",
+    "explanation": "Safety gear means protective equipment used in practical work.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-017",
+    "question": "Choose the correct term for: regular inspection done at set intervals.",
+    "options": [
+      "news report",
+      "random guess",
+      "final exam",
+      "routine check"
+    ],
+    "answer": "routine check",
+    "explanation": "Routine check means regular inspection done at set intervals.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-018",
+    "question": "What is the best answer for: an instruction document for a task?",
+    "options": [
+      "passport",
+      "work order",
+      "receipt",
+      "invoice"
+    ],
+    "answer": "work order",
+    "explanation": "Work order means an instruction document for a task.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-019",
+    "question": "Which term best matches this description: a production arrangement where products move from station to station?",
+    "options": [
+      "assembly line",
+      "pipeline",
+      "bridge",
+      "circuit"
+    ],
+    "answer": "assembly line",
+    "explanation": "Assembly line means a production arrangement where products move from station to station.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-020",
+    "question": "Choose the correct term for: identifying defects in equipment or circuits.",
+    "options": [
+      "painting",
+      "fault finding",
+      "printing",
+      "scanning"
+    ],
+    "answer": "fault finding",
+    "explanation": "Fault finding means identifying defects in equipment or circuits.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-021",
+    "question": "What is the best answer for: the practice of using tools carefully to avoid injury?",
+    "options": [
+      "tool lending",
+      "tool painting",
+      "tool storage",
+      "tool safety"
+    ],
+    "answer": "tool safety",
+    "explanation": "Tool safety means the practice of using tools carefully to avoid injury.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-022",
+    "question": "Which term best matches this description: finding the size or quantity of something?",
+    "options": [
+      "welding",
+      "measurement",
+      "polishing",
+      "painting"
+    ],
+    "answer": "measurement",
+    "explanation": "Measurement means finding the size or quantity of something.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-023",
+    "question": "Choose the correct term for: keeping equipment in good working condition.",
+    "options": [
+      "printing",
+      "cutting",
+      "grading",
+      "maintenance"
+    ],
+    "answer": "maintenance",
+    "explanation": "Maintenance means keeping equipment in good working condition.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-024",
+    "question": "What is the best answer for: checking equipment for defects or issues?",
+    "options": [
+      "mixing",
+      "drawing",
+      "typing",
+      "inspection"
+    ],
+    "answer": "inspection",
+    "explanation": "Inspection means checking equipment for defects or issues.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-025",
+    "question": "Which term best matches this description: arranging parts in the correct position?",
+    "options": [
+      "labeling",
+      "soldering",
+      "charging",
+      "alignment"
+    ],
+    "answer": "alignment",
+    "explanation": "Alignment means arranging parts in the correct position.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-026",
+    "question": "Choose the correct term for: tools used by hand rather than by machine.",
+    "options": [
+      "chargers",
+      "servers",
+      "routers",
+      "hand tools"
+    ],
+    "answer": "hand tools",
+    "explanation": "Hand tools means tools used by hand rather than by machine.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-027",
+    "question": "What is the best answer for: tools powered by electricity or batteries?",
+    "options": [
+      "files",
+      "charts",
+      "spoons",
+      "power tools"
+    ],
+    "answer": "power tools",
+    "explanation": "Power tools means tools powered by electricity or batteries.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-028",
+    "question": "Which term best matches this description: reducing friction with oil or grease?",
+    "options": [
+      "painting",
+      "drilling",
+      "etching",
+      "lubrication"
+    ],
+    "answer": "lubrication",
+    "explanation": "Lubrication means reducing friction with oil or grease.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-029",
+    "question": "Choose the correct term for: adjusting an instrument to be accurate.",
+    "options": [
+      "scanning",
+      "calibration",
+      "framing",
+      "charging"
+    ],
+    "answer": "calibration",
+    "explanation": "Calibration means adjusting an instrument to be accurate.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-030",
+    "question": "What is the best answer for: checking whether work meets standards?",
+    "options": [
+      "marketing",
+      "loading",
+      "tuning",
+      "quality control"
+    ],
+    "answer": "quality control",
+    "explanation": "Quality control means checking whether work meets standards.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-031",
+    "question": "Which term best matches this description: a technical plan or drawing?",
+    "options": [
+      "poster",
+      "diary",
+      "blueprint",
+      "invoice"
+    ],
+    "answer": "blueprint",
+    "explanation": "Blueprint means a technical plan or drawing.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-032",
+    "question": "Choose the correct term for: putting parts together to make a whole.",
+    "options": [
+      "sorting",
+      "assembly",
+      "disposal",
+      "printing"
+    ],
+    "answer": "assembly",
+    "explanation": "Assembly means putting parts together to make a whole.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-033",
+    "question": "What is the best answer for: joining metal parts using molten filler metal?",
+    "options": [
+      "soldering",
+      "mixing",
+      "gluing",
+      "casting"
+    ],
+    "answer": "soldering",
+    "explanation": "Soldering means joining metal parts using molten filler metal.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-034",
+    "question": "Which term best matches this description: replacing or rerouting electrical connections?",
+    "options": [
+      "drilling",
+      "rewiring",
+      "painting",
+      "hammering"
+    ],
+    "answer": "rewiring",
+    "explanation": "Rewiring means replacing or rerouting electrical connections.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-035",
+    "question": "Choose the correct term for: removing dirt or residue from tools/equipment.",
+    "options": [
+      "plotting",
+      "cleaning",
+      "converting",
+      "compressing"
+    ],
+    "answer": "cleaning",
+    "explanation": "Cleaning means removing dirt or residue from tools/equipment.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-036",
+    "question": "What is the best answer for: protective equipment used in practical work?",
+    "options": [
+      "decor",
+      "labels",
+      "plates",
+      "safety gear"
+    ],
+    "answer": "safety gear",
+    "explanation": "Safety gear means protective equipment used in practical work.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-037",
+    "question": "Which term best matches this description: regular inspection done at set intervals?",
+    "options": [
+      "news report",
+      "final exam",
+      "random guess",
+      "routine check"
+    ],
+    "answer": "routine check",
+    "explanation": "Routine check means regular inspection done at set intervals.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-038",
+    "question": "Choose the correct term for: an instruction document for a task.",
+    "options": [
+      "passport",
+      "receipt",
+      "invoice",
+      "work order"
+    ],
+    "answer": "work order",
+    "explanation": "Work order means an instruction document for a task.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-039",
+    "question": "What is the best answer for: a production arrangement where products move from station to station?",
+    "options": [
+      "pipeline",
+      "circuit",
+      "bridge",
+      "assembly line"
+    ],
+    "answer": "assembly line",
+    "explanation": "Assembly line means a production arrangement where products move from station to station.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-040",
+    "question": "Which term best matches this description: identifying defects in equipment or circuits?",
+    "options": [
+      "fault finding",
+      "painting",
+      "scanning",
+      "printing"
+    ],
+    "answer": "fault finding",
+    "explanation": "Fault finding means identifying defects in equipment or circuits.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-041",
+    "question": "Choose the correct term for: the practice of using tools carefully to avoid injury.",
+    "options": [
+      "tool painting",
+      "tool safety",
+      "tool lending",
+      "tool storage"
+    ],
+    "answer": "tool safety",
+    "explanation": "Tool safety means the practice of using tools carefully to avoid injury.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-042",
+    "question": "What is the best answer for: finding the size or quantity of something?",
+    "options": [
+      "welding",
+      "polishing",
+      "measurement",
+      "painting"
+    ],
+    "answer": "measurement",
+    "explanation": "Measurement means finding the size or quantity of something.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-043",
+    "question": "Which term best matches this description: keeping equipment in good working condition?",
+    "options": [
+      "grading",
+      "cutting",
+      "maintenance",
+      "printing"
+    ],
+    "answer": "maintenance",
+    "explanation": "Maintenance means keeping equipment in good working condition.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-044",
+    "question": "Choose the correct term for: checking equipment for defects or issues.",
+    "options": [
+      "drawing",
+      "mixing",
+      "typing",
+      "inspection"
+    ],
+    "answer": "inspection",
+    "explanation": "Inspection means checking equipment for defects or issues.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-045",
+    "question": "What is the best answer for: arranging parts in the correct position?",
+    "options": [
+      "labeling",
+      "charging",
+      "alignment",
+      "soldering"
+    ],
+    "answer": "alignment",
+    "explanation": "Alignment means arranging parts in the correct position.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-046",
+    "question": "Which term best matches this description: tools used by hand rather than by machine?",
+    "options": [
+      "routers",
+      "servers",
+      "hand tools",
+      "chargers"
+    ],
+    "answer": "hand tools",
+    "explanation": "Hand tools means tools used by hand rather than by machine.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-047",
+    "question": "Choose the correct term for: tools powered by electricity or batteries.",
+    "options": [
+      "files",
+      "charts",
+      "spoons",
+      "power tools"
+    ],
+    "answer": "power tools",
+    "explanation": "Power tools means tools powered by electricity or batteries.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-048",
+    "question": "What is the best answer for: reducing friction with oil or grease?",
+    "options": [
+      "painting",
+      "etching",
+      "lubrication",
+      "drilling"
+    ],
+    "answer": "lubrication",
+    "explanation": "Lubrication means reducing friction with oil or grease.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-049",
+    "question": "Which term best matches this description: adjusting an instrument to be accurate?",
+    "options": [
+      "charging",
+      "calibration",
+      "framing",
+      "scanning"
+    ],
+    "answer": "calibration",
+    "explanation": "Calibration means adjusting an instrument to be accurate.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "iti-electrician-semester-2-trade-basics-easy-mcq-050",
+    "question": "Choose the correct term for: checking whether work meets standards.",
+    "options": [
+      "loading",
+      "marketing",
+      "tuning",
+      "quality control"
+    ],
+    "answer": "quality control",
+    "explanation": "Quality control means checking whether work meets standards.",
+    "level": "iti-electrician-semester-2",
+    "subject": "trade-basics",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

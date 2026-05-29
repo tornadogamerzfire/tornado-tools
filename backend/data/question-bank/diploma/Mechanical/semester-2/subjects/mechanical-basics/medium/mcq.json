@@ -1,0 +1,802 @@
+[
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-001",
+    "question": "Which term best matches this description: turning effect of a force?",
+    "options": [
+      "torque",
+      "volume",
+      "mass",
+      "pressure"
+    ],
+    "answer": "torque",
+    "explanation": "Torque means turning effect of a force.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-002",
+    "question": "Choose the correct term for: a place where practical mechanical work is done.",
+    "options": [
+      "garden",
+      "workshop",
+      "office",
+      "lab"
+    ],
+    "answer": "workshop",
+    "explanation": "Workshop means a place where practical mechanical work is done.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-003",
+    "question": "What is the best answer for: a machine that converts energy into motion?",
+    "options": [
+      "beam",
+      "valve",
+      "engine",
+      "spring"
+    ],
+    "answer": "engine",
+    "explanation": "Engine means a machine that converts energy into motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-004",
+    "question": "Which term best matches this description: a toothed wheel used to transmit motion?",
+    "options": [
+      "seal",
+      "plate",
+      "gear",
+      "pipe"
+    ],
+    "answer": "gear",
+    "explanation": "Gear means a toothed wheel used to transmit motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-005",
+    "question": "Choose the correct term for: a rotating machine element.",
+    "options": [
+      "coil",
+      "wire",
+      "brick",
+      "shaft"
+    ],
+    "answer": "shaft",
+    "explanation": "Shaft means a rotating machine element.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-006",
+    "question": "What is the best answer for: a device that supports rotating parts?",
+    "options": [
+      "tape",
+      "filter",
+      "bearing",
+      "sealant"
+    ],
+    "answer": "bearing",
+    "explanation": "Bearing means a device that supports rotating parts.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-007",
+    "question": "Which term best matches this description: study of heat and energy transfer?",
+    "options": [
+      "thermodynamics",
+      "optics",
+      "statics",
+      "acoustics"
+    ],
+    "answer": "thermodynamics",
+    "explanation": "Thermodynamics means study of heat and energy transfer.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-008",
+    "question": "Choose the correct term for: force applied per unit area.",
+    "options": [
+      "pressure",
+      "velocity",
+      "shape",
+      "mass"
+    ],
+    "answer": "pressure",
+    "explanation": "Pressure means force applied per unit area.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-009",
+    "question": "What is the best answer for: a force resisting relative motion?",
+    "options": [
+      "light",
+      "density",
+      "friction",
+      "voltage"
+    ],
+    "answer": "friction",
+    "explanation": "Friction means a force resisting relative motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-010",
+    "question": "Which term best matches this description: reducing friction by using oil or grease?",
+    "options": [
+      "soldering",
+      "casting",
+      "wiring",
+      "lubrication"
+    ],
+    "answer": "lubrication",
+    "explanation": "Lubrication means reducing friction by using oil or grease.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-011",
+    "question": "Choose the correct term for: joining metals by heat.",
+    "options": [
+      "typing",
+      "drilling",
+      "cutting",
+      "welding"
+    ],
+    "answer": "welding",
+    "explanation": "Welding means joining metals by heat.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-012",
+    "question": "What is the best answer for: a machine tool used to shape rotating workpieces?",
+    "options": [
+      "pump",
+      "lathe",
+      "compressor",
+      "fan"
+    ],
+    "answer": "lathe",
+    "explanation": "Lathe means a machine tool used to shape rotating workpieces.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-013",
+    "question": "Which term best matches this description: a machine used for cutting and shaping materials?",
+    "options": [
+      "tank",
+      "mill",
+      "battery",
+      "valve"
+    ],
+    "answer": "mill",
+    "explanation": "Mill means a machine used for cutting and shaping materials.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-014",
+    "question": "Choose the correct term for: an internal combustion engine using compression ignition.",
+    "options": [
+      "jet engine",
+      "diesel engine",
+      "electric motor",
+      "steam engine"
+    ],
+    "answer": "diesel engine",
+    "explanation": "Diesel engine means an internal combustion engine using compression ignition.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-015",
+    "question": "What is the best answer for: a moving part inside a cylinder?",
+    "options": [
+      "lever",
+      "gear",
+      "piston",
+      "spring"
+    ],
+    "answer": "piston",
+    "explanation": "Piston means a moving part inside a cylinder.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-016",
+    "question": "Which term best matches this description: a device that controls fluid flow?",
+    "options": [
+      "shaft",
+      "fuse",
+      "valve",
+      "bearing"
+    ],
+    "answer": "valve",
+    "explanation": "Valve means a device that controls fluid flow.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-017",
+    "question": "Choose the correct term for: removing excess heat from a system.",
+    "options": [
+      "cooling",
+      "heating",
+      "drilling",
+      "compressing"
+    ],
+    "answer": "cooling",
+    "explanation": "Cooling means removing excess heat from a system.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-018",
+    "question": "What is the best answer for: a chemical process of burning?",
+    "options": [
+      "dissolving",
+      "combustion",
+      "melting",
+      "freezing"
+    ],
+    "answer": "combustion",
+    "explanation": "Combustion means a chemical process of burning.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-019",
+    "question": "Which term best matches this description: protective eyewear used in workshop practice?",
+    "options": [
+      "gloves",
+      "boots",
+      "helmet",
+      "safety goggles"
+    ],
+    "answer": "safety goggles",
+    "explanation": "Safety goggles means protective eyewear used in workshop practice.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-020",
+    "question": "Choose the correct term for: a tool used to measure length.",
+    "options": [
+      "hammer",
+      "spanner",
+      "measuring tape",
+      "file"
+    ],
+    "answer": "measuring tape",
+    "explanation": "Measuring tape means a tool used to measure length.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-021",
+    "question": "What is the best answer for: turning effect of a force?",
+    "options": [
+      "torque",
+      "volume",
+      "pressure",
+      "mass"
+    ],
+    "answer": "torque",
+    "explanation": "Torque means turning effect of a force.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-022",
+    "question": "Which term best matches this description: a place where practical mechanical work is done?",
+    "options": [
+      "workshop",
+      "office",
+      "lab",
+      "garden"
+    ],
+    "answer": "workshop",
+    "explanation": "Workshop means a place where practical mechanical work is done.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-023",
+    "question": "Choose the correct term for: a machine that converts energy into motion.",
+    "options": [
+      "valve",
+      "spring",
+      "engine",
+      "beam"
+    ],
+    "answer": "engine",
+    "explanation": "Engine means a machine that converts energy into motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-024",
+    "question": "What is the best answer for: a toothed wheel used to transmit motion?",
+    "options": [
+      "gear",
+      "pipe",
+      "seal",
+      "plate"
+    ],
+    "answer": "gear",
+    "explanation": "Gear means a toothed wheel used to transmit motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-025",
+    "question": "Which term best matches this description: a rotating machine element?",
+    "options": [
+      "brick",
+      "coil",
+      "wire",
+      "shaft"
+    ],
+    "answer": "shaft",
+    "explanation": "Shaft means a rotating machine element.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-026",
+    "question": "Choose the correct term for: a device that supports rotating parts.",
+    "options": [
+      "tape",
+      "filter",
+      "sealant",
+      "bearing"
+    ],
+    "answer": "bearing",
+    "explanation": "Bearing means a device that supports rotating parts.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-027",
+    "question": "What is the best answer for: study of heat and energy transfer?",
+    "options": [
+      "optics",
+      "acoustics",
+      "statics",
+      "thermodynamics"
+    ],
+    "answer": "thermodynamics",
+    "explanation": "Thermodynamics means study of heat and energy transfer.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-028",
+    "question": "Which term best matches this description: force applied per unit area?",
+    "options": [
+      "pressure",
+      "mass",
+      "shape",
+      "velocity"
+    ],
+    "answer": "pressure",
+    "explanation": "Pressure means force applied per unit area.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-029",
+    "question": "Choose the correct term for: a force resisting relative motion.",
+    "options": [
+      "density",
+      "voltage",
+      "friction",
+      "light"
+    ],
+    "answer": "friction",
+    "explanation": "Friction means a force resisting relative motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-030",
+    "question": "What is the best answer for: reducing friction by using oil or grease?",
+    "options": [
+      "soldering",
+      "wiring",
+      "lubrication",
+      "casting"
+    ],
+    "answer": "lubrication",
+    "explanation": "Lubrication means reducing friction by using oil or grease.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-031",
+    "question": "Which term best matches this description: joining metals by heat?",
+    "options": [
+      "typing",
+      "cutting",
+      "drilling",
+      "welding"
+    ],
+    "answer": "welding",
+    "explanation": "Welding means joining metals by heat.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-032",
+    "question": "Choose the correct term for: a machine tool used to shape rotating workpieces.",
+    "options": [
+      "compressor",
+      "fan",
+      "lathe",
+      "pump"
+    ],
+    "answer": "lathe",
+    "explanation": "Lathe means a machine tool used to shape rotating workpieces.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-033",
+    "question": "What is the best answer for: a machine used for cutting and shaping materials?",
+    "options": [
+      "valve",
+      "tank",
+      "battery",
+      "mill"
+    ],
+    "answer": "mill",
+    "explanation": "Mill means a machine used for cutting and shaping materials.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-034",
+    "question": "Which term best matches this description: an internal combustion engine using compression ignition?",
+    "options": [
+      "diesel engine",
+      "electric motor",
+      "steam engine",
+      "jet engine"
+    ],
+    "answer": "diesel engine",
+    "explanation": "Diesel engine means an internal combustion engine using compression ignition.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-035",
+    "question": "Choose the correct term for: a moving part inside a cylinder.",
+    "options": [
+      "piston",
+      "gear",
+      "spring",
+      "lever"
+    ],
+    "answer": "piston",
+    "explanation": "Piston means a moving part inside a cylinder.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-036",
+    "question": "What is the best answer for: a device that controls fluid flow?",
+    "options": [
+      "valve",
+      "bearing",
+      "shaft",
+      "fuse"
+    ],
+    "answer": "valve",
+    "explanation": "Valve means a device that controls fluid flow.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-037",
+    "question": "Which term best matches this description: removing excess heat from a system?",
+    "options": [
+      "drilling",
+      "heating",
+      "cooling",
+      "compressing"
+    ],
+    "answer": "cooling",
+    "explanation": "Cooling means removing excess heat from a system.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-038",
+    "question": "Choose the correct term for: a chemical process of burning.",
+    "options": [
+      "melting",
+      "freezing",
+      "dissolving",
+      "combustion"
+    ],
+    "answer": "combustion",
+    "explanation": "Combustion means a chemical process of burning.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-039",
+    "question": "What is the best answer for: protective eyewear used in workshop practice?",
+    "options": [
+      "helmet",
+      "safety goggles",
+      "gloves",
+      "boots"
+    ],
+    "answer": "safety goggles",
+    "explanation": "Safety goggles means protective eyewear used in workshop practice.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-040",
+    "question": "Which term best matches this description: a tool used to measure length?",
+    "options": [
+      "hammer",
+      "spanner",
+      "file",
+      "measuring tape"
+    ],
+    "answer": "measuring tape",
+    "explanation": "Measuring tape means a tool used to measure length.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-041",
+    "question": "Choose the correct term for: turning effect of a force.",
+    "options": [
+      "torque",
+      "volume",
+      "mass",
+      "pressure"
+    ],
+    "answer": "torque",
+    "explanation": "Torque means turning effect of a force.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-042",
+    "question": "What is the best answer for: a place where practical mechanical work is done?",
+    "options": [
+      "office",
+      "workshop",
+      "lab",
+      "garden"
+    ],
+    "answer": "workshop",
+    "explanation": "Workshop means a place where practical mechanical work is done.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-043",
+    "question": "Which term best matches this description: a machine that converts energy into motion?",
+    "options": [
+      "beam",
+      "engine",
+      "spring",
+      "valve"
+    ],
+    "answer": "engine",
+    "explanation": "Engine means a machine that converts energy into motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-044",
+    "question": "Choose the correct term for: a toothed wheel used to transmit motion.",
+    "options": [
+      "seal",
+      "plate",
+      "pipe",
+      "gear"
+    ],
+    "answer": "gear",
+    "explanation": "Gear means a toothed wheel used to transmit motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-045",
+    "question": "What is the best answer for: a rotating machine element?",
+    "options": [
+      "wire",
+      "coil",
+      "brick",
+      "shaft"
+    ],
+    "answer": "shaft",
+    "explanation": "Shaft means a rotating machine element.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-046",
+    "question": "Which term best matches this description: a device that supports rotating parts?",
+    "options": [
+      "filter",
+      "tape",
+      "sealant",
+      "bearing"
+    ],
+    "answer": "bearing",
+    "explanation": "Bearing means a device that supports rotating parts.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-047",
+    "question": "Choose the correct term for: study of heat and energy transfer.",
+    "options": [
+      "statics",
+      "acoustics",
+      "thermodynamics",
+      "optics"
+    ],
+    "answer": "thermodynamics",
+    "explanation": "Thermodynamics means study of heat and energy transfer.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-048",
+    "question": "What is the best answer for: force applied per unit area?",
+    "options": [
+      "pressure",
+      "mass",
+      "shape",
+      "velocity"
+    ],
+    "answer": "pressure",
+    "explanation": "Pressure means force applied per unit area.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-049",
+    "question": "Which term best matches this description: a force resisting relative motion?",
+    "options": [
+      "voltage",
+      "friction",
+      "density",
+      "light"
+    ],
+    "answer": "friction",
+    "explanation": "Friction means a force resisting relative motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-mcq-050",
+    "question": "Choose the correct term for: reducing friction by using oil or grease.",
+    "options": [
+      "soldering",
+      "casting",
+      "lubrication",
+      "wiring"
+    ],
+    "answer": "lubrication",
+    "explanation": "Lubrication means reducing friction by using oil or grease.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

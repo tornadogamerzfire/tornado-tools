@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-2-medium-mcq-001",
+    "question": "What is 1 + 2?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "answer": "3",
+    "explanation": "Add 1 and 2.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-002",
+    "question": "What is 14 - 6?",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "Subtract 6 from 14.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-003",
+    "question": "What is 6 × 7?",
+    "options": [
+      "43",
+      "41",
+      "44",
+      "42"
+    ],
+    "answer": "42",
+    "explanation": "Multiply 6 by 7.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-004",
+    "question": "What is 7 + 11?",
+    "options": [
+      "19",
+      "20",
+      "17",
+      "18"
+    ],
+    "answer": "18",
+    "explanation": "Add 7 and 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-005",
+    "question": "What is 15 - 2?",
+    "options": [
+      "13",
+      "15",
+      "14",
+      "12"
+    ],
+    "answer": "13",
+    "explanation": "Subtract 2 from 15.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-006",
+    "question": "What is 2 × 12?",
+    "options": [
+      "24",
+      "25",
+      "26",
+      "23"
+    ],
+    "answer": "24",
+    "explanation": "Multiply 2 by 12.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-007",
+    "question": "What is 11 + 11?",
+    "options": [
+      "24",
+      "21",
+      "22",
+      "23"
+    ],
+    "answer": "22",
+    "explanation": "Add 11 and 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-008",
+    "question": "What is 10 - 9?",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "Subtract 9 from 10.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-009",
+    "question": "What is 11 × 8?",
+    "options": [
+      "89",
+      "87",
+      "90",
+      "88"
+    ],
+    "answer": "88",
+    "explanation": "Multiply 11 by 8.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-010",
+    "question": "What is 9 + 9?",
+    "options": [
+      "18",
+      "17",
+      "20",
+      "19"
+    ],
+    "answer": "18",
+    "explanation": "Add 9 and 9.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-011",
+    "question": "What is 10 - 2?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "Subtract 2 from 10.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-012",
+    "question": "What is 5 × 11?",
+    "options": [
+      "57",
+      "56",
+      "54",
+      "55"
+    ],
+    "answer": "55",
+    "explanation": "Multiply 5 by 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-013",
+    "question": "What is 5 + 3?",
+    "options": [
+      "10",
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "Add 5 and 3.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-014",
+    "question": "What is 13 - 9?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "answer": "4",
+    "explanation": "Subtract 9 from 13.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-015",
+    "question": "What is 2 × 9?",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "Multiply 2 by 9.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-016",
+    "question": "What is 11 + 7?",
+    "options": [
+      "20",
+      "19",
+      "18",
+      "17"
+    ],
+    "answer": "18",
+    "explanation": "Add 11 and 7.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-017",
+    "question": "What is 10 - 2?",
+    "options": [
+      "8",
+      "10",
+      "9",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "Subtract 2 from 10.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-018",
+    "question": "What is 7 × 8?",
+    "options": [
+      "56",
+      "58",
+      "57",
+      "55"
+    ],
+    "answer": "56",
+    "explanation": "Multiply 7 by 8.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-019",
+    "question": "What is 8 + 11?",
+    "options": [
+      "20",
+      "18",
+      "19",
+      "21"
+    ],
+    "answer": "19",
+    "explanation": "Add 8 and 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-020",
+    "question": "What is 10 - 9?",
+    "options": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "Subtract 9 from 10.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-021",
+    "question": "What is 5 × 2?",
+    "options": [
+      "12",
+      "11",
+      "10",
+      "9"
+    ],
+    "answer": "10",
+    "explanation": "Multiply 5 by 2.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-022",
+    "question": "What is 7 + 4?",
+    "options": [
+      "10",
+      "11",
+      "13",
+      "12"
+    ],
+    "answer": "11",
+    "explanation": "Add 7 and 4.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-023",
+    "question": "What is 13 - 8?",
+    "options": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "Subtract 8 from 13.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-024",
+    "question": "What is 10 × 6?",
+    "options": [
+      "59",
+      "61",
+      "62",
+      "60"
+    ],
+    "answer": "60",
+    "explanation": "Multiply 10 by 6.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-025",
+    "question": "What is 1 + 5?",
+    "options": [
+      "8",
+      "7",
+      "5",
+      "6"
+    ],
+    "answer": "6",
+    "explanation": "Add 1 and 5.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-026",
+    "question": "What is 6 - 1?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "Subtract 1 from 6.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-027",
+    "question": "What is 12 × 5?",
+    "options": [
+      "60",
+      "62",
+      "59",
+      "61"
+    ],
+    "answer": "60",
+    "explanation": "Multiply 12 by 5.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-028",
+    "question": "What is 2 + 1?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "answer": "3",
+    "explanation": "Add 2 and 1.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-029",
+    "question": "What is 9 - 5?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "Subtract 5 from 9.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-030",
+    "question": "What is 5 × 2?",
+    "options": [
+      "12",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "10",
+    "explanation": "Multiply 5 by 2.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-031",
+    "question": "What is 7 + 11?",
+    "options": [
+      "20",
+      "19",
+      "17",
+      "18"
+    ],
+    "answer": "18",
+    "explanation": "Add 7 and 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-032",
+    "question": "What is 15 - 4?",
+    "options": [
+      "13",
+      "10",
+      "12",
+      "11"
+    ],
+    "answer": "11",
+    "explanation": "Subtract 4 from 15.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-033",
+    "question": "What is 10 × 7?",
+    "options": [
+      "71",
+      "72",
+      "69",
+      "70"
+    ],
+    "answer": "70",
+    "explanation": "Multiply 10 by 7.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-034",
+    "question": "What is 4 + 10?",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "13"
+    ],
+    "answer": "14",
+    "explanation": "Add 4 and 10.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-035",
+    "question": "What is 12 - 11?",
+    "options": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "answer": "1",
+    "explanation": "Subtract 11 from 12.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-036",
+    "question": "What is 6 × 4?",
+    "options": [
+      "25",
+      "24",
+      "23",
+      "26"
+    ],
+    "answer": "24",
+    "explanation": "Multiply 6 by 4.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-037",
+    "question": "What is 2 + 5?",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "6"
+    ],
+    "answer": "7",
+    "explanation": "Add 2 and 5.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-038",
+    "question": "What is 12 - 2?",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "Subtract 2 from 12.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-039",
+    "question": "What is 3 × 11?",
+    "options": [
+      "33",
+      "32",
+      "35",
+      "34"
+    ],
+    "answer": "33",
+    "explanation": "Multiply 3 by 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-040",
+    "question": "What is 3 + 5?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "Add 3 and 5.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-041",
+    "question": "What is 11 - 9?",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": "Subtract 9 from 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-042",
+    "question": "What is 6 × 11?",
+    "options": [
+      "68",
+      "66",
+      "65",
+      "67"
+    ],
+    "answer": "66",
+    "explanation": "Multiply 6 by 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-043",
+    "question": "What is 6 + 1?",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "Add 6 and 1.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-044",
+    "question": "What is 11 - 6?",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "Subtract 6 from 11.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-045",
+    "question": "What is 12 × 3?",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "Multiply 12 by 3.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-046",
+    "question": "What is 8 + 6?",
+    "options": [
+      "13",
+      "15",
+      "14",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "Add 8 and 6.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-047",
+    "question": "What is 14 - 11?",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "Subtract 11 from 14.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-048",
+    "question": "What is 10 × 4?",
+    "options": [
+      "41",
+      "40",
+      "42",
+      "39"
+    ],
+    "answer": "40",
+    "explanation": "Multiply 10 by 4.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-049",
+    "question": "What is 7 + 5?",
+    "options": [
+      "14",
+      "13",
+      "12",
+      "11"
+    ],
+    "answer": "12",
+    "explanation": "Add 7 and 5.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-2-medium-mcq-050",
+    "question": "What is 6 - 1?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "Subtract 1 from 6.",
+    "level": "class-2",
+    "subject": "class-2",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

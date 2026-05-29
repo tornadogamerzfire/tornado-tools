@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-10-medium-mcq-001",
+    "question": "Solve: x + 6 = 25. What is x?",
+    "options": [
+      "17",
+      "19",
+      "24",
+      "21"
+    ],
+    "answer": "19",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-002",
+    "question": "Solve: 2x = 12. What is x?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "11"
+    ],
+    "answer": "6",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-003",
+    "question": "What is 9²?",
+    "options": [
+      "81",
+      "79",
+      "86",
+      "83"
+    ],
+    "answer": "81",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-004",
+    "question": "What is the area of a rectangle with length 9 and width 4?",
+    "options": [
+      "34",
+      "38",
+      "36",
+      "41"
+    ],
+    "answer": "36",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-005",
+    "question": "Solve: x + 8 = 13. What is x?",
+    "options": [
+      "7",
+      "3",
+      "10",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-006",
+    "question": "Solve: 2x = 10. What is x?",
+    "options": [
+      "5",
+      "10",
+      "3",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-007",
+    "question": "What is 3²?",
+    "options": [
+      "14",
+      "9",
+      "7",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-008",
+    "question": "What is the area of a rectangle with length 10 and width 8?",
+    "options": [
+      "80",
+      "85",
+      "78",
+      "82"
+    ],
+    "answer": "80",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-009",
+    "question": "Solve: x + 4 = 16. What is x?",
+    "options": [
+      "17",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-010",
+    "question": "Solve: 2x = 6. What is x?",
+    "options": [
+      "1",
+      "5",
+      "8",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-011",
+    "question": "What is 8²?",
+    "options": [
+      "62",
+      "64",
+      "66",
+      "69"
+    ],
+    "answer": "64",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-012",
+    "question": "What is the area of a rectangle with length 9 and width 4?",
+    "options": [
+      "34",
+      "41",
+      "38",
+      "36"
+    ],
+    "answer": "36",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-013",
+    "question": "Solve: x + 3 = 19. What is x?",
+    "options": [
+      "21",
+      "16",
+      "18",
+      "14"
+    ],
+    "answer": "16",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-014",
+    "question": "Solve: 2x = 22. What is x?",
+    "options": [
+      "9",
+      "11",
+      "16",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-015",
+    "question": "What is 2²?",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "9"
+    ],
+    "answer": "4",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-016",
+    "question": "What is the area of a rectangle with length 3 and width 2?",
+    "options": [
+      "6",
+      "8",
+      "11",
+      "4"
+    ],
+    "answer": "6",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-017",
+    "question": "Solve: x + 6 = 20. What is x?",
+    "options": [
+      "19",
+      "14",
+      "12",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-018",
+    "question": "Solve: 2x = 22. What is x?",
+    "options": [
+      "9",
+      "16",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-019",
+    "question": "What is 3²?",
+    "options": [
+      "9",
+      "7",
+      "11",
+      "14"
+    ],
+    "answer": "9",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-020",
+    "question": "What is the area of a rectangle with length 4 and width 2?",
+    "options": [
+      "13",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-021",
+    "question": "Solve: x + 5 = 7. What is x?",
+    "options": [
+      "7",
+      "4",
+      "0",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-022",
+    "question": "Solve: 2x = 16. What is x?",
+    "options": [
+      "10",
+      "8",
+      "13",
+      "6"
+    ],
+    "answer": "8",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-023",
+    "question": "What is 7²?",
+    "options": [
+      "54",
+      "47",
+      "51",
+      "49"
+    ],
+    "answer": "49",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-024",
+    "question": "What is the area of a rectangle with length 4 and width 3?",
+    "options": [
+      "17",
+      "14",
+      "12",
+      "10"
+    ],
+    "answer": "12",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-025",
+    "question": "Solve: x + 7 = 13. What is x?",
+    "options": [
+      "11",
+      "6",
+      "8",
+      "4"
+    ],
+    "answer": "6",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-026",
+    "question": "Solve: 2x = 6. What is x?",
+    "options": [
+      "5",
+      "8",
+      "1",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-027",
+    "question": "What is 4²?",
+    "options": [
+      "21",
+      "16",
+      "18",
+      "14"
+    ],
+    "answer": "16",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-028",
+    "question": "What is the area of a rectangle with length 6 and width 4?",
+    "options": [
+      "29",
+      "26",
+      "22",
+      "24"
+    ],
+    "answer": "24",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-029",
+    "question": "Solve: x + 6 = 21. What is x?",
+    "options": [
+      "17",
+      "15",
+      "20",
+      "13"
+    ],
+    "answer": "15",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-030",
+    "question": "Solve: 2x = 14. What is x?",
+    "options": [
+      "7",
+      "12",
+      "9",
+      "5"
+    ],
+    "answer": "7",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-031",
+    "question": "What is 3²?",
+    "options": [
+      "11",
+      "14",
+      "7",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-032",
+    "question": "What is the area of a rectangle with length 3 and width 2?",
+    "options": [
+      "11",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-033",
+    "question": "Solve: x + 2 = 7. What is x?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "5",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-034",
+    "question": "Solve: 2x = 16. What is x?",
+    "options": [
+      "13",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-035",
+    "question": "What is 4²?",
+    "options": [
+      "14",
+      "16",
+      "21",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-036",
+    "question": "What is the area of a rectangle with length 7 and width 5?",
+    "options": [
+      "35",
+      "40",
+      "33",
+      "37"
+    ],
+    "answer": "35",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-037",
+    "question": "Solve: x + 4 = 8. What is x?",
+    "options": [
+      "9",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-038",
+    "question": "Solve: 2x = 8. What is x?",
+    "options": [
+      "9",
+      "4",
+      "6",
+      "2"
+    ],
+    "answer": "4",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-039",
+    "question": "What is 6²?",
+    "options": [
+      "34",
+      "36",
+      "41",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-040",
+    "question": "What is the area of a rectangle with length 9 and width 3?",
+    "options": [
+      "25",
+      "32",
+      "29",
+      "27"
+    ],
+    "answer": "27",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-041",
+    "question": "Solve: x + 9 = 11. What is x?",
+    "options": [
+      "0",
+      "7",
+      "2",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-042",
+    "question": "Solve: 2x = 12. What is x?",
+    "options": [
+      "11",
+      "6",
+      "4",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-043",
+    "question": "What is 6²?",
+    "options": [
+      "34",
+      "38",
+      "36",
+      "41"
+    ],
+    "answer": "36",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-044",
+    "question": "What is the area of a rectangle with length 9 and width 5?",
+    "options": [
+      "43",
+      "50",
+      "47",
+      "45"
+    ],
+    "answer": "45",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-045",
+    "question": "Solve: x + 5 = 22. What is x?",
+    "options": [
+      "15",
+      "17",
+      "19",
+      "22"
+    ],
+    "answer": "17",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-046",
+    "question": "Solve: 2x = 4. What is x?",
+    "options": [
+      "0",
+      "4",
+      "7",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-047",
+    "question": "What is 6²?",
+    "options": [
+      "41",
+      "36",
+      "38",
+      "34"
+    ],
+    "answer": "36",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-048",
+    "question": "What is the area of a rectangle with length 5 and width 2?",
+    "options": [
+      "12",
+      "15",
+      "10",
+      "8"
+    ],
+    "answer": "10",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-049",
+    "question": "Solve: x + 3 = 15. What is x?",
+    "options": [
+      "17",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-medium-mcq-050",
+    "question": "Solve: 2x = 12. What is x?",
+    "options": [
+      "11",
+      "8",
+      "6",
+      "4"
+    ],
+    "answer": "6",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

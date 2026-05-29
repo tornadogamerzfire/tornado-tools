@@ -1,0 +1,702 @@
+[
+  {
+    "id": "class-10-easy-true_false-001",
+    "question": "The answer to Solve: x + 7 = 10. What is x is 3.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-002",
+    "question": "The answer to Solve: 2x = 14. What is x is 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-003",
+    "question": "The answer to What is 2² is 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-004",
+    "question": "The answer to What is the area of a rectangle with length 9 and width 2 is 19.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-005",
+    "question": "The answer to Solve: x + 5 = 20. What is x is 15.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-006",
+    "question": "The answer to Solve: 2x = 22. What is x is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-007",
+    "question": "The answer to What is 5² is 25.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-008",
+    "question": "The answer to What is the area of a rectangle with length 8 and width 2 is 17.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-009",
+    "question": "The answer to Solve: x + 9 = 18. What is x is 9.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-010",
+    "question": "The answer to Solve: 2x = 18. What is x is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-011",
+    "question": "The answer to What is 6² is 36.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-012",
+    "question": "The answer to What is the area of a rectangle with length 8 and width 3 is 25.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-013",
+    "question": "The answer to Solve: x + 9 = 22. What is x is 13.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-014",
+    "question": "The answer to Solve: 2x = 16. What is x is 9.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-015",
+    "question": "The answer to What is 4² is 16.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-016",
+    "question": "The answer to What is the area of a rectangle with length 8 and width 4 is 33.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-017",
+    "question": "The answer to Solve: x + 4 = 6. What is x is 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-018",
+    "question": "The answer to Solve: 2x = 6. What is x is 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-019",
+    "question": "The answer to What is 10² is 100.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-020",
+    "question": "The answer to What is the area of a rectangle with length 3 and width 2 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-021",
+    "question": "The answer to Solve: x + 3 = 10. What is x is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-022",
+    "question": "The answer to Solve: 2x = 24. What is x is 13.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-023",
+    "question": "The answer to What is 10² is 100.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-024",
+    "question": "The answer to What is the area of a rectangle with length 5 and width 3 is 16.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-025",
+    "question": "The answer to Solve: x + 4 = 15. What is x is 11.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-026",
+    "question": "The answer to Solve: 2x = 18. What is x is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-027",
+    "question": "The answer to What is 10² is 100.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-028",
+    "question": "The answer to What is the area of a rectangle with length 7 and width 2 is 15.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-029",
+    "question": "The answer to Solve: x + 3 = 6. What is x is 3.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-030",
+    "question": "The answer to Solve: 2x = 10. What is x is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-031",
+    "question": "The answer to What is 7² is 49.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-032",
+    "question": "The answer to What is the area of a rectangle with length 4 and width 3 is 13.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-033",
+    "question": "The answer to Solve: x + 7 = 12. What is x is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-034",
+    "question": "The answer to Solve: 2x = 18. What is x is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-035",
+    "question": "The answer to What is 8² is 64.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-036",
+    "question": "The answer to What is the area of a rectangle with length 6 and width 4 is 25.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-037",
+    "question": "The answer to Solve: x + 2 = 15. What is x is 13.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-038",
+    "question": "The answer to Solve: 2x = 22. What is x is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-039",
+    "question": "The answer to What is 8² is 64.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-040",
+    "question": "The answer to What is the area of a rectangle with length 6 and width 5 is 31.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-041",
+    "question": "The answer to Solve: x + 8 = 28. What is x is 20.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-042",
+    "question": "The answer to Solve: 2x = 18. What is x is 10.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-043",
+    "question": "The answer to What is 6² is 36.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-044",
+    "question": "The answer to What is the area of a rectangle with length 9 and width 5 is 46.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-045",
+    "question": "The answer to Solve: x + 8 = 20. What is x is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-046",
+    "question": "The answer to Solve: 2x = 20. What is x is 11.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-047",
+    "question": "The answer to What is 2² is 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Square the number.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-048",
+    "question": "The answer to What is the area of a rectangle with length 9 and width 7 is 64.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Area = length × width.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-049",
+    "question": "The answer to Solve: x + 5 = 18. What is x is 13.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract the added number from both sides.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-10-easy-true_false-050",
+    "question": "The answer to Solve: 2x = 10. What is x is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Divide both sides by 2.",
+    "level": "class-10",
+    "subject": "class-10",
+    "difficulty": "easy",
+    "type": "true_false"
+  }
+]

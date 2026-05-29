@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-3-science-medium-mcq-001",
+    "question": "Which term best matches this description: the process by which plants make food using sunlight?",
+    "options": [
+      "evaporation",
+      "photosynthesis",
+      "respiration",
+      "digestion"
+    ],
+    "answer": "photosynthesis",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-002",
+    "question": "Choose the correct term for: the change of liquid into vapour.",
+    "options": [
+      "condensation",
+      "melting",
+      "freezing",
+      "evaporation"
+    ],
+    "answer": "evaporation",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-003",
+    "question": "What is the best answer for: the change of vapour into liquid?",
+    "options": [
+      "condensation",
+      "boiling",
+      "burning",
+      "evaporation"
+    ],
+    "answer": "condensation",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-004",
+    "question": "Which term best matches this description: the force that pulls objects toward the Earth?",
+    "options": [
+      "pressure",
+      "gravity",
+      "magnetism",
+      "friction"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-005",
+    "question": "Choose the correct term for: the organ that pumps blood.",
+    "options": [
+      "heart",
+      "kidney",
+      "stomach",
+      "lungs"
+    ],
+    "answer": "heart",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-006",
+    "question": "What is the best answer for: the organs used for breathing?",
+    "options": [
+      "teeth",
+      "brain",
+      "lungs",
+      "bones"
+    ],
+    "answer": "lungs",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-007",
+    "question": "Which term best matches this description: the plant part that absorbs water from soil?",
+    "options": [
+      "leaves",
+      "roots",
+      "fruits",
+      "flowers"
+    ],
+    "answer": "roots",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-008",
+    "question": "Choose the correct term for: the part that carries water in a plant.",
+    "options": [
+      "stem",
+      "roots",
+      "seed",
+      "petals"
+    ],
+    "answer": "stem",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-009",
+    "question": "What is the best answer for: the green pigment in plants?",
+    "options": [
+      "starch",
+      "protein",
+      "chlorophyll",
+      "haemoglobin"
+    ],
+    "answer": "chlorophyll",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-010",
+    "question": "Which term best matches this description: a gas needed for breathing?",
+    "options": [
+      "helium",
+      "oxygen",
+      "nitrogen",
+      "carbon dioxide"
+    ],
+    "answer": "oxygen",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-011",
+    "question": "Choose the correct term for: a gas released during breathing and burning.",
+    "options": [
+      "oxygen",
+      "hydrogen",
+      "argon",
+      "carbon dioxide"
+    ],
+    "answer": "carbon dioxide",
+    "explanation": "Carbon dioxide means a gas released during breathing and burning.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-012",
+    "question": "What is the best answer for: the bouncing back of light?",
+    "options": [
+      "refraction",
+      "diffusion",
+      "reflection",
+      "focusing"
+    ],
+    "answer": "reflection",
+    "explanation": "Reflection means the bouncing back of light.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-013",
+    "question": "Which term best matches this description: the bending of light when it enters another medium?",
+    "options": [
+      "refraction",
+      "reflection",
+      "rotation",
+      "absorption"
+    ],
+    "answer": "refraction",
+    "explanation": "Refraction means the bending of light when it enters another medium.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-014",
+    "question": "Choose the correct term for: an object that attracts iron.",
+    "options": [
+      "salt",
+      "acid",
+      "magnet",
+      "glass"
+    ],
+    "answer": "magnet",
+    "explanation": "Magnet means an object that attracts iron.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-015",
+    "question": "What is the best answer for: a push or pull on an object?",
+    "options": [
+      "force",
+      "heat",
+      "mass",
+      "colour"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull on an object.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-016",
+    "question": "Which term best matches this description: the ability to do work?",
+    "options": [
+      "shape",
+      "energy",
+      "temperature",
+      "speed"
+    ],
+    "answer": "energy",
+    "explanation": "Energy means the ability to do work.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-017",
+    "question": "Choose the correct term for: a form of energy that travels in waves.",
+    "options": [
+      "metal",
+      "volume",
+      "mass",
+      "sound"
+    ],
+    "answer": "sound",
+    "explanation": "Sound means a form of energy that travels in waves.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-018",
+    "question": "What is the best answer for: the continuous movement of water on Earth?",
+    "options": [
+      "food chain",
+      "rock cycle",
+      "nitrogen cycle",
+      "water cycle"
+    ],
+    "answer": "water cycle",
+    "explanation": "Water cycle means the continuous movement of water on Earth.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-019",
+    "question": "Which term best matches this description: the change of liquid to gas on heating?",
+    "options": [
+      "freezing",
+      "condensing",
+      "melting",
+      "boiling"
+    ],
+    "answer": "boiling",
+    "explanation": "Boiling means the change of liquid to gas on heating.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-020",
+    "question": "Choose the correct term for: a long thin strand of material.",
+    "options": [
+      "fibre",
+      "gas",
+      "liquid",
+      "metal"
+    ],
+    "answer": "fibre",
+    "explanation": "Fibre means a long thin strand of material.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-021",
+    "question": "What is the best answer for: the process by which plants make food using sunlight?",
+    "options": [
+      "evaporation",
+      "respiration",
+      "digestion",
+      "photosynthesis"
+    ],
+    "answer": "photosynthesis",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-022",
+    "question": "Which term best matches this description: the change of liquid into vapour?",
+    "options": [
+      "evaporation",
+      "condensation",
+      "melting",
+      "freezing"
+    ],
+    "answer": "evaporation",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-023",
+    "question": "Choose the correct term for: the change of vapour into liquid.",
+    "options": [
+      "evaporation",
+      "condensation",
+      "burning",
+      "boiling"
+    ],
+    "answer": "condensation",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-024",
+    "question": "What is the best answer for: the force that pulls objects toward the Earth?",
+    "options": [
+      "magnetism",
+      "gravity",
+      "friction",
+      "pressure"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-025",
+    "question": "Which term best matches this description: the organ that pumps blood?",
+    "options": [
+      "kidney",
+      "stomach",
+      "heart",
+      "lungs"
+    ],
+    "answer": "heart",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-026",
+    "question": "Choose the correct term for: the organs used for breathing.",
+    "options": [
+      "brain",
+      "lungs",
+      "bones",
+      "teeth"
+    ],
+    "answer": "lungs",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-027",
+    "question": "What is the best answer for: the plant part that absorbs water from soil?",
+    "options": [
+      "leaves",
+      "roots",
+      "flowers",
+      "fruits"
+    ],
+    "answer": "roots",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-028",
+    "question": "Which term best matches this description: the part that carries water in a plant?",
+    "options": [
+      "seed",
+      "stem",
+      "roots",
+      "petals"
+    ],
+    "answer": "stem",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-029",
+    "question": "Choose the correct term for: the green pigment in plants.",
+    "options": [
+      "starch",
+      "chlorophyll",
+      "haemoglobin",
+      "protein"
+    ],
+    "answer": "chlorophyll",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-030",
+    "question": "What is the best answer for: a gas needed for breathing?",
+    "options": [
+      "carbon dioxide",
+      "oxygen",
+      "helium",
+      "nitrogen"
+    ],
+    "answer": "oxygen",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-031",
+    "question": "Which term best matches this description: a gas released during breathing and burning?",
+    "options": [
+      "hydrogen",
+      "carbon dioxide",
+      "argon",
+      "oxygen"
+    ],
+    "answer": "carbon dioxide",
+    "explanation": "Carbon dioxide means a gas released during breathing and burning.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-032",
+    "question": "Choose the correct term for: the bouncing back of light.",
+    "options": [
+      "focusing",
+      "diffusion",
+      "reflection",
+      "refraction"
+    ],
+    "answer": "reflection",
+    "explanation": "Reflection means the bouncing back of light.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-033",
+    "question": "What is the best answer for: the bending of light when it enters another medium?",
+    "options": [
+      "rotation",
+      "absorption",
+      "refraction",
+      "reflection"
+    ],
+    "answer": "refraction",
+    "explanation": "Refraction means the bending of light when it enters another medium.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-034",
+    "question": "Which term best matches this description: an object that attracts iron?",
+    "options": [
+      "glass",
+      "magnet",
+      "salt",
+      "acid"
+    ],
+    "answer": "magnet",
+    "explanation": "Magnet means an object that attracts iron.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-035",
+    "question": "Choose the correct term for: a push or pull on an object.",
+    "options": [
+      "heat",
+      "colour",
+      "force",
+      "mass"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull on an object.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-036",
+    "question": "What is the best answer for: the ability to do work?",
+    "options": [
+      "shape",
+      "energy",
+      "speed",
+      "temperature"
+    ],
+    "answer": "energy",
+    "explanation": "Energy means the ability to do work.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-037",
+    "question": "Which term best matches this description: a form of energy that travels in waves?",
+    "options": [
+      "metal",
+      "mass",
+      "volume",
+      "sound"
+    ],
+    "answer": "sound",
+    "explanation": "Sound means a form of energy that travels in waves.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-038",
+    "question": "Choose the correct term for: the continuous movement of water on Earth.",
+    "options": [
+      "food chain",
+      "rock cycle",
+      "nitrogen cycle",
+      "water cycle"
+    ],
+    "answer": "water cycle",
+    "explanation": "Water cycle means the continuous movement of water on Earth.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-039",
+    "question": "What is the best answer for: the change of liquid to gas on heating?",
+    "options": [
+      "boiling",
+      "condensing",
+      "melting",
+      "freezing"
+    ],
+    "answer": "boiling",
+    "explanation": "Boiling means the change of liquid to gas on heating.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-040",
+    "question": "Which term best matches this description: a long thin strand of material?",
+    "options": [
+      "gas",
+      "metal",
+      "fibre",
+      "liquid"
+    ],
+    "answer": "fibre",
+    "explanation": "Fibre means a long thin strand of material.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-041",
+    "question": "Choose the correct term for: the process by which plants make food using sunlight.",
+    "options": [
+      "photosynthesis",
+      "respiration",
+      "digestion",
+      "evaporation"
+    ],
+    "answer": "photosynthesis",
+    "explanation": "Photosynthesis means the process by which plants make food using sunlight.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-042",
+    "question": "What is the best answer for: the change of liquid into vapour?",
+    "options": [
+      "melting",
+      "freezing",
+      "evaporation",
+      "condensation"
+    ],
+    "answer": "evaporation",
+    "explanation": "Evaporation means the change of liquid into vapour.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-043",
+    "question": "Which term best matches this description: the change of vapour into liquid?",
+    "options": [
+      "condensation",
+      "evaporation",
+      "burning",
+      "boiling"
+    ],
+    "answer": "condensation",
+    "explanation": "Condensation means the change of vapour into liquid.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-044",
+    "question": "Choose the correct term for: the force that pulls objects toward the Earth.",
+    "options": [
+      "magnetism",
+      "gravity",
+      "pressure",
+      "friction"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force that pulls objects toward the Earth.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-045",
+    "question": "What is the best answer for: the organ that pumps blood?",
+    "options": [
+      "heart",
+      "kidney",
+      "stomach",
+      "lungs"
+    ],
+    "answer": "heart",
+    "explanation": "Heart means the organ that pumps blood.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-046",
+    "question": "Which term best matches this description: the organs used for breathing?",
+    "options": [
+      "brain",
+      "teeth",
+      "lungs",
+      "bones"
+    ],
+    "answer": "lungs",
+    "explanation": "Lungs means the organs used for breathing.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-047",
+    "question": "Choose the correct term for: the plant part that absorbs water from soil.",
+    "options": [
+      "flowers",
+      "roots",
+      "fruits",
+      "leaves"
+    ],
+    "answer": "roots",
+    "explanation": "Roots means the plant part that absorbs water from soil.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-048",
+    "question": "What is the best answer for: the part that carries water in a plant?",
+    "options": [
+      "roots",
+      "stem",
+      "seed",
+      "petals"
+    ],
+    "answer": "stem",
+    "explanation": "Stem means the part that carries water in a plant.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-049",
+    "question": "Which term best matches this description: the green pigment in plants?",
+    "options": [
+      "haemoglobin",
+      "protein",
+      "chlorophyll",
+      "starch"
+    ],
+    "answer": "chlorophyll",
+    "explanation": "Chlorophyll means the green pigment in plants.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "class-3-science-medium-mcq-050",
+    "question": "Choose the correct term for: a gas needed for breathing.",
+    "options": [
+      "helium",
+      "carbon dioxide",
+      "oxygen",
+      "nitrogen"
+    ],
+    "answer": "oxygen",
+    "explanation": "Oxygen means a gas needed for breathing.",
+    "level": "class-3",
+    "subject": "science",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

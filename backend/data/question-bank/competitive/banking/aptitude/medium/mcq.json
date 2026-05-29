@@ -1,0 +1,802 @@
+[
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-001",
+    "question": "Which term best matches this description: a number expressed as parts per hundred?",
+    "options": [
+      "ratio",
+      "median",
+      "average",
+      "percentage"
+    ],
+    "answer": "percentage",
+    "explanation": "Percentage means a number expressed as parts per hundred.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-002",
+    "question": "Choose the correct term for: a comparison of two quantities.",
+    "options": [
+      "fraction",
+      "sum",
+      "percentage",
+      "ratio"
+    ],
+    "answer": "ratio",
+    "explanation": "Ratio means a comparison of two quantities.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-003",
+    "question": "What is the best answer for: the sum of values divided by the number of values?",
+    "options": [
+      "difference",
+      "product",
+      "average",
+      "mode"
+    ],
+    "answer": "average",
+    "explanation": "Average means the sum of values divided by the number of values.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-004",
+    "question": "Which term best matches this description: money earned after subtracting cost from selling price?",
+    "options": [
+      "tax",
+      "loss",
+      "profit",
+      "debt"
+    ],
+    "answer": "profit",
+    "explanation": "Profit means money earned after subtracting cost from selling price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-005",
+    "question": "Choose the correct term for: when cost price is more than selling price.",
+    "options": [
+      "discount",
+      "profit",
+      "interest",
+      "loss"
+    ],
+    "answer": "loss",
+    "explanation": "Loss means when cost price is more than selling price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-006",
+    "question": "What is the best answer for: a reduction from marked price?",
+    "options": [
+      "tax",
+      "dividend",
+      "discount",
+      "salary"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means a reduction from marked price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-007",
+    "question": "Which term best matches this description: topic involving rate of work and time?",
+    "options": [
+      "chemistry",
+      "coding",
+      "geometry",
+      "time and work"
+    ],
+    "answer": "time and work",
+    "explanation": "Time and work means topic involving rate of work and time.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-008",
+    "question": "Choose the correct term for: a relation used to solve motion problems.",
+    "options": [
+      "speed distance time",
+      "ratio",
+      "polity",
+      "profit loss"
+    ],
+    "answer": "speed distance time",
+    "explanation": "Speed distance time means a relation used to solve motion problems.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-009",
+    "question": "What is the best answer for: an arrangement where order matters?",
+    "options": [
+      "permutation",
+      "fraction",
+      "division",
+      "combination"
+    ],
+    "answer": "permutation",
+    "explanation": "Permutation means an arrangement where order matters.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-010",
+    "question": "Which term best matches this description: a selection where order does not matter?",
+    "options": [
+      "permutation",
+      "ratio",
+      "average",
+      "combination"
+    ],
+    "answer": "combination",
+    "explanation": "Combination means a selection where order does not matter.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-011",
+    "question": "Choose the correct term for: a sequence of numbers following a pattern.",
+    "options": [
+      "set",
+      "graph",
+      "series",
+      "matrix"
+    ],
+    "answer": "series",
+    "explanation": "Series means a sequence of numbers following a pattern.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-012",
+    "question": "What is the best answer for: the ability to determine directions and turns?",
+    "options": [
+      "direction sense",
+      "grammar",
+      "biology",
+      "finance"
+    ],
+    "answer": "direction sense",
+    "explanation": "Direction sense means the ability to determine directions and turns.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-013",
+    "question": "Which term best matches this description: a problem type based on family relationships?",
+    "options": [
+      "blood relation",
+      "chemistry",
+      "coding",
+      "geometry"
+    ],
+    "answer": "blood relation",
+    "explanation": "Blood relation means a problem type based on family relationships.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-014",
+    "question": "Choose the correct term for: logic topic where symbols or letters follow a rule.",
+    "options": [
+      "history",
+      "physics",
+      "algebra",
+      "coding-decoding"
+    ],
+    "answer": "coding-decoding",
+    "explanation": "Coding-decoding means logic topic where symbols or letters follow a rule.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-015",
+    "question": "What is the best answer for: a logic topic involving dates and days?",
+    "options": [
+      "calendar",
+      "invoice",
+      "signal",
+      "map"
+    ],
+    "answer": "calendar",
+    "explanation": "Calendar means a logic topic involving dates and days.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-016",
+    "question": "Which term best matches this description: study of digits and their properties?",
+    "options": [
+      "number system",
+      "economy",
+      "art",
+      "polity"
+    ],
+    "answer": "number system",
+    "explanation": "Number system means study of digits and their properties.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-017",
+    "question": "Choose the correct term for: reducing expressions to a simpler form.",
+    "options": [
+      "classification",
+      "simplification",
+      "compression",
+      "translation"
+    ],
+    "answer": "simplification",
+    "explanation": "Simplification means reducing expressions to a simpler form.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-018",
+    "question": "What is the best answer for: the process of reaching conclusions logically?",
+    "options": [
+      "printing",
+      "reasoning",
+      "painting",
+      "loading"
+    ],
+    "answer": "reasoning",
+    "explanation": "Reasoning means the process of reaching conclusions logically.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-019",
+    "question": "Which term best matches this description: a similarity between two relationships?",
+    "options": [
+      "silence",
+      "analogy",
+      "contrast",
+      "equation"
+    ],
+    "answer": "analogy",
+    "explanation": "Analogy means a similarity between two relationships.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-020",
+    "question": "Choose the correct term for: ordering items from highest to lowest or vice versa.",
+    "options": [
+      "framing",
+      "ranking",
+      "debugging",
+      "sorting"
+    ],
+    "answer": "ranking",
+    "explanation": "Ranking means ordering items from highest to lowest or vice versa.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-021",
+    "question": "What is the best answer for: a number expressed as parts per hundred?",
+    "options": [
+      "median",
+      "ratio",
+      "percentage",
+      "average"
+    ],
+    "answer": "percentage",
+    "explanation": "Percentage means a number expressed as parts per hundred.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-022",
+    "question": "Which term best matches this description: a comparison of two quantities?",
+    "options": [
+      "percentage",
+      "fraction",
+      "sum",
+      "ratio"
+    ],
+    "answer": "ratio",
+    "explanation": "Ratio means a comparison of two quantities.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-023",
+    "question": "Choose the correct term for: the sum of values divided by the number of values.",
+    "options": [
+      "product",
+      "mode",
+      "difference",
+      "average"
+    ],
+    "answer": "average",
+    "explanation": "Average means the sum of values divided by the number of values.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-024",
+    "question": "What is the best answer for: money earned after subtracting cost from selling price?",
+    "options": [
+      "debt",
+      "loss",
+      "profit",
+      "tax"
+    ],
+    "answer": "profit",
+    "explanation": "Profit means money earned after subtracting cost from selling price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-025",
+    "question": "Which term best matches this description: when cost price is more than selling price?",
+    "options": [
+      "loss",
+      "discount",
+      "interest",
+      "profit"
+    ],
+    "answer": "loss",
+    "explanation": "Loss means when cost price is more than selling price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-026",
+    "question": "Choose the correct term for: a reduction from marked price.",
+    "options": [
+      "dividend",
+      "salary",
+      "discount",
+      "tax"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means a reduction from marked price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-027",
+    "question": "What is the best answer for: topic involving rate of work and time?",
+    "options": [
+      "chemistry",
+      "time and work",
+      "geometry",
+      "coding"
+    ],
+    "answer": "time and work",
+    "explanation": "Time and work means topic involving rate of work and time.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-028",
+    "question": "Which term best matches this description: a relation used to solve motion problems?",
+    "options": [
+      "profit loss",
+      "ratio",
+      "polity",
+      "speed distance time"
+    ],
+    "answer": "speed distance time",
+    "explanation": "Speed distance time means a relation used to solve motion problems.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-029",
+    "question": "Choose the correct term for: an arrangement where order matters.",
+    "options": [
+      "combination",
+      "permutation",
+      "division",
+      "fraction"
+    ],
+    "answer": "permutation",
+    "explanation": "Permutation means an arrangement where order matters.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-030",
+    "question": "What is the best answer for: a selection where order does not matter?",
+    "options": [
+      "combination",
+      "ratio",
+      "permutation",
+      "average"
+    ],
+    "answer": "combination",
+    "explanation": "Combination means a selection where order does not matter.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-031",
+    "question": "Which term best matches this description: a sequence of numbers following a pattern?",
+    "options": [
+      "series",
+      "graph",
+      "set",
+      "matrix"
+    ],
+    "answer": "series",
+    "explanation": "Series means a sequence of numbers following a pattern.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-032",
+    "question": "Choose the correct term for: the ability to determine directions and turns.",
+    "options": [
+      "biology",
+      "finance",
+      "grammar",
+      "direction sense"
+    ],
+    "answer": "direction sense",
+    "explanation": "Direction sense means the ability to determine directions and turns.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-033",
+    "question": "What is the best answer for: a problem type based on family relationships?",
+    "options": [
+      "geometry",
+      "blood relation",
+      "coding",
+      "chemistry"
+    ],
+    "answer": "blood relation",
+    "explanation": "Blood relation means a problem type based on family relationships.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-034",
+    "question": "Which term best matches this description: logic topic where symbols or letters follow a rule?",
+    "options": [
+      "coding-decoding",
+      "physics",
+      "history",
+      "algebra"
+    ],
+    "answer": "coding-decoding",
+    "explanation": "Coding-decoding means logic topic where symbols or letters follow a rule.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-035",
+    "question": "Choose the correct term for: a logic topic involving dates and days.",
+    "options": [
+      "invoice",
+      "calendar",
+      "map",
+      "signal"
+    ],
+    "answer": "calendar",
+    "explanation": "Calendar means a logic topic involving dates and days.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-036",
+    "question": "What is the best answer for: study of digits and their properties?",
+    "options": [
+      "economy",
+      "polity",
+      "art",
+      "number system"
+    ],
+    "answer": "number system",
+    "explanation": "Number system means study of digits and their properties.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-037",
+    "question": "Which term best matches this description: reducing expressions to a simpler form?",
+    "options": [
+      "compression",
+      "simplification",
+      "translation",
+      "classification"
+    ],
+    "answer": "simplification",
+    "explanation": "Simplification means reducing expressions to a simpler form.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-038",
+    "question": "Choose the correct term for: the process of reaching conclusions logically.",
+    "options": [
+      "printing",
+      "reasoning",
+      "painting",
+      "loading"
+    ],
+    "answer": "reasoning",
+    "explanation": "Reasoning means the process of reaching conclusions logically.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-039",
+    "question": "What is the best answer for: a similarity between two relationships?",
+    "options": [
+      "equation",
+      "contrast",
+      "analogy",
+      "silence"
+    ],
+    "answer": "analogy",
+    "explanation": "Analogy means a similarity between two relationships.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-040",
+    "question": "Which term best matches this description: ordering items from highest to lowest or vice versa?",
+    "options": [
+      "debugging",
+      "framing",
+      "ranking",
+      "sorting"
+    ],
+    "answer": "ranking",
+    "explanation": "Ranking means ordering items from highest to lowest or vice versa.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-041",
+    "question": "Choose the correct term for: a number expressed as parts per hundred.",
+    "options": [
+      "average",
+      "percentage",
+      "median",
+      "ratio"
+    ],
+    "answer": "percentage",
+    "explanation": "Percentage means a number expressed as parts per hundred.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-042",
+    "question": "What is the best answer for: a comparison of two quantities?",
+    "options": [
+      "percentage",
+      "ratio",
+      "fraction",
+      "sum"
+    ],
+    "answer": "ratio",
+    "explanation": "Ratio means a comparison of two quantities.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-043",
+    "question": "Which term best matches this description: the sum of values divided by the number of values?",
+    "options": [
+      "product",
+      "average",
+      "mode",
+      "difference"
+    ],
+    "answer": "average",
+    "explanation": "Average means the sum of values divided by the number of values.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-044",
+    "question": "Choose the correct term for: money earned after subtracting cost from selling price.",
+    "options": [
+      "loss",
+      "tax",
+      "profit",
+      "debt"
+    ],
+    "answer": "profit",
+    "explanation": "Profit means money earned after subtracting cost from selling price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-045",
+    "question": "What is the best answer for: when cost price is more than selling price?",
+    "options": [
+      "interest",
+      "profit",
+      "discount",
+      "loss"
+    ],
+    "answer": "loss",
+    "explanation": "Loss means when cost price is more than selling price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-046",
+    "question": "Which term best matches this description: a reduction from marked price?",
+    "options": [
+      "discount",
+      "tax",
+      "dividend",
+      "salary"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means a reduction from marked price.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-047",
+    "question": "Choose the correct term for: topic involving rate of work and time.",
+    "options": [
+      "chemistry",
+      "geometry",
+      "coding",
+      "time and work"
+    ],
+    "answer": "time and work",
+    "explanation": "Time and work means topic involving rate of work and time.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-048",
+    "question": "What is the best answer for: a relation used to solve motion problems?",
+    "options": [
+      "ratio",
+      "polity",
+      "speed distance time",
+      "profit loss"
+    ],
+    "answer": "speed distance time",
+    "explanation": "Speed distance time means a relation used to solve motion problems.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-049",
+    "question": "Which term best matches this description: an arrangement where order matters?",
+    "options": [
+      "fraction",
+      "division",
+      "combination",
+      "permutation"
+    ],
+    "answer": "permutation",
+    "explanation": "Permutation means an arrangement where order matters.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-banking-aptitude-medium-mcq-050",
+    "question": "Choose the correct term for: a selection where order does not matter.",
+    "options": [
+      "ratio",
+      "combination",
+      "average",
+      "permutation"
+    ],
+    "answer": "combination",
+    "explanation": "Combination means a selection where order does not matter.",
+    "level": "competitive-banking",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

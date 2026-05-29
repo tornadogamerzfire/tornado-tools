@@ -1,0 +1,702 @@
+[
+  {
+    "id": "class-11-easy-true_false-001",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-002",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-003",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-004",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-005",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-006",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-007",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-008",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-009",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-010",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-011",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-012",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-013",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-014",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-015",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-016",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-017",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-018",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-019",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-020",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-021",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-022",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-023",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-024",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-025",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-026",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-027",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-028",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-029",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-030",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-031",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-032",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-033",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-034",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-035",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-036",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-037",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-038",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-039",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-040",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-041",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-042",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-043",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-044",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-045",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-046",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-047",
+    "question": "The answer to 'Solve: x + 5 = 12. What is x?' is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract 5 from 12.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-048",
+    "question": "The answer to 'What is log10(100)?' is not 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "10² = 100.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-049",
+    "question": "The answer to 'What is sin(30°)?' is 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "sin 30° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  },
+  {
+    "id": "class-11-easy-true_false-050",
+    "question": "The answer to 'What is cos(60°)?' is not 1/2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "cos 60° equals 1/2.",
+    "level": "class-11",
+    "subject": "class-11",
+    "difficulty": "easy",
+    "type": "true_false"
+  }
+]

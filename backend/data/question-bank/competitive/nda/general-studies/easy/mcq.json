@@ -1,0 +1,802 @@
+[
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-001",
+    "question": "Which term best matches this description: the supreme law of India?",
+    "options": [
+      "Constitution",
+      "Judiciary",
+      "Parliament",
+      "Cabinet"
+    ],
+    "answer": "Constitution",
+    "explanation": "Constitution means the supreme law of India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-002",
+    "question": "Choose the correct term for: the lower house of Parliament.",
+    "options": [
+      "Rajya Sabha",
+      "Lok Sabha",
+      "NITI Aayog",
+      "Supreme Court"
+    ],
+    "answer": "Lok Sabha",
+    "explanation": "Lok sabha means the lower house of Parliament.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-003",
+    "question": "What is the best answer for: the upper house of Parliament?",
+    "options": [
+      "High Court",
+      "Lok Sabha",
+      "Rajya Sabha",
+      "Lokpal"
+    ],
+    "answer": "Rajya Sabha",
+    "explanation": "Rajya sabha means the upper house of Parliament.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-004",
+    "question": "Which term best matches this description: the constitutional head of India?",
+    "options": [
+      "Prime Minister",
+      "Chief Justice",
+      "President",
+      "Speaker"
+    ],
+    "answer": "President",
+    "explanation": "President means the constitutional head of India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-005",
+    "question": "Choose the correct term for: the head of government in India.",
+    "options": [
+      "President",
+      "Mayor",
+      "Governor",
+      "Prime Minister"
+    ],
+    "answer": "Prime Minister",
+    "explanation": "Prime minister means the head of government in India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-006",
+    "question": "What is the best answer for: basic rights guaranteed by the Constitution?",
+    "options": [
+      "fundamental duties",
+      "fundamental rights",
+      "directive principles",
+      "ordinances"
+    ],
+    "answer": "fundamental rights",
+    "explanation": "Fundamental rights means basic rights guaranteed by the Constitution.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-007",
+    "question": "Which term best matches this description: guidelines for the state in making laws?",
+    "options": [
+      "rules of parliament",
+      "directive principles",
+      "fundamental rights",
+      "court orders"
+    ],
+    "answer": "directive principles",
+    "explanation": "Directive principles means guidelines for the state in making laws.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-008",
+    "question": "Choose the correct term for: one of the large landmasses of Earth.",
+    "options": [
+      "continent",
+      "ocean",
+      "country",
+      "state"
+    ],
+    "answer": "continent",
+    "explanation": "Continent means one of the large landmasses of Earth.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-009",
+    "question": "What is the best answer for: an imaginary line around the middle of Earth?",
+    "options": [
+      "equator",
+      "meridian",
+      "tropic",
+      "pole"
+    ],
+    "answer": "equator",
+    "explanation": "Equator means an imaginary line around the middle of Earth.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-010",
+    "question": "Which term best matches this description: distance north or south of the equator?",
+    "options": [
+      "latitude",
+      "azimuth",
+      "altitude",
+      "longitude"
+    ],
+    "answer": "latitude",
+    "explanation": "Latitude means distance north or south of the equator.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-011",
+    "question": "Choose the correct term for: distance east or west of the prime meridian.",
+    "options": [
+      "equator",
+      "longitude",
+      "orbit",
+      "latitude"
+    ],
+    "answer": "longitude",
+    "explanation": "Longitude means distance east or west of the prime meridian.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-012",
+    "question": "What is the best answer for: the mountain range in northern India?",
+    "options": [
+      "desert",
+      "plateau",
+      "himalayas",
+      "river"
+    ],
+    "answer": "himalayas",
+    "explanation": "Himalayas means the mountain range in northern India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-013",
+    "question": "Which term best matches this description: a major river in India?",
+    "options": [
+      "Nile",
+      "Danube",
+      "Amazon",
+      "Ganges"
+    ],
+    "answer": "Ganges",
+    "explanation": "Ganges means a major river in India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-014",
+    "question": "Choose the correct term for: seasonal wind that brings rain to India.",
+    "options": [
+      "drought",
+      "monsoon",
+      "frost",
+      "cyclone"
+    ],
+    "answer": "monsoon",
+    "explanation": "Monsoon means seasonal wind that brings rain to India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-015",
+    "question": "What is the best answer for: a system of government by the people?",
+    "options": [
+      "democracy",
+      "monarchy",
+      "oligarchy",
+      "dictatorship"
+    ],
+    "answer": "democracy",
+    "explanation": "Democracy means a system of government by the people.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-016",
+    "question": "Which term best matches this description: the system of production and consumption in a country?",
+    "options": [
+      "ecology",
+      "economy",
+      "biology",
+      "geology"
+    ],
+    "answer": "economy",
+    "explanation": "Economy means the system of production and consumption in a country.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-017",
+    "question": "Choose the correct term for: a general rise in prices over time.",
+    "options": [
+      "iteration",
+      "inflation",
+      "deflation",
+      "migration"
+    ],
+    "answer": "inflation",
+    "explanation": "Inflation means a general rise in prices over time.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-018",
+    "question": "What is the best answer for: gross domestic product?",
+    "options": [
+      "global development plan",
+      "gross demand price",
+      "GDP",
+      "general duty pass"
+    ],
+    "answer": "GDP",
+    "explanation": "Gdp means gross domestic product.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-019",
+    "question": "Which term best matches this description: the armed protection of a country?",
+    "options": [
+      "trade",
+      "education",
+      "defence",
+      "agriculture"
+    ],
+    "answer": "defence",
+    "explanation": "Defence means the armed protection of a country.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-020",
+    "question": "Choose the correct term for: application of scientific knowledge to practical purposes.",
+    "options": [
+      "sports",
+      "religion",
+      "agriculture",
+      "science and technology"
+    ],
+    "answer": "science and technology",
+    "explanation": "Science and technology means application of scientific knowledge to practical purposes.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-021",
+    "question": "What is the best answer for: the supreme law of India?",
+    "options": [
+      "Constitution",
+      "Judiciary",
+      "Cabinet",
+      "Parliament"
+    ],
+    "answer": "Constitution",
+    "explanation": "Constitution means the supreme law of India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-022",
+    "question": "Which term best matches this description: the lower house of Parliament?",
+    "options": [
+      "Supreme Court",
+      "Rajya Sabha",
+      "NITI Aayog",
+      "Lok Sabha"
+    ],
+    "answer": "Lok Sabha",
+    "explanation": "Lok sabha means the lower house of Parliament.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-023",
+    "question": "Choose the correct term for: the upper house of Parliament.",
+    "options": [
+      "Lok Sabha",
+      "High Court",
+      "Lokpal",
+      "Rajya Sabha"
+    ],
+    "answer": "Rajya Sabha",
+    "explanation": "Rajya sabha means the upper house of Parliament.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-024",
+    "question": "What is the best answer for: the constitutional head of India?",
+    "options": [
+      "President",
+      "Speaker",
+      "Chief Justice",
+      "Prime Minister"
+    ],
+    "answer": "President",
+    "explanation": "President means the constitutional head of India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-025",
+    "question": "Which term best matches this description: the head of government in India?",
+    "options": [
+      "Prime Minister",
+      "Governor",
+      "President",
+      "Mayor"
+    ],
+    "answer": "Prime Minister",
+    "explanation": "Prime minister means the head of government in India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-026",
+    "question": "Choose the correct term for: basic rights guaranteed by the Constitution.",
+    "options": [
+      "fundamental rights",
+      "fundamental duties",
+      "directive principles",
+      "ordinances"
+    ],
+    "answer": "fundamental rights",
+    "explanation": "Fundamental rights means basic rights guaranteed by the Constitution.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-027",
+    "question": "What is the best answer for: guidelines for the state in making laws?",
+    "options": [
+      "directive principles",
+      "court orders",
+      "fundamental rights",
+      "rules of parliament"
+    ],
+    "answer": "directive principles",
+    "explanation": "Directive principles means guidelines for the state in making laws.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-028",
+    "question": "Which term best matches this description: one of the large landmasses of Earth?",
+    "options": [
+      "country",
+      "ocean",
+      "continent",
+      "state"
+    ],
+    "answer": "continent",
+    "explanation": "Continent means one of the large landmasses of Earth.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-029",
+    "question": "Choose the correct term for: an imaginary line around the middle of Earth.",
+    "options": [
+      "meridian",
+      "equator",
+      "pole",
+      "tropic"
+    ],
+    "answer": "equator",
+    "explanation": "Equator means an imaginary line around the middle of Earth.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-030",
+    "question": "What is the best answer for: distance north or south of the equator?",
+    "options": [
+      "azimuth",
+      "latitude",
+      "longitude",
+      "altitude"
+    ],
+    "answer": "latitude",
+    "explanation": "Latitude means distance north or south of the equator.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-031",
+    "question": "Which term best matches this description: distance east or west of the prime meridian?",
+    "options": [
+      "orbit",
+      "equator",
+      "longitude",
+      "latitude"
+    ],
+    "answer": "longitude",
+    "explanation": "Longitude means distance east or west of the prime meridian.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-032",
+    "question": "Choose the correct term for: the mountain range in northern India.",
+    "options": [
+      "himalayas",
+      "river",
+      "desert",
+      "plateau"
+    ],
+    "answer": "himalayas",
+    "explanation": "Himalayas means the mountain range in northern India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-033",
+    "question": "What is the best answer for: a major river in India?",
+    "options": [
+      "Ganges",
+      "Danube",
+      "Nile",
+      "Amazon"
+    ],
+    "answer": "Ganges",
+    "explanation": "Ganges means a major river in India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-034",
+    "question": "Which term best matches this description: seasonal wind that brings rain to India?",
+    "options": [
+      "frost",
+      "drought",
+      "monsoon",
+      "cyclone"
+    ],
+    "answer": "monsoon",
+    "explanation": "Monsoon means seasonal wind that brings rain to India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-035",
+    "question": "Choose the correct term for: a system of government by the people.",
+    "options": [
+      "oligarchy",
+      "democracy",
+      "monarchy",
+      "dictatorship"
+    ],
+    "answer": "democracy",
+    "explanation": "Democracy means a system of government by the people.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-036",
+    "question": "What is the best answer for: the system of production and consumption in a country?",
+    "options": [
+      "ecology",
+      "economy",
+      "biology",
+      "geology"
+    ],
+    "answer": "economy",
+    "explanation": "Economy means the system of production and consumption in a country.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-037",
+    "question": "Which term best matches this description: a general rise in prices over time?",
+    "options": [
+      "inflation",
+      "iteration",
+      "deflation",
+      "migration"
+    ],
+    "answer": "inflation",
+    "explanation": "Inflation means a general rise in prices over time.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-038",
+    "question": "Choose the correct term for: gross domestic product.",
+    "options": [
+      "GDP",
+      "global development plan",
+      "general duty pass",
+      "gross demand price"
+    ],
+    "answer": "GDP",
+    "explanation": "Gdp means gross domestic product.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-039",
+    "question": "What is the best answer for: the armed protection of a country?",
+    "options": [
+      "trade",
+      "defence",
+      "education",
+      "agriculture"
+    ],
+    "answer": "defence",
+    "explanation": "Defence means the armed protection of a country.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-040",
+    "question": "Which term best matches this description: application of scientific knowledge to practical purposes?",
+    "options": [
+      "agriculture",
+      "sports",
+      "science and technology",
+      "religion"
+    ],
+    "answer": "science and technology",
+    "explanation": "Science and technology means application of scientific knowledge to practical purposes.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-041",
+    "question": "Choose the correct term for: the supreme law of India.",
+    "options": [
+      "Constitution",
+      "Parliament",
+      "Cabinet",
+      "Judiciary"
+    ],
+    "answer": "Constitution",
+    "explanation": "Constitution means the supreme law of India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-042",
+    "question": "What is the best answer for: the lower house of Parliament?",
+    "options": [
+      "NITI Aayog",
+      "Lok Sabha",
+      "Supreme Court",
+      "Rajya Sabha"
+    ],
+    "answer": "Lok Sabha",
+    "explanation": "Lok sabha means the lower house of Parliament.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-043",
+    "question": "Which term best matches this description: the upper house of Parliament?",
+    "options": [
+      "Lok Sabha",
+      "High Court",
+      "Rajya Sabha",
+      "Lokpal"
+    ],
+    "answer": "Rajya Sabha",
+    "explanation": "Rajya sabha means the upper house of Parliament.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-044",
+    "question": "Choose the correct term for: the constitutional head of India.",
+    "options": [
+      "Prime Minister",
+      "Speaker",
+      "Chief Justice",
+      "President"
+    ],
+    "answer": "President",
+    "explanation": "President means the constitutional head of India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-045",
+    "question": "What is the best answer for: the head of government in India?",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Mayor",
+      "Governor"
+    ],
+    "answer": "Prime Minister",
+    "explanation": "Prime minister means the head of government in India.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-046",
+    "question": "Which term best matches this description: basic rights guaranteed by the Constitution?",
+    "options": [
+      "ordinances",
+      "fundamental duties",
+      "directive principles",
+      "fundamental rights"
+    ],
+    "answer": "fundamental rights",
+    "explanation": "Fundamental rights means basic rights guaranteed by the Constitution.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-047",
+    "question": "Choose the correct term for: guidelines for the state in making laws.",
+    "options": [
+      "court orders",
+      "fundamental rights",
+      "directive principles",
+      "rules of parliament"
+    ],
+    "answer": "directive principles",
+    "explanation": "Directive principles means guidelines for the state in making laws.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-048",
+    "question": "What is the best answer for: one of the large landmasses of Earth?",
+    "options": [
+      "continent",
+      "state",
+      "country",
+      "ocean"
+    ],
+    "answer": "continent",
+    "explanation": "Continent means one of the large landmasses of Earth.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-049",
+    "question": "Which term best matches this description: an imaginary line around the middle of Earth?",
+    "options": [
+      "meridian",
+      "tropic",
+      "pole",
+      "equator"
+    ],
+    "answer": "equator",
+    "explanation": "Equator means an imaginary line around the middle of Earth.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-nda-general-studies-easy-mcq-050",
+    "question": "Choose the correct term for: distance north or south of the equator.",
+    "options": [
+      "altitude",
+      "latitude",
+      "longitude",
+      "azimuth"
+    ],
+    "answer": "latitude",
+    "explanation": "Latitude means distance north or south of the equator.",
+    "level": "competitive-nda",
+    "subject": "general-studies",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

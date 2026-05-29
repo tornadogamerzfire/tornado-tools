@@ -1,0 +1,802 @@
+[
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-001",
+    "question": "Which term best matches this description: distance travelled per unit time?",
+    "options": [
+      "force",
+      "momentum",
+      "speed",
+      "power"
+    ],
+    "answer": "speed",
+    "explanation": "Speed means distance travelled per unit time.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-002",
+    "question": "Choose the correct term for: speed with direction.",
+    "options": [
+      "charge",
+      "velocity",
+      "acceleration",
+      "pressure"
+    ],
+    "answer": "velocity",
+    "explanation": "Velocity means speed with direction.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-003",
+    "question": "What is the best answer for: rate of change of velocity?",
+    "options": [
+      "volume",
+      "density",
+      "mass",
+      "acceleration"
+    ],
+    "answer": "acceleration",
+    "explanation": "Acceleration means rate of change of velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-004",
+    "question": "Which term best matches this description: a push or pull that can change motion?",
+    "options": [
+      "force",
+      "work",
+      "temperature",
+      "energy"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull that can change motion.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-005",
+    "question": "Choose the correct term for: force multiplied by displacement in the direction of force.",
+    "options": [
+      "charge",
+      "pressure",
+      "power",
+      "work"
+    ],
+    "answer": "work",
+    "explanation": "Work means force multiplied by displacement in the direction of force.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-006",
+    "question": "What is the best answer for: rate of doing work?",
+    "options": [
+      "momentum",
+      "power",
+      "impulse",
+      "force"
+    ],
+    "answer": "power",
+    "explanation": "Power means rate of doing work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-007",
+    "question": "Which term best matches this description: mass multiplied by velocity?",
+    "options": [
+      "momentum",
+      "pressure",
+      "frequency",
+      "work"
+    ],
+    "answer": "momentum",
+    "explanation": "Momentum means mass multiplied by velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-008",
+    "question": "Choose the correct term for: the force of attraction between masses.",
+    "options": [
+      "charge",
+      "friction",
+      "gravity",
+      "pressure"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force of attraction between masses.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-009",
+    "question": "What is the best answer for: a force that opposes motion between surfaces?",
+    "options": [
+      "speed",
+      "friction",
+      "power",
+      "gravity"
+    ],
+    "answer": "friction",
+    "explanation": "Friction means a force that opposes motion between surfaces.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-010",
+    "question": "Which term best matches this description: force per unit area?",
+    "options": [
+      "mass",
+      "pressure",
+      "volume",
+      "velocity"
+    ],
+    "answer": "pressure",
+    "explanation": "Pressure means force per unit area.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-011",
+    "question": "Choose the correct term for: mass per unit volume.",
+    "options": [
+      "speed",
+      "density",
+      "force",
+      "temperature"
+    ],
+    "answer": "density",
+    "explanation": "Density means mass per unit volume.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-012",
+    "question": "What is the best answer for: the capacity to do work?",
+    "options": [
+      "length",
+      "power",
+      "temperature",
+      "energy"
+    ],
+    "answer": "energy",
+    "explanation": "Energy means the capacity to do work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-013",
+    "question": "Which term best matches this description: energy transferred because of temperature difference?",
+    "options": [
+      "current",
+      "heat",
+      "force",
+      "mass"
+    ],
+    "answer": "heat",
+    "explanation": "Heat means energy transferred because of temperature difference.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-014",
+    "question": "Choose the correct term for: a measure of hotness or coldness.",
+    "options": [
+      "velocity",
+      "charge",
+      "pressure",
+      "temperature"
+    ],
+    "answer": "temperature",
+    "explanation": "Temperature means a measure of hotness or coldness.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-015",
+    "question": "What is the best answer for: a form of energy produced by vibrating objects?",
+    "options": [
+      "charge",
+      "light",
+      "sound",
+      "mass"
+    ],
+    "answer": "sound",
+    "explanation": "Sound means a form of energy produced by vibrating objects.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-016",
+    "question": "Which term best matches this description: a form of electromagnetic radiation visible to the eye?",
+    "options": [
+      "force",
+      "mass",
+      "light",
+      "sound"
+    ],
+    "answer": "light",
+    "explanation": "Light means a form of electromagnetic radiation visible to the eye.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-017",
+    "question": "Choose the correct term for: a disturbance that transfers energy.",
+    "options": [
+      "molecule",
+      "particle",
+      "atom",
+      "wave"
+    ],
+    "answer": "wave",
+    "explanation": "Wave means a disturbance that transfers energy.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-018",
+    "question": "What is the best answer for: bouncing back of light from a surface?",
+    "options": [
+      "diffraction",
+      "dispersion",
+      "reflection",
+      "refraction"
+    ],
+    "answer": "reflection",
+    "explanation": "Reflection means bouncing back of light from a surface.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-019",
+    "question": "Which term best matches this description: bending of light when it enters a new medium?",
+    "options": [
+      "refraction",
+      "rotation",
+      "vibration",
+      "reflection"
+    ],
+    "answer": "refraction",
+    "explanation": "Refraction means bending of light when it enters a new medium.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-020",
+    "question": "Choose the correct term for: a transparent optical device that refracts light.",
+    "options": [
+      "speaker",
+      "mirror",
+      "prism",
+      "lens"
+    ],
+    "answer": "lens",
+    "explanation": "Lens means a transparent optical device that refracts light.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-021",
+    "question": "What is the best answer for: distance travelled per unit time?",
+    "options": [
+      "speed",
+      "power",
+      "momentum",
+      "force"
+    ],
+    "answer": "speed",
+    "explanation": "Speed means distance travelled per unit time.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-022",
+    "question": "Which term best matches this description: speed with direction?",
+    "options": [
+      "acceleration",
+      "charge",
+      "pressure",
+      "velocity"
+    ],
+    "answer": "velocity",
+    "explanation": "Velocity means speed with direction.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-023",
+    "question": "Choose the correct term for: rate of change of velocity.",
+    "options": [
+      "mass",
+      "volume",
+      "acceleration",
+      "density"
+    ],
+    "answer": "acceleration",
+    "explanation": "Acceleration means rate of change of velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-024",
+    "question": "What is the best answer for: a push or pull that can change motion?",
+    "options": [
+      "energy",
+      "work",
+      "temperature",
+      "force"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull that can change motion.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-025",
+    "question": "Which term best matches this description: force multiplied by displacement in the direction of force?",
+    "options": [
+      "charge",
+      "pressure",
+      "work",
+      "power"
+    ],
+    "answer": "work",
+    "explanation": "Work means force multiplied by displacement in the direction of force.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-026",
+    "question": "Choose the correct term for: rate of doing work.",
+    "options": [
+      "impulse",
+      "force",
+      "momentum",
+      "power"
+    ],
+    "answer": "power",
+    "explanation": "Power means rate of doing work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-027",
+    "question": "What is the best answer for: mass multiplied by velocity?",
+    "options": [
+      "pressure",
+      "frequency",
+      "work",
+      "momentum"
+    ],
+    "answer": "momentum",
+    "explanation": "Momentum means mass multiplied by velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-028",
+    "question": "Which term best matches this description: the force of attraction between masses?",
+    "options": [
+      "pressure",
+      "gravity",
+      "charge",
+      "friction"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force of attraction between masses.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-029",
+    "question": "Choose the correct term for: a force that opposes motion between surfaces.",
+    "options": [
+      "power",
+      "friction",
+      "gravity",
+      "speed"
+    ],
+    "answer": "friction",
+    "explanation": "Friction means a force that opposes motion between surfaces.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-030",
+    "question": "What is the best answer for: force per unit area?",
+    "options": [
+      "mass",
+      "velocity",
+      "pressure",
+      "volume"
+    ],
+    "answer": "pressure",
+    "explanation": "Pressure means force per unit area.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-031",
+    "question": "Which term best matches this description: mass per unit volume?",
+    "options": [
+      "density",
+      "speed",
+      "temperature",
+      "force"
+    ],
+    "answer": "density",
+    "explanation": "Density means mass per unit volume.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-032",
+    "question": "Choose the correct term for: the capacity to do work.",
+    "options": [
+      "energy",
+      "power",
+      "length",
+      "temperature"
+    ],
+    "answer": "energy",
+    "explanation": "Energy means the capacity to do work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-033",
+    "question": "What is the best answer for: energy transferred because of temperature difference?",
+    "options": [
+      "force",
+      "mass",
+      "current",
+      "heat"
+    ],
+    "answer": "heat",
+    "explanation": "Heat means energy transferred because of temperature difference.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-034",
+    "question": "Which term best matches this description: a measure of hotness or coldness?",
+    "options": [
+      "charge",
+      "temperature",
+      "pressure",
+      "velocity"
+    ],
+    "answer": "temperature",
+    "explanation": "Temperature means a measure of hotness or coldness.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-035",
+    "question": "Choose the correct term for: a form of energy produced by vibrating objects.",
+    "options": [
+      "sound",
+      "light",
+      "charge",
+      "mass"
+    ],
+    "answer": "sound",
+    "explanation": "Sound means a form of energy produced by vibrating objects.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-036",
+    "question": "What is the best answer for: a form of electromagnetic radiation visible to the eye?",
+    "options": [
+      "force",
+      "mass",
+      "sound",
+      "light"
+    ],
+    "answer": "light",
+    "explanation": "Light means a form of electromagnetic radiation visible to the eye.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-037",
+    "question": "Which term best matches this description: a disturbance that transfers energy?",
+    "options": [
+      "atom",
+      "particle",
+      "molecule",
+      "wave"
+    ],
+    "answer": "wave",
+    "explanation": "Wave means a disturbance that transfers energy.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-038",
+    "question": "Choose the correct term for: bouncing back of light from a surface.",
+    "options": [
+      "diffraction",
+      "refraction",
+      "dispersion",
+      "reflection"
+    ],
+    "answer": "reflection",
+    "explanation": "Reflection means bouncing back of light from a surface.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-039",
+    "question": "What is the best answer for: bending of light when it enters a new medium?",
+    "options": [
+      "reflection",
+      "rotation",
+      "vibration",
+      "refraction"
+    ],
+    "answer": "refraction",
+    "explanation": "Refraction means bending of light when it enters a new medium.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-040",
+    "question": "Which term best matches this description: a transparent optical device that refracts light?",
+    "options": [
+      "mirror",
+      "prism",
+      "speaker",
+      "lens"
+    ],
+    "answer": "lens",
+    "explanation": "Lens means a transparent optical device that refracts light.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-041",
+    "question": "Choose the correct term for: distance travelled per unit time.",
+    "options": [
+      "force",
+      "momentum",
+      "power",
+      "speed"
+    ],
+    "answer": "speed",
+    "explanation": "Speed means distance travelled per unit time.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-042",
+    "question": "What is the best answer for: speed with direction?",
+    "options": [
+      "pressure",
+      "acceleration",
+      "charge",
+      "velocity"
+    ],
+    "answer": "velocity",
+    "explanation": "Velocity means speed with direction.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-043",
+    "question": "Which term best matches this description: rate of change of velocity?",
+    "options": [
+      "density",
+      "mass",
+      "acceleration",
+      "volume"
+    ],
+    "answer": "acceleration",
+    "explanation": "Acceleration means rate of change of velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-044",
+    "question": "Choose the correct term for: a push or pull that can change motion.",
+    "options": [
+      "force",
+      "energy",
+      "temperature",
+      "work"
+    ],
+    "answer": "force",
+    "explanation": "Force means a push or pull that can change motion.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-045",
+    "question": "What is the best answer for: force multiplied by displacement in the direction of force?",
+    "options": [
+      "power",
+      "pressure",
+      "work",
+      "charge"
+    ],
+    "answer": "work",
+    "explanation": "Work means force multiplied by displacement in the direction of force.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-046",
+    "question": "Which term best matches this description: rate of doing work?",
+    "options": [
+      "power",
+      "impulse",
+      "force",
+      "momentum"
+    ],
+    "answer": "power",
+    "explanation": "Power means rate of doing work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-047",
+    "question": "Choose the correct term for: mass multiplied by velocity.",
+    "options": [
+      "pressure",
+      "frequency",
+      "momentum",
+      "work"
+    ],
+    "answer": "momentum",
+    "explanation": "Momentum means mass multiplied by velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-048",
+    "question": "What is the best answer for: the force of attraction between masses?",
+    "options": [
+      "friction",
+      "gravity",
+      "pressure",
+      "charge"
+    ],
+    "answer": "gravity",
+    "explanation": "Gravity means the force of attraction between masses.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-049",
+    "question": "Which term best matches this description: a force that opposes motion between surfaces?",
+    "options": [
+      "friction",
+      "power",
+      "speed",
+      "gravity"
+    ],
+    "answer": "friction",
+    "explanation": "Friction means a force that opposes motion between surfaces.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-mcq-050",
+    "question": "Choose the correct term for: force per unit area.",
+    "options": [
+      "velocity",
+      "mass",
+      "volume",
+      "pressure"
+    ],
+    "answer": "pressure",
+    "explanation": "Pressure means force per unit area.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

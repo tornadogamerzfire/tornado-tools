@@ -1,0 +1,702 @@
+[
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-001",
+    "question": "Constitution means the supreme law of India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Constitution means the supreme law of India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-002",
+    "question": "Rajya sabha means the lower house of Parliament.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lok sabha means the lower house of Parliament.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-003",
+    "question": "Rajya sabha means the upper house of Parliament.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rajya sabha means the upper house of Parliament.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-004",
+    "question": "Prime minister means the constitutional head of India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "President means the constitutional head of India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-005",
+    "question": "Prime minister means the head of government in India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Prime minister means the head of government in India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-006",
+    "question": "Fundamental duties means basic rights guaranteed by the Constitution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Fundamental rights means basic rights guaranteed by the Constitution.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-007",
+    "question": "Directive principles means guidelines for the state in making laws.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Directive principles means guidelines for the state in making laws.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-008",
+    "question": "Country means one of the large landmasses of Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Continent means one of the large landmasses of Earth.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-009",
+    "question": "Equator means an imaginary line around the middle of Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Equator means an imaginary line around the middle of Earth.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-010",
+    "question": "Longitude means distance north or south of the equator.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Latitude means distance north or south of the equator.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-011",
+    "question": "Longitude means distance east or west of the prime meridian.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Longitude means distance east or west of the prime meridian.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-012",
+    "question": "Desert means the mountain range in northern India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Himalayas means the mountain range in northern India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-013",
+    "question": "Ganges means a major river in India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ganges means a major river in India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-014",
+    "question": "Cyclone means seasonal wind that brings rain to India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Monsoon means seasonal wind that brings rain to India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-015",
+    "question": "Democracy means a system of government by the people.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Democracy means a system of government by the people.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-016",
+    "question": "Geology means the system of production and consumption in a country.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Economy means the system of production and consumption in a country.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-017",
+    "question": "Inflation means a general rise in prices over time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Inflation means a general rise in prices over time.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-018",
+    "question": "Gross demand price means gross domestic product.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gdp means gross domestic product.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-019",
+    "question": "Defence means the armed protection of a country.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Defence means the armed protection of a country.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-020",
+    "question": "Agriculture means application of scientific knowledge to practical purposes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Science and technology means application of scientific knowledge to practical purposes.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-021",
+    "question": "Constitution means the supreme law of India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Constitution means the supreme law of India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-022",
+    "question": "Rajya sabha means the lower house of Parliament.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lok sabha means the lower house of Parliament.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-023",
+    "question": "Rajya sabha means the upper house of Parliament.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rajya sabha means the upper house of Parliament.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-024",
+    "question": "Prime minister means the constitutional head of India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "President means the constitutional head of India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-025",
+    "question": "Prime minister means the head of government in India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Prime minister means the head of government in India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-026",
+    "question": "Fundamental duties means basic rights guaranteed by the Constitution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Fundamental rights means basic rights guaranteed by the Constitution.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-027",
+    "question": "Directive principles means guidelines for the state in making laws.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Directive principles means guidelines for the state in making laws.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-028",
+    "question": "Country means one of the large landmasses of Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Continent means one of the large landmasses of Earth.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-029",
+    "question": "Equator means an imaginary line around the middle of Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Equator means an imaginary line around the middle of Earth.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-030",
+    "question": "Longitude means distance north or south of the equator.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Latitude means distance north or south of the equator.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-031",
+    "question": "Longitude means distance east or west of the prime meridian.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Longitude means distance east or west of the prime meridian.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-032",
+    "question": "Desert means the mountain range in northern India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Himalayas means the mountain range in northern India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-033",
+    "question": "Ganges means a major river in India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ganges means a major river in India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-034",
+    "question": "Cyclone means seasonal wind that brings rain to India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Monsoon means seasonal wind that brings rain to India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-035",
+    "question": "Democracy means a system of government by the people.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Democracy means a system of government by the people.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-036",
+    "question": "Geology means the system of production and consumption in a country.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Economy means the system of production and consumption in a country.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-037",
+    "question": "Inflation means a general rise in prices over time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Inflation means a general rise in prices over time.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-038",
+    "question": "Gross demand price means gross domestic product.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gdp means gross domestic product.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-039",
+    "question": "Defence means the armed protection of a country.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Defence means the armed protection of a country.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-040",
+    "question": "Agriculture means application of scientific knowledge to practical purposes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Science and technology means application of scientific knowledge to practical purposes.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-041",
+    "question": "Constitution means the supreme law of India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Constitution means the supreme law of India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-042",
+    "question": "Rajya sabha means the lower house of Parliament.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lok sabha means the lower house of Parliament.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-043",
+    "question": "Rajya sabha means the upper house of Parliament.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rajya sabha means the upper house of Parliament.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-044",
+    "question": "Prime minister means the constitutional head of India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "President means the constitutional head of India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-045",
+    "question": "Prime minister means the head of government in India.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Prime minister means the head of government in India.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-046",
+    "question": "Fundamental duties means basic rights guaranteed by the Constitution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Fundamental rights means basic rights guaranteed by the Constitution.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-047",
+    "question": "Directive principles means guidelines for the state in making laws.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Directive principles means guidelines for the state in making laws.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-048",
+    "question": "Country means one of the large landmasses of Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Continent means one of the large landmasses of Earth.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-049",
+    "question": "Equator means an imaginary line around the middle of Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Equator means an imaginary line around the middle of Earth.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "competitive-upsc-general-studies-medium-true_false-050",
+    "question": "Longitude means distance north or south of the equator.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Latitude means distance north or south of the equator.",
+    "level": "competitive-upsc",
+    "subject": "general-studies",
+    "difficulty": "medium",
+    "type": "true_false"
+  }
+]

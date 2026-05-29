@@ -1,0 +1,802 @@
+[
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-001",
+    "question": "Which term best matches this description: the money invested in a business?",
+    "options": [
+      "salary",
+      "expense",
+      "loss",
+      "capital"
+    ],
+    "answer": "capital",
+    "explanation": "Capital means the money invested in a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-002",
+    "question": "Choose the correct term for: income earned from business activities.",
+    "options": [
+      "asset",
+      "revenue",
+      "liability",
+      "inventory"
+    ],
+    "answer": "revenue",
+    "explanation": "Revenue means income earned from business activities.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-003",
+    "question": "What is the best answer for: a statement showing profit or loss?",
+    "options": [
+      "balance sheet",
+      "journal",
+      "ledger",
+      "profit and loss account"
+    ],
+    "answer": "profit and loss account",
+    "explanation": "Profit and loss account means a statement showing profit or loss.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-004",
+    "question": "Which term best matches this description: a statement showing assets, liabilities, and capital?",
+    "options": [
+      "voucher",
+      "cash book",
+      "invoice",
+      "balance sheet"
+    ],
+    "answer": "balance sheet",
+    "explanation": "Balance sheet means a statement showing assets, liabilities, and capital.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-005",
+    "question": "Choose the correct term for: something of value owned by a business.",
+    "options": [
+      "debt",
+      "liability",
+      "asset",
+      "expense"
+    ],
+    "answer": "asset",
+    "explanation": "Asset means something of value owned by a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-006",
+    "question": "What is the best answer for: a financial obligation or debt?",
+    "options": [
+      "asset",
+      "stock",
+      "liability",
+      "capital"
+    ],
+    "answer": "liability",
+    "explanation": "Liability means a financial obligation or debt.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-007",
+    "question": "Which term best matches this description: a book of final accounts?",
+    "options": [
+      "ledger",
+      "receipt",
+      "cash book",
+      "invoice"
+    ],
+    "answer": "ledger",
+    "explanation": "Ledger means a book of final accounts.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-008",
+    "question": "Choose the correct term for: the book of original entry.",
+    "options": [
+      "journal",
+      "balance sheet",
+      "invoice",
+      "trial balance"
+    ],
+    "answer": "journal",
+    "explanation": "Journal means the book of original entry.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-009",
+    "question": "What is the best answer for: reduction in price?",
+    "options": [
+      "rent",
+      "discount",
+      "premium",
+      "salary"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means reduction in price.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-010",
+    "question": "Which term best matches this description: a bill issued for goods or services?",
+    "options": [
+      "voucher",
+      "invoice",
+      "receipt",
+      "ledger"
+    ],
+    "answer": "invoice",
+    "explanation": "Invoice means a bill issued for goods or services.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-011",
+    "question": "Choose the correct term for: proof of payment.",
+    "options": [
+      "bank draft",
+      "balance sheet",
+      "invoice",
+      "receipt"
+    ],
+    "answer": "receipt",
+    "explanation": "Receipt means proof of payment.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-012",
+    "question": "What is the best answer for: goods and services tax?",
+    "options": [
+      "custom duty",
+      "excise duty",
+      "GST",
+      "income tax"
+    ],
+    "answer": "GST",
+    "explanation": "Gst means goods and services tax.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-013",
+    "question": "Which term best matches this description: reduction in the value of an asset over time?",
+    "options": [
+      "capital",
+      "profit",
+      "appreciation",
+      "depreciation"
+    ],
+    "answer": "depreciation",
+    "explanation": "Depreciation means reduction in the value of an asset over time.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-014",
+    "question": "Choose the correct term for: goods available for sale.",
+    "options": [
+      "wages",
+      "tax",
+      "cash",
+      "stock"
+    ],
+    "answer": "stock",
+    "explanation": "Stock means goods available for sale.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-015",
+    "question": "What is the best answer for: an entry showing value received?",
+    "options": [
+      "debit",
+      "loss",
+      "credit",
+      "rent"
+    ],
+    "answer": "credit",
+    "explanation": "Credit means an entry showing value received.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-016",
+    "question": "Which term best matches this description: an entry showing value given?",
+    "options": [
+      "profit",
+      "salary",
+      "debit",
+      "credit"
+    ],
+    "answer": "debit",
+    "explanation": "Debit means an entry showing value given.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-017",
+    "question": "Choose the correct term for: a book that records cash transactions.",
+    "options": [
+      "cash book",
+      "invoice",
+      "journal",
+      "ledger"
+    ],
+    "answer": "cash book",
+    "explanation": "Cash book means a book that records cash transactions.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-018",
+    "question": "What is the best answer for: a statement that checks arithmetical accuracy of books?",
+    "options": [
+      "balance sheet",
+      "voucher",
+      "trial balance",
+      "receipt"
+    ],
+    "answer": "trial balance",
+    "explanation": "Trial balance means a statement that checks arithmetical accuracy of books.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-019",
+    "question": "Which term best matches this description: the cost of borrowing money or return on savings?",
+    "options": [
+      "discount",
+      "rent",
+      "interest",
+      "tax"
+    ],
+    "answer": "interest",
+    "explanation": "Interest means the cost of borrowing money or return on savings.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-020",
+    "question": "Choose the correct term for: comparing bank records with business records.",
+    "options": [
+      "pricing",
+      "bank reconciliation",
+      "budgeting",
+      "auditing"
+    ],
+    "answer": "bank reconciliation",
+    "explanation": "Bank reconciliation means comparing bank records with business records.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-021",
+    "question": "What is the best answer for: the money invested in a business?",
+    "options": [
+      "salary",
+      "capital",
+      "loss",
+      "expense"
+    ],
+    "answer": "capital",
+    "explanation": "Capital means the money invested in a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-022",
+    "question": "Which term best matches this description: income earned from business activities?",
+    "options": [
+      "asset",
+      "liability",
+      "inventory",
+      "revenue"
+    ],
+    "answer": "revenue",
+    "explanation": "Revenue means income earned from business activities.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-023",
+    "question": "Choose the correct term for: a statement showing profit or loss.",
+    "options": [
+      "ledger",
+      "profit and loss account",
+      "journal",
+      "balance sheet"
+    ],
+    "answer": "profit and loss account",
+    "explanation": "Profit and loss account means a statement showing profit or loss.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-024",
+    "question": "What is the best answer for: a statement showing assets, liabilities, and capital?",
+    "options": [
+      "voucher",
+      "cash book",
+      "balance sheet",
+      "invoice"
+    ],
+    "answer": "balance sheet",
+    "explanation": "Balance sheet means a statement showing assets, liabilities, and capital.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-025",
+    "question": "Which term best matches this description: something of value owned by a business?",
+    "options": [
+      "expense",
+      "liability",
+      "debt",
+      "asset"
+    ],
+    "answer": "asset",
+    "explanation": "Asset means something of value owned by a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-026",
+    "question": "Choose the correct term for: a financial obligation or debt.",
+    "options": [
+      "stock",
+      "asset",
+      "liability",
+      "capital"
+    ],
+    "answer": "liability",
+    "explanation": "Liability means a financial obligation or debt.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-027",
+    "question": "What is the best answer for: a book of final accounts?",
+    "options": [
+      "cash book",
+      "ledger",
+      "invoice",
+      "receipt"
+    ],
+    "answer": "ledger",
+    "explanation": "Ledger means a book of final accounts.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-028",
+    "question": "Which term best matches this description: the book of original entry?",
+    "options": [
+      "invoice",
+      "journal",
+      "balance sheet",
+      "trial balance"
+    ],
+    "answer": "journal",
+    "explanation": "Journal means the book of original entry.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-029",
+    "question": "Choose the correct term for: reduction in price.",
+    "options": [
+      "salary",
+      "premium",
+      "rent",
+      "discount"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means reduction in price.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-030",
+    "question": "What is the best answer for: a bill issued for goods or services?",
+    "options": [
+      "invoice",
+      "voucher",
+      "ledger",
+      "receipt"
+    ],
+    "answer": "invoice",
+    "explanation": "Invoice means a bill issued for goods or services.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-031",
+    "question": "Which term best matches this description: proof of payment?",
+    "options": [
+      "bank draft",
+      "invoice",
+      "receipt",
+      "balance sheet"
+    ],
+    "answer": "receipt",
+    "explanation": "Receipt means proof of payment.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-032",
+    "question": "Choose the correct term for: goods and services tax.",
+    "options": [
+      "income tax",
+      "excise duty",
+      "custom duty",
+      "GST"
+    ],
+    "answer": "GST",
+    "explanation": "Gst means goods and services tax.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-033",
+    "question": "What is the best answer for: reduction in the value of an asset over time?",
+    "options": [
+      "appreciation",
+      "capital",
+      "depreciation",
+      "profit"
+    ],
+    "answer": "depreciation",
+    "explanation": "Depreciation means reduction in the value of an asset over time.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-034",
+    "question": "Which term best matches this description: goods available for sale?",
+    "options": [
+      "stock",
+      "cash",
+      "wages",
+      "tax"
+    ],
+    "answer": "stock",
+    "explanation": "Stock means goods available for sale.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-035",
+    "question": "Choose the correct term for: an entry showing value received.",
+    "options": [
+      "debit",
+      "loss",
+      "credit",
+      "rent"
+    ],
+    "answer": "credit",
+    "explanation": "Credit means an entry showing value received.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-036",
+    "question": "What is the best answer for: an entry showing value given?",
+    "options": [
+      "profit",
+      "credit",
+      "salary",
+      "debit"
+    ],
+    "answer": "debit",
+    "explanation": "Debit means an entry showing value given.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-037",
+    "question": "Which term best matches this description: a book that records cash transactions?",
+    "options": [
+      "ledger",
+      "invoice",
+      "cash book",
+      "journal"
+    ],
+    "answer": "cash book",
+    "explanation": "Cash book means a book that records cash transactions.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-038",
+    "question": "Choose the correct term for: a statement that checks arithmetical accuracy of books.",
+    "options": [
+      "voucher",
+      "receipt",
+      "balance sheet",
+      "trial balance"
+    ],
+    "answer": "trial balance",
+    "explanation": "Trial balance means a statement that checks arithmetical accuracy of books.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-039",
+    "question": "What is the best answer for: the cost of borrowing money or return on savings?",
+    "options": [
+      "interest",
+      "tax",
+      "discount",
+      "rent"
+    ],
+    "answer": "interest",
+    "explanation": "Interest means the cost of borrowing money or return on savings.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-040",
+    "question": "Which term best matches this description: comparing bank records with business records?",
+    "options": [
+      "budgeting",
+      "pricing",
+      "auditing",
+      "bank reconciliation"
+    ],
+    "answer": "bank reconciliation",
+    "explanation": "Bank reconciliation means comparing bank records with business records.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-041",
+    "question": "Choose the correct term for: the money invested in a business.",
+    "options": [
+      "expense",
+      "loss",
+      "salary",
+      "capital"
+    ],
+    "answer": "capital",
+    "explanation": "Capital means the money invested in a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-042",
+    "question": "What is the best answer for: income earned from business activities?",
+    "options": [
+      "inventory",
+      "revenue",
+      "liability",
+      "asset"
+    ],
+    "answer": "revenue",
+    "explanation": "Revenue means income earned from business activities.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-043",
+    "question": "Which term best matches this description: a statement showing profit or loss?",
+    "options": [
+      "balance sheet",
+      "ledger",
+      "journal",
+      "profit and loss account"
+    ],
+    "answer": "profit and loss account",
+    "explanation": "Profit and loss account means a statement showing profit or loss.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-044",
+    "question": "Choose the correct term for: a statement showing assets, liabilities, and capital.",
+    "options": [
+      "balance sheet",
+      "voucher",
+      "cash book",
+      "invoice"
+    ],
+    "answer": "balance sheet",
+    "explanation": "Balance sheet means a statement showing assets, liabilities, and capital.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-045",
+    "question": "What is the best answer for: something of value owned by a business?",
+    "options": [
+      "debt",
+      "asset",
+      "liability",
+      "expense"
+    ],
+    "answer": "asset",
+    "explanation": "Asset means something of value owned by a business.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-046",
+    "question": "Which term best matches this description: a financial obligation or debt?",
+    "options": [
+      "liability",
+      "capital",
+      "asset",
+      "stock"
+    ],
+    "answer": "liability",
+    "explanation": "Liability means a financial obligation or debt.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-047",
+    "question": "Choose the correct term for: a book of final accounts.",
+    "options": [
+      "ledger",
+      "receipt",
+      "invoice",
+      "cash book"
+    ],
+    "answer": "ledger",
+    "explanation": "Ledger means a book of final accounts.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-048",
+    "question": "What is the best answer for: the book of original entry?",
+    "options": [
+      "invoice",
+      "trial balance",
+      "balance sheet",
+      "journal"
+    ],
+    "answer": "journal",
+    "explanation": "Journal means the book of original entry.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-049",
+    "question": "Which term best matches this description: reduction in price?",
+    "options": [
+      "discount",
+      "salary",
+      "premium",
+      "rent"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means reduction in price.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-bcom-semester-2-commerce-basics-hard-mcq-050",
+    "question": "Choose the correct term for: a bill issued for goods or services.",
+    "options": [
+      "voucher",
+      "invoice",
+      "ledger",
+      "receipt"
+    ],
+    "answer": "invoice",
+    "explanation": "Invoice means a bill issued for goods or services.",
+    "level": "graduation-BCom-semester-2",
+    "subject": "commerce-basics",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

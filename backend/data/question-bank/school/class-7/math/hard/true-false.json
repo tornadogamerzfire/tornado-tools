@@ -1,0 +1,702 @@
+[
+  {
+    "id": "class-7-hard-true_false-001",
+    "question": "The answer to What is 40 ÷ 10 is 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-002",
+    "question": "The answer to What is 43 × 7 is 304.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-003",
+    "question": "The answer to What is 63 - 11 is 52.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-004",
+    "question": "The answer to What is 40 + 10 is 53.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-005",
+    "question": "The answer to What is 70 ÷ 10 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-006",
+    "question": "The answer to What is 87 × 2 is 177.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-007",
+    "question": "The answer to What is 40 - 37 is 3.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-008",
+    "question": "The answer to What is 23 + 8 is 34.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-009",
+    "question": "The answer to What is 50 ÷ 10 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-010",
+    "question": "The answer to What is 69 × 7 is 486.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-011",
+    "question": "The answer to What is 67 - 55 is 12.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-012",
+    "question": "The answer to What is 30 + 5 is 38.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-013",
+    "question": "The answer to What is 70 ÷ 10 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-014",
+    "question": "The answer to What is 48 × 9 is 435.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-015",
+    "question": "The answer to What is 75 - 48 is 27.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-016",
+    "question": "The answer to What is 84 + 5 is 92.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-017",
+    "question": "The answer to What is 90 ÷ 10 is 9.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-018",
+    "question": "The answer to What is 98 × 8 is 787.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-019",
+    "question": "The answer to What is 58 - 38 is 20.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-020",
+    "question": "The answer to What is 53 + 10 is 66.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-021",
+    "question": "The answer to What is 40 ÷ 10 is 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-022",
+    "question": "The answer to What is 57 × 7 is 402.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-023",
+    "question": "The answer to What is 60 - 52 is 8.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-024",
+    "question": "The answer to What is 39 + 3 is 45.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-025",
+    "question": "The answer to What is 50 ÷ 10 is 5.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-026",
+    "question": "The answer to What is 28 × 7 is 199.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-027",
+    "question": "The answer to What is 72 - 71 is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-028",
+    "question": "The answer to What is 77 + 10 is 90.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-029",
+    "question": "The answer to What is 60 ÷ 10 is 6.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-030",
+    "question": "The answer to What is 52 × 6 is 315.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-031",
+    "question": "The answer to What is 37 - 36 is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-032",
+    "question": "The answer to What is 47 + 7 is 57.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-033",
+    "question": "The answer to What is 10 ÷ 10 is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-034",
+    "question": "The answer to What is 53 × 3 is 162.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-035",
+    "question": "The answer to What is 86 - 68 is 18.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-036",
+    "question": "The answer to What is 98 + 7 is 108.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-037",
+    "question": "The answer to What is 70 ÷ 10 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-038",
+    "question": "The answer to What is 33 × 9 is 300.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-039",
+    "question": "The answer to What is 79 - 30 is 49.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-040",
+    "question": "The answer to What is 73 + 3 is 79.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-041",
+    "question": "The answer to What is 10 ÷ 10 is 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-042",
+    "question": "The answer to What is 28 × 2 is 59.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-043",
+    "question": "The answer to What is 56 - 14 is 42.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-044",
+    "question": "The answer to What is 73 + 5 is 81.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-045",
+    "question": "The answer to What is 90 ÷ 10 is 9.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-046",
+    "question": "The answer to What is 39 × 5 is 198.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-047",
+    "question": "The answer to What is 24 - 17 is 7.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Subtract.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-048",
+    "question": "The answer to What is 42 + 3 is 48.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Add.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-049",
+    "question": "The answer to What is 20 ÷ 10 is 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Divide by 10.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "class-7-hard-true_false-050",
+    "question": "The answer to What is 92 × 7 is 647.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Multiply.",
+    "level": "class-7",
+    "subject": "class-7",
+    "difficulty": "hard",
+    "type": "true_false"
+  }
+]

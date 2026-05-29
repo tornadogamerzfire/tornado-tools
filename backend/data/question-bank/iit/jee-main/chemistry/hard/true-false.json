@@ -1,0 +1,702 @@
+[
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-001",
+    "question": "Atom means the smallest unit of an element that retains its properties.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Atom means the smallest unit of an element that retains its properties.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-002",
+    "question": "Ion means two or more atoms chemically bonded.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Molecule means two or more atoms chemically bonded.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-003",
+    "question": "Element means a pure substance made of one kind of atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Element means a pure substance made of one kind of atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-004",
+    "question": "Element means a substance formed when two or more elements chemically combine.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Compound means a substance formed when two or more elements chemically combine.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-005",
+    "question": "Mixture means a physical combination of substances.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mixture means a physical combination of substances.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-006",
+    "question": "Base means a substance that can donate hydrogen ions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Acid means a substance that can donate hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-007",
+    "question": "Base means a substance that can accept hydrogen ions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Base means a substance that can accept hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-008",
+    "question": "Acid means a compound formed when an acid reacts with a base.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Salt means a compound formed when an acid reacts with a base.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-009",
+    "question": "Ph means a measure of acidity or alkalinity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ph means a measure of acidity or alkalinity.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-010",
+    "question": "Reduction means a process involving loss of electrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Oxidation means a process involving loss of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-011",
+    "question": "Reduction means a process involving gain of electrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Reduction means a process involving gain of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-012",
+    "question": "Solute means a substance that speeds up a chemical reaction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Catalyst means a substance that speeds up a chemical reaction.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-013",
+    "question": "Solute means the substance dissolved in a solution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Solute means the substance dissolved in a solution.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-014",
+    "question": "Solute means the substance that dissolves the solute.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Solvent means the substance that dissolves the solute.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-015",
+    "question": "Valency means the combining capacity of an atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Valency means the combining capacity of an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-016",
+    "question": "Chemical bond means the arrangement of elements in order of atomic number.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Periodic table means the arrangement of elements in order of atomic number.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-017",
+    "question": "Atomic number means the number of protons in an atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Atomic number means the number of protons in an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-018",
+    "question": "Atomic number means the total number of protons and neutrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mass number means the total number of protons and neutrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-019",
+    "question": "Isotope means atoms of the same element with different mass numbers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Isotope means atoms of the same element with different mass numbers.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-020",
+    "question": "Molecule means an atom or group of atoms with a charge.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ion means an atom or group of atoms with a charge.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-021",
+    "question": "Atom means the smallest unit of an element that retains its properties.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Atom means the smallest unit of an element that retains its properties.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-022",
+    "question": "Ion means two or more atoms chemically bonded.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Molecule means two or more atoms chemically bonded.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-023",
+    "question": "Element means a pure substance made of one kind of atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Element means a pure substance made of one kind of atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-024",
+    "question": "Element means a substance formed when two or more elements chemically combine.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Compound means a substance formed when two or more elements chemically combine.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-025",
+    "question": "Mixture means a physical combination of substances.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mixture means a physical combination of substances.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-026",
+    "question": "Base means a substance that can donate hydrogen ions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Acid means a substance that can donate hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-027",
+    "question": "Base means a substance that can accept hydrogen ions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Base means a substance that can accept hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-028",
+    "question": "Acid means a compound formed when an acid reacts with a base.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Salt means a compound formed when an acid reacts with a base.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-029",
+    "question": "Ph means a measure of acidity or alkalinity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ph means a measure of acidity or alkalinity.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-030",
+    "question": "Reduction means a process involving loss of electrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Oxidation means a process involving loss of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-031",
+    "question": "Reduction means a process involving gain of electrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Reduction means a process involving gain of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-032",
+    "question": "Solute means a substance that speeds up a chemical reaction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Catalyst means a substance that speeds up a chemical reaction.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-033",
+    "question": "Solute means the substance dissolved in a solution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Solute means the substance dissolved in a solution.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-034",
+    "question": "Solute means the substance that dissolves the solute.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Solvent means the substance that dissolves the solute.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-035",
+    "question": "Valency means the combining capacity of an atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Valency means the combining capacity of an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-036",
+    "question": "Chemical bond means the arrangement of elements in order of atomic number.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Periodic table means the arrangement of elements in order of atomic number.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-037",
+    "question": "Atomic number means the number of protons in an atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Atomic number means the number of protons in an atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-038",
+    "question": "Atomic number means the total number of protons and neutrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mass number means the total number of protons and neutrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-039",
+    "question": "Isotope means atoms of the same element with different mass numbers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Isotope means atoms of the same element with different mass numbers.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-040",
+    "question": "Molecule means an atom or group of atoms with a charge.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ion means an atom or group of atoms with a charge.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-041",
+    "question": "Atom means the smallest unit of an element that retains its properties.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Atom means the smallest unit of an element that retains its properties.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-042",
+    "question": "Ion means two or more atoms chemically bonded.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Molecule means two or more atoms chemically bonded.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-043",
+    "question": "Element means a pure substance made of one kind of atom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Element means a pure substance made of one kind of atom.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-044",
+    "question": "Element means a substance formed when two or more elements chemically combine.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Compound means a substance formed when two or more elements chemically combine.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-045",
+    "question": "Mixture means a physical combination of substances.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mixture means a physical combination of substances.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-046",
+    "question": "Base means a substance that can donate hydrogen ions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Acid means a substance that can donate hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-047",
+    "question": "Base means a substance that can accept hydrogen ions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Base means a substance that can accept hydrogen ions.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-048",
+    "question": "Acid means a compound formed when an acid reacts with a base.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Salt means a compound formed when an acid reacts with a base.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-049",
+    "question": "Ph means a measure of acidity or alkalinity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ph means a measure of acidity or alkalinity.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-main-chemistry-hard-true_false-050",
+    "question": "Reduction means a process involving loss of electrons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Oxidation means a process involving loss of electrons.",
+    "level": "iit-jee-main",
+    "subject": "chemistry",
+    "difficulty": "hard",
+    "type": "true_false"
+  }
+]

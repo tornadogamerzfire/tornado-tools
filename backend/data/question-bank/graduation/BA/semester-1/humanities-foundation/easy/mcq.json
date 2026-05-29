@@ -1,0 +1,802 @@
+[
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-001",
+    "question": "Which term best matches this description: the study of past events?",
+    "options": [
+      "geography",
+      "history",
+      "accounting",
+      "physics"
+    ],
+    "answer": "history",
+    "explanation": "History means the study of past events.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-002",
+    "question": "Choose the correct term for: the customs, arts, and social behaviour of a group.",
+    "options": [
+      "equation",
+      "gravity",
+      "culture",
+      "tax"
+    ],
+    "answer": "culture",
+    "explanation": "Culture means the customs, arts, and social behaviour of a group.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-003",
+    "question": "What is the best answer for: written works considered as art?",
+    "options": [
+      "circuit",
+      "literature",
+      "vector",
+      "ledger"
+    ],
+    "answer": "literature",
+    "explanation": "Literature means written works considered as art.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-004",
+    "question": "Which term best matches this description: a system of communication used by people?",
+    "options": [
+      "language",
+      "orbit",
+      "atom",
+      "force"
+    ],
+    "answer": "language",
+    "explanation": "Language means a system of communication used by people.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-005",
+    "question": "Choose the correct term for: the study of mind and behaviour.",
+    "options": [
+      "optics",
+      "psychology",
+      "zoology",
+      "geology"
+    ],
+    "answer": "psychology",
+    "explanation": "Psychology means the study of mind and behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-006",
+    "question": "What is the best answer for: the study of fundamental questions about existence and knowledge?",
+    "options": [
+      "economics",
+      "chemistry",
+      "philosophy",
+      "botany"
+    ],
+    "answer": "philosophy",
+    "explanation": "Philosophy means the study of fundamental questions about existence and knowledge.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-007",
+    "question": "Which term best matches this description: the study of society and social behaviour?",
+    "options": [
+      "geography",
+      "mechanics",
+      "nursing",
+      "sociology"
+    ],
+    "answer": "sociology",
+    "explanation": "Sociology means the study of society and social behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-008",
+    "question": "Choose the correct term for: activities related to governance and power.",
+    "options": [
+      "painting",
+      "poetry",
+      "politics",
+      "accountancy"
+    ],
+    "answer": "politics",
+    "explanation": "Politics means activities related to governance and power.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-009",
+    "question": "What is the best answer for: moral principles that guide behaviour?",
+    "options": [
+      "algorithms",
+      "curriculum",
+      "inventory",
+      "ethics"
+    ],
+    "answer": "ethics",
+    "explanation": "Ethics means moral principles that guide behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-010",
+    "question": "Which term best matches this description: creative expression in visual or performing form?",
+    "options": [
+      "recipe",
+      "market",
+      "art",
+      "cable"
+    ],
+    "answer": "art",
+    "explanation": "Art means creative expression in visual or performing form.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-011",
+    "question": "Choose the correct term for: the exchange of information between people.",
+    "options": [
+      "alloy",
+      "friction",
+      "sediment",
+      "communication"
+    ],
+    "answer": "communication",
+    "explanation": "Communication means the exchange of information between people.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-012",
+    "question": "What is the best answer for: the ability to analyze and evaluate information?",
+    "options": [
+      "humidity",
+      "randomness",
+      "voltage",
+      "critical thinking"
+    ],
+    "answer": "critical thinking",
+    "explanation": "Critical thinking means the ability to analyze and evaluate information.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-013",
+    "question": "Which term best matches this description: a complex human society?",
+    "options": [
+      "compressor",
+      "molecule",
+      "ecosystem",
+      "civilization"
+    ],
+    "answer": "civilization",
+    "explanation": "Civilization means a complex human society.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-014",
+    "question": "Choose the correct term for: the qualities that make a person or group distinct.",
+    "options": [
+      "identity",
+      "energy",
+      "pressure",
+      "density"
+    ],
+    "answer": "identity",
+    "explanation": "Identity means the qualities that make a person or group distinct.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-015",
+    "question": "What is the best answer for: valued objects and traditions passed down from the past?",
+    "options": [
+      "heritage",
+      "reaction",
+      "circuit",
+      "velocity"
+    ],
+    "answer": "heritage",
+    "explanation": "Heritage means valued objects and traditions passed down from the past.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-016",
+    "question": "Which term best matches this description: the study of population?",
+    "options": [
+      "geometry",
+      "diplomacy",
+      "taxonomy",
+      "demography"
+    ],
+    "answer": "demography",
+    "explanation": "Demography means the study of population.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-017",
+    "question": "Choose the correct term for: the study of production, distribution, and consumption.",
+    "options": [
+      "anatomy",
+      "economics",
+      "astrology",
+      "geometry"
+    ],
+    "answer": "economics",
+    "explanation": "Economics means the study of production, distribution, and consumption.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-018",
+    "question": "What is the best answer for: speaking to an audience?",
+    "options": [
+      "sorting",
+      "driving",
+      "copying",
+      "public speaking"
+    ],
+    "answer": "public speaking",
+    "explanation": "Public speaking means speaking to an audience.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-019",
+    "question": "Which term best matches this description: a systematic investigation to discover knowledge?",
+    "options": [
+      "casting",
+      "research",
+      "selling",
+      "balancing"
+    ],
+    "answer": "research",
+    "explanation": "Research means a systematic investigation to discover knowledge.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-020",
+    "question": "Choose the correct term for: gathering and reporting news.",
+    "options": [
+      "mechanics",
+      "journalism",
+      "music",
+      "chemistry"
+    ],
+    "answer": "journalism",
+    "explanation": "Journalism means gathering and reporting news.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-021",
+    "question": "What is the best answer for: the study of past events?",
+    "options": [
+      "physics",
+      "accounting",
+      "geography",
+      "history"
+    ],
+    "answer": "history",
+    "explanation": "History means the study of past events.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-022",
+    "question": "Which term best matches this description: the customs, arts, and social behaviour of a group?",
+    "options": [
+      "culture",
+      "gravity",
+      "equation",
+      "tax"
+    ],
+    "answer": "culture",
+    "explanation": "Culture means the customs, arts, and social behaviour of a group.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-023",
+    "question": "Choose the correct term for: written works considered as art.",
+    "options": [
+      "literature",
+      "circuit",
+      "vector",
+      "ledger"
+    ],
+    "answer": "literature",
+    "explanation": "Literature means written works considered as art.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-024",
+    "question": "What is the best answer for: a system of communication used by people?",
+    "options": [
+      "atom",
+      "force",
+      "language",
+      "orbit"
+    ],
+    "answer": "language",
+    "explanation": "Language means a system of communication used by people.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-025",
+    "question": "Which term best matches this description: the study of mind and behaviour?",
+    "options": [
+      "zoology",
+      "optics",
+      "psychology",
+      "geology"
+    ],
+    "answer": "psychology",
+    "explanation": "Psychology means the study of mind and behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-026",
+    "question": "Choose the correct term for: the study of fundamental questions about existence and knowledge.",
+    "options": [
+      "chemistry",
+      "economics",
+      "botany",
+      "philosophy"
+    ],
+    "answer": "philosophy",
+    "explanation": "Philosophy means the study of fundamental questions about existence and knowledge.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-027",
+    "question": "What is the best answer for: the study of society and social behaviour?",
+    "options": [
+      "geography",
+      "sociology",
+      "nursing",
+      "mechanics"
+    ],
+    "answer": "sociology",
+    "explanation": "Sociology means the study of society and social behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-028",
+    "question": "Which term best matches this description: activities related to governance and power?",
+    "options": [
+      "painting",
+      "accountancy",
+      "poetry",
+      "politics"
+    ],
+    "answer": "politics",
+    "explanation": "Politics means activities related to governance and power.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-029",
+    "question": "Choose the correct term for: moral principles that guide behaviour.",
+    "options": [
+      "algorithms",
+      "inventory",
+      "curriculum",
+      "ethics"
+    ],
+    "answer": "ethics",
+    "explanation": "Ethics means moral principles that guide behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-030",
+    "question": "What is the best answer for: creative expression in visual or performing form?",
+    "options": [
+      "cable",
+      "market",
+      "recipe",
+      "art"
+    ],
+    "answer": "art",
+    "explanation": "Art means creative expression in visual or performing form.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-031",
+    "question": "Which term best matches this description: the exchange of information between people?",
+    "options": [
+      "sediment",
+      "friction",
+      "alloy",
+      "communication"
+    ],
+    "answer": "communication",
+    "explanation": "Communication means the exchange of information between people.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-032",
+    "question": "Choose the correct term for: the ability to analyze and evaluate information.",
+    "options": [
+      "critical thinking",
+      "randomness",
+      "humidity",
+      "voltage"
+    ],
+    "answer": "critical thinking",
+    "explanation": "Critical thinking means the ability to analyze and evaluate information.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-033",
+    "question": "What is the best answer for: a complex human society?",
+    "options": [
+      "civilization",
+      "ecosystem",
+      "compressor",
+      "molecule"
+    ],
+    "answer": "civilization",
+    "explanation": "Civilization means a complex human society.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-034",
+    "question": "Which term best matches this description: the qualities that make a person or group distinct?",
+    "options": [
+      "energy",
+      "pressure",
+      "density",
+      "identity"
+    ],
+    "answer": "identity",
+    "explanation": "Identity means the qualities that make a person or group distinct.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-035",
+    "question": "Choose the correct term for: valued objects and traditions passed down from the past.",
+    "options": [
+      "velocity",
+      "reaction",
+      "heritage",
+      "circuit"
+    ],
+    "answer": "heritage",
+    "explanation": "Heritage means valued objects and traditions passed down from the past.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-036",
+    "question": "What is the best answer for: the study of population?",
+    "options": [
+      "diplomacy",
+      "geometry",
+      "taxonomy",
+      "demography"
+    ],
+    "answer": "demography",
+    "explanation": "Demography means the study of population.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-037",
+    "question": "Which term best matches this description: the study of production, distribution, and consumption?",
+    "options": [
+      "astrology",
+      "anatomy",
+      "geometry",
+      "economics"
+    ],
+    "answer": "economics",
+    "explanation": "Economics means the study of production, distribution, and consumption.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-038",
+    "question": "Choose the correct term for: speaking to an audience.",
+    "options": [
+      "public speaking",
+      "sorting",
+      "driving",
+      "copying"
+    ],
+    "answer": "public speaking",
+    "explanation": "Public speaking means speaking to an audience.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-039",
+    "question": "What is the best answer for: a systematic investigation to discover knowledge?",
+    "options": [
+      "casting",
+      "selling",
+      "balancing",
+      "research"
+    ],
+    "answer": "research",
+    "explanation": "Research means a systematic investigation to discover knowledge.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-040",
+    "question": "Which term best matches this description: gathering and reporting news?",
+    "options": [
+      "music",
+      "mechanics",
+      "chemistry",
+      "journalism"
+    ],
+    "answer": "journalism",
+    "explanation": "Journalism means gathering and reporting news.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-041",
+    "question": "Choose the correct term for: the study of past events.",
+    "options": [
+      "accounting",
+      "physics",
+      "history",
+      "geography"
+    ],
+    "answer": "history",
+    "explanation": "History means the study of past events.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-042",
+    "question": "What is the best answer for: the customs, arts, and social behaviour of a group?",
+    "options": [
+      "equation",
+      "gravity",
+      "culture",
+      "tax"
+    ],
+    "answer": "culture",
+    "explanation": "Culture means the customs, arts, and social behaviour of a group.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-043",
+    "question": "Which term best matches this description: written works considered as art?",
+    "options": [
+      "vector",
+      "circuit",
+      "ledger",
+      "literature"
+    ],
+    "answer": "literature",
+    "explanation": "Literature means written works considered as art.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-044",
+    "question": "Choose the correct term for: a system of communication used by people.",
+    "options": [
+      "orbit",
+      "language",
+      "atom",
+      "force"
+    ],
+    "answer": "language",
+    "explanation": "Language means a system of communication used by people.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-045",
+    "question": "What is the best answer for: the study of mind and behaviour?",
+    "options": [
+      "psychology",
+      "geology",
+      "optics",
+      "zoology"
+    ],
+    "answer": "psychology",
+    "explanation": "Psychology means the study of mind and behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-046",
+    "question": "Which term best matches this description: the study of fundamental questions about existence and knowledge?",
+    "options": [
+      "philosophy",
+      "chemistry",
+      "botany",
+      "economics"
+    ],
+    "answer": "philosophy",
+    "explanation": "Philosophy means the study of fundamental questions about existence and knowledge.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-047",
+    "question": "Choose the correct term for: the study of society and social behaviour.",
+    "options": [
+      "geography",
+      "nursing",
+      "sociology",
+      "mechanics"
+    ],
+    "answer": "sociology",
+    "explanation": "Sociology means the study of society and social behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-048",
+    "question": "What is the best answer for: activities related to governance and power?",
+    "options": [
+      "painting",
+      "poetry",
+      "politics",
+      "accountancy"
+    ],
+    "answer": "politics",
+    "explanation": "Politics means activities related to governance and power.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-049",
+    "question": "Which term best matches this description: moral principles that guide behaviour?",
+    "options": [
+      "inventory",
+      "algorithms",
+      "curriculum",
+      "ethics"
+    ],
+    "answer": "ethics",
+    "explanation": "Ethics means moral principles that guide behaviour.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "graduation-ba-semester-1-humanities-foundation-easy-mcq-050",
+    "question": "Choose the correct term for: creative expression in visual or performing form.",
+    "options": [
+      "art",
+      "market",
+      "recipe",
+      "cable"
+    ],
+    "answer": "art",
+    "explanation": "Art means creative expression in visual or performing form.",
+    "level": "graduation-BA-semester-1",
+    "subject": "humanities-foundation",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

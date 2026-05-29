@@ -1,0 +1,702 @@
+[
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-001",
+    "question": "Torque means turning effect of a force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Torque means turning effect of a force.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-002",
+    "question": "Garden means a place where practical mechanical work is done.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Workshop means a place where practical mechanical work is done.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-003",
+    "question": "Engine means a machine that converts energy into motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engine means a machine that converts energy into motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-004",
+    "question": "Pipe means a toothed wheel used to transmit motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gear means a toothed wheel used to transmit motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-005",
+    "question": "Shaft means a rotating machine element.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Shaft means a rotating machine element.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-006",
+    "question": "Filter means a device that supports rotating parts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bearing means a device that supports rotating parts.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-007",
+    "question": "Thermodynamics means study of heat and energy transfer.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Thermodynamics means study of heat and energy transfer.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-008",
+    "question": "Velocity means force applied per unit area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pressure means force applied per unit area.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-009",
+    "question": "Friction means a force resisting relative motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Friction means a force resisting relative motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-010",
+    "question": "Soldering means reducing friction by using oil or grease.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lubrication means reducing friction by using oil or grease.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-011",
+    "question": "Welding means joining metals by heat.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Welding means joining metals by heat.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-012",
+    "question": "Pump means a machine tool used to shape rotating workpieces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lathe means a machine tool used to shape rotating workpieces.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-013",
+    "question": "Mill means a machine used for cutting and shaping materials.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mill means a machine used for cutting and shaping materials.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-014",
+    "question": "Steam engine means an internal combustion engine using compression ignition.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Diesel engine means an internal combustion engine using compression ignition.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-015",
+    "question": "Piston means a moving part inside a cylinder.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Piston means a moving part inside a cylinder.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-016",
+    "question": "Shaft means a device that controls fluid flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Valve means a device that controls fluid flow.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-017",
+    "question": "Cooling means removing excess heat from a system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cooling means removing excess heat from a system.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-018",
+    "question": "Melting means a chemical process of burning.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Combustion means a chemical process of burning.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-019",
+    "question": "Safety goggles means protective eyewear used in workshop practice.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Safety goggles means protective eyewear used in workshop practice.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-020",
+    "question": "Hammer means a tool used to measure length.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Measuring tape means a tool used to measure length.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-021",
+    "question": "Torque means turning effect of a force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Torque means turning effect of a force.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-022",
+    "question": "Garden means a place where practical mechanical work is done.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Workshop means a place where practical mechanical work is done.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-023",
+    "question": "Engine means a machine that converts energy into motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engine means a machine that converts energy into motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-024",
+    "question": "Pipe means a toothed wheel used to transmit motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gear means a toothed wheel used to transmit motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-025",
+    "question": "Shaft means a rotating machine element.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Shaft means a rotating machine element.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-026",
+    "question": "Filter means a device that supports rotating parts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bearing means a device that supports rotating parts.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-027",
+    "question": "Thermodynamics means study of heat and energy transfer.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Thermodynamics means study of heat and energy transfer.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-028",
+    "question": "Velocity means force applied per unit area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pressure means force applied per unit area.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-029",
+    "question": "Friction means a force resisting relative motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Friction means a force resisting relative motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-030",
+    "question": "Soldering means reducing friction by using oil or grease.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lubrication means reducing friction by using oil or grease.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-031",
+    "question": "Welding means joining metals by heat.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Welding means joining metals by heat.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-032",
+    "question": "Pump means a machine tool used to shape rotating workpieces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lathe means a machine tool used to shape rotating workpieces.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-033",
+    "question": "Mill means a machine used for cutting and shaping materials.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mill means a machine used for cutting and shaping materials.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-034",
+    "question": "Steam engine means an internal combustion engine using compression ignition.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Diesel engine means an internal combustion engine using compression ignition.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-035",
+    "question": "Piston means a moving part inside a cylinder.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Piston means a moving part inside a cylinder.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-036",
+    "question": "Shaft means a device that controls fluid flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Valve means a device that controls fluid flow.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-037",
+    "question": "Cooling means removing excess heat from a system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cooling means removing excess heat from a system.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-038",
+    "question": "Melting means a chemical process of burning.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Combustion means a chemical process of burning.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-039",
+    "question": "Safety goggles means protective eyewear used in workshop practice.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Safety goggles means protective eyewear used in workshop practice.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-040",
+    "question": "Hammer means a tool used to measure length.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Measuring tape means a tool used to measure length.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-041",
+    "question": "Torque means turning effect of a force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Torque means turning effect of a force.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-042",
+    "question": "Garden means a place where practical mechanical work is done.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Workshop means a place where practical mechanical work is done.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-043",
+    "question": "Engine means a machine that converts energy into motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engine means a machine that converts energy into motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-044",
+    "question": "Pipe means a toothed wheel used to transmit motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gear means a toothed wheel used to transmit motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-045",
+    "question": "Shaft means a rotating machine element.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Shaft means a rotating machine element.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-046",
+    "question": "Filter means a device that supports rotating parts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bearing means a device that supports rotating parts.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-047",
+    "question": "Thermodynamics means study of heat and energy transfer.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Thermodynamics means study of heat and energy transfer.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-048",
+    "question": "Velocity means force applied per unit area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pressure means force applied per unit area.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-049",
+    "question": "Friction means a force resisting relative motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Friction means a force resisting relative motion.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  },
+  {
+    "id": "diploma-mechanical-semester-2-mechanical-basics-medium-true_false-050",
+    "question": "Soldering means reducing friction by using oil or grease.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lubrication means reducing friction by using oil or grease.",
+    "level": "diploma-Mechanical-semester-2",
+    "subject": "mechanical-basics",
+    "difficulty": "medium",
+    "type": "true_false"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-001",
+    "question": "Speed means distance travelled per unit time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Speed means distance travelled per unit time.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-002",
+    "question": "Acceleration means speed with direction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Velocity means speed with direction.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-003",
+    "question": "Acceleration means rate of change of velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Acceleration means rate of change of velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-004",
+    "question": "Energy means a push or pull that can change motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Force means a push or pull that can change motion.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-005",
+    "question": "Work means force multiplied by displacement in the direction of force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Work means force multiplied by displacement in the direction of force.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-006",
+    "question": "Momentum means rate of doing work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Power means rate of doing work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-007",
+    "question": "Momentum means mass multiplied by velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Momentum means mass multiplied by velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-008",
+    "question": "Friction means the force of attraction between masses.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gravity means the force of attraction between masses.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-009",
+    "question": "Friction means a force that opposes motion between surfaces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Friction means a force that opposes motion between surfaces.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-010",
+    "question": "Velocity means force per unit area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pressure means force per unit area.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-011",
+    "question": "Density means mass per unit volume.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Density means mass per unit volume.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-012",
+    "question": "Power means the capacity to do work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Energy means the capacity to do work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-013",
+    "question": "Heat means energy transferred because of temperature difference.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Heat means energy transferred because of temperature difference.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-014",
+    "question": "Pressure means a measure of hotness or coldness.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Temperature means a measure of hotness or coldness.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-015",
+    "question": "Sound means a form of energy produced by vibrating objects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sound means a form of energy produced by vibrating objects.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-016",
+    "question": "Sound means a form of electromagnetic radiation visible to the eye.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Light means a form of electromagnetic radiation visible to the eye.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-017",
+    "question": "Wave means a disturbance that transfers energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Wave means a disturbance that transfers energy.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-018",
+    "question": "Refraction means bouncing back of light from a surface.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reflection means bouncing back of light from a surface.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-019",
+    "question": "Refraction means bending of light when it enters a new medium.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Refraction means bending of light when it enters a new medium.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-020",
+    "question": "Mirror means a transparent optical device that refracts light.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lens means a transparent optical device that refracts light.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-021",
+    "question": "Speed means distance travelled per unit time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Speed means distance travelled per unit time.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-022",
+    "question": "Acceleration means speed with direction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Velocity means speed with direction.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-023",
+    "question": "Acceleration means rate of change of velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Acceleration means rate of change of velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-024",
+    "question": "Energy means a push or pull that can change motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Force means a push or pull that can change motion.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-025",
+    "question": "Work means force multiplied by displacement in the direction of force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Work means force multiplied by displacement in the direction of force.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-026",
+    "question": "Momentum means rate of doing work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Power means rate of doing work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-027",
+    "question": "Momentum means mass multiplied by velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Momentum means mass multiplied by velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-028",
+    "question": "Friction means the force of attraction between masses.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gravity means the force of attraction between masses.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-029",
+    "question": "Friction means a force that opposes motion between surfaces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Friction means a force that opposes motion between surfaces.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-030",
+    "question": "Velocity means force per unit area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pressure means force per unit area.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-031",
+    "question": "Density means mass per unit volume.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Density means mass per unit volume.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-032",
+    "question": "Power means the capacity to do work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Energy means the capacity to do work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-033",
+    "question": "Heat means energy transferred because of temperature difference.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Heat means energy transferred because of temperature difference.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-034",
+    "question": "Pressure means a measure of hotness or coldness.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Temperature means a measure of hotness or coldness.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-035",
+    "question": "Sound means a form of energy produced by vibrating objects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sound means a form of energy produced by vibrating objects.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-036",
+    "question": "Sound means a form of electromagnetic radiation visible to the eye.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Light means a form of electromagnetic radiation visible to the eye.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-037",
+    "question": "Wave means a disturbance that transfers energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Wave means a disturbance that transfers energy.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-038",
+    "question": "Refraction means bouncing back of light from a surface.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reflection means bouncing back of light from a surface.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-039",
+    "question": "Refraction means bending of light when it enters a new medium.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Refraction means bending of light when it enters a new medium.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-040",
+    "question": "Mirror means a transparent optical device that refracts light.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lens means a transparent optical device that refracts light.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-041",
+    "question": "Speed means distance travelled per unit time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Speed means distance travelled per unit time.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-042",
+    "question": "Acceleration means speed with direction.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Velocity means speed with direction.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-043",
+    "question": "Acceleration means rate of change of velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Acceleration means rate of change of velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-044",
+    "question": "Energy means a push or pull that can change motion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Force means a push or pull that can change motion.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-045",
+    "question": "Work means force multiplied by displacement in the direction of force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Work means force multiplied by displacement in the direction of force.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-046",
+    "question": "Momentum means rate of doing work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Power means rate of doing work.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-047",
+    "question": "Momentum means mass multiplied by velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Momentum means mass multiplied by velocity.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-048",
+    "question": "Friction means the force of attraction between masses.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gravity means the force of attraction between masses.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-049",
+    "question": "Friction means a force that opposes motion between surfaces.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Friction means a force that opposes motion between surfaces.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  },
+  {
+    "id": "iit-jee-advanced-physics-hard-true_false-050",
+    "question": "Velocity means force per unit area.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pressure means force per unit area.",
+    "level": "iit-jee-advanced",
+    "subject": "physics",
+    "difficulty": "hard",
+    "type": "true_false"
+  }
+]

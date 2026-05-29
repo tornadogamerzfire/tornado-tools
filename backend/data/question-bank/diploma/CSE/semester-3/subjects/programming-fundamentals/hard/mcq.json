@@ -1,0 +1,802 @@
+[
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-001",
+    "question": "Which term best matches this description: a named storage location for data?",
+    "options": [
+      "class",
+      "array",
+      "variable",
+      "loop"
+    ],
+    "answer": "variable",
+    "explanation": "Variable means a named storage location for data.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-002",
+    "question": "Choose the correct term for: a value that does not change during execution.",
+    "options": [
+      "object",
+      "function",
+      "constant",
+      "module"
+    ],
+    "answer": "constant",
+    "explanation": "Constant means a value that does not change during execution.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-003",
+    "question": "What is the best answer for: a construct used to repeat instructions?",
+    "options": [
+      "loop",
+      "token",
+      "table",
+      "branch"
+    ],
+    "answer": "loop",
+    "explanation": "Loop means a construct used to repeat instructions.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-004",
+    "question": "Which term best matches this description: a collection of elements stored in order?",
+    "options": [
+      "stack",
+      "array",
+      "queue",
+      "file"
+    ],
+    "answer": "array",
+    "explanation": "Array means a collection of elements stored in order.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-005",
+    "question": "Choose the correct term for: a reusable block of code that performs a task.",
+    "options": [
+      "pixel",
+      "function",
+      "constant",
+      "socket"
+    ],
+    "answer": "function",
+    "explanation": "Function means a reusable block of code that performs a task.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-006",
+    "question": "What is the best answer for: a blueprint for creating objects?",
+    "options": [
+      "queue",
+      "stack",
+      "loop",
+      "class"
+    ],
+    "answer": "class",
+    "explanation": "Class means a blueprint for creating objects.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-007",
+    "question": "Which term best matches this description: an instance of a class?",
+    "options": [
+      "array",
+      "variable",
+      "token",
+      "object"
+    ],
+    "answer": "object",
+    "explanation": "Object means an instance of a class.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-008",
+    "question": "Choose the correct term for: a feature where one class acquires properties of another.",
+    "options": [
+      "compression",
+      "sorting",
+      "inheritance",
+      "rendering"
+    ],
+    "answer": "inheritance",
+    "explanation": "Inheritance means a feature where one class acquires properties of another.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-009",
+    "question": "What is the best answer for: bundling data and methods together?",
+    "options": [
+      "formatting",
+      "searching",
+      "encapsulation",
+      "iteration"
+    ],
+    "answer": "encapsulation",
+    "explanation": "Encapsulation means bundling data and methods together.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-010",
+    "question": "Which term best matches this description: the ability to take many forms?",
+    "options": [
+      "storage",
+      "polymorphism",
+      "compression",
+      "parsing"
+    ],
+    "answer": "polymorphism",
+    "explanation": "Polymorphism means the ability to take many forms.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-011",
+    "question": "Choose the correct term for: a step-by-step method to solve a problem.",
+    "options": [
+      "compiler",
+      "database",
+      "algorithm",
+      "browser"
+    ],
+    "answer": "algorithm",
+    "explanation": "Algorithm means a step-by-step method to solve a problem.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-012",
+    "question": "What is the best answer for: a category that tells what kind of value a variable holds?",
+    "options": [
+      "keyword",
+      "token",
+      "data type",
+      "operator"
+    ],
+    "answer": "data type",
+    "explanation": "Data type means a category that tells what kind of value a variable holds.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-013",
+    "question": "Which term best matches this description: software that converts source code to machine code?",
+    "options": [
+      "scanner",
+      "printer",
+      "editor",
+      "compiler"
+    ],
+    "answer": "compiler",
+    "explanation": "Compiler means software that converts source code to machine code.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-014",
+    "question": "Choose the correct term for: software that executes code line by line.",
+    "options": [
+      "router",
+      "driver",
+      "interpreter",
+      "browser"
+    ],
+    "answer": "interpreter",
+    "explanation": "Interpreter means software that executes code line by line.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-015",
+    "question": "What is the best answer for: the process of finding and fixing errors?",
+    "options": [
+      "zipping",
+      "copying",
+      "printing",
+      "debugging"
+    ],
+    "answer": "debugging",
+    "explanation": "Debugging means the process of finding and fixing errors.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-016",
+    "question": "Which term best matches this description: the rules for writing code correctly?",
+    "options": [
+      "speed",
+      "storage",
+      "style",
+      "syntax"
+    ],
+    "answer": "syntax",
+    "explanation": "Syntax means the rules for writing code correctly.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-017",
+    "question": "Choose the correct term for: an organized collection of data.",
+    "options": [
+      "device",
+      "folder",
+      "database",
+      "window"
+    ],
+    "answer": "database",
+    "explanation": "Database means an organized collection of data.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-018",
+    "question": "What is the best answer for: a numbering system that uses 0 and 1?",
+    "options": [
+      "hexadecimal",
+      "decimal",
+      "octal",
+      "binary"
+    ],
+    "answer": "binary",
+    "explanation": "Binary means a numbering system that uses 0 and 1.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-019",
+    "question": "Which term best matches this description: LIFO data structure?",
+    "options": [
+      "queue",
+      "graph",
+      "tree",
+      "stack"
+    ],
+    "answer": "stack",
+    "explanation": "Stack means LIFO data structure.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-020",
+    "question": "Choose the correct term for: FIFO data structure.",
+    "options": [
+      "set",
+      "array",
+      "stack",
+      "queue"
+    ],
+    "answer": "queue",
+    "explanation": "Queue means FIFO data structure.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-021",
+    "question": "What is the best answer for: a named storage location for data?",
+    "options": [
+      "array",
+      "variable",
+      "loop",
+      "class"
+    ],
+    "answer": "variable",
+    "explanation": "Variable means a named storage location for data.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-022",
+    "question": "Which term best matches this description: a value that does not change during execution?",
+    "options": [
+      "constant",
+      "module",
+      "function",
+      "object"
+    ],
+    "answer": "constant",
+    "explanation": "Constant means a value that does not change during execution.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-023",
+    "question": "Choose the correct term for: a construct used to repeat instructions.",
+    "options": [
+      "token",
+      "branch",
+      "loop",
+      "table"
+    ],
+    "answer": "loop",
+    "explanation": "Loop means a construct used to repeat instructions.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-024",
+    "question": "What is the best answer for: a collection of elements stored in order?",
+    "options": [
+      "queue",
+      "file",
+      "array",
+      "stack"
+    ],
+    "answer": "array",
+    "explanation": "Array means a collection of elements stored in order.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-025",
+    "question": "Which term best matches this description: a reusable block of code that performs a task?",
+    "options": [
+      "socket",
+      "pixel",
+      "constant",
+      "function"
+    ],
+    "answer": "function",
+    "explanation": "Function means a reusable block of code that performs a task.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-026",
+    "question": "Choose the correct term for: a blueprint for creating objects.",
+    "options": [
+      "queue",
+      "loop",
+      "stack",
+      "class"
+    ],
+    "answer": "class",
+    "explanation": "Class means a blueprint for creating objects.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-027",
+    "question": "What is the best answer for: an instance of a class?",
+    "options": [
+      "token",
+      "object",
+      "array",
+      "variable"
+    ],
+    "answer": "object",
+    "explanation": "Object means an instance of a class.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-028",
+    "question": "Which term best matches this description: a feature where one class acquires properties of another?",
+    "options": [
+      "rendering",
+      "compression",
+      "inheritance",
+      "sorting"
+    ],
+    "answer": "inheritance",
+    "explanation": "Inheritance means a feature where one class acquires properties of another.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-029",
+    "question": "Choose the correct term for: bundling data and methods together.",
+    "options": [
+      "formatting",
+      "iteration",
+      "searching",
+      "encapsulation"
+    ],
+    "answer": "encapsulation",
+    "explanation": "Encapsulation means bundling data and methods together.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-030",
+    "question": "What is the best answer for: the ability to take many forms?",
+    "options": [
+      "storage",
+      "parsing",
+      "compression",
+      "polymorphism"
+    ],
+    "answer": "polymorphism",
+    "explanation": "Polymorphism means the ability to take many forms.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-031",
+    "question": "Which term best matches this description: a step-by-step method to solve a problem?",
+    "options": [
+      "database",
+      "algorithm",
+      "compiler",
+      "browser"
+    ],
+    "answer": "algorithm",
+    "explanation": "Algorithm means a step-by-step method to solve a problem.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-032",
+    "question": "Choose the correct term for: a category that tells what kind of value a variable holds.",
+    "options": [
+      "token",
+      "operator",
+      "keyword",
+      "data type"
+    ],
+    "answer": "data type",
+    "explanation": "Data type means a category that tells what kind of value a variable holds.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-033",
+    "question": "What is the best answer for: software that converts source code to machine code?",
+    "options": [
+      "scanner",
+      "compiler",
+      "printer",
+      "editor"
+    ],
+    "answer": "compiler",
+    "explanation": "Compiler means software that converts source code to machine code.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-034",
+    "question": "Which term best matches this description: software that executes code line by line?",
+    "options": [
+      "browser",
+      "driver",
+      "interpreter",
+      "router"
+    ],
+    "answer": "interpreter",
+    "explanation": "Interpreter means software that executes code line by line.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-035",
+    "question": "Choose the correct term for: the process of finding and fixing errors.",
+    "options": [
+      "copying",
+      "zipping",
+      "debugging",
+      "printing"
+    ],
+    "answer": "debugging",
+    "explanation": "Debugging means the process of finding and fixing errors.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-036",
+    "question": "What is the best answer for: the rules for writing code correctly?",
+    "options": [
+      "style",
+      "syntax",
+      "speed",
+      "storage"
+    ],
+    "answer": "syntax",
+    "explanation": "Syntax means the rules for writing code correctly.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-037",
+    "question": "Which term best matches this description: an organized collection of data?",
+    "options": [
+      "database",
+      "device",
+      "folder",
+      "window"
+    ],
+    "answer": "database",
+    "explanation": "Database means an organized collection of data.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-038",
+    "question": "Choose the correct term for: a numbering system that uses 0 and 1.",
+    "options": [
+      "octal",
+      "binary",
+      "hexadecimal",
+      "decimal"
+    ],
+    "answer": "binary",
+    "explanation": "Binary means a numbering system that uses 0 and 1.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-039",
+    "question": "What is the best answer for: LIFO data structure?",
+    "options": [
+      "graph",
+      "queue",
+      "stack",
+      "tree"
+    ],
+    "answer": "stack",
+    "explanation": "Stack means LIFO data structure.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-040",
+    "question": "Which term best matches this description: FIFO data structure?",
+    "options": [
+      "set",
+      "stack",
+      "queue",
+      "array"
+    ],
+    "answer": "queue",
+    "explanation": "Queue means FIFO data structure.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-041",
+    "question": "Choose the correct term for: a named storage location for data.",
+    "options": [
+      "class",
+      "array",
+      "loop",
+      "variable"
+    ],
+    "answer": "variable",
+    "explanation": "Variable means a named storage location for data.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-042",
+    "question": "What is the best answer for: a value that does not change during execution?",
+    "options": [
+      "module",
+      "function",
+      "constant",
+      "object"
+    ],
+    "answer": "constant",
+    "explanation": "Constant means a value that does not change during execution.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-043",
+    "question": "Which term best matches this description: a construct used to repeat instructions?",
+    "options": [
+      "token",
+      "branch",
+      "table",
+      "loop"
+    ],
+    "answer": "loop",
+    "explanation": "Loop means a construct used to repeat instructions.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-044",
+    "question": "Choose the correct term for: a collection of elements stored in order.",
+    "options": [
+      "queue",
+      "stack",
+      "file",
+      "array"
+    ],
+    "answer": "array",
+    "explanation": "Array means a collection of elements stored in order.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-045",
+    "question": "What is the best answer for: a reusable block of code that performs a task?",
+    "options": [
+      "pixel",
+      "constant",
+      "socket",
+      "function"
+    ],
+    "answer": "function",
+    "explanation": "Function means a reusable block of code that performs a task.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-046",
+    "question": "Which term best matches this description: a blueprint for creating objects?",
+    "options": [
+      "stack",
+      "queue",
+      "loop",
+      "class"
+    ],
+    "answer": "class",
+    "explanation": "Class means a blueprint for creating objects.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-047",
+    "question": "Choose the correct term for: an instance of a class.",
+    "options": [
+      "array",
+      "variable",
+      "object",
+      "token"
+    ],
+    "answer": "object",
+    "explanation": "Object means an instance of a class.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-048",
+    "question": "What is the best answer for: a feature where one class acquires properties of another?",
+    "options": [
+      "sorting",
+      "rendering",
+      "compression",
+      "inheritance"
+    ],
+    "answer": "inheritance",
+    "explanation": "Inheritance means a feature where one class acquires properties of another.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-049",
+    "question": "Which term best matches this description: bundling data and methods together?",
+    "options": [
+      "iteration",
+      "formatting",
+      "encapsulation",
+      "searching"
+    ],
+    "answer": "encapsulation",
+    "explanation": "Encapsulation means bundling data and methods together.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "id": "diploma-cse-semester-3-programming-fundamentals-hard-mcq-050",
+    "question": "Choose the correct term for: the ability to take many forms.",
+    "options": [
+      "storage",
+      "parsing",
+      "compression",
+      "polymorphism"
+    ],
+    "answer": "polymorphism",
+    "explanation": "Polymorphism means the ability to take many forms.",
+    "level": "diploma-CSE-semester-3",
+    "subject": "programming-fundamentals",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

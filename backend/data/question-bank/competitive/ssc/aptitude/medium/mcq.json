@@ -1,0 +1,802 @@
+[
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-001",
+    "question": "Which term best matches this description: a number expressed as parts per hundred?",
+    "options": [
+      "ratio",
+      "average",
+      "percentage",
+      "median"
+    ],
+    "answer": "percentage",
+    "explanation": "Percentage means a number expressed as parts per hundred.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-002",
+    "question": "Choose the correct term for: a comparison of two quantities.",
+    "options": [
+      "ratio",
+      "percentage",
+      "fraction",
+      "sum"
+    ],
+    "answer": "ratio",
+    "explanation": "Ratio means a comparison of two quantities.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-003",
+    "question": "What is the best answer for: the sum of values divided by the number of values?",
+    "options": [
+      "mode",
+      "product",
+      "average",
+      "difference"
+    ],
+    "answer": "average",
+    "explanation": "Average means the sum of values divided by the number of values.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-004",
+    "question": "Which term best matches this description: money earned after subtracting cost from selling price?",
+    "options": [
+      "tax",
+      "debt",
+      "loss",
+      "profit"
+    ],
+    "answer": "profit",
+    "explanation": "Profit means money earned after subtracting cost from selling price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-005",
+    "question": "Choose the correct term for: when cost price is more than selling price.",
+    "options": [
+      "profit",
+      "discount",
+      "interest",
+      "loss"
+    ],
+    "answer": "loss",
+    "explanation": "Loss means when cost price is more than selling price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-006",
+    "question": "What is the best answer for: a reduction from marked price?",
+    "options": [
+      "dividend",
+      "tax",
+      "discount",
+      "salary"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means a reduction from marked price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-007",
+    "question": "Which term best matches this description: topic involving rate of work and time?",
+    "options": [
+      "chemistry",
+      "geometry",
+      "time and work",
+      "coding"
+    ],
+    "answer": "time and work",
+    "explanation": "Time and work means topic involving rate of work and time.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-008",
+    "question": "Choose the correct term for: a relation used to solve motion problems.",
+    "options": [
+      "polity",
+      "ratio",
+      "speed distance time",
+      "profit loss"
+    ],
+    "answer": "speed distance time",
+    "explanation": "Speed distance time means a relation used to solve motion problems.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-009",
+    "question": "What is the best answer for: an arrangement where order matters?",
+    "options": [
+      "permutation",
+      "division",
+      "fraction",
+      "combination"
+    ],
+    "answer": "permutation",
+    "explanation": "Permutation means an arrangement where order matters.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-010",
+    "question": "Which term best matches this description: a selection where order does not matter?",
+    "options": [
+      "permutation",
+      "ratio",
+      "combination",
+      "average"
+    ],
+    "answer": "combination",
+    "explanation": "Combination means a selection where order does not matter.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-011",
+    "question": "Choose the correct term for: a sequence of numbers following a pattern.",
+    "options": [
+      "set",
+      "series",
+      "matrix",
+      "graph"
+    ],
+    "answer": "series",
+    "explanation": "Series means a sequence of numbers following a pattern.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-012",
+    "question": "What is the best answer for: the ability to determine directions and turns?",
+    "options": [
+      "biology",
+      "finance",
+      "direction sense",
+      "grammar"
+    ],
+    "answer": "direction sense",
+    "explanation": "Direction sense means the ability to determine directions and turns.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-013",
+    "question": "Which term best matches this description: a problem type based on family relationships?",
+    "options": [
+      "chemistry",
+      "geometry",
+      "blood relation",
+      "coding"
+    ],
+    "answer": "blood relation",
+    "explanation": "Blood relation means a problem type based on family relationships.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-014",
+    "question": "Choose the correct term for: logic topic where symbols or letters follow a rule.",
+    "options": [
+      "algebra",
+      "physics",
+      "coding-decoding",
+      "history"
+    ],
+    "answer": "coding-decoding",
+    "explanation": "Coding-decoding means logic topic where symbols or letters follow a rule.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-015",
+    "question": "What is the best answer for: a logic topic involving dates and days?",
+    "options": [
+      "signal",
+      "map",
+      "invoice",
+      "calendar"
+    ],
+    "answer": "calendar",
+    "explanation": "Calendar means a logic topic involving dates and days.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-016",
+    "question": "Which term best matches this description: study of digits and their properties?",
+    "options": [
+      "polity",
+      "art",
+      "number system",
+      "economy"
+    ],
+    "answer": "number system",
+    "explanation": "Number system means study of digits and their properties.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-017",
+    "question": "Choose the correct term for: reducing expressions to a simpler form.",
+    "options": [
+      "compression",
+      "classification",
+      "simplification",
+      "translation"
+    ],
+    "answer": "simplification",
+    "explanation": "Simplification means reducing expressions to a simpler form.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-018",
+    "question": "What is the best answer for: the process of reaching conclusions logically?",
+    "options": [
+      "painting",
+      "loading",
+      "reasoning",
+      "printing"
+    ],
+    "answer": "reasoning",
+    "explanation": "Reasoning means the process of reaching conclusions logically.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-019",
+    "question": "Which term best matches this description: a similarity between two relationships?",
+    "options": [
+      "contrast",
+      "silence",
+      "equation",
+      "analogy"
+    ],
+    "answer": "analogy",
+    "explanation": "Analogy means a similarity between two relationships.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-020",
+    "question": "Choose the correct term for: ordering items from highest to lowest or vice versa.",
+    "options": [
+      "sorting",
+      "debugging",
+      "framing",
+      "ranking"
+    ],
+    "answer": "ranking",
+    "explanation": "Ranking means ordering items from highest to lowest or vice versa.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-021",
+    "question": "What is the best answer for: a number expressed as parts per hundred?",
+    "options": [
+      "percentage",
+      "average",
+      "ratio",
+      "median"
+    ],
+    "answer": "percentage",
+    "explanation": "Percentage means a number expressed as parts per hundred.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-022",
+    "question": "Which term best matches this description: a comparison of two quantities?",
+    "options": [
+      "percentage",
+      "fraction",
+      "sum",
+      "ratio"
+    ],
+    "answer": "ratio",
+    "explanation": "Ratio means a comparison of two quantities.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-023",
+    "question": "Choose the correct term for: the sum of values divided by the number of values.",
+    "options": [
+      "average",
+      "difference",
+      "product",
+      "mode"
+    ],
+    "answer": "average",
+    "explanation": "Average means the sum of values divided by the number of values.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-024",
+    "question": "What is the best answer for: money earned after subtracting cost from selling price?",
+    "options": [
+      "tax",
+      "debt",
+      "loss",
+      "profit"
+    ],
+    "answer": "profit",
+    "explanation": "Profit means money earned after subtracting cost from selling price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-025",
+    "question": "Which term best matches this description: when cost price is more than selling price?",
+    "options": [
+      "profit",
+      "discount",
+      "loss",
+      "interest"
+    ],
+    "answer": "loss",
+    "explanation": "Loss means when cost price is more than selling price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-026",
+    "question": "Choose the correct term for: a reduction from marked price.",
+    "options": [
+      "salary",
+      "dividend",
+      "discount",
+      "tax"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means a reduction from marked price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-027",
+    "question": "What is the best answer for: topic involving rate of work and time?",
+    "options": [
+      "time and work",
+      "coding",
+      "chemistry",
+      "geometry"
+    ],
+    "answer": "time and work",
+    "explanation": "Time and work means topic involving rate of work and time.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-028",
+    "question": "Which term best matches this description: a relation used to solve motion problems?",
+    "options": [
+      "speed distance time",
+      "ratio",
+      "polity",
+      "profit loss"
+    ],
+    "answer": "speed distance time",
+    "explanation": "Speed distance time means a relation used to solve motion problems.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-029",
+    "question": "Choose the correct term for: an arrangement where order matters.",
+    "options": [
+      "fraction",
+      "combination",
+      "permutation",
+      "division"
+    ],
+    "answer": "permutation",
+    "explanation": "Permutation means an arrangement where order matters.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-030",
+    "question": "What is the best answer for: a selection where order does not matter?",
+    "options": [
+      "ratio",
+      "average",
+      "combination",
+      "permutation"
+    ],
+    "answer": "combination",
+    "explanation": "Combination means a selection where order does not matter.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-031",
+    "question": "Which term best matches this description: a sequence of numbers following a pattern?",
+    "options": [
+      "set",
+      "series",
+      "matrix",
+      "graph"
+    ],
+    "answer": "series",
+    "explanation": "Series means a sequence of numbers following a pattern.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-032",
+    "question": "Choose the correct term for: the ability to determine directions and turns.",
+    "options": [
+      "grammar",
+      "direction sense",
+      "biology",
+      "finance"
+    ],
+    "answer": "direction sense",
+    "explanation": "Direction sense means the ability to determine directions and turns.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-033",
+    "question": "What is the best answer for: a problem type based on family relationships?",
+    "options": [
+      "chemistry",
+      "geometry",
+      "blood relation",
+      "coding"
+    ],
+    "answer": "blood relation",
+    "explanation": "Blood relation means a problem type based on family relationships.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-034",
+    "question": "Which term best matches this description: logic topic where symbols or letters follow a rule?",
+    "options": [
+      "algebra",
+      "physics",
+      "coding-decoding",
+      "history"
+    ],
+    "answer": "coding-decoding",
+    "explanation": "Coding-decoding means logic topic where symbols or letters follow a rule.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-035",
+    "question": "Choose the correct term for: a logic topic involving dates and days.",
+    "options": [
+      "map",
+      "invoice",
+      "signal",
+      "calendar"
+    ],
+    "answer": "calendar",
+    "explanation": "Calendar means a logic topic involving dates and days.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-036",
+    "question": "What is the best answer for: study of digits and their properties?",
+    "options": [
+      "economy",
+      "number system",
+      "art",
+      "polity"
+    ],
+    "answer": "number system",
+    "explanation": "Number system means study of digits and their properties.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-037",
+    "question": "Which term best matches this description: reducing expressions to a simpler form?",
+    "options": [
+      "compression",
+      "simplification",
+      "translation",
+      "classification"
+    ],
+    "answer": "simplification",
+    "explanation": "Simplification means reducing expressions to a simpler form.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-038",
+    "question": "Choose the correct term for: the process of reaching conclusions logically.",
+    "options": [
+      "reasoning",
+      "printing",
+      "painting",
+      "loading"
+    ],
+    "answer": "reasoning",
+    "explanation": "Reasoning means the process of reaching conclusions logically.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-039",
+    "question": "What is the best answer for: a similarity between two relationships?",
+    "options": [
+      "silence",
+      "analogy",
+      "contrast",
+      "equation"
+    ],
+    "answer": "analogy",
+    "explanation": "Analogy means a similarity between two relationships.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-040",
+    "question": "Which term best matches this description: ordering items from highest to lowest or vice versa?",
+    "options": [
+      "sorting",
+      "framing",
+      "debugging",
+      "ranking"
+    ],
+    "answer": "ranking",
+    "explanation": "Ranking means ordering items from highest to lowest or vice versa.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-041",
+    "question": "Choose the correct term for: a number expressed as parts per hundred.",
+    "options": [
+      "percentage",
+      "ratio",
+      "median",
+      "average"
+    ],
+    "answer": "percentage",
+    "explanation": "Percentage means a number expressed as parts per hundred.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-042",
+    "question": "What is the best answer for: a comparison of two quantities?",
+    "options": [
+      "fraction",
+      "percentage",
+      "sum",
+      "ratio"
+    ],
+    "answer": "ratio",
+    "explanation": "Ratio means a comparison of two quantities.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-043",
+    "question": "Which term best matches this description: the sum of values divided by the number of values?",
+    "options": [
+      "average",
+      "difference",
+      "mode",
+      "product"
+    ],
+    "answer": "average",
+    "explanation": "Average means the sum of values divided by the number of values.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-044",
+    "question": "Choose the correct term for: money earned after subtracting cost from selling price.",
+    "options": [
+      "tax",
+      "profit",
+      "debt",
+      "loss"
+    ],
+    "answer": "profit",
+    "explanation": "Profit means money earned after subtracting cost from selling price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-045",
+    "question": "What is the best answer for: when cost price is more than selling price?",
+    "options": [
+      "loss",
+      "profit",
+      "discount",
+      "interest"
+    ],
+    "answer": "loss",
+    "explanation": "Loss means when cost price is more than selling price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-046",
+    "question": "Which term best matches this description: a reduction from marked price?",
+    "options": [
+      "discount",
+      "tax",
+      "salary",
+      "dividend"
+    ],
+    "answer": "discount",
+    "explanation": "Discount means a reduction from marked price.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-047",
+    "question": "Choose the correct term for: topic involving rate of work and time.",
+    "options": [
+      "chemistry",
+      "geometry",
+      "time and work",
+      "coding"
+    ],
+    "answer": "time and work",
+    "explanation": "Time and work means topic involving rate of work and time.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-048",
+    "question": "What is the best answer for: a relation used to solve motion problems?",
+    "options": [
+      "profit loss",
+      "speed distance time",
+      "polity",
+      "ratio"
+    ],
+    "answer": "speed distance time",
+    "explanation": "Speed distance time means a relation used to solve motion problems.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-049",
+    "question": "Which term best matches this description: an arrangement where order matters?",
+    "options": [
+      "division",
+      "combination",
+      "permutation",
+      "fraction"
+    ],
+    "answer": "permutation",
+    "explanation": "Permutation means an arrangement where order matters.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "id": "competitive-ssc-aptitude-medium-mcq-050",
+    "question": "Choose the correct term for: a selection where order does not matter.",
+    "options": [
+      "ratio",
+      "combination",
+      "permutation",
+      "average"
+    ],
+    "answer": "combination",
+    "explanation": "Combination means a selection where order does not matter.",
+    "level": "competitive-ssc",
+    "subject": "aptitude",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "class-10-english-easy-mcq-001",
+    "question": "Which term best matches this description: joyful?",
+    "options": [
+      "angry",
+      "sad",
+      "happy",
+      "tiny"
+    ],
+    "answer": "happy",
+    "explanation": "Happy means joyful.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-002",
+    "question": "Choose the correct term for: start.",
+    "options": [
+      "forget",
+      "begin",
+      "end",
+      "sleep"
+    ],
+    "answer": "begin",
+    "explanation": "Begin means start.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-003",
+    "question": "What is the best answer for: fast?",
+    "options": [
+      "slow",
+      "late",
+      "weak",
+      "rapid"
+    ],
+    "answer": "rapid",
+    "explanation": "Rapid means fast.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-004",
+    "question": "Which term best matches this description: small?",
+    "options": [
+      "heavy",
+      "tiny",
+      "bright",
+      "huge"
+    ],
+    "answer": "tiny",
+    "explanation": "Tiny means small.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-005",
+    "question": "Choose the correct term for: courageous.",
+    "options": [
+      "shy",
+      "cowardly",
+      "brave",
+      "lazy"
+    ],
+    "answer": "brave",
+    "explanation": "Brave means courageous.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-006",
+    "question": "What is the best answer for: truthful?",
+    "options": [
+      "careless",
+      "honest",
+      "greedy",
+      "false"
+    ],
+    "answer": "honest",
+    "explanation": "Honest means truthful.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-007",
+    "question": "Which term best matches this description: luminous?",
+    "options": [
+      "bright",
+      "dull",
+      "silent",
+      "dark"
+    ],
+    "answer": "bright",
+    "explanation": "Bright means luminous.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-008",
+    "question": "Choose the correct term for: construct.",
+    "options": [
+      "break",
+      "hide",
+      "destroy",
+      "build"
+    ],
+    "answer": "build",
+    "explanation": "Build means construct.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-009",
+    "question": "What is the best answer for: hard?",
+    "options": [
+      "soft",
+      "easy",
+      "difficult",
+      "simple"
+    ],
+    "answer": "difficult",
+    "explanation": "Difficult means hard.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-010",
+    "question": "Which term best matches this description: peaceful?",
+    "options": [
+      "rough",
+      "calm",
+      "noisy",
+      "wild"
+    ],
+    "answer": "calm",
+    "explanation": "Calm means peaceful.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-011",
+    "question": "Choose the correct term for: companion.",
+    "options": [
+      "enemy",
+      "river",
+      "friend",
+      "tool"
+    ],
+    "answer": "friend",
+    "explanation": "Friend means companion.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-012",
+    "question": "What is the best answer for: wealthy?",
+    "options": [
+      "empty",
+      "narrow",
+      "poor",
+      "rich"
+    ],
+    "answer": "rich",
+    "explanation": "Rich means wealthy.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-013",
+    "question": "Which term best matches this description: swift?",
+    "options": [
+      "late",
+      "slow",
+      "weak",
+      "quick"
+    ],
+    "answer": "quick",
+    "explanation": "Quick means swift.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-014",
+    "question": "Choose the correct term for: ancient.",
+    "options": [
+      "young",
+      "fresh",
+      "old",
+      "new"
+    ],
+    "answer": "old",
+    "explanation": "Old means ancient.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-015",
+    "question": "What is the best answer for: commence?",
+    "options": [
+      "close",
+      "stop",
+      "start",
+      "end"
+    ],
+    "answer": "start",
+    "explanation": "Start means commence.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-016",
+    "question": "Which term best matches this description: complete?",
+    "options": [
+      "start",
+      "delay",
+      "finish",
+      "open"
+    ],
+    "answer": "finish",
+    "explanation": "Finish means complete.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-017",
+    "question": "Choose the correct term for: big.",
+    "options": [
+      "large",
+      "tiny",
+      "light",
+      "small"
+    ],
+    "answer": "large",
+    "explanation": "Large means big.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-018",
+    "question": "What is the best answer for: tidy?",
+    "options": [
+      "dirty",
+      "messy",
+      "clean",
+      "rough"
+    ],
+    "answer": "clean",
+    "explanation": "Clean means tidy.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-019",
+    "question": "Which term best matches this description: clever?",
+    "options": [
+      "empty",
+      "smart",
+      "stupid",
+      "slow"
+    ],
+    "answer": "smart",
+    "explanation": "Smart means clever.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-020",
+    "question": "Choose the correct term for: secure.",
+    "options": [
+      "sharp",
+      "safe",
+      "dangerous",
+      "fragile"
+    ],
+    "answer": "safe",
+    "explanation": "Safe means secure.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-021",
+    "question": "What is the best answer for: names a person, place, thing, or idea?",
+    "options": [
+      "smart",
+      "noun",
+      "adjective",
+      "capital letter"
+    ],
+    "answer": "noun",
+    "explanation": "Noun means names a person, place, thing, or idea.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-022",
+    "question": "Which term best matches this description: shows an action or state?",
+    "options": [
+      "rich",
+      "vowel",
+      "verb",
+      "antonym"
+    ],
+    "answer": "verb",
+    "explanation": "Verb means shows an action or state.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-023",
+    "question": "Choose the correct term for: describes a noun.",
+    "options": [
+      "noun",
+      "clause",
+      "adverb",
+      "adjective"
+    ],
+    "answer": "adjective",
+    "explanation": "Adjective means describes a noun.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-024",
+    "question": "What is the best answer for: describes a verb, adjective, or another adverb?",
+    "options": [
+      "rapid",
+      "adverb",
+      "difficult",
+      "friend"
+    ],
+    "answer": "adverb",
+    "explanation": "Adverb means describes a verb, adjective, or another adverb.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-025",
+    "question": "Which term best matches this description: is used instead of a noun?",
+    "options": [
+      "pronoun",
+      "clause",
+      "singular",
+      "calm"
+    ],
+    "answer": "pronoun",
+    "explanation": "Pronoun means is used instead of a noun.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-026",
+    "question": "Choose the correct term for: includes words like a, an, and the.",
+    "options": [
+      "article",
+      "safe",
+      "bright",
+      "punctuation"
+    ],
+    "answer": "article",
+    "explanation": "Article means includes words like a, an, and the.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-027",
+    "question": "What is the best answer for: joins words or groups of words?",
+    "options": [
+      "clean",
+      "punctuation",
+      "conjunction",
+      "rich"
+    ],
+    "answer": "conjunction",
+    "explanation": "Conjunction means joins words or groups of words.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-028",
+    "question": "Which term best matches this description: shows place, time, or direction?",
+    "options": [
+      "preposition",
+      "consonant",
+      "noun",
+      "calm"
+    ],
+    "answer": "preposition",
+    "explanation": "Preposition means shows place, time, or direction.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-029",
+    "question": "Choose the correct term for: shows more than one.",
+    "options": [
+      "plural",
+      "consonant",
+      "calm",
+      "synonym"
+    ],
+    "answer": "plural",
+    "explanation": "Plural means shows more than one.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-030",
+    "question": "What is the best answer for: shows one person or thing?",
+    "options": [
+      "vowel",
+      "happy",
+      "bright",
+      "singular"
+    ],
+    "answer": "singular",
+    "explanation": "Singular means shows one person or thing.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-031",
+    "question": "Which term best matches this description: shows the time of an action?",
+    "options": [
+      "friend",
+      "noun",
+      "clause",
+      "tense"
+    ],
+    "answer": "tense",
+    "explanation": "Tense means shows the time of an action.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-032",
+    "question": "Choose the correct term for: makes complete sense.",
+    "options": [
+      "antonym",
+      "bright",
+      "sentence",
+      "safe"
+    ],
+    "answer": "sentence",
+    "explanation": "Sentence means makes complete sense.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-033",
+    "question": "What is the best answer for: is a group of words without complete sense?",
+    "options": [
+      "phrase",
+      "pronoun",
+      "capital letter",
+      "build"
+    ],
+    "answer": "phrase",
+    "explanation": "Phrase means is a group of words without complete sense.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-034",
+    "question": "Which term best matches this description: contains a subject and a verb?",
+    "options": [
+      "tiny",
+      "consonant",
+      "clause",
+      "preposition"
+    ],
+    "answer": "clause",
+    "explanation": "Clause means contains a subject and a verb.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-035",
+    "question": "Choose the correct term for: includes commas and full stops.",
+    "options": [
+      "tense",
+      "sentence",
+      "clause",
+      "punctuation"
+    ],
+    "answer": "punctuation",
+    "explanation": "Punctuation means includes commas and full stops.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-036",
+    "question": "What is the best answer for: is used at the start of a sentence?",
+    "options": [
+      "vowel",
+      "phrase",
+      "capital letter",
+      "smart"
+    ],
+    "answer": "capital letter",
+    "explanation": "Capital letter means is used at the start of a sentence.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-037",
+    "question": "Which term best matches this description: is one of a, e, i, o, u?",
+    "options": [
+      "vowel",
+      "old",
+      "clean",
+      "bright"
+    ],
+    "answer": "vowel",
+    "explanation": "Vowel means is one of a, e, i, o, u.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-038",
+    "question": "Choose the correct term for: is a letter that is not a vowel.",
+    "options": [
+      "large",
+      "adjective",
+      "consonant",
+      "friend"
+    ],
+    "answer": "consonant",
+    "explanation": "Consonant means is a letter that is not a vowel.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-039",
+    "question": "What is the best answer for: means a similar word?",
+    "options": [
+      "calm",
+      "start",
+      "synonym",
+      "article"
+    ],
+    "answer": "synonym",
+    "explanation": "Synonym means means a similar word.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-040",
+    "question": "Which term best matches this description: means an opposite word?",
+    "options": [
+      "difficult",
+      "antonym",
+      "rapid",
+      "old"
+    ],
+    "answer": "antonym",
+    "explanation": "Antonym means means an opposite word.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-041",
+    "question": "Choose the correct term for: joyful.",
+    "options": [
+      "angry",
+      "sad",
+      "happy",
+      "tiny"
+    ],
+    "answer": "happy",
+    "explanation": "Happy means joyful.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-042",
+    "question": "What is the best answer for: start?",
+    "options": [
+      "sleep",
+      "end",
+      "forget",
+      "begin"
+    ],
+    "answer": "begin",
+    "explanation": "Begin means start.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-043",
+    "question": "Which term best matches this description: fast?",
+    "options": [
+      "rapid",
+      "late",
+      "slow",
+      "weak"
+    ],
+    "answer": "rapid",
+    "explanation": "Rapid means fast.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-044",
+    "question": "Choose the correct term for: small.",
+    "options": [
+      "heavy",
+      "huge",
+      "bright",
+      "tiny"
+    ],
+    "answer": "tiny",
+    "explanation": "Tiny means small.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-045",
+    "question": "What is the best answer for: courageous?",
+    "options": [
+      "lazy",
+      "shy",
+      "cowardly",
+      "brave"
+    ],
+    "answer": "brave",
+    "explanation": "Brave means courageous.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-046",
+    "question": "Which term best matches this description: truthful?",
+    "options": [
+      "honest",
+      "greedy",
+      "careless",
+      "false"
+    ],
+    "answer": "honest",
+    "explanation": "Honest means truthful.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-047",
+    "question": "Choose the correct term for: luminous.",
+    "options": [
+      "dark",
+      "dull",
+      "bright",
+      "silent"
+    ],
+    "answer": "bright",
+    "explanation": "Bright means luminous.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-048",
+    "question": "What is the best answer for: construct?",
+    "options": [
+      "destroy",
+      "build",
+      "break",
+      "hide"
+    ],
+    "answer": "build",
+    "explanation": "Build means construct.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-049",
+    "question": "Which term best matches this description: hard?",
+    "options": [
+      "simple",
+      "easy",
+      "soft",
+      "difficult"
+    ],
+    "answer": "difficult",
+    "explanation": "Difficult means hard.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "id": "class-10-english-easy-mcq-050",
+    "question": "Choose the correct term for: peaceful.",
+    "options": [
+      "rough",
+      "calm",
+      "wild",
+      "noisy"
+    ],
+    "answer": "calm",
+    "explanation": "Calm means peaceful.",
+    "level": "class-10",
+    "subject": "english",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]
