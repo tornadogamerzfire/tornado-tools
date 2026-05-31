@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
-# BLOCK INTERNAL / BACKEND PATHS
 Disallow: /api/
 Disallow: /backend/
 Disallow: /uploads/
@@ -11,10 +10,8 @@ Disallow: /.git/
 Disallow: /.github/
 Disallow: /node_modules/
 
-# IMPORTANT FILES
 Sitemap: https://tornado-tools.vercel.app/sitemap.xml
 
-# AI CRAWLERS / GEO
 User-agent: GPTBot
 Allow: /
 
@@ -35,6 +32,3 @@ Allow: /
 
 User-agent: Bytespider
 Allow: /
-
-# PERFORMANCE
-Crawl-delay: 1
