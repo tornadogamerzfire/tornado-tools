@@ -14,7 +14,7 @@ from utils.text import strip_code_fences
 class NimQuizClient:
     def __init__(self, api_key: str, model: str, api_url: str) -> None:
         self.api_key = (api_key or "").strip()
-        self.model = (model or "mistral-large-3-675b-instruct-2512").strip()
+        self.model = (model or "z-ai/glm-5.1").strip()
         self.api_url = (api_url or "https://integrate.api.nvidia.com/v1/chat/completions").strip()
 
     def is_demo_mode(self) -> bool:
