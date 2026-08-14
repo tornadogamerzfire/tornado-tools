@@ -1,0 +1,24 @@
+# ==== Secrets — never commit real environment files ====
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# ==== Python ====
+backend/venv/
+backend/**/__pycache__/
+*.pyc
+
+# ==== Node ====
+node_modules/
+
+# ==== Runtime data (created by the backend at request time) ====
+backend/temp/
+backend/uploads/
+backend/outputs/
+
+# ==== OS / editor cruft ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

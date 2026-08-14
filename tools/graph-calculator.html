@@ -3,49 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric</title>
+  <title>Graph Calculator — TornadoTools | Plot Functions & Polar</title>
   <meta name="description" content="Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <meta name="theme-color" content="#020408" />
+  <meta name="theme-color" content="#0A0D12" />
   <meta name="application-name" content="TornadoTools">
   <meta name="apple-mobile-web-app-title" content="TornadoTools">
-  <meta name="author" content="Mr. Tornado">
-  <meta name="publisher" content="Tornado Gamerz Fire">
+  <meta name="author" content="TornadoTools">
+  <meta name="publisher" content="TornadoTools">
   <link rel="canonical" href="https://tornado-tools.vercel.app/tools/graph-calculator.html" />
-  <link rel="icon" type="image/jpeg" href="/Logo.jpg" />
-  <link rel="apple-touch-icon" href="/Logo.jpg" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="apple-touch-icon" href="/assets/icon-180.png" />
   <meta property="og:site_name" content="TornadoTools" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric" />
+  <meta property="og:title" content="Graph Calculator — TornadoTools | Plot Functions & Polar" />
   <meta property="og:description" content="Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator." />
   <meta property="og:url" content="https://tornado-tools.vercel.app/tools/graph-calculator.html" />
-  <meta property="og:image" content="https://tornado-tools.vercel.app/Logo.jpg" />
+  <meta property="og:image" content="https://tornado-tools.vercel.app/assets/og-image.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric" />
+  <meta name="twitter:title" content="Graph Calculator — TornadoTools | Plot Functions & Polar" />
   <meta name="twitter:description" content="Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator." />
-  <meta name="twitter:image" content="https://tornado-tools.vercel.app/Logo.jpg" />
+  <meta name="twitter:image" content="https://tornado-tools.vercel.app/assets/og-image.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="../css/graph-calculator.css" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric",
-        "url": "https://tornado-tools.vercel.app/tools/graph-calculator.html",
-        "description": "Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator.",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "TornadoTools",
-          "url": "https://tornado-tools.vercel.app/"
-        }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Graph Calculator — TornadoTools | Plot Functions & Polar",
+      "url": "https://tornado-tools.vercel.app/tools/graph-calculator.html",
+      "description": "Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "TornadoTools",
+        "url": "https://tornado-tools.vercel.app/"
       }
-    ]
-  }
-  </script>
+    }
+  ]
+}
+</script>
   <script src="https://cdn.jsdelivr.net/npm/mathjs@15.2.0/lib/browser/math.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/function-plot@1.25.4/dist/function-plot.js" defer></script>
   <script src="../js/graph-calculator.js" defer></script>
@@ -55,7 +59,7 @@
   "@type": "Organization",
   "name": "TornadoTools",
   "url": "https://tornado-tools.vercel.app/",
-  "logo": "https://tornado-tools.vercel.app/Logo.jpg",
+  "logo": "https://tornado-tools.vercel.app/assets/icon-512.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
@@ -68,7 +72,7 @@
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Graph Calculator — TornadoTools | Plot Functions, Polar & Parametric",
+  "name": "Graph Calculator — TornadoTools | Plot Functions & Polar",
   "url": "https://tornado-tools.vercel.app/tools/graph-calculator.html",
   "description": "Plot standard, polar, and parametric equations with roots, intersections, derivatives, asymptotes, zoom, and pan in one fast browser-based graph calculator.",
   "applicationCategory": "CalculatorApplication",
@@ -86,7 +90,15 @@
       "name": "Do I need to type y = before every equation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Enter the expression directly for standard graphs and the tool will plot it cleanly."
+        "text": "No. For standard graphs, enter the expression only. The page keeps the graph list clean and does not force an extra y = label."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does x² + y² = 25 not plot in standard mode?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That is an implicit relation, not a single function of x. Use parametric mode with x(t) = 5cos(t) and y(t) = 5sin(t), or rewrite it as upper and lower functions."
       }
     },
     {
@@ -94,15 +106,23 @@
       "name": "Can I graph polar and parametric equations?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The graph calculator supports standard, polar, and parametric modes."
+        "text": "Yes. Switch the mode, enter r(θ) or x(t)/y(t), and the engine will plot the curve with the same graph canvas."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is an implicit equation not plotting?",
+      "name": "Does it support roots and intersections?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Implicit equations like x² + y² = 25 are not supported in the current browser plotting flow."
+        "text": "Roots, intersections, asymptote hints, and derivative overlays are calculated from the visible equations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use complex expressions like |x| or x²?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The parser normalizes brackets, superscripts, square roots, absolute values, degrees, and implicit multiplication."
       }
     }
   ]
@@ -158,7 +178,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
   <header class="gc-header">
     <div class="gc-header-inner">
       <a class="gc-brand" href="../index.html">
-        <span class="gc-brand-icon">⚡</span>
+        <img class="gc-brand-icon" src="../assets/mark.svg" alt="" width="28" height="28">
         <span class="gc-brand-text">TornadoTools</span>
       </a>
       <nav class="gc-nav" aria-label="Primary">
@@ -455,7 +475,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
     <footer class="gc-footer">
       <div class="gc-footer-grid">
         <div class="gc-footer-brand">
-          <h3>⚡ TornadoTools</h3>
+          <h3 class="footer-brand-mark"><img src="../assets/mark.svg" alt="" width="22" height="22"> TornadoTools</h3>
           <p>Fast, clean, all-in-one utility platform. Built for speed, clarity, and browser-first tools.</p>
         </div>
         <div class="gc-footer-col">
@@ -494,6 +514,6 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
   </main>
 
-  <script type="module" src="../js/vercel.js"></script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 </html>

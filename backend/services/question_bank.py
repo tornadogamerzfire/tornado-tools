@@ -8,7 +8,7 @@ from random import Random
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 from utils.logger import logger
-from utils.text import slugify
+from utils.text import normalize_answer, slugify
 
 QUESTION_TYPES = {
     "mcq": "mcq.json",
@@ -439,6 +439,7 @@ def load_from_bank(payload: Dict[str, Any], question_types: Sequence[str], count
     rng = Random(seed)
     collected: List[Dict[str, Any]] = []
     seen_ids = set()
+    seen_texts = set()
 
     for question_type in question_types:
         file_path = None
@@ -460,7 +461,15 @@ def load_from_bank(payload: Dict[str, Any], question_types: Sequence[str], count
             question_text = str(item.get("question") or item.get("prompt") or "").strip()
             if not question_text:
                 continue
+            # Some question-bank files (notably true/false sets) repeat the
+            # same statement under different auto-generated IDs. Dedupe by
+            # normalized text too, so one quiz never shows the same question
+            # twice even when the underlying file does.
+            normalized_text = normalize_answer(question_text)
+            if normalized_text in seen_texts:
+                continue
             seen_ids.add(qid)
+            seen_texts.add(normalized_text)
             collected.append({
                 "id": qid,
                 "type": question_type,

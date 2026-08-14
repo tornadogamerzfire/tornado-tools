@@ -6,31 +6,35 @@
   <title>TornadoTools — All-in-One Utility Platform</title>
   <meta name="description" content="Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <meta name="theme-color" content="#020408">
+  <meta name="theme-color" content="#0A0D12">
   <meta name="application-name" content="TornadoTools">
   <meta name="apple-mobile-web-app-title" content="TornadoTools">
-  <meta name="author" content="Mr. Tornado">
-  <meta name="publisher" content="Tornado Gamerz Fire">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta name="author" content="TornadoTools">
+  <meta name="publisher" content="TornadoTools">  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
   <link rel="preload" as="style" href="css/main.css">
   <link rel="preload" as="style" href="css/components.css">
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/components.css">
-  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
-  <link rel="apple-touch-icon" href="/Logo.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" href="/assets/icon-180.png">
   <link rel="canonical" href="https://tornado-tools.vercel.app/">
   <meta property="og:site_name" content="TornadoTools">
   <meta property="og:type" content="website">
   <meta property="og:title" content="TornadoTools — All-in-One Utility Platform">
   <meta property="og:description" content="Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.">
   <meta property="og:url" content="https://tornado-tools.vercel.app/">
-  <meta property="og:image" content="https://tornado-tools.vercel.app/Logo.jpg">
+  <meta property="og:image" content="https://tornado-tools.vercel.app/assets/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="TornadoTools — All-in-One Utility Platform">
   <meta name="twitter:description" content="Free online tools: font generator, calculators, QR generator, converters and more. Fast, simple and no login required.">
-  <meta name="twitter:image" content="https://tornado-tools.vercel.app/Logo.jpg">
+  <meta name="twitter:image" content="https://tornado-tools.vercel.app/assets/og-image.png">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,12 +42,7 @@
     {
       "@type": "WebSite",
       "name": "TornadoTools",
-      "url": "https://tornado-tools.vercel.app/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://tornado-tools.vercel.app/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "url": "https://tornado-tools.vercel.app/"
     },
     {
       "@type": "WebPage",
@@ -65,7 +64,7 @@
   "@type": "Organization",
   "name": "TornadoTools",
   "url": "https://tornado-tools.vercel.app/",
-  "logo": "https://tornado-tools.vercel.app/Logo.jpg",
+  "logo": "https://tornado-tools.vercel.app/assets/icon-512.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
@@ -105,7 +104,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
   <header class="navbar">
     <div class="nav-container">
       <a href="index.html" class="logo">
-        <div class="logo-icon">⚡</div>
+        <img class="logo-icon" src="assets/mark.svg" alt="" width="36" height="36">
         <span class="logo-text">TornadoTools</span>
       </a>
       <nav class="nav-links" id="navLinks" aria-label="Primary">
@@ -124,41 +123,41 @@ gtag('config', 'G-VZ6Y06CCYW', {
   <!-- HERO -->
   <section class="hero" aria-labelledby="hero-title">
     <canvas id="hero-3d" width="1280" height="720" aria-hidden="true"></canvas>
+    <canvas id="hero-webgl" aria-hidden="true"></canvas>
     <div class="hero-content">
       <div class="hero-badge">
         <span class="hero-badge-dot"></span>
-        All Systems Operational
+        100% free · no sign-up required
       </div>
 
       <h1 id="hero-title">
-        <span class="line-1">All-in-One</span>
-        <span class="gradient-text">Utility Platform</span>
+        <span class="line-1">Ten fast tools.</span>
+        <span class="gradient-text-hero">Zero sign-up.</span>
       </h1>
 
       <p>
-        Fast, clean, and powerful tools designed to save you time.
-        No login, no backend delays — just instant results in your browser.
+        Calculators, converters, generators, an AI quiz platform, and more —
+        built to feel instant. Nothing to install, nothing to create an account for.
       </p>
 
       <div class="hero-stats">
         <div class="hero-stat">
-          
-          <div class="hero-stat-num" data-count="10">0</div>
+          <div class="hero-stat-num" data-count="10" data-suffix="">0</div>
           <div class="hero-stat-label">Tools</div>
         </div>
         <div class="hero-stat">
-          <div class="hero-stat-num" data-count="100">0</div>
-          <div class="hero-stat-label">% Free</div>
+          <div class="hero-stat-num" data-count="100" data-suffix="%">0</div>
+          <div class="hero-stat-label">Free</div>
         </div>
         <div class="hero-stat">
-          <div class="hero-stat-num" data-count="0">0ms</div>
-          <div class="hero-stat-label">Latency</div>
+          <div class="hero-stat-num" data-count="39600" data-suffix="+">0</div>
+          <div class="hero-stat-label">Quiz Questions</div>
         </div>
       </div>
 
       <div class="hero-buttons">
         <a href="#tools" class="btn primary">Explore Tools ↓</a>
-        <a href="#why" class="btn secondary">Learn More</a>
+        <a href="#why" class="btn secondary">Why No Sign-Up?</a>
       </div>
     </div>
   </section>
@@ -193,7 +192,8 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/font-generator.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon cyan">T</div>
+            <div class="card-icon cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 19 L9.5 5 L15 19 M6.3 13.5 H12.7" />
+  <path d="M17 19 L19.2 13 L21 19 M17.9 16.7 H20.1" /></svg></div>
             <span class="card-tag">Text</span>
           </div>
           <div class="card-content">
@@ -208,7 +208,15 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/qr-generator.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon purple">Q</div>
+            <div class="card-icon purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1"/>
+  <rect x="14" y="3.5" width="6.5" height="6.5" rx="1"/>
+  <rect x="3.5" y="14" width="6.5" height="6.5" rx="1"/>
+  <rect x="6" y="6" width="1.6" height="1.6" fill="currentColor" stroke="none"/>
+  <rect x="16.5" y="6" width="1.6" height="1.6" fill="currentColor" stroke="none"/>
+  <rect x="6" y="16.5" width="1.6" height="1.6" fill="currentColor" stroke="none"/>
+  <rect x="14" y="14" width="2.8" height="2.8" rx="0.5"/>
+  <rect x="18" y="14" width="3" height="3" rx="0.5"/>
+  <rect x="14" y="18" width="3" height="3" rx="0.5"/></svg></div>
             <span class="card-tag">Utility</span>
           </div>
           <div class="card-content">
@@ -223,7 +231,8 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/number-converter.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon pink">#</div>
+            <div class="card-icon pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 8.5 H17 M17 8.5 L13 4.5 M17 8.5 L13 12.5" />
+  <path d="M19.5 15.5 H7 M7 15.5 L11 11.5 M7 15.5 L11 19.5" /></svg></div>
             <span class="card-tag">Convert</span>
           </div>
           <div class="card-content">
@@ -238,7 +247,14 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/calculator-suite.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon green">∑</div>
+            <div class="card-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="4.5" y="3" width="15" height="18" rx="2.4"/>
+  <rect x="7" y="5.6" width="10" height="4" rx="0.8"/>
+  <circle cx="7.9" cy="13.6" r="1.05" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="13.6" r="1.05" fill="currentColor" stroke="none"/>
+  <circle cx="16.1" cy="13.6" r="1.05" fill="currentColor" stroke="none"/>
+  <circle cx="7.9" cy="17.4" r="1.05" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="17.4" r="1.05" fill="currentColor" stroke="none"/>
+  <circle cx="16.1" cy="17.4" r="1.05" fill="currentColor" stroke="none"/></svg></div>
             <span class="card-tag">Calc</span>
           </div>
           <div class="card-content">
@@ -253,7 +269,9 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/cgpa-calculator.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon cyan">C</div>
+            <div class="card-icon cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 9.5 L12 5 L21.5 9.5 L12 14 Z" stroke-linejoin="round"/>
+  <path d="M6.5 11.5 V16 C6.5 17.6 8.9 19 12 19 C15.1 19 17.5 17.6 17.5 16 V11.5" />
+  <path d="M21.5 9.5 V15.5" /></svg></div>
             <span class="card-tag">Academic</span>
           </div>
           <div class="card-content">
@@ -268,7 +286,11 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/resume-builder.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon purple">R</div>
+            <div class="card-icon purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M6 3 H14.5 L19 7.5 V21 H6 Z" stroke-linejoin="round"/>
+  <path d="M14.5 3 V7.5 H19" />
+  <circle cx="10.6" cy="12" r="1.7"/>
+  <path d="M8.4 17 C8.4 15.2 9.4 14.4 10.6 14.4 C11.8 14.4 12.8 15.2 12.8 17" />
+  <path d="M14.5 12.3 H16.6 M14.5 15 H16.6" /></svg></div>
             <span class="card-tag">Career</span>
           </div>
           <div class="card-content">
@@ -284,7 +306,10 @@ gtag('config', 'G-VZ6Y06CCYW', {
         <!-- NEW: Graph Calculator card -->
         <a href="tools/graph-calculator.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon blue">G</div>
+            <div class="card-icon amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M4 4 V20 H20" />
+  <path d="M5.5 16.5 L9.5 11.5 L13 14.5 L19 6.5" stroke-linejoin="round"/>
+  <circle cx="9.5" cy="11.5" r="1.05" fill="currentColor" stroke="none"/>
+  <circle cx="13" cy="14.5" r="1.05" fill="currentColor" stroke="none"/></svg></div>
             <span class="card-tag">Graph</span>
           </div>
           <div class="card-content">
@@ -300,7 +325,10 @@ gtag('config', 'G-VZ6Y06CCYW', {
         <!-- NEW: File Converter card -->
         <a href="tools/ai-quiz.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon blue">A</div>
+            <div class="card-icon amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="8.5"/>
+  <path d="M9.6 9.6 C9.6 8.2 10.7 7.3 12 7.3 C13.3 7.3 14.3 8.1 14.3 9.3 C14.3 10.9 12 11 12 13.1" />
+  <circle cx="12" cy="16.1" r="0.9" fill="currentColor" stroke="none"/>
+  <path d="M18.5 3.5 L19.2 5.3 L21 6 L19.2 6.7 L18.5 8.5 L17.8 6.7 L16 6 L17.8 5.3 Z" fill="currentColor" stroke="none"/></svg></div>
             <span class="card-tag">AI</span>
           </div>
           <div class="card-content">
@@ -315,7 +343,11 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         <a href="tools/file-converter.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon pink">⇄</div>
+            <div class="card-icon pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 3.5 H8.5 L11.5 6.5 V16.5 H3.5 Z" stroke-linejoin="round"/>
+  <path d="M8.5 3.5 V6.5 H11.5" />
+  <path d="M12.5 7.5 H17.5 L20.5 10.5 V20.5 H12.5 Z" stroke-linejoin="round"/>
+  <path d="M17.5 7.5 V10.5 H20.5" />
+  <path d="M9.7 12.2 L15.3 12.2 M15.3 12.2 L13.2 10.1 M15.3 12.2 L13.2 14.3" /></svg></div>
             <span class="card-tag">Convert</span>
           </div>
           <div class="card-content">
@@ -330,7 +362,11 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
                 <a href="tools/file-compressor.html" class="tool-card reveal">
           <div class="card-top">
-            <div class="card-icon blue">▣</div>
+            <div class="card-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M5 3.5 H19 V20.5 H5 Z" stroke-linejoin="round"/>
+  <path d="M12 3.5 V6.3 M10.3 6.3 H13.7 M12 6.3 V8.6 M10.3 8.6 H13.7 M12 8.6 V10.9" />
+  <rect x="10.3" y="10.9" width="3.4" height="3.2" rx="0.6"/>
+  <path d="M7.5 15 L9.2 17 L7.5 19" />
+  <path d="M16.5 15 L14.8 17 L16.5 19" /></svg></div>
             <span class="card-tag">Compress</span>
           </div>
           <div class="card-content">
@@ -405,7 +441,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
   <footer class="footer">
     <div class="footer-grid">
       <div class="footer-brand">
-        <h3>⚡ TornadoTools</h3>
+        <h3 class="footer-brand-mark"><img src="assets/mark.svg" alt="" width="22" height="22"> TornadoTools</h3>
         <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
       </div>
       <div class="footer-col">
@@ -447,6 +483,13 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
 </footer>
 
+  <!-- Three.js powers the hero's 3D storm scene only — not loaded on tool
+       pages. Deferred so it never blocks first paint; the existing 2D
+       radar canvas above renders immediately and stays as a full
+       fallback if this fails to load or the browser lacks WebGL. -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/card-tilt.js"></script>
+
   <script>
   /* ============================================================
      PARTICLE NETWORK BACKGROUND
@@ -470,8 +513,8 @@ gtag('config', 'G-VZ6Y06CCYW', {
       this.vy = (Math.random() - 0.5) * 0.5;
       this.r  = Math.random() * 1.8 + 0.5;
       this.color = Math.random() > 0.5
-        ? 'rgba(0,245,255,'
-        : 'rgba(108,99,255,';
+        ? 'rgba(76,111,255,'
+        : 'rgba(143,227,255,';
     }
 
     Particle.prototype.update = function() {
@@ -508,7 +551,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(q.x, q.y);
-            ctx.strokeStyle = `rgba(0,245,255,${alpha})`;
+            ctx.strokeStyle = `rgba(76,111,255,${alpha})`;
             ctx.lineWidth = 0.6;
             ctx.stroke();
           }
@@ -523,75 +566,279 @@ gtag('config', 'G-VZ6Y06CCYW', {
   })();
 
   /* ============================================================
-     THREE.JS HERO 3D (torus knot)
+     HERO — STORM RADAR
+     A slow-rotating radar/vortex visual echoing the brand mark:
+     concentric arc bands sweeping at different speeds around a
+     calm "eye" glow. Respects prefers-reduced-motion.
      ============================================================ */
   (function() {
-    const canvas = document.getElementById('hero-3d');
-    const scene = { objs: [], rot: 0 };
-
-    // Fallback if THREE not loaded — simple canvas 3D rings
-    const c = canvas;
+    const c = document.getElementById('hero-3d');
     const ctx = c.getContext('2d');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     function resize() {
-      c.width  = c.parentElement.offsetWidth;
-      c.height = c.parentElement.offsetHeight;
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const w = c.parentElement.offsetWidth, h = c.parentElement.offsetHeight;
+      c.width = w * dpr; c.height = h * dpr;
+      c.style.width = w + 'px'; c.style.height = h + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      return { w, h };
+    }
+    let { w, h } = resize();
+    window.addEventListener('resize', () => { ({ w, h } = resize()); });
+
+    // Each band: radius factor, arc length (radians), speed, direction, hue mix (0=blue..1=amber)
+    const bands = [
+      { rf: 0.94, arc: 2.35, speed: 0.06,  dir:  1, mix: 0.05, width: 2.5 },
+      { rf: 0.78, arc: 1.65, speed: 0.10,  dir: -1, mix: 0.25, width: 2   },
+      { rf: 0.62, arc: 2.75, speed: 0.085, dir:  1, mix: 0.15, width: 2.5 },
+      { rf: 0.46, arc: 1.35, speed: 0.14,  dir: -1, mix: 0.45, width: 1.75 },
+      { rf: 0.30, arc: 2.10, speed: 0.18,  dir:  1, mix: 0.65, width: 1.5 },
+    ];
+
+    function mixColor(t, alpha) {
+      // interpolate between accent-1 (76,111,255) and accent-2 (255,176,32)
+      const r = Math.round(76  + (255 - 76)  * t);
+      const g = Math.round(111 + (176 - 111) * t);
+      const b = Math.round(255 + (32  - 255) * t);
+      return `rgba(${r},${g},${b},${alpha})`;
     }
 
     let t = 0;
-    function drawHero3D() {
-      resize();
-      ctx.clearRect(0, 0, c.width, c.height);
+    function frame() {
+      ctx.clearRect(0, 0, w, h);
+      const cx = w * 0.5, cy = h * 0.48;
+      const maxR = Math.min(w, h) * 0.46;
 
-      const cx = c.width / 2, cy = c.height / 2;
-      const maxR = Math.min(c.width, c.height) * 0.32;
-      t += 0.004;
-
-      // Draw concentric rotating rings
-      for (let i = 0; i < 3; i++) {
-        const r = maxR * (0.5 + i * 0.25);
-        const rot = t * (i % 2 === 0 ? 1 : -1) + (i * Math.PI / 3);
-
+      bands.forEach((b, i) => {
+        const r = maxR * b.rf;
+        const rot = t * b.speed * b.dir + i * 1.1;
         ctx.save();
         ctx.translate(cx, cy);
         ctx.rotate(rot);
-
-        const grad = ctx.createLinearGradient(-r, 0, r, 0);
-        grad.addColorStop(0, `rgba(108,99,255,0)`);
-        grad.addColorStop(0.3, `rgba(108,99,255,${0.18 - i * 0.04})`);
-        grad.addColorStop(0.5, `rgba(0,245,255,${0.25 - i * 0.05})`);
-        grad.addColorStop(0.7, `rgba(191,0,255,${0.18 - i * 0.04})`);
-        grad.addColorStop(1, `rgba(191,0,255,0)`);
-
         ctx.beginPath();
-        ctx.ellipse(0, 0, r, r * 0.28, 0, 0, Math.PI * 2);
-        ctx.strokeStyle = grad;
-        ctx.lineWidth = 1.5;
+        ctx.arc(0, 0, r, 0, b.arc);
+        ctx.strokeStyle = mixColor(b.mix, 0.30);
+        ctx.lineWidth = b.width;
+        ctx.lineCap = 'round';
+        ctx.shadowColor = mixColor(b.mix, 0.5);
+        ctx.shadowBlur = 10;
         ctx.stroke();
         ctx.restore();
-      }
+      });
 
-      // Floating dots on orbital path
-      const dotCount = 6;
-      for (let i = 0; i < dotCount; i++) {
-        const angle = (i / dotCount) * Math.PI * 2 + t * 0.8;
-        const r = maxR * 0.72;
-        const x = cx + Math.cos(angle) * r;
-        const y = cy + Math.sin(angle) * r * 0.28;
-        const glow = ctx.createRadialGradient(x, y, 0, x, y, 5);
-        glow.addColorStop(0, 'rgba(0,245,255,0.9)');
-        glow.addColorStop(1, 'rgba(0,245,255,0)');
-        ctx.beginPath();
-        ctx.arc(x, y, 4, 0, Math.PI * 2);
-        ctx.fillStyle = glow;
-        ctx.fill();
-      }
+      // calm "eye" glow at center
+      const pulse = 0.75 + Math.sin(t * 0.9) * 0.25;
+      const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, maxR * 0.16 * pulse);
+      glow.addColorStop(0, 'rgba(255,176,32,0.55)');
+      glow.addColorStop(0.5, 'rgba(255,176,32,0.14)');
+      glow.addColorStop(1, 'rgba(255,176,32,0)');
+      ctx.beginPath();
+      ctx.arc(cx, cy, maxR * 0.16 * pulse, 0, Math.PI * 2);
+      ctx.fillStyle = glow;
+      ctx.fill();
 
-      requestAnimationFrame(drawHero3D);
+      if (!reduceMotion) {
+        t += 0.012;
+        requestAnimationFrame(frame);
+      }
     }
-
-    drawHero3D();
+    frame();
   })();
+
+  /* ============================================================
+     HERO — 3D STORM SCENE (Three.js)
+     A particle vortex spiraling down to a warm "eye", ringed by
+     slowly-tumbling gyroscopic rings, with gentle mouse parallax.
+     Purely additive: the 2D radar canvas above is a complete visual
+     on its own, so this only enhances — any failure here (no WebGL,
+     CDN blocked, reduced motion) just leaves that as-is.
+     ============================================================ */
+  window.addEventListener('load', function initHero3D() {
+    try {
+      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduceMotion) return;
+      if (typeof THREE === 'undefined') return;
+
+      var canvas = document.getElementById('hero-webgl');
+      var heroSection = document.querySelector('.hero');
+      if (!canvas || !heroSection) return;
+
+      var testCanvas = document.createElement('canvas');
+      var gl = testCanvas.getContext('webgl') || testCanvas.getContext('experimental-webgl');
+      if (!gl) return;
+
+      var renderer, scene, camera, vortex, ring1, ring2, ring3;
+      var running = false, rafId = null;
+      var mouseX = 0, mouseY = 0, targetRotY = 0, targetRotX = 0;
+      var clock = 0;
+
+      function buildVortex() {
+        var COUNT = 1100;
+        var positions = new Float32Array(COUNT * 3);
+        var colors = new Float32Array(COUNT * 3);
+        var blue = new THREE.Color(0x4C6FFF);
+        var amber = new THREE.Color(0xFFB020);
+        var cyan = new THREE.Color(0x8FE3FF);
+
+        for (var i = 0; i < COUNT; i++) {
+          var t = i / COUNT;
+          var angle = t * Math.PI * 18 + Math.random() * 0.6;
+          var radius = (1 - t) * 3.0 + 0.15;
+          var jitter = (Math.random() - 0.5) * 0.35;
+          var x = Math.cos(angle) * (radius + jitter);
+          var z = Math.sin(angle) * (radius + jitter);
+          var y = (0.5 - t) * 5.4 + (Math.random() - 0.5) * 0.25;
+
+          positions[i * 3] = x;
+          positions[i * 3 + 1] = y;
+          positions[i * 3 + 2] = z;
+
+          var mixed = blue.clone().lerp(amber, Math.pow(t, 1.6));
+          if (Math.random() < 0.15) mixed = mixed.lerp(cyan, 0.5);
+          colors[i * 3] = mixed.r;
+          colors[i * 3 + 1] = mixed.g;
+          colors[i * 3 + 2] = mixed.b;
+        }
+
+        var geo = new THREE.BufferGeometry();
+        geo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        geo.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+        var mat = new THREE.PointsMaterial({
+          size: 0.055,
+          vertexColors: true,
+          transparent: true,
+          opacity: 0.88,
+          depthWrite: false,
+          blending: THREE.AdditiveBlending,
+        });
+        var points = new THREE.Points(geo, mat);
+        points.rotation.x = 0.15;
+        return points;
+      }
+
+      function buildRing(radius, tube, color, opacity, seg) {
+        var geo = new THREE.TorusGeometry(radius, tube, 8, seg || 96);
+        var mat = new THREE.MeshBasicMaterial({ color: color, transparent: true, opacity: opacity });
+        return new THREE.Mesh(geo, mat);
+      }
+
+      function buildStars() {
+        var COUNT = 180;
+        var pos = new Float32Array(COUNT * 3);
+        for (var i = 0; i < COUNT; i++) {
+          pos[i * 3] = (Math.random() - 0.5) * 16;
+          pos[i * 3 + 1] = (Math.random() - 0.5) * 10;
+          pos[i * 3 + 2] = (Math.random() - 0.5) * 10 - 2;
+        }
+        var geo = new THREE.BufferGeometry();
+        geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+        var mat = new THREE.PointsMaterial({ size: 0.02, color: 0xF2F5FA, transparent: true, opacity: 0.35 });
+        return new THREE.Points(geo, mat);
+      }
+
+      function getSize() {
+        return { w: heroSection.offsetWidth, h: heroSection.offsetHeight };
+      }
+
+      function init() {
+        var size = getSize();
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(50, size.w / size.h, 0.1, 100);
+        camera.position.set(0, 0.6, 8);
+        camera.lookAt(0, 0, 0);
+
+        renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+        renderer.setSize(size.w, size.h);
+
+        vortex = buildVortex();
+        scene.add(vortex);
+
+        ring1 = buildRing(3.4, 0.006, 0x4C6FFF, 0.35);
+        ring1.rotation.x = Math.PI / 2.3;
+        ring2 = buildRing(2.6, 0.005, 0x8FE3FF, 0.28);
+        ring2.rotation.x = Math.PI / 3.1;
+        ring2.rotation.y = Math.PI / 5;
+        ring3 = buildRing(4.1, 0.005, 0xFFB020, 0.18);
+        ring3.rotation.x = Math.PI / 1.8;
+        ring3.rotation.z = Math.PI / 7;
+        scene.add(ring1, ring2, ring3);
+
+        scene.add(buildStars());
+
+        window.addEventListener('mousemove', onMouseMove, { passive: true });
+        window.addEventListener('resize', onResize);
+
+        heroSection.classList.add('is-3d-active');
+        canvas.style.opacity = '1';
+      }
+
+      function onMouseMove(e) {
+        var rect = heroSection.getBoundingClientRect();
+        mouseX = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
+        mouseY = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
+        targetRotY = mouseX * 0.25;
+        targetRotX = mouseY * 0.12;
+      }
+
+      function onResize() {
+        var size = getSize();
+        if (!size.w || !size.h) return;
+        camera.aspect = size.w / size.h;
+        camera.updateProjectionMatrix();
+        renderer.setSize(size.w, size.h);
+      }
+
+      function animate() {
+        if (!running) return;
+        rafId = requestAnimationFrame(animate);
+        clock += 0.0022;
+
+        vortex.rotation.y += 0.0016;
+        vortex.rotation.x += (0.15 + targetRotX * 0.4 - vortex.rotation.x) * 0.03;
+
+        ring1.rotation.z += 0.0009;
+        ring2.rotation.z -= 0.0013;
+        ring3.rotation.z += 0.0006;
+
+        scene.rotation.y += (targetRotY - scene.rotation.y) * 0.03;
+
+        renderer.render(scene, camera);
+      }
+
+      function start() {
+        if (running) return;
+        running = true;
+        animate();
+      }
+      function stop() {
+        running = false;
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+
+      init();
+      start();
+
+      var io = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) start(); else stop();
+        });
+      }, { threshold: 0.05 });
+      io.observe(heroSection);
+
+      document.addEventListener('visibilitychange', function() {
+        if (document.hidden) stop();
+        else if (heroSection.getBoundingClientRect().top < window.innerHeight) start();
+      });
+    } catch (err) {
+      // Any failure here is silent by design — the 2D radar canvas
+      // already rendered a complete hero visual before this ran.
+      var c = document.getElementById('hero-webgl');
+      if (c) c.style.display = 'none';
+    }
+  });
 
   /* ============================================================
      SCROLL REVEAL
@@ -612,10 +859,10 @@ gtag('config', 'G-VZ6Y06CCYW', {
      ============================================================ */
   function animCount(el, target, suffix='') {
     let cur = 0;
-    const step = Math.ceil(target / 60);
+    const step = Math.max(1, Math.ceil(target / 60));
     const t = setInterval(() => {
       cur = Math.min(cur + step, target);
-      el.textContent = cur + suffix;
+      el.textContent = cur.toLocaleString('en-US') + suffix;
       if (cur >= target) clearInterval(t);
     }, 22);
   }
@@ -624,12 +871,9 @@ gtag('config', 'G-VZ6Y06CCYW', {
     entries.forEach(e => {
       if (e.isIntersecting) {
         const el = e.target;
-        const count = parseInt(el.dataset.count);
-        if (el.dataset.count === '0') {
-          el.textContent = '0ms';
-        } else {
-          animCount(el, count, el.dataset.count === '100' ? '%' : '+');
-        }
+        const count = parseInt(el.dataset.count, 10);
+        const suffix = el.dataset.suffix || '';
+        animCount(el, count, suffix);
         counterObs.unobserve(el);
       }
     });
@@ -654,6 +898,6 @@ gtag('config', 'G-VZ6Y06CCYW', {
   });
   </script>
 
-<script type="module" src="/js/vercel.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 </html>

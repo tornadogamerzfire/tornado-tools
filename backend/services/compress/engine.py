@@ -1,21 +1,16 @@
 from __future__ import annotations
 
 import io
-import math
-import os
-import shutil
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 import fitz  # PyMuPDF
 from PIL import Image, ImageOps
 
 from utils.logger import logger
 from utils.temp_files import (
-    ensure_session_dirs,
     ext_of,
     make_output_name,
-    sanitize_filename,
     stem_of,
     unique_path,
 )
@@ -327,6 +322,11 @@ def compress_pdf(input_path: Path, target_bytes: int, output_dir: Path) -> dict[
     }
 
     if native_size <= target_bytes + TARGET_TOLERANCE_BYTES:
+        logger.info(
+            "PDF native compression: %s -> %s bytes (%.1f%% smaller)",
+            original_size, native_size,
+            max(0.0, (1 - native_size / original_size) * 100) if original_size else 0.0,
+        )
         return result
 
     try:

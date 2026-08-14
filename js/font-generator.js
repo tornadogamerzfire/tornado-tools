@@ -115,7 +115,11 @@ const styles = [
     map: c => {
       if (c >= 'a' && c <= 'z') return String.fromCodePoint(0x24D0 + c.charCodeAt(0) - 97);
       if (c >= 'A' && c <= 'Z') return String.fromCodePoint(0x24B6 + c.charCodeAt(0) - 65);
-      if (c >= '0' && c <= '9') return String.fromCodePoint(0x2460 + c.charCodeAt(0) - 49);
+      // CIRCLED DIGIT ZERO (U+24EA) isn't adjacent to the 1-9 block
+      // (U+2460-U+2468) — it lives on its own, so it needs a special case
+      // rather than continuing the same linear offset used for 1-9.
+      if (c === '0') return String.fromCodePoint(0x24EA);
+      if (c >= '1' && c <= '9') return String.fromCodePoint(0x2460 + c.charCodeAt(0) - 49);
       return c;
     }
   },

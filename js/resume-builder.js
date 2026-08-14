@@ -18,7 +18,7 @@
   const DEFAULT_STATE = {
     template: 'modern',
     accent: '#6c63ff',
-    font: "'Rajdhani', sans-serif",
+    font: "'Calibri', 'Trebuchet MS', sans-serif",
     fontSize: '14px',
     photo: '',
     name: '',
@@ -1083,8 +1083,10 @@
   }
 
   function bindResize() {
+    let resizeTimer;
     window.addEventListener('resize', () => {
-      updatePreviewScale();
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(updatePreviewScale, 120);
     });
   }
 

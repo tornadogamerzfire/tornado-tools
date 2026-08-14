@@ -42,6 +42,38 @@ function isValidForBase(value, base) {
 }
 
 /* ============================================================
+   ARBITRARY-PRECISION BASE CONVERSION
+   Number()/parseInt() silently lose precision past 2^53 (about
+   15-16 decimal digits — as few as 14 hex digits), which for a
+   number-base converter means large-but-plausible inputs (64-bit
+   hex values, long binary strings) would silently convert wrong.
+   BigInt has no such limit, so we parse/format through it instead.
+   ============================================================ */
+const DIGIT_CHARS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+function parseBigIntFromBase(str, base) {
+  const bigBase = BigInt(base);
+  let result = 0n;
+  for (const ch of str.toUpperCase()) {
+    const digit = DIGIT_CHARS.indexOf(ch);
+    result = result * bigBase + BigInt(digit);
+  }
+  return result;
+}
+
+function bigIntToBase(num, base) {
+  if (num === 0n) return '0';
+  const bigBase = BigInt(base);
+  let n = num;
+  let result = '';
+  while (n > 0n) {
+    result = DIGIT_CHARS[Number(n % bigBase)] + result;
+    n = n / bigBase;
+  }
+  return result;
+}
+
+/* ============================================================
    CONVERSION
    ============================================================ */
 function convertNumber() {
@@ -99,20 +131,16 @@ function convertNumber() {
 
   try {
     const clean   = value.replace(/\s+/g, '');
-    const decimal = parseInt(clean, baseFrom);
-
-    if (!isFinite(decimal)) {
-      TornadoToast.show('⚠ Number too large to convert');
-      return;
-    }
-
-    const result = decimal.toString(baseTo).toUpperCase();
-    output.value = result;
+    // BigInt-based parse/format keeps this exact for arbitrarily large
+    // values (e.g. 64-bit hex) instead of silently rounding.
+    const decimal = parseBigIntFromBase(clean, baseFrom);
+    const result  = bigIntToBase(decimal, baseTo).toUpperCase();
+    output.value  = result;
 
     const baseNames = { 2: 'Binary', 8: 'Octal', 10: 'Decimal', 16: 'Hexadecimal' };
     showInfo(
       `${clean} (${baseNames[baseFrom] || 'Base ' + baseFrom}) → ` +
-      `${decimal} (Decimal) → ` +
+      `${decimal.toString()} (Decimal) → ` +
       `${result} (${baseNames[baseTo] || 'Base ' + baseTo})`
     );
   } catch {

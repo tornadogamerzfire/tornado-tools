@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Iterable, Protocol, runtime_checkable
 
 from .logger import logger
-from .temp_files import TEMP_DIR, UPLOADS_DIR, OUTPUTS_DIR, remove_tree
+from .temp_files import TEMP_DIR, UPLOADS_DIR, OUTPUTS_DIR, remove_tree, is_valid_session_id
 
 MAX_AGE_SECONDS = int(os.getenv("AUTO_CLEANUP_SECONDS", "300"))
 SCAN_INTERVAL_SECONDS = 60
@@ -57,9 +57,14 @@ def delete_session_artifacts(session_id: str, immediate: bool = True, delay_seco
     """
     Deletes temp/uploads/outputs session folders.
     If delay_seconds > 0, schedules a delayed deletion in a background thread.
+
+    session_id can arrive from a client-facing cleanup endpoint, so it is
+    validated against the server-generated hex format before it's ever used
+    to build a filesystem path (prevents path traversal / arbitrary deletes).
     """
     session_id = (session_id or "").strip()
-    if not session_id:
+    if not is_valid_session_id(session_id):
+        logger.warning("Rejected session cleanup for invalid session id: %r", session_id)
         return False
 
     def _do_delete():

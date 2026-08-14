@@ -72,20 +72,20 @@
 .rb-btn-primary {
   background: var(--accent-grad);
   color: #fff;
-  box-shadow: 0 0 20px rgba(108,99,255,0.35);
+  box-shadow: 0 0 20px rgba(76, 111, 255,0.35);
 }
 .rb-btn-primary:hover {
-  box-shadow: 0 0 32px rgba(0,245,255,0.45);
+  box-shadow: 0 0 32px rgba(76, 111, 255,0.45);
   transform: translateY(-2px);
 }
 
 .rb-btn-secondary {
-  background: rgba(0,245,255,0.08);
+  background: rgba(76, 111, 255,0.08);
   color: var(--neon-cyan);
-  border: 1px solid rgba(0,245,255,0.3);
+  border: 1px solid rgba(76, 111, 255,0.3);
 }
 .rb-btn-secondary:hover {
-  background: rgba(0,245,255,0.15);
+  background: rgba(76, 111, 255,0.15);
   transform: translateY(-2px);
 }
 
@@ -103,9 +103,9 @@
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background: rgba(108,99,255,0.07);
+  background: rgba(76, 111, 255,0.07);
   color: var(--accent-1);
-  border: 1px dashed rgba(108,99,255,0.3);
+  border: 1px dashed rgba(76, 111, 255,0.3);
   border-radius: 10px;
   font-size: 13px;
   font-weight: 600;
@@ -113,8 +113,8 @@
   transition: all 0.2s;
 }
 .rb-btn-add:hover {
-  background: rgba(108,99,255,0.15);
-  border-color: rgba(108,99,255,0.5);
+  background: rgba(76, 111, 255,0.15);
+  border-color: rgba(76, 111, 255,0.5);
 }
 
 .rb-btn-sm { padding: 7px 14px; font-size: 12px; }
@@ -208,10 +208,10 @@
   background: var(--accent-grad);
   border-color: transparent;
   color: #fff;
-  box-shadow: 0 0 14px rgba(108,99,255,0.3);
+  box-shadow: 0 0 14px rgba(76, 111, 255,0.3);
 }
 .rb-tpl-btn:hover:not(.active) {
-  border-color: rgba(0,245,255,0.2);
+  border-color: rgba(76, 111, 255,0.2);
   color: var(--text-secondary);
 }
 
@@ -225,7 +225,7 @@
   padding: 2px;
   transition: all 0.2s;
 }
-.rb-color-picker:hover { box-shadow: 0 0 12px rgba(108,99,255,0.3); }
+.rb-color-picker:hover { box-shadow: 0 0 12px rgba(76, 111, 255,0.3); }
 
 .rb-select {
   background: rgba(6,12,26,0.9);
@@ -239,7 +239,7 @@
   outline: none;
   transition: border-color 0.2s;
 }
-.rb-select:focus { border-color: rgba(0,245,255,0.3); }
+.rb-select:focus { border-color: rgba(76, 111, 255,0.3); }
 .rb-select option { background: #0a1220; }
 
 /* SECTIONS */
@@ -253,7 +253,7 @@
   backdrop-filter: blur(12px);
   transition: border-color 0.2s;
 }
-.rb-section:hover { border-color: rgba(0,245,255,0.12); }
+.rb-section:hover { border-color: rgba(76, 111, 255,0.12); }
 
 .rb-section-header {
   display: flex;
@@ -329,9 +329,9 @@
 }
 .rb-input:focus,
 .rb-textarea:focus {
-  border-color: rgba(0,245,255,0.35);
-  background: rgba(0,245,255,0.03);
-  box-shadow: 0 0 0 3px rgba(0,245,255,0.07);
+  border-color: rgba(76, 111, 255,0.35);
+  background: rgba(76, 111, 255,0.03);
+  box-shadow: 0 0 0 3px rgba(76, 111, 255,0.07);
 }
 .rb-input.error { border-color: rgba(255,80,80,0.5); }
 .rb-textarea { resize: vertical; min-height: 80px; }
@@ -367,8 +367,8 @@
   font-size: 12px;
   padding: 4px 12px;
   border-radius: 100px;
-  background: rgba(108,99,255,0.1);
-  border: 1px solid rgba(108,99,255,0.25);
+  background: rgba(76, 111, 255,0.1);
+  border: 1px solid rgba(76, 111, 255,0.25);
   color: var(--accent-1);
   font-family: var(--font-mono);
   letter-spacing: 0.5px;
@@ -384,7 +384,7 @@
   position: relative;
   transition: border-color 0.2s;
 }
-.rb-entry:hover { border-color: rgba(0,245,255,0.1); }
+.rb-entry:hover { border-color: rgba(76, 111, 255,0.1); }
 
 .rb-entry-header {
   display: flex;
@@ -447,7 +447,7 @@
   transition: all 0.2s;
   line-height: 1;
 }
-.rb-zoom-btn:hover { background: rgba(0,245,255,0.08); color: var(--neon-cyan); }
+.rb-zoom-btn:hover { background: rgba(76, 111, 255,0.08); color: var(--neon-cyan); }
 
 .rb-zoom-val {
   font-family: var(--font-mono);

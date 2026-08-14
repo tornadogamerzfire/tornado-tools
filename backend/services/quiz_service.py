@@ -18,6 +18,11 @@ SUPPORTED_TIMER_MINUTES = [5, 10, 15, 20, 30, 45, 60]
 SESSION_TTL_SECONDS = int(os.getenv("SESSION_TTL_SECONDS", "7200"))
 
 
+class QuizSessionExpiredError(Exception):
+    """Raised when a submit/lookup targets a session that no longer exists
+    (expired via TTL, backend restart, or already submitted)."""
+
+
 class QuizService:
     def __init__(self, session_store: QuizSessionStore) -> None:
         self.session_store = session_store
@@ -176,16 +181,12 @@ class QuizService:
     def submit(self, session_token: str, answers: Dict[str, Any], elapsed_seconds: int | None = None) -> Dict[str, Any]:
         session = self.session_store.get(session_token)
         if not session:
-            return {
-                "score": 0,
-                "total": 0,
-                "percentage": 0.0,
-                "grade": "Fail",
-                "correctCount": 0,
-                "wrongCount": 0,
-                "skippedCount": 0,
-                "mode": "quiz",
-            }
+            # Don't fabricate a "0/0, Fail" result — that looks like a real
+            # graded outcome. Let the caller (controller) turn this into a
+            # clear "your session expired" response instead.
+            raise QuizSessionExpiredError(
+                "Quiz session not found or expired. Please generate a new quiz."
+            )
 
         questions = session.payload.get("questions") or []
         answer_key = session.answer_key or {}

@@ -25,8 +25,6 @@ def _cors_origins() -> list[str]:
     if raw == "*" or not raw:
         return ["*"]
     return [item.strip() for item in raw.split(",") if item.strip()]
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     try:
@@ -61,7 +59,11 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors_origins(),
-    allow_credentials=True,
+    # This API has no cookie-based auth. Wildcard origin + allow_credentials=True
+    # is a dangerous combination (browsers let ANY origin make "credentialed"
+    # requests), so credentials are only enabled when explicit, non-wildcard
+    # origins are configured via CORS_ORIGINS.
+    allow_credentials="*" not in _cors_origins(),
     allow_methods=["*"],
     allow_headers=["*"],
 )

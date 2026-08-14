@@ -13,9 +13,21 @@ for d in (TEMP_DIR, UPLOADS_DIR, OUTPUTS_DIR):
     d.mkdir(parents=True, exist_ok=True)
 
 FILENAME_SAFE_RE = re.compile(r"[^a-zA-Z0-9._-]+")
+SESSION_ID_RE = re.compile(r"^[a-f0-9]{8,64}$")
+
+
+def is_valid_session_id(session_id: str) -> bool:
+    """Session IDs are server-generated hex strings (os.urandom(n).hex()).
+
+    Anything else is rejected before it can be used to build a filesystem
+    path, since session_id is client-supplied on cleanup/download requests.
+    """
+    return bool(session_id) and bool(SESSION_ID_RE.match(session_id))
 
 
 def ensure_session_dirs(session_id: str) -> dict[str, Path]:
+    if not is_valid_session_id(session_id):
+        raise ValueError("Invalid session id.")
     session_temp = TEMP_DIR / session_id
     session_uploads = UPLOADS_DIR / session_id
     session_outputs = OUTPUTS_DIR / session_id

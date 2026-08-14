@@ -6,11 +6,11 @@
   <title>CGPA Calculator — TornadoTools | SGPA & CGPA Tools</title>
   <meta name="description" content="Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <meta name="theme-color" content="#020408" />
+  <meta name="theme-color" content="#0A0D12" />
   <meta name="application-name" content="TornadoTools">
   <meta name="apple-mobile-web-app-title" content="TornadoTools">
-  <meta name="author" content="Mr. Tornado">
-  <meta name="publisher" content="Tornado Gamerz Fire">
+  <meta name="author" content="TornadoTools">
+  <meta name="publisher" content="TornadoTools">
   <link rel="canonical" href="https://tornado-tools.vercel.app/tools/cgpa-calculator.html" />
   <meta property="og:site_name" content="TornadoTools" />
   <meta property="og:type" content="website" />
@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="Calculate SGPA from subject grades and CGPA from semester results with a clean browser-based student calculator." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
   <link rel="preload" as="style" href="../css/main.css">
   <link rel="preload" as="style" href="../css/components.css">
 
@@ -171,10 +171,14 @@
       }
     }
   </style>
-  <link rel="icon" type="image/jpeg" href="/Logo.jpg">
-  <link rel="apple-touch-icon" href="/Logo.jpg">
-  <meta property="og:image" content="https://tornado-tools.vercel.app/Logo.jpg">
-  <meta name="twitter:image" content="https://tornado-tools.vercel.app/Logo.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" href="/assets/icon-180.png">
+  <meta property="og:image" content="https://tornado-tools.vercel.app/assets/og-image.png">
+  <meta name="twitter:image" content="https://tornado-tools.vercel.app/assets/og-image.png">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -188,7 +192,7 @@
     "url": "https://tornado-tools.vercel.app/"
   }
 }
-  </script>
+</script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -214,7 +218,7 @@
     }
   ]
 }
-  </script>
+</script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -225,7 +229,7 @@
       "name": "What is SGPA?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "SGPA is the semester grade point average calculated from subject scores and credits."
+        "text": "SGPA is the semester grade point average. It is usually calculated from subject grade points and their credits."
       }
     },
     {
@@ -233,27 +237,35 @@
       "name": "What is CGPA?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "CGPA is the cumulative grade point average calculated across semesters."
+        "text": "CGPA is the cumulative grade point average across multiple semesters, usually using weighted semester SGPA values."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I enter letter grades?",
+      "name": "Can I use both calculators on one page?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The page supports both numeric grade points and optional letter-grade style inputs."
+        "text": "Yes. This page includes both SGPA and CGPA tools so users do not need to leave the page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this page need login or database?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The calculator works directly in the browser and does not require a backend for normal use."
       }
     }
   ]
 }
-  </script>
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "TornadoTools",
   "url": "https://tornado-tools.vercel.app/",
-  "logo": "https://tornado-tools.vercel.app/Logo.jpg",
+  "logo": "https://tornado-tools.vercel.app/assets/icon-512.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer support",
@@ -299,7 +311,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
   <header class="navbar">
     <div class="nav-container">
       <a href="../index.html" class="logo">
-        <div class="logo-icon">⚡</div>
+        <img class="logo-icon" src="../assets/mark.svg" alt="" width="36" height="36">
         <span class="logo-text">TornadoTools</span>
       </a>
       <nav class="nav-links" id="navLinks" aria-label="Primary">
@@ -550,7 +562,7 @@ gtag('config', 'G-VZ6Y06CCYW', {
   <footer class="footer">
     <div class="footer-grid">
       <div class="footer-brand">
-        <h3>⚡ TornadoTools</h3>
+        <h3 class="footer-brand-mark"><img src="../assets/mark.svg" alt="" width="22" height="22"> TornadoTools</h3>
         <p>Fast, clean, all-in-one utility platform. Built for speed, privacy, and useful everyday tools.</p>
       </div>
       <div class="footer-col">
@@ -795,9 +807,10 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         if (totalCredits === 0) {
           sgpaResult.style.display = 'none';
-          alert(currentSgpaMode === 'grades'
+          const msg = currentSgpaMode === 'grades'
             ? 'Enter at least one valid letter grade and credit value.'
-            : 'Enter at least one valid subject grade point and credit value.');
+            : 'Enter at least one valid subject grade point and credit value.';
+          if (window.TornadoToast) TornadoToast.show(msg, 3000); else alert(msg);
           return;
         }
 
@@ -824,7 +837,8 @@ gtag('config', 'G-VZ6Y06CCYW', {
 
         if (totalCredits === 0) {
           cgpaResult.style.display = 'none';
-          alert('Enter at least one valid semester SGPA and credit value.');
+          const msg = 'Enter at least one valid semester SGPA and credit value.';
+          if (window.TornadoToast) TornadoToast.show(msg, 3000); else alert(msg);
           return;
         }
 
@@ -866,6 +880,6 @@ gtag('config', 'G-VZ6Y06CCYW', {
     })();
   </script>
 
-  <script type="module" src="../js/vercel.js"></script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 </html>

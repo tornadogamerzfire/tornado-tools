@@ -204,7 +204,23 @@ function clearQR() {
 function downloadQR() {
   if (!qr) { TornadoToast.show('⚠ Generate a QR code first'); return; }
   try {
-    qr.download({ name: 'tornadotools-qr', extension: 'png' });
+    // Export directly from the rendered canvas rather than qr.download().
+    // The library's own download() re-renders from its internal QR state,
+    // which never learned about the logo we draw manually on top of the
+    // canvas below — so it would silently produce a PNG without the logo.
+    // Reading the canvas's actual pixels guarantees the file matches the
+    // on-screen preview exactly.
+    const canvas = container.querySelector('canvas');
+    if (canvas) {
+      const link = document.createElement('a');
+      link.download = 'tornadotools-qr.png';
+      link.href = canvas.toDataURL('image/png');
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    } else {
+      qr.download({ name: 'tornadotools-qr', extension: 'png' });
+    }
     TornadoToast.show('✓ Downloading...');
   } catch {
     TornadoToast.show('⚠ Download failed — try regenerating');

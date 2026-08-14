@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "@vercel/speed-insights": "^2.0.0"
-  }
+  "name": "tornado-tools",
+  "private": true,
+  "description": "Static frontend for TornadoTools. No build step or npm dependencies required -- Vercel Speed Insights is loaded via the auto-served /_vercel/speed-insights/script.js tag on every page instead of the npm package.",
+  "dependencies": {}
 }

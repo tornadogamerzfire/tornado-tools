@@ -21,7 +21,7 @@ from services.convert.engine import (
 )
 from utils.cleanup import delete_session_artifacts, purge_old_files
 from utils.logger import logger
-from utils.temp_files import ensure_session_dirs, ext_of, sanitize_filename, stem_of
+from utils.temp_files import OUTPUTS_DIR, ensure_session_dirs, ext_of, is_valid_session_id, sanitize_filename
 
 MAX_UPLOAD_BYTES = 250 * 1024 * 1024  # 250 MB safety cap
 
@@ -144,7 +144,7 @@ async def convert(request: Request, file: UploadFile = File(...), targetFormat: 
                 "downloadName": result["download_name"],
                 "outputMimeType": result["output_mime"],
                 "outputBytes": result["output_size"],
-                "downloadUrl": f"/api/converter/download/{result['output_file_name']}",
+                "downloadUrl": f"/api/converter/download/{session_id}/{result['output_file_name']}",
                 "deleteAfterDownload": True,
                 "cleanupAt": int(time.time()) + 300,
             }
@@ -174,8 +174,8 @@ async def convert(request: Request, file: UploadFile = File(...), targetFormat: 
 
 async def cleanup_session(session_id: str, request: Request):
     session_id = (session_id or "").strip()
-    if not session_id:
-        raise HTTPException(status_code=400, detail="Session ID is required.")
+    if not is_valid_session_id(session_id):
+        raise HTTPException(status_code=400, detail="Invalid session ID.")
     delay_seconds = 0
     if request is not None:
         try:
@@ -189,22 +189,24 @@ async def cleanup_session(session_id: str, request: Request):
     delete_session_artifacts(session_id, immediate=True)
     return _json({"success": True, "message": "Cleanup completed.", "data": {"sessionId": session_id}})
 
-async def download(filename: str):
-    from utils.temp_files import OUTPUTS_DIR
+async def download(session_id: str, filename: str):
+    if not is_valid_session_id(session_id):
+        raise HTTPException(status_code=404, detail="File not found")
     safe_name = sanitize_filename(filename)
     if not safe_name:
         raise HTTPException(status_code=404, detail="File not found")
 
-    matches = list(OUTPUTS_DIR.rglob(safe_name))
-    if not matches:
+    # Scoped to this exact session's output folder — never a cross-session
+    # search — so two sessions producing the same output filename can never
+    # collide (leak or delete each other's files).
+    file_path = OUTPUTS_DIR / session_id / safe_name
+    if not file_path.is_file():
         raise HTTPException(status_code=404, detail="File not found")
-    file_path = matches[0]
-    session_dir = file_path.parent
 
     media_type = detect_output_mime(file_path.suffix.lstrip("."))
     return FileResponse(
         path=str(file_path),
         filename=safe_name,
         media_type=media_type,
-        background=BackgroundTask(delete_session_artifacts, session_dir.name, True, 0),
+        background=BackgroundTask(delete_session_artifacts, session_id, True, 0),
     )

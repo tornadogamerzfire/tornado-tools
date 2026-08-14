@@ -14,7 +14,6 @@ const API_HEALTH = `${API_BASE}/api/compress/health`;
 const API_WARMUP = `${API_BASE}/api/compress/warmup`;
 const API_CAPABILITIES = `${API_BASE}/api/compress/capabilities`;
 const API_COMPRESS = `${API_BASE}/api/compress/compress`;
-const API_DOWNLOAD = (filename) => `${API_BASE}/api/compress/download/${encodeURIComponent(filename)}`;
 const API_CLEANUP = (sessionId) => `${API_BASE}/api/compress/session/${encodeURIComponent(sessionId)}/cleanup`;
 
 const DEFAULT_SUPPORTED = ['jpg', 'jpeg', 'png', 'webp', 'bmp', 'tif', 'tiff', 'pdf'];
@@ -532,7 +531,7 @@ function bindEvents() {
     }
     try {
       const downloadName = state.lastResult.downloadName || state.lastResult.outputFileName;
-      await downloadFile(API_DOWNLOAD(state.lastResult.outputFileName), downloadName);
+      await downloadFile(`${API_BASE}${state.lastResult.downloadUrl}`, downloadName);
       showToast('Download started!');
     } catch (err) {
       showToast(err?.message || 'Download failed.', true);

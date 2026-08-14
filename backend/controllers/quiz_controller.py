@@ -6,10 +6,12 @@ from typing import Any
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse
 
+from middleware.rate_limit_middleware import limiter
 from models.quiz_models import QuizBuildRequest, QuizSubmitRequest
-from services.quiz_service import QuizService
+from services.quiz_service import QuizService, QuizSessionExpiredError
 from services.session_store import QuizSessionStore
 from utils.cleanup import cleanup_manager
+from utils.request_ip import client_ip
 
 
 session_store = QuizSessionStore()
@@ -58,7 +60,8 @@ async def capabilities():
 
 
 @router.post("/generate")
-async def generate_quiz(payload: QuizBuildRequest):
+async def generate_quiz(payload: QuizBuildRequest, request: Request):
+    limiter.hit(client_ip(request))
     try:
         result = await quiz_service.build_quiz(payload)
         return _json({
@@ -83,6 +86,10 @@ async def submit_quiz(payload: QuizSubmitRequest):
             "success": True,
             "data": result,
         })
+    except QuizSessionExpiredError as exc:
+        # 410 Gone: the session existed conceptually but is no longer
+        # available — distinct from a plain 404 "never existed" or a 500.
+        raise HTTPException(status_code=410, detail=str(exc))
     except HTTPException:
         raise
     except Exception as exc:

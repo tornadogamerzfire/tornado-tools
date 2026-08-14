@@ -1,5 +1,4 @@
-from fastapi import APIRouter, BackgroundTasks, Request
-from fastapi.responses import FileResponse
+from fastapi import APIRouter
 
 from controllers.convert_controller import capabilities, cleanup_session, convert, download, health, warmup
 
@@ -11,4 +10,4 @@ router.get("/warmup")(warmup)
 router.post("/convert")(convert)
 router.post("/session/{session_id}/cleanup")(cleanup_session)
 router.delete("/session/{session_id}/cleanup")(cleanup_session)
-router.get("/download/{filename}")(download)
+router.get("/download/{session_id}/{filename}")(download)

@@ -10,21 +10,16 @@ from fastapi.responses import FileResponse, JSONResponse
 from starlette.background import BackgroundTask
 
 from middleware.rate_limit_middleware import limiter
-from middleware.validation_middleware import require_target
 from services.compress.engine import (
     MAX_UPLOAD_BYTES,
-    MB,
     KB,
     build_capabilities,
-    capabilities_for_source,
     compress_file,
     detect_output_mime,
-    normalise_ext,
-    source_category,
 )
 from utils.cleanup import delete_session_artifacts, purge_old_files
 from utils.logger import logger
-from utils.temp_files import ensure_session_dirs, ext_of, sanitize_filename
+from utils.temp_files import OUTPUTS_DIR, ensure_session_dirs, ext_of, is_valid_session_id, sanitize_filename
 
 MIN_TARGET_BYTES = 8 * KB
 TARGET_TOLERANCE_BYTES = 2048
@@ -146,7 +141,9 @@ async def compress(
         if not output_path.exists():
             raise HTTPException(status_code=500, detail="Compression completed but output file was not created.")
 
-        original_size = input_path.stat().st_size if input_path.exists() else written
+        # input_path was already unlinked above, so `written` (the total
+        # bytes streamed from the upload) is the original file size.
+        original_size = written
         output_size = result["output_size"]
         compression_percent = 0.0
         if original_size > 0:
@@ -167,7 +164,7 @@ async def compress(
                 "outputBytes": int(output_size),
                 "compressionPercent": compression_percent,
                 "method": result.get("method", "compress"),
-                "downloadUrl": f"/api/compress/download/{result['output_file_name']}",
+                "downloadUrl": f"/api/compress/download/{session_id}/{result['output_file_name']}",
                 "deleteAfterDownload": True,
                 "cleanupAt": int(time.time()) + 300,
                 "targetToleranceBytes": TARGET_TOLERANCE_BYTES,
@@ -197,8 +194,8 @@ async def compress(
 
 async def cleanup_session(session_id: str, request: Request):
     session_id = (session_id or "").strip()
-    if not session_id:
-        raise HTTPException(status_code=400, detail="Session ID is required.")
+    if not is_valid_session_id(session_id):
+        raise HTTPException(status_code=400, detail="Invalid session ID.")
     delay_seconds = 0
     if request is not None:
         try:
@@ -212,20 +209,21 @@ async def cleanup_session(session_id: str, request: Request):
     delete_session_artifacts(session_id, immediate=True)
     return _json({"success": True, "message": "Cleanup completed.", "data": {"sessionId": session_id}})
 
-async def download(filename: str):
-    from utils.temp_files import OUTPUTS_DIR
+async def download(session_id: str, filename: str):
+    if not is_valid_session_id(session_id):
+        raise HTTPException(status_code=404, detail="File not found")
     safe_name = sanitize_filename(filename)
     if not safe_name:
         raise HTTPException(status_code=404, detail="File not found")
 
-    matches = list(OUTPUTS_DIR.rglob(safe_name))
-    if not matches:
+    # Scoped to this exact session's output folder — never a cross-session
+    # search — so two sessions producing the same output filename can never
+    # collide (leak or delete each other's files).
+    file_path = OUTPUTS_DIR / session_id / safe_name
+    if not file_path.is_file():
         raise HTTPException(status_code=404, detail="File not found")
 
-    file_path = matches[0]
     media_type = detect_output_mime(file_path.suffix.lstrip("."))
-    session_id = file_path.parent.name
-
     return FileResponse(
         path=str(file_path),
         filename=safe_name,

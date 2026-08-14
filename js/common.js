@@ -12,6 +12,14 @@
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
 
+  function debounce(fn, wait) {
+    let t;
+    return function (...args) {
+      clearTimeout(t);
+      t = setTimeout(() => fn.apply(this, args), wait);
+    };
+  }
+
   let W, H, stars = [], animId, running = false;
   const MOBILE_STARS = 72;
   const DESKTOP_STARS = 160;
@@ -30,11 +38,11 @@
     this.alpha = Math.random() * 0.6 + 0.2;
     this.flicker = Math.random() * 0.015;
     this.flickerDir = 1;
-    this.color = Math.random() > 0.7
-      ? `rgba(0,245,255,`
-      : Math.random() > 0.5
-        ? `rgba(191,0,255,`
-        : `rgba(180,180,255,`;
+    this.color = Math.random() > 0.5
+      ? `rgba(76,111,255,`
+      : Math.random() > 0.82
+        ? `rgba(255,176,32,`
+        : `rgba(200,212,235,`;
   };
 
   Star.prototype.update = function () {
@@ -88,7 +96,7 @@
     cancelAnimationFrame(animId);
   }
 
-  window.addEventListener('resize', () => {
+  window.addEventListener('resize', debounce(() => {
     const nextCount = getStarCount();
     if (stars.length !== nextCount) {
       stop();
@@ -97,7 +105,7 @@
       return;
     }
     resize();
-  });
+  }, 120));
 
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) stop();

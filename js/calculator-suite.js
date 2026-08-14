@@ -697,8 +697,8 @@ var UNIT_DATA = {
     base:  { 'Meter':1,'Kilometer':1000,'Centimeter':0.01,'Millimeter':0.001,'Micrometer':0.000001,'Nanometer':1e-9,'Mile':1609.344,'Nautical Mile':1852,'Yard':0.9144,'Foot':0.3048,'Inch':0.0254 }
   },
   weight: {
-    units: ['Kilogram','Gram','Milligram','Microgram','Pound','Ounce','Ton'],
-    base:  { 'Kilogram':1,'Gram':0.001,'Milligram':0.000001,'Microgram':1e-9,'Pound':0.453592,'Ounce':0.0283495,'Ton':1000 }
+    units: ['Kilogram','Gram','Milligram','Microgram','Pound','Ounce','Tonne (Metric)'],
+    base:  { 'Kilogram':1,'Gram':0.001,'Milligram':0.000001,'Microgram':1e-9,'Pound':0.453592,'Ounce':0.0283495,'Tonne (Metric)':1000 }
   },
   temp: { units: ['Celsius','Fahrenheit','Kelvin'], base: {} },
   area: {

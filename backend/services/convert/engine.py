@@ -1,36 +1,28 @@
 from __future__ import annotations
 
-import base64
-import csv
-import io
 import json
-import math
 import mimetypes
-import os
 import re
 import shutil
 import subprocess
+import tarfile
 import tempfile
 import textwrap
 import zipfile
-from collections import OrderedDict
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 import pandas as pd
 import yaml
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageFont
 from docx import Document
-from docx.enum.section import WD_SECTION_START
 from docx.shared import Inches, Pt
 from pptx import Presentation
 from pptx.util import Inches as PptxInches
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
-from reportlab.lib.pagesizes import A4, landscape, portrait
+from reportlab.lib.pagesizes import A4, portrait
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 from pypdf import PdfReader
 import fitz  # PyMuPDF
@@ -38,15 +30,7 @@ from xml.etree import ElementTree as ET
 
 from utils.logger import logger
 from utils.temp_files import (
-    BASE_DIR,
-    OUTPUTS_DIR,
-    TEMP_DIR,
-    UPLOADS_DIR,
-    ensure_session_dirs,
-    sanitize_filename,
     stem_of,
-    ext_of,
-    unique_path,
     make_output_name,
 )
 
@@ -64,7 +48,7 @@ HAS_MAGICK = shutil.which("magick") or shutil.which("convert")
 IMAGE_EXTS = {"png", "jpg", "jpeg", "webp", "gif", "bmp", "tif", "tiff", "svg"}
 TEXT_EXTS = {"txt", "json", "csv", "xml", "yaml", "yml"}
 SHEET_EXTS = {"xlsx", "ods"}
-DOC_EXTS = {"pdf", "docx", "odt", "rtf"}
+DOC_EXTS = {"pdf", "docx", "odt", "rtf", "doc"}
 PRESENTATION_EXTS = {"pptx", "ppt", "odp"}
 VIDEO_EXTS = {"mp4", "mov", "avi", "mkv", "webm"}
 AUDIO_EXTS = {"mp3", "wav", "ogg", "flac"}
@@ -104,6 +88,7 @@ SUPPORTED_CONVERSIONS: dict[str, list[str]] = {
     "docx": sorted(DOC_TARGETS),
     "odt": sorted(DOC_TARGETS),
     "rtf": sorted(DOC_TARGETS),
+    "doc": sorted(DOC_TARGETS),
 
     "pptx": sorted(PPT_TARGETS),
     "ppt": sorted(PPT_TARGETS),
@@ -692,6 +677,22 @@ def extract_spreadsheet(path: Path, ext: str) -> tuple[Any, pd.DataFrame, str]:
         return obj, df, "data"
     raise RuntimeError(f"Unsupported spreadsheet source: {ext}")
 
+def _plain_text_from_rtf(raw_text: str) -> str:
+    """Best-effort plain-text extraction from RTF markup without a full parser.
+
+    RTF is ASCII-safe text, so it always decodes fine, but showing the raw
+    control words (\\rtf1\\ansi\\deff0 ...) to a user isn't a real conversion.
+    This strips the common control-word/escape syntax to leave readable text.
+    """
+    text = re.sub(r"\\'[0-9a-fA-F]{2}", "", raw_text)  # hex-escaped chars
+    text = re.sub(r"\\u-?\d+\??", "", text)  # unicode escapes
+    text = re.sub(r"\\[a-zA-Z]+-?\d* ?", "", text)  # control words
+    text = text.replace("{", "").replace("}", "")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def extract_document(path: Path, ext: str) -> tuple[Any, pd.DataFrame | None, str]:
     ext = normalise_ext(ext)
     if ext == "pdf":
@@ -715,7 +716,19 @@ def extract_document(path: Path, ext: str) -> tuple[Any, pd.DataFrame | None, st
                     return text, pd.DataFrame({"line": text.splitlines()}), "document"
             except Exception as exc:
                 logger.warning("LibreOffice txt conversion failed for %s: %s", path, exc)
-    # fallback: raw text
+    if ext == "rtf":
+        # RTF is plain-text markup, so a readable fallback is possible even
+        # without LibreOffice.
+        text = _plain_text_from_rtf(safe_utf8_text(path))
+        return text, pd.DataFrame({"line": text.splitlines()}), "document"
+    if ext in {"odt", "doc"}:
+        # These are genuinely binary/compressed containers (doc = OLE2,
+        # odt = zipped XML). Without LibreOffice there's no reliable way to
+        # read them, so fail clearly instead of returning decoded garbage.
+        raise RuntimeError(
+            f"Converting .{ext} files requires LibreOffice, which isn't available in this "
+            "environment. Try .docx, .pdf, or .rtf instead."
+        )
     text = safe_utf8_text(path)
     return text, pd.DataFrame({"line": text.splitlines()}), "document"
 
@@ -738,6 +751,13 @@ def extract_presentation(path: Path, ext: str) -> tuple[Any, pd.DataFrame | None
                     return text, df, "presentation"
             except Exception as exc:
                 logger.warning("LibreOffice pptx conversion failed for %s: %s", path, exc)
+    if ext in {"ppt", "odp"}:
+        # Both are binary/compressed containers (ppt = OLE2, odp = zipped
+        # XML) — without LibreOffice there's no reliable way to read them.
+        raise RuntimeError(
+            f"Converting .{ext} files requires LibreOffice, which isn't available in this "
+            "environment. Try .pptx instead."
+        )
     text = safe_utf8_text(path)
     return text, pd.DataFrame({"line": text.splitlines()}), "presentation"
 
@@ -751,7 +771,9 @@ def extract_image_payload(path: Path, ext: str) -> tuple[Any, pd.DataFrame | Non
     return {"image": img}, None, "image", [img_path]
 
 def build_capabilities() -> dict[str, list[str]]:
-    return SUPPORTED_CONVERSIONS.copy()
+    # Route every source through the same environment-aware filter used at
+    # conversion time, so this never advertises a target that will 500.
+    return {ext: capabilities_for_source(ext) for ext in SUPPORTED_CONVERSIONS}
 
 # -----------------------------
 # Output creators
@@ -938,17 +960,32 @@ def create_media_output(source_path: Path, source_ext: str, target_ext: str, out
         return out_path
     raise RuntimeError(f"Unsupported media conversion: {source_ext} -> {target_ext}")
 
+def _ensure_safe_archive_member(name: str, extract_dir: Path) -> None:
+    """Reject archive entries that would write outside extract_dir ("Zip Slip")."""
+    if not name or name.startswith(("/", "\\")):
+        raise RuntimeError("Archive contains an unsafe absolute path and was rejected.")
+    dest = (extract_dir / name).resolve()
+    if dest != extract_dir and extract_dir not in dest.parents:
+        raise RuntimeError("Archive contains a path that escapes the extraction folder and was rejected.")
+
+
 def extract_archive(archive_path: Path, out_zip: Path) -> Path:
     ensure_parent(out_zip)
     extract_dir = out_zip.parent / f"{out_zip.stem}_extract"
     extract_dir.mkdir(parents=True, exist_ok=True)
+    extract_dir_resolved = extract_dir.resolve()
+
     if zipfile.is_zipfile(archive_path):
         with zipfile.ZipFile(archive_path) as zf:
+            for name in zf.namelist():
+                _ensure_safe_archive_member(name, extract_dir_resolved)
             zf.extractall(extract_dir)
     elif tarfile.is_tarfile(archive_path):
-        import tarfile
         with tarfile.open(archive_path) as tf:
-            tf.extractall(extract_dir)
+            members = [m for m in tf.getmembers() if m.isfile() or m.isdir()]
+            for member in members:
+                _ensure_safe_archive_member(member.name, extract_dir_resolved)
+            tf.extractall(extract_dir, members=members)  # noqa: S202 - members vetted above
     else:
         raise RuntimeError("Only ZIP and TAR archives are supported in this build.")
     # Bundle extracted files as a zip for the browser
@@ -961,46 +998,22 @@ def extract_archive(archive_path: Path, out_zip: Path) -> Path:
     shutil.rmtree(extract_dir, ignore_errors=True)
     return out_zip
 
-def convert_via_libreoffice(input_path: Path, target_ext: str, out_dir: Path) -> Path:
-    if not HAS_LIBREOFFICE:
-        raise RuntimeError("LibreOffice is required for this conversion in the current environment.")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    target_ext = normalise_ext(target_ext)
-    filter_map = {
-        "docx": "docx",
-        "odt": "odt",
-        "rtf": "rtf",
-        "pdf": "pdf",
-        "txt": "txt:Text",
-        "xlsx": "xlsx",
-        "ods": "ods",
-        "pptx": "pptx",
-        "odp": "odp",
-        "csv": "csv",
-        "html": "html",
-    }
-    target = filter_map.get(target_ext, target_ext)
-    cmd = [
-        "libreoffice", "--headless", "--convert-to", target,
-        "--outdir", str(out_dir), str(input_path)
-    ]
-    subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    outs = list(out_dir.glob(f"*.{target_ext}")) if target_ext not in {"txt"} else list(out_dir.glob("*.txt"))
-    if not outs and target_ext == "txt":
-        outs = list(out_dir.glob("*.txt"))
-    if not outs:
-        raise RuntimeError(f"LibreOffice did not produce a {target_ext} file.")
-    return outs[0]
-
 def capabilities_for_source(source_ext: str) -> list[str]:
     source_ext = normalise_ext(source_ext)
     supported = SUPPORTED_CONVERSIONS.get(source_ext, []).copy()
-    # keep it conservative if a binary is unavailable
-    if not HAS_FFMPEG:
-        if source_ext in VIDEO_EXTS:
-            supported = [ext for ext in supported if ext in VIDEO_EXTS]
-        if source_ext in AUDIO_EXTS:
-            supported = [ext for ext in supported if ext in AUDIO_EXTS]
+    # Keep the advertised list honest about what this environment can actually do.
+    if not HAS_FFMPEG and (source_ext in VIDEO_EXTS or source_ext in AUDIO_EXTS):
+        # create_media_output() requires ffmpeg unconditionally, so no video/audio
+        # target (not even same-category, e.g. mp4->webm) will work without it.
+        supported = [ext for ext in supported if ext not in VIDEO_EXTS and ext not in AUDIO_EXTS]
+    if not HAS_INKSCAPE and not HAS_MAGICK and source_ext == "svg":
+        # Every SVG target (including pdf/docx/pptx) is rasterized via
+        # image_from_svg() first, so with neither tool, nothing works.
+        supported = []
+    if not HAS_LIBREOFFICE and source_ext in {"doc", "odt", "ppt", "odp"}:
+        # These are binary/compressed containers that extract_document() /
+        # extract_presentation() can only read via LibreOffice.
+        supported = []
     return supported
 
 def detect_output_mime(ext: str) -> str:
@@ -1103,7 +1116,6 @@ def convert_file(source_path: Path, source_ext: str, target_ext: str, session_di
     base_stem = stem_of(source_path.name)
     safe_target = "extract" if target_ext == "extract" else target_ext
     output_dir = session_dirs["outputs"]
-    temp_dir = session_dirs["temp"]
 
     # Output file naming
     if kind == "archive" and safe_target == "extract":
