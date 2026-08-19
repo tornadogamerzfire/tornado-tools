@@ -15,12 +15,9 @@
    9.  TOOL PAGE SHELL  (tool-body · tool-page · tool-header · sticky-area)
    10. GRIDS  (tools-grid · features-grid)
    11. SEO CONTENT BLOCKS  (FAQ · how-to · benefits · trust · breadcrumbs)
-   12. ABOUT / LEGAL PAGE LAYOUT
-   13. ADSENSE SLOTS
-   14. CALCULATOR  (display · grid · buttons)
-   15. TOOL-SPECIFIC FORM ROWS  (subject-row · base-row · mode-switch)
-   16. QR GENERATOR CONTROLS
-   17. RESPONSIVE
+  12. ABOUT / LEGAL PAGE LAYOUT
+  13. CALCULATOR  (display · grid · buttons)
+  14. TOOL-SPECIFIC FORM ROWS  (subject-row · base-row · mode-switch)
    ============================================================ */
 
 
@@ -1504,50 +1501,7 @@ body.tool-body {
 
 
 /* ============================================================
-   13. ADSENSE SLOTS
-   ============================================================ */
-
-/* Generic ad slot wrapper — prevents layout shift */
-.ad-slot {
-  width: 100%;
-  overflow: hidden;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Leaderboard (728×90) */
-.ad-slot.leaderboard {
-  min-height: 90px;
-  margin: var(--sp-xl) 0;
-}
-
-/* Rectangle (300×250) */
-.ad-slot.rectangle {
-  min-height: 250px;
-  max-width: 336px;
-  margin: var(--sp-lg) auto;
-}
-
-/* In-content strip */
-.ad-slot.in-content {
-  min-height: 100px;
-  margin: var(--sp-2xl) 0;
-  border-top: 1px solid var(--border-subtle);
-  border-bottom: 1px solid var(--border-subtle);
-  padding: var(--sp-md) 0;
-}
-
-/* Sidebar (160×600) */
-.ad-slot.sidebar {
-  min-height: 600px;
-  max-width: 160px;
-}
-
-
-/* ============================================================
-   14. CALCULATOR
+   13. CALCULATOR
    ============================================================ */
 
 /* Display screen */

@@ -273,14 +273,6 @@
   transform: rotate(45deg);
 }
 
-.ad-slot {
-  margin-top: 18px;
-  min-height: 120px;
-  border-radius: var(--radius-xl);
-  border: 1px dashed rgba(76, 111, 255, 0.22);
-  background: rgba(8, 16, 29, 0.45);
-}
-
 /* Force content blocks visible on AI Quiz page */
 .quiz-body .reveal {
   opacity: 1 !important;
